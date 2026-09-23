@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\run_wrist_audit.py", line 6, in <module>
+    try:runpy.run_path(str(ROOT/'audit_assembly.py'),run_name='__main__')
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\audit_assembly.py", line 766, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\audit_assembly.py", line 619, in main
+    return audit_wrist_debug(args)
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\audit_assembly.py", line 565, in audit_wrist_debug
+    controller, joints = find_controls(('J4', 'J5', 'J6'))
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\audit_assembly.py", line 79, in find_controls
+    raise RuntimeError(f'Expected one CONTROL with J1-J6 properties, found {len(controllers)}')
+RuntimeError: Expected one CONTROL with J1-J6 properties, found 0

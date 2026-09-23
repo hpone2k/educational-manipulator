@@ -1,0 +1,1014 @@
+[
+  {
+    "name": "J1_BASE",
+    "kind": "AX",
+    "model": "AX-12A",
+    "motor_mass_g": 54.6,
+    "parent_object": null,
+    "transform_parent_from_motor_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        32.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        65.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        32.0,
+        50.0,
+        40.0
+      ],
+      "main_case_width_height_depth_mm": [
+        32.0,
+        50.0,
+        32.0
+      ],
+      "case_top_y_mm": 11.5,
+      "case_bottom_y_mm": -38.5,
+      "main_case_front_z_mm": -5.0,
+      "main_case_back_z_mm": -37.0,
+      "rearmost_case_z_mm": -40.0,
+      "installed_reference_depth_to_horn_front_mm": 40.0,
+      "output_axis_from_top_mm": 11.5,
+      "horn_diameter_reference_mm": 22.0,
+      "horn_depth_mm": 5.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 4,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ]
+      ],
+      "horn_max_thread_depth_mm": 4.0,
+      "central_projection_from_horn_mm": 0.04545,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -37.0,
+      "rear_idler_included": false,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "standard",
+    "front_fasteners": false,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -21.0,
+        15.5
+      ],
+      [
+        -21.0,
+        -42.5
+      ],
+      [
+        21.0,
+        15.5
+      ],
+      [
+        21.0,
+        -42.5
+      ]
+    ],
+    "cradle": {
+      "style": "standard",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -4.65,
+      "front_bezel_front_z_mm": -1.05,
+      "rear_cap_front_z_mm": -40.35,
+      "rear_cap_back_z_mm": -44.95,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 34.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": 5.8,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_socket_counterbore_diameter_mm": null,
+      "axial_clearance_without_shims_mm": 3.6999999999999997,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        3.3
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "J1_BASE_C01_Keyed_motor_cradle",
+        "J1_BASE_C02_Connector_access_rear_cap",
+        "J1_BASE_C04_1_Axial_fit_shim_030",
+        "J1_BASE_C04_2_Axial_fit_shim_330",
+        "J1_BASE_C03_1_Screw_stack_spacer",
+        "J1_BASE_C03_2_Screw_stack_spacer",
+        "J1_BASE_C03_3_Screw_stack_spacer",
+        "J1_BASE_C03_4_Screw_stack_spacer"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 65.0,
+      "spacer_mm": 1.1500000000000057,
+      "qty": 4,
+      "insertion_direction": "+LOCAL_Z",
+      "under_head_z_mm": -66.15,
+      "shaft_tip_z_mm": -1.15,
+      "cap_back_z_mm": -44.95,
+      "attachment_depth_mm": 20.05,
+      "attachment_far_face_z_mm": -65.0,
+      "rear_spacer_front_z_mm": -65.0,
+      "rear_spacer_back_z_mm": -66.15,
+      "attachment_nut_recess_mm": 0,
+      "deprecated_nut_recess_argument_mm": 0.0,
+      "front_nut_top_z_mm": -1.25,
+      "front_nut_bottom_z_mm": -3.65,
+      "front_nut_qty": 4,
+      "nominal_tip_beyond_nut_mm": 0.1,
+      "front_nut_boss_radius_mm": 4.6,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_nut_pocket_af_mm": 5.8
+    },
+    "assembly_notes": [
+      "Retain the supplied motor horn and central retaining screw.",
+      "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+      "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+      "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+    ]
+  },
+  {
+    "name": "S_XM",
+    "kind": "XM",
+    "model": "XM430-W350-T",
+    "motor_mass_g": 82.0,
+    "parent_object": "J2 \u2022 shoulder pitch DATUM",
+    "transform_parent_from_motor_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -75.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        31.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        28.5,
+        46.5,
+        34.0
+      ],
+      "main_case_width_height_depth_mm": [
+        28.5,
+        46.5,
+        34.0
+      ],
+      "case_top_y_mm": 11.25,
+      "case_bottom_y_mm": -35.25,
+      "main_case_front_z_mm": -2.0,
+      "main_case_back_z_mm": -36.0,
+      "rearmost_case_z_mm": -36.2,
+      "installed_reference_depth_to_horn_front_mm": 36.2,
+      "output_axis_from_top_mm": 11.25,
+      "horn_diameter_reference_mm": 19.5,
+      "horn_depth_mm": 2.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 8,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          5.656854249492381,
+          5.656854249492381
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -5.65685424949238,
+          5.656854249492381
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -5.6568542494923815,
+          -5.65685424949238
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ],
+        [
+          5.656854249492379,
+          -5.6568542494923815
+        ]
+      ],
+      "horn_max_thread_depth_mm": 2.0,
+      "central_projection_from_horn_mm": 4.7,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -36.0,
+      "rear_idler_included": true,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "sculpted",
+    "front_fasteners": false,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -19.25,
+        15.25
+      ],
+      [
+        -19.25,
+        -39.25
+      ],
+      [
+        19.25,
+        15.25
+      ],
+      [
+        19.25,
+        -39.25
+      ]
+    ],
+    "cradle": {
+      "style": "sculpted",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -1.65,
+      "front_bezel_front_z_mm": -0.25,
+      "rear_cap_front_z_mm": -36.550000000000004,
+      "rear_cap_back_z_mm": -41.150000000000006,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 26.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": 5.8,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_socket_counterbore_diameter_mm": null,
+      "axial_clearance_without_shims_mm": 0.9,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        0.5
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "S_XM_C01_Keyed_motor_cradle",
+        "S_XM_C02_Connector_access_rear_cap",
+        "S_XM_C04_1_Axial_fit_shim_030",
+        "S_XM_C04_2_Axial_fit_shim_050",
+        "S_XM_C03_1_Screw_stack_spacer",
+        "S_XM_C03_2_Screw_stack_spacer",
+        "S_XM_C03_3_Screw_stack_spacer",
+        "S_XM_C03_4_Screw_stack_spacer"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 60.0,
+      "spacer_mm": 3.8499999999999943,
+      "qty": 4,
+      "insertion_direction": "+LOCAL_Z",
+      "under_head_z_mm": -60.35,
+      "shaft_tip_z_mm": -0.35,
+      "cap_back_z_mm": -41.150000000000006,
+      "attachment_depth_mm": 15.35,
+      "attachment_far_face_z_mm": -56.50000000000001,
+      "rear_spacer_front_z_mm": -56.50000000000001,
+      "rear_spacer_back_z_mm": -60.35,
+      "attachment_nut_recess_mm": 0,
+      "deprecated_nut_recess_argument_mm": 0.0,
+      "front_nut_top_z_mm": -0.45,
+      "front_nut_bottom_z_mm": -2.85,
+      "front_nut_qty": 4,
+      "nominal_tip_beyond_nut_mm": 0.1,
+      "front_nut_boss_radius_mm": 4.6,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_nut_pocket_af_mm": 5.8
+    },
+    "assembly_notes": [
+      "Retain the supplied motor horn and central retaining screw.",
+      "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+      "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+      "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+    ]
+  },
+  {
+    "name": "E_XM",
+    "kind": "XM",
+    "model": "XM430-W350-T",
+    "motor_mass_g": 82.0,
+    "parent_object": "J3 fixed gearbox clocked 90deg",
+    "transform_parent_from_motor_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -62.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        31.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        28.5,
+        46.5,
+        34.0
+      ],
+      "main_case_width_height_depth_mm": [
+        28.5,
+        46.5,
+        34.0
+      ],
+      "case_top_y_mm": 11.25,
+      "case_bottom_y_mm": -35.25,
+      "main_case_front_z_mm": -2.0,
+      "main_case_back_z_mm": -36.0,
+      "rearmost_case_z_mm": -36.2,
+      "installed_reference_depth_to_horn_front_mm": 36.2,
+      "output_axis_from_top_mm": 11.25,
+      "horn_diameter_reference_mm": 19.5,
+      "horn_depth_mm": 2.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 8,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          5.656854249492381,
+          5.656854249492381
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -5.65685424949238,
+          5.656854249492381
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -5.6568542494923815,
+          -5.65685424949238
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ],
+        [
+          5.656854249492379,
+          -5.6568542494923815
+        ]
+      ],
+      "horn_max_thread_depth_mm": 2.0,
+      "central_projection_from_horn_mm": 4.7,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -36.0,
+      "rear_idler_included": true,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "sculpted",
+    "front_fasteners": false,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -19.25,
+        15.25
+      ],
+      [
+        -19.25,
+        -39.25
+      ],
+      [
+        19.25,
+        15.25
+      ],
+      [
+        19.25,
+        -39.25
+      ]
+    ],
+    "cradle": {
+      "style": "sculpted",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -1.65,
+      "front_bezel_front_z_mm": -0.25,
+      "rear_cap_front_z_mm": -36.550000000000004,
+      "rear_cap_back_z_mm": -41.150000000000006,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 26.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": 5.8,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_socket_counterbore_diameter_mm": null,
+      "axial_clearance_without_shims_mm": 0.9,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        0.5
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "E_XM_C01_Keyed_motor_cradle",
+        "E_XM_C02_Connector_access_rear_cap",
+        "E_XM_C04_1_Axial_fit_shim_030",
+        "E_XM_C04_2_Axial_fit_shim_050",
+        "E_XM_C03_1_Screw_stack_spacer",
+        "E_XM_C03_2_Screw_stack_spacer",
+        "E_XM_C03_3_Screw_stack_spacer",
+        "E_XM_C03_4_Screw_stack_spacer"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 60.0,
+      "spacer_mm": 3.8499999999999943,
+      "qty": 4,
+      "insertion_direction": "+LOCAL_Z",
+      "under_head_z_mm": -60.35,
+      "shaft_tip_z_mm": -0.35,
+      "cap_back_z_mm": -41.150000000000006,
+      "attachment_depth_mm": 15.35,
+      "attachment_far_face_z_mm": -56.50000000000001,
+      "rear_spacer_front_z_mm": -56.50000000000001,
+      "rear_spacer_back_z_mm": -60.35,
+      "attachment_nut_recess_mm": 0,
+      "deprecated_nut_recess_argument_mm": 0.0,
+      "front_nut_top_z_mm": -0.45,
+      "front_nut_bottom_z_mm": -2.85,
+      "front_nut_qty": 4,
+      "nominal_tip_beyond_nut_mm": 0.1,
+      "front_nut_boss_radius_mm": 4.6,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_nut_pocket_af_mm": 5.8
+    },
+    "assembly_notes": [
+      "Retain the supplied motor horn and central retaining screw.",
+      "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+      "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+      "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+    ]
+  },
+  {
+    "name": "J4_AX",
+    "kind": "AX",
+    "model": "AX-12A",
+    "motor_mass_g": 54.6,
+    "parent_object": "J4 \u2022 geared wrist pitch DATUM",
+    "transform_parent_from_motor_mm": [
+      [
+        7.549790126404332e-08,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        7.549790126404332e-08,
+        0.0,
+        -60.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        42.599998474121094
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        32.0,
+        50.0,
+        40.0
+      ],
+      "main_case_width_height_depth_mm": [
+        32.0,
+        50.0,
+        32.0
+      ],
+      "case_top_y_mm": 11.5,
+      "case_bottom_y_mm": -38.5,
+      "main_case_front_z_mm": -5.0,
+      "main_case_back_z_mm": -37.0,
+      "rearmost_case_z_mm": -40.0,
+      "installed_reference_depth_to_horn_front_mm": 40.0,
+      "output_axis_from_top_mm": 11.5,
+      "horn_diameter_reference_mm": 22.0,
+      "horn_depth_mm": 5.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 4,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ]
+      ],
+      "horn_max_thread_depth_mm": 4.0,
+      "central_projection_from_horn_mm": 0.04545,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -37.0,
+      "rear_idler_included": false,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "sculpted",
+    "front_fasteners": false,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -21.0,
+        15.5
+      ],
+      [
+        -21.0,
+        -42.5
+      ],
+      [
+        21.0,
+        15.5
+      ],
+      [
+        21.0,
+        -42.5
+      ]
+    ],
+    "cradle": {
+      "style": "sculpted",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -4.65,
+      "front_bezel_front_z_mm": -1.05,
+      "rear_cap_front_z_mm": -40.35,
+      "rear_cap_back_z_mm": -44.95,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 34.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": 5.8,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_socket_counterbore_diameter_mm": null,
+      "axial_clearance_without_shims_mm": 3.6999999999999997,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        3.3
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "J4_AX_C01_Keyed_motor_cradle",
+        "J4_AX_C02_Connector_access_rear_cap",
+        "J4_AX_C04_1_Axial_fit_shim_030",
+        "J4_AX_C04_2_Axial_fit_shim_330",
+        "J4_AX_C03_1_Screw_stack_spacer",
+        "J4_AX_C03_2_Screw_stack_spacer",
+        "J4_AX_C03_3_Screw_stack_spacer",
+        "J4_AX_C03_4_Screw_stack_spacer"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 50.0,
+      "spacer_mm": 1.1999999999999957,
+      "qty": 4,
+      "insertion_direction": "+LOCAL_Z",
+      "under_head_z_mm": -51.15,
+      "shaft_tip_z_mm": -1.15,
+      "cap_back_z_mm": -44.95,
+      "attachment_depth_mm": 5.0,
+      "attachment_far_face_z_mm": -49.95,
+      "rear_spacer_front_z_mm": -49.95,
+      "rear_spacer_back_z_mm": -51.15,
+      "attachment_nut_recess_mm": 0,
+      "deprecated_nut_recess_argument_mm": 0.0,
+      "front_nut_top_z_mm": -1.25,
+      "front_nut_bottom_z_mm": -3.65,
+      "front_nut_qty": 4,
+      "nominal_tip_beyond_nut_mm": 0.1,
+      "front_nut_boss_radius_mm": 4.6,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_nut_pocket_af_mm": 5.8
+    },
+    "assembly_notes": [
+      "Retain the supplied motor horn and central retaining screw.",
+      "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+      "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+      "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+    ]
+  },
+  {
+    "name": "J5_AX",
+    "kind": "AX",
+    "model": "AX-12A",
+    "motor_mass_g": 54.6,
+    "parent_object": "J5 \u2022 tool roll DATUM",
+    "transform_parent_from_motor_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        32.0,
+        50.0,
+        40.0
+      ],
+      "main_case_width_height_depth_mm": [
+        32.0,
+        50.0,
+        32.0
+      ],
+      "case_top_y_mm": 11.5,
+      "case_bottom_y_mm": -38.5,
+      "main_case_front_z_mm": -5.0,
+      "main_case_back_z_mm": -37.0,
+      "rearmost_case_z_mm": -40.0,
+      "installed_reference_depth_to_horn_front_mm": 40.0,
+      "output_axis_from_top_mm": 11.5,
+      "horn_diameter_reference_mm": 22.0,
+      "horn_depth_mm": 5.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 4,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ]
+      ],
+      "horn_max_thread_depth_mm": 4.0,
+      "central_projection_from_horn_mm": 0.04545,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -37.0,
+      "rear_idler_included": false,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "sculpted",
+    "front_fasteners": false,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -21.0,
+        15.5
+      ],
+      [
+        -21.0,
+        -42.5
+      ],
+      [
+        21.0,
+        15.5
+      ],
+      [
+        21.0,
+        -42.5
+      ]
+    ],
+    "cradle": {
+      "style": "sculpted",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -4.65,
+      "front_bezel_front_z_mm": -1.05,
+      "rear_cap_front_z_mm": -40.35,
+      "rear_cap_back_z_mm": -44.95,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 34.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": 5.8,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_socket_counterbore_diameter_mm": null,
+      "axial_clearance_without_shims_mm": 3.6999999999999997,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        3.3
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "J5_AX_C01_Keyed_motor_cradle",
+        "J5_AX_C02_Connector_access_rear_cap",
+        "J5_AX_C04_1_Axial_fit_shim_030",
+        "J5_AX_C04_2_Axial_fit_shim_330",
+        "J5_AX_C03_1_Screw_stack_spacer",
+        "J5_AX_C03_2_Screw_stack_spacer",
+        "J5_AX_C03_3_Screw_stack_spacer",
+        "J5_AX_C03_4_Screw_stack_spacer"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 50.0,
+      "spacer_mm": 1.1999999999999957,
+      "qty": 4,
+      "insertion_direction": "+LOCAL_Z",
+      "under_head_z_mm": -51.15,
+      "shaft_tip_z_mm": -1.15,
+      "cap_back_z_mm": -44.95,
+      "attachment_depth_mm": 5.0,
+      "attachment_far_face_z_mm": -49.95,
+      "rear_spacer_front_z_mm": -49.95,
+      "rear_spacer_back_z_mm": -51.15,
+      "attachment_nut_recess_mm": 0,
+      "deprecated_nut_recess_argument_mm": 0.0,
+      "front_nut_top_z_mm": -1.25,
+      "front_nut_bottom_z_mm": -3.65,
+      "front_nut_qty": 4,
+      "nominal_tip_beyond_nut_mm": 0.1,
+      "front_nut_boss_radius_mm": 4.6,
+      "front_nut_pocket_depth_mm": 2.8,
+      "front_nut_pocket_af_mm": 5.8
+    },
+    "assembly_notes": [
+      "Retain the supplied motor horn and central retaining screw.",
+      "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+      "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+      "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+    ]
+  },
+  {
+    "name": "GRIP",
+    "kind": "AX",
+    "model": "AX-12A",
+    "motor_mass_g": 54.6,
+    "parent_object": "GRIPPER",
+    "transform_parent_from_motor_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+    "manufacturer_interfaces": {
+      "published_width_height_depth_mm": [
+        32.0,
+        50.0,
+        40.0
+      ],
+      "main_case_width_height_depth_mm": [
+        32.0,
+        50.0,
+        32.0
+      ],
+      "case_top_y_mm": 11.5,
+      "case_bottom_y_mm": -38.5,
+      "main_case_front_z_mm": -5.0,
+      "main_case_back_z_mm": -37.0,
+      "rearmost_case_z_mm": -40.0,
+      "installed_reference_depth_to_horn_front_mm": 40.0,
+      "output_axis_from_top_mm": 11.5,
+      "horn_diameter_reference_mm": 22.0,
+      "horn_depth_mm": 5.0,
+      "horn_hole_thread": "M2 x 0.4",
+      "horn_hole_count": 4,
+      "horn_pcd_mm": 16.0,
+      "horn_hole_centres_motor_xy_mm": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          4.898587196589413e-16,
+          8.0
+        ],
+        [
+          -8.0,
+          9.797174393178826e-16
+        ],
+        [
+          -1.4695761589768238e-15,
+          -8.0
+        ]
+      ],
+      "horn_max_thread_depth_mm": 4.0,
+      "central_projection_from_horn_mm": 0.04545,
+      "suggested_adapter_centre_clearance": "AX: diameter6.0 depth0.30; XM: diameter8.5 depth2.5 then diameter5.0 depth5.0",
+      "rear_case_seating_z_mm": -37.0,
+      "rear_idler_included": false,
+      "body_holes_used": false,
+      "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+    },
+    "has_printed_cradle": true,
+    "cradle_style": "sculpted",
+    "front_fasteners": true,
+    "cradle_mounting_points_motor_xy_mm": [
+      [
+        -21.0,
+        15.5
+      ],
+      [
+        -21.0,
+        -42.5
+      ],
+      [
+        21.0,
+        15.5
+      ],
+      [
+        21.0,
+        -42.5
+      ]
+    ],
+    "cradle": {
+      "style": "sculpted",
+      "body_clearance_per_side_mm": 0.35,
+      "front_bezel_back_z_mm": -4.65,
+      "front_bezel_front_z_mm": -2.05,
+      "rear_cap_front_z_mm": -40.35,
+      "rear_cap_back_z_mm": -44.95,
+      "rear_cap_thickness_mm": 4.6,
+      "horn_window_diameter_mm": 34.0,
+      "post_radius_mm": 4.6,
+      "m3_clearance_diameter_mm": 3.4,
+      "front_nut_pocket_af_mm": null,
+      "front_nut_pocket_depth_mm": null,
+      "front_socket_counterbore_diameter_mm": 6.2,
+      "axial_clearance_without_shims_mm": 3.6999999999999997,
+      "printed_axial_shim_thickness_mm": [
+        0.3,
+        3.3
+      ],
+      "axial_clearance_with_nominal_shims_mm": 0.1,
+      "part_ids": [
+        "GRIP_C01_Keyed_motor_cradle",
+        "GRIP_C02_Connector_access_rear_cap",
+        "GRIP_C04_1_Axial_fit_shim_030",
+        "GRIP_C04_2_Axial_fit_shim_330"
+      ]
+    },
+    "fastener_stack": {
+      "diameter_mm": 3,
+      "length_mm": 45.0,
+      "spacer_mm": 0,
+      "qty": 4,
+      "insertion_direction": "-LOCAL_Z",
+      "under_head_z_mm": -5.65,
+      "shaft_tip_z_mm": -50.65,
+      "cap_back_z_mm": -44.95,
+      "attachment_depth_mm": 6.0,
+      "attachment_far_face_z_mm": -50.95,
+      "front_nut_qty": 0,
+      "rear_nut_qty": 4,
+      "rear_nut_top_z_mm": -48.35,
+      "rear_nut_bottom_z_mm": -50.75,
+      "rear_nut_pocket_top_z_mm": -48.15,
+      "rear_nut_pocket_bottom_z_mm": -51.05,
+      "socket_head_top_z_mm": -2.65,
+      "front_counterbore_diameter_mm": 6.2,
+      "front_counterbore_seat_z_mm": -5.65,
+      "assembly_note": "Front screws engage rear palm captive nuts created by gripper module; no front nut or rear spacer."
+    },
+    "assembly_notes": [
+      "Attach rear palm to the J6 adapter before installing the gripper motor.",
+      "Install the rear captive M3 nuts in palm pockets before seating the motor.",
+      "Seat motor and rear3.30/front0.30 spacers; insert four M3x45 screws from the front.",
+      "Front socket heads sit at z-2.65 and clear the moving gripper transmission.",
+      "Retain supplied motor horn and central retaining screw; verify driver access before printing."
+    ]
+  }
+]

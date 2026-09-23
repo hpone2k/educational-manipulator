@@ -1,0 +1,44 @@
+{
+  "pose_count": 275,
+  "curve_samples": 401,
+  "passed": true,
+  "curves": {
+    "H06_J5_GRIP / route centre": {
+      "radius_mm": 13.747850738210042,
+      "pitch_deg": 0,
+      "roll_deg": -60,
+      "sample": 256
+    },
+    "H06_J5_GRIP / GND": {
+      "radius_mm": 14.897915398522834,
+      "pitch_deg": 25,
+      "roll_deg": -40,
+      "sample": 4
+    },
+    "H06_J5_GRIP / VDD": {
+      "radius_mm": 13.747850738210042,
+      "pitch_deg": 0,
+      "roll_deg": -60,
+      "sample": 256
+    },
+    "H06_J5_GRIP / DATA": {
+      "radius_mm": 12.262552861987086,
+      "pitch_deg": -10,
+      "roll_deg": -60,
+      "sample": 257
+    }
+  },
+  "minimum_strand_distance": {
+    "distance_mm": 1.5734816498609177,
+    "pitch_deg": -15,
+    "roll_deg": -60,
+    "pair": [
+      "VDD",
+      "DATA"
+    ],
+    "sample": 263,
+    "segment": 262
+  },
+  "insulation_diameter_mm": 1.44,
+  "strand_clearance_passed": true
+}

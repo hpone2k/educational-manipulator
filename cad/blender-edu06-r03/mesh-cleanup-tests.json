@@ -1,0 +1,160 @@
+{
+  "B03_service_front_panel": {
+    "beauty": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "beauty_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "ear_clip": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "ear_clip_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "unique_ear": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "unique_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "dissolve_ear": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "dissolve_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "unique_dissolve_ear": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "unique_dissolve_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    },
+    "mesh_loop_tri": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1516
+    }
+  },
+  "G04_front_pivot_bridge": {
+    "beauty": {
+      "native_bad": 30,
+      "coordinate_bad": 30,
+      "duplicate_faces": 16,
+      "zero_faces": 0,
+      "faces": 1840
+    },
+    "beauty_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1824
+    },
+    "ear_clip": {
+      "native_bad": 30,
+      "coordinate_bad": 30,
+      "duplicate_faces": 16,
+      "zero_faces": 0,
+      "faces": 1840
+    },
+    "ear_clip_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1824
+    },
+    "unique_ear": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1824
+    },
+    "unique_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1824
+    },
+    "dissolve_ear": {
+      "native_bad": 30,
+      "coordinate_bad": 30,
+      "duplicate_faces": 16,
+      "zero_faces": 0,
+      "faces": 1824
+    },
+    "dissolve_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1808
+    },
+    "unique_dissolve_ear": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1800
+    },
+    "unique_dissolve_ear_postunique": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1800
+    },
+    "mesh_loop_tri": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "zero_faces": 0,
+      "faces": 1824
+    }
+  }
+}

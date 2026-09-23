@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101617">
+  <title>Orbit — Manipulator Studio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%2378e4c4'/%3E%3Ccircle cx='20' cy='20' r='11' fill='none' stroke='%23101617' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/"}}</script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="./" aria-label="Orbit studio home"><span class="brand-mark" aria-hidden="true"></span>ORBIT<span class="brand-divider"></span><span class="brand-sub">Robotics studio</span></a>
+    <div class="header-right"><span class="status-dot"></span> Educational workspace <a class="version" href="polymer-studio/index.html">Open polymer P03 ↗</a><span class="version">V 1.0</span></div>
+  </header>
+  <main>
+    <section class="page-heading" aria-labelledby="page-title">
+      <div><div class="eyebrow">LEARN THROUGH MOTION</div><h1 id="page-title">Manipulator studio<span class="title-dot">.</span></h1><p>Five joints. Endless possibilities to explore.</p></div>
+      <div class="model-tag"><span class="model-tag-icon" aria-hidden="true">5</span><div><strong>EDU–05</strong><span>5 DOF + parallel gripper</span></div></div>
+    </section>
+
+    <div class="workspace">
+      <section class="viewer-panel" aria-label="Interactive robot model">
+        <div class="viewer-toolbar"><div class="viewport-title"><span class="live-indicator"></span>3D workspace <span class="quiet">/</span><span class="quiet" id="camera-name">Perspective</span></div><div class="view-toggles"><button id="toggle-labels" class="small-button active" type="button" aria-pressed="true">Labels</button><button id="toggle-axes" class="small-button" type="button" aria-pressed="false">Axes</button></div></div>
+        <div id="viewport">
+          <div id="loading" role="status"><span class="loader"></span>Preparing your robot…</div>
+          <div class="scene-caption"><span class="eyebrow">EDU–05 / CONCEPT 01</span><span>Kinematic model</span></div>
+          <svg id="leaders" aria-hidden="true"></svg>
+          <div id="joint-labels" aria-label="Select a robot joint"></div>
+          <div class="view-buttons" aria-label="Camera views"><button class="view-button selected" data-view="perspective" aria-pressed="true" type="button">3D</button><button class="view-button" data-view="front" aria-pressed="false" type="button">Front</button><button class="view-button" data-view="side" aria-pressed="false" type="button">Side</button><button class="view-button" data-view="top" aria-pressed="false" type="button">Top</button><span></span><button class="view-button" id="fit-view" type="button" aria-label="Fit robot in view">Fit</button></div>
+          <div class="orbit-hint"><span aria-hidden="true">↔</span> Drag to orbit <span class="hint-dot">·</span> Scroll to zoom <span class="hint-dot">·</span> Right-drag to pan</div>
+          <div class="orientation-key" aria-label="Coordinate convention: X and Y horizontal, Z vertical"><i class="axis-x"></i>X <i class="axis-y"></i>Y <i class="axis-z"></i>Z ↑</div>
+        </div>
+        <div class="position-strip"><div class="position-title"><span class="crosshair" aria-hidden="true">⌖</span><div>Tool position<span>World coordinates · mm</span></div></div><div class="coordinate"><span>X</span><output id="pos-x">—</output></div><div class="coordinate"><span>Y</span><output id="pos-y">—</output></div><div class="coordinate"><span>Z</span><output id="pos-z">—</output></div></div>
+        <div class="joint-insight"><span class="insight-number" id="selected-id">J2</span><div><h2 id="selected-title">Shoulder</h2><p id="selected-description">Raises the upper arm. Every joint farther along the arm moves with it.</p></div><span class="insight-axis" id="selected-axis">PITCH</span></div>
+      </section>
+
+      <aside class="control-panel" aria-labelledby="controls-title">
+        <div class="panel-heading"><div><span class="eyebrow">MAKE YOUR MOVE</span><h2 id="controls-title">Joint controls</h2></div><span class="manual-badge" id="motion-state">Manual</span></div>
+        <div id="joint-controls"></div>
+        <div class="gripper-section"><div class="gripper-heading"><label for="gripper">Gripper <span>Opening</span></label><div class="angle-field"><input id="gripper-value" type="number" min="0" max="60" step="1" value="34" aria-label="Gripper opening in millimetres"><span>mm</span></div></div><input id="gripper" aria-label="Gripper opening" type="range" min="0" max="60" step="1" value="34"><div class="range-labels"><span>Closed</span><span>60 mm</span></div></div>
+        <div class="preset-section"><span class="section-label">QUICK POSES</span><div class="presets"><button type="button" data-pose="home">Home</button><button type="button" data-pose="reach">Reach</button><button type="button" data-pose="fold">Fold</button></div><button id="demo" class="demo-button" type="button"><span id="play-symbol" aria-hidden="true">▶</span><span id="demo-text">Play demonstration</span><span class="demo-duration">12s</span></button><div class="demo-track" aria-hidden="true"><div id="demo-progress"></div></div></div>
+      </aside>
+    </div>
+    <footer class="workspace-footer"><span><span class="status-dot"></span><span id="app-status" role="status">Local simulation · ready to explore</span></span><span>Concept dimensions · no collision or motor simulation</span></footer>
+    <details class="model-notes"><summary>About this model <span>Geometry &amp; controls</span></summary><div><p>A five-axis serial arm with base yaw, shoulder pitch, elbow pitch, wrist pitch and wrist roll. Gripper opening is separate from the five arm joints.</p><p>Shoulder height: 90 mm. Upper arm: 180 mm. Forearm: 150 mm. Wrist to roll axis: 52 mm. Roll axis to tool centre: 73 mm. Angles and limits are illustrative; this model is not calibrated to your motors. Shoulder zero points horizontally along +X; elbow and wrist pitch are relative to the preceding link.</p><p>Select a label or a joint on the model to highlight its control. Sliders and number fields also work with the keyboard. Camera view buttons provide alternatives to dragging. The 12-second demonstration returns to its starting pose.</p></div></details>
+    <p class="sr-only" id="a11y-status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

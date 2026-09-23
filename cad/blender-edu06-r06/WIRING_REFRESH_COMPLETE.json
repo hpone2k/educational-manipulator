@@ -1,0 +1,12 @@
+{
+  "input": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r06\\EDU06_R06.blend",
+  "output": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r06\\EDU06_R06.blend",
+  "engineering_before": {
+    "meshes": 716,
+    "sha256": "cdcce62fb95fb822fc2f46373a3932d345892deeb570f1e495857a63475a136c"
+  },
+  "engineering_after": {
+    "meshes": 716,
+    "sha256": "cdcce62fb95fb822fc2f46373a3932d345892deeb570f1e495857a63475a136c"
+  }
+}

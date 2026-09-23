@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "artifact": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview.gif",
+  "frames": 24,
+  "size_px": [
+    720,
+    540
+  ],
+  "timeline_frames": [
+    1,
+    17,
+    32,
+    48,
+    63,
+    79,
+    95,
+    110,
+    126,
+    141,
+    157,
+    173,
+    188,
+    204,
+    220,
+    235,
+    251,
+    266,
+    282,
+    298,
+    313,
+    329,
+    344,
+    360
+  ],
+  "first_middle_mean_absolute_rgb_difference": [
+    3.8994650205761316,
+    3.6021862139917697,
+    3.516224279835391
+  ],
+  "first_middle_difference_bounds_px": [
+    0,
+    0,
+    720,
+    540
+  ],
+  "bytes": 4061029,
+  "input_blend_modified_at_render_start_utc": "2026-09-23T05:59:04.470036+00:00",
+  "input_blend_mtime_unchanged_at_end": false,
+  "render_process_saves_model": false,
+  "first_control_deg": {
+    "J1": 0,
+    "J2": 65,
+    "J3": 55,
+    "J4": 0,
+    "J5": 0,
+    "J6": 0,
+    "GRIP": 16
+  },
+  "middle_control_deg": {
+    "J1": 0,
+    "J2": 68,
+    "J3": 58,
+    "J4": 22,
+    "J5": 13,
+    "J6": 0,
+    "GRIP": 16
+  },
+  "changed_driver_properties": [
+    "J2",
+    "J3",
+    "J4",
+    "J5"
+  ],
+  "render_type": "Actual final corrected-model driver animation; kinematics only, not load simulation",
+  "playback_duration_ms": 4960,
+  "note": "A concurrent documentation-only save may change the mainfile timestamp; this process never saves the model."
+}

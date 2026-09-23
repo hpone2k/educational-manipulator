@@ -1,0 +1,1129 @@
+{
+  "meshes": [
+    {
+      "name": "TEST_AX_C01_Keyed_motor_cradle",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 18456.407401423057
+    },
+    {
+      "name": "TEST_AX_C02_Connector_access_rear_cap",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 5437.953138082707
+    },
+    {
+      "name": "TEST_AX_C04_1_Axial_fit_shim_030",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 69.30641673304791
+    },
+    {
+      "name": "TEST_AX_C04_2_Axial_fit_shim_330",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 1492.6244781533194
+    },
+    {
+      "name": "TEST_AX_C03_1_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 32.537146152295804
+    },
+    {
+      "name": "TEST_AX_C03_2_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 32.5371444907003
+    },
+    {
+      "name": "TEST_AX_C03_3_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 32.53714615229558
+    },
+    {
+      "name": "TEST_AX_C03_4_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 32.537144490701074
+    },
+    {
+      "name": "TEST_XM_C01_Keyed_motor_cradle",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 16165.005831229357
+    },
+    {
+      "name": "TEST_XM_C02_Connector_access_rear_cap",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 4927.7479046897315
+    },
+    {
+      "name": "TEST_XM_C04_1_Axial_fit_shim_030",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 84.76840360961236
+    },
+    {
+      "name": "TEST_XM_C04_2_Axial_fit_shim_050",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 191.37642822155658
+    },
+    {
+      "name": "TEST_XM_C03_1_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 113.88021839916432
+    },
+    {
+      "name": "TEST_XM_C03_2_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 113.88021258357513
+    },
+    {
+      "name": "TEST_XM_C03_3_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 113.88021839916414
+    },
+    {
+      "name": "TEST_XM_C03_4_Screw_stack_spacer",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 113.88021258357497
+    },
+    {
+      "name": "TEST_AX_FRONT_C01_Keyed_motor_cradle",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 17458.820515989006
+    },
+    {
+      "name": "TEST_AX_FRONT_C02_Connector_access_rear_cap",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 5437.953138082707
+    },
+    {
+      "name": "TEST_AX_FRONT_C04_1_Axial_fit_shim_030",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 69.30641673304791
+    },
+    {
+      "name": "TEST_AX_FRONT_C04_2_Axial_fit_shim_330",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 1492.6244781533194
+    },
+    {
+      "name": "TEST_AX | AX-12A dimensioned case",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 41431.17506202643
+    },
+    {
+      "name": "TEST_AX | installed stock horn",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 1187.5058655808355
+    },
+    {
+      "name": "TEST_XM | XM430-W350-T dimensioned case",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 44183.048595916895
+    },
+    {
+      "name": "TEST_XM | installed stock horn",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 711.0843939358209
+    },
+    {
+      "name": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 41431.17506202643
+    },
+    {
+      "name": "TEST_AX_FRONT | installed stock horn",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 1187.5058655808355
+    }
+  ],
+  "fits": [
+    {
+      "first": "TEST_AX | AX-12A dimensioned case",
+      "second": "TEST_AX | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_C01_Keyed_motor_cradle",
+      "second": "TEST_AX | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 23,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_C01_Keyed_motor_cradle",
+      "second": "TEST_AX | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_C02_Connector_access_rear_cap",
+      "second": "TEST_AX | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_C02_Connector_access_rear_cap",
+      "second": "TEST_AX | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_C04_1_Axial_fit_shim_030",
+      "second": "TEST_AX | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 52,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 89,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_C04_1_Axial_fit_shim_030",
+      "second": "TEST_AX | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_C04_2_Axial_fit_shim_330",
+      "second": "TEST_AX | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 8,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_C04_2_Axial_fit_shim_330",
+      "second": "TEST_AX | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_XM | XM430-W350-T dimensioned case",
+      "second": "TEST_XM | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_XM_C01_Keyed_motor_cradle",
+      "second": "TEST_XM | XM430-W350-T dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_XM_C01_Keyed_motor_cradle",
+      "second": "TEST_XM | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 4,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_XM_C02_Connector_access_rear_cap",
+      "second": "TEST_XM | XM430-W350-T dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 29,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_XM_C02_Connector_access_rear_cap",
+      "second": "TEST_XM | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_XM_C04_1_Axial_fit_shim_030",
+      "second": "TEST_XM | XM430-W350-T dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_XM_C04_1_Axial_fit_shim_030",
+      "second": "TEST_XM | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 4,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_XM_C04_2_Axial_fit_shim_050",
+      "second": "TEST_XM | XM430-W350-T dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 42,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_XM_C04_2_Axial_fit_shim_050",
+      "second": "TEST_XM | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "second": "TEST_AX_FRONT | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C01_Keyed_motor_cradle",
+      "second": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 46,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C01_Keyed_motor_cradle",
+      "second": "TEST_AX_FRONT | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C02_Connector_access_rear_cap",
+      "second": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C02_Connector_access_rear_cap",
+      "second": "TEST_AX_FRONT | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C04_1_Axial_fit_shim_030",
+      "second": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 52,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 89,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C04_1_Axial_fit_shim_030",
+      "second": "TEST_AX_FRONT | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C04_2_Axial_fit_shim_330",
+      "second": "TEST_AX_FRONT | AX-12A dimensioned case",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 8,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 160,
+        "ray_iteration_limit_count": 0,
+        "deepest_sample": null
+      }
+    },
+    {
+      "first": "TEST_AX_FRONT_C04_2_Axial_fit_shim_330",
+      "second": "TEST_AX_FRONT | installed stock horn",
+      "depth_mm": 0.0,
+      "forward": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      },
+      "reverse": {
+        "maximum_sampled_depth_mm": 0.0,
+        "inside_samples": 0,
+        "samples_tested": 0,
+        "ray_iteration_limit_count": 0
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "name": "TEST_AX",
+      "kind": "AX",
+      "model": "AX-12A",
+      "motor_mass_g": 54.6,
+      "parent_object": null,
+      "transform_parent_from_motor_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+      "manufacturer_interfaces": {
+        "published_width_height_depth_mm": [
+          32.0,
+          50.0,
+          40.0
+        ],
+        "main_case_width_height_depth_mm": [
+          32.0,
+          50.0,
+          32.0
+        ],
+        "case_top_y_mm": 11.5,
+        "case_bottom_y_mm": -38.5,
+        "main_case_front_z_mm": -5.0,
+        "main_case_back_z_mm": -37.0,
+        "rearmost_case_z_mm": -40.0,
+        "installed_reference_depth_to_horn_front_mm": 40.0,
+        "output_axis_from_top_mm": 11.5,
+        "horn_diameter_reference_mm": 22.0,
+        "horn_depth_mm": 5.0,
+        "horn_hole_thread": "M2 x 0.4",
+        "horn_hole_count": 4,
+        "horn_pcd_mm": 16.0,
+        "horn_hole_centres_motor_xy_mm": [
+          [
+            8.0,
+            0.0
+          ],
+          [
+            4.898587196589413e-16,
+            8.0
+          ],
+          [
+            -8.0,
+            9.797174393178826e-16
+          ],
+          [
+            -1.4695761589768238e-15,
+            -8.0
+          ]
+        ],
+        "horn_max_thread_depth_mm": 4.0,
+        "body_holes_used": false,
+        "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+      },
+      "has_printed_cradle": true,
+      "cradle_mounting_points_motor_xy_mm": [
+        [
+          -21.0,
+          15.5
+        ],
+        [
+          -21.0,
+          -42.5
+        ],
+        [
+          21.0,
+          15.5
+        ],
+        [
+          21.0,
+          -42.5
+        ]
+      ],
+      "cradle": {
+        "body_clearance_per_side_mm": 0.35,
+        "front_bezel_back_z_mm": -4.65,
+        "front_bezel_front_z_mm": -1.05,
+        "rear_cap_front_z_mm": -40.35,
+        "rear_cap_back_z_mm": -44.95,
+        "rear_cap_thickness_mm": 4.6,
+        "horn_window_diameter_mm": 34.0,
+        "post_radius_mm": 4.6,
+        "m3_clearance_diameter_mm": 3.4,
+        "front_nut_pocket_af_mm": 5.8,
+        "front_nut_pocket_depth_mm": 2.8,
+        "axial_clearance_without_shims_mm": 3.6999999999999997,
+        "printed_axial_shim_thickness_mm": [
+          0.3,
+          3.3
+        ],
+        "axial_clearance_with_nominal_shims_mm": 0.1,
+        "part_ids": [
+          "TEST_AX_C01_Keyed_motor_cradle",
+          "TEST_AX_C02_Connector_access_rear_cap",
+          "TEST_AX_C04_1_Axial_fit_shim_030",
+          "TEST_AX_C04_2_Axial_fit_shim_330",
+          "TEST_AX_C03_1_Screw_stack_spacer",
+          "TEST_AX_C03_2_Screw_stack_spacer",
+          "TEST_AX_C03_3_Screw_stack_spacer",
+          "TEST_AX_C03_4_Screw_stack_spacer"
+        ]
+      },
+      "fastener_stack": {
+        "diameter_mm": 3,
+        "length_mm": 45.0,
+        "spacer_mm": 1.1999999999999957,
+        "qty": 4,
+        "insertion_direction": "+LOCAL_Z",
+        "under_head_z_mm": -46.15,
+        "shaft_tip_z_mm": -1.15,
+        "cap_back_z_mm": -44.95,
+        "attachment_depth_mm": 0.0,
+        "attachment_far_face_z_mm": -44.95,
+        "rear_spacer_front_z_mm": -44.95,
+        "rear_spacer_back_z_mm": -46.15,
+        "attachment_nut_recess_mm": 0,
+        "deprecated_nut_recess_argument_mm": 0.0,
+        "front_nut_top_z_mm": -1.25,
+        "front_nut_bottom_z_mm": -3.65,
+        "front_nut_qty": 4,
+        "nominal_tip_beyond_nut_mm": 0.1,
+        "front_nut_boss_radius_mm": 4.6,
+        "front_nut_pocket_depth_mm": 2.8,
+        "front_nut_pocket_af_mm": 5.8
+      },
+      "assembly_notes": [
+        "Retain the supplied motor horn and central retaining screw.",
+        "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+        "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+        "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+      ]
+    },
+    {
+      "name": "TEST_XM",
+      "kind": "XM",
+      "model": "XM430-W350-T",
+      "motor_mass_g": 82.0,
+      "parent_object": null,
+      "transform_parent_from_motor_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+      "manufacturer_interfaces": {
+        "published_width_height_depth_mm": [
+          28.5,
+          46.5,
+          34.0
+        ],
+        "main_case_width_height_depth_mm": [
+          28.5,
+          46.5,
+          34.0
+        ],
+        "case_top_y_mm": 11.25,
+        "case_bottom_y_mm": -35.25,
+        "main_case_front_z_mm": -2.0,
+        "main_case_back_z_mm": -36.0,
+        "rearmost_case_z_mm": -36.2,
+        "installed_reference_depth_to_horn_front_mm": 36.2,
+        "output_axis_from_top_mm": 11.25,
+        "horn_diameter_reference_mm": 19.5,
+        "horn_depth_mm": 2.0,
+        "horn_hole_thread": "M2 x 0.4",
+        "horn_hole_count": 8,
+        "horn_pcd_mm": 16.0,
+        "horn_hole_centres_motor_xy_mm": [
+          [
+            8.0,
+            0.0
+          ],
+          [
+            5.656854249492381,
+            5.656854249492381
+          ],
+          [
+            4.898587196589413e-16,
+            8.0
+          ],
+          [
+            -5.65685424949238,
+            5.656854249492381
+          ],
+          [
+            -8.0,
+            9.797174393178826e-16
+          ],
+          [
+            -5.6568542494923815,
+            -5.65685424949238
+          ],
+          [
+            -1.4695761589768238e-15,
+            -8.0
+          ],
+          [
+            5.656854249492379,
+            -5.6568542494923815
+          ]
+        ],
+        "horn_max_thread_depth_mm": 2.0,
+        "body_holes_used": false,
+        "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+      },
+      "has_printed_cradle": true,
+      "cradle_mounting_points_motor_xy_mm": [
+        [
+          -19.25,
+          15.25
+        ],
+        [
+          -19.25,
+          -39.25
+        ],
+        [
+          19.25,
+          15.25
+        ],
+        [
+          19.25,
+          -39.25
+        ]
+      ],
+      "cradle": {
+        "body_clearance_per_side_mm": 0.35,
+        "front_bezel_back_z_mm": -1.65,
+        "front_bezel_front_z_mm": -0.25,
+        "rear_cap_front_z_mm": -36.550000000000004,
+        "rear_cap_back_z_mm": -41.150000000000006,
+        "rear_cap_thickness_mm": 4.6,
+        "horn_window_diameter_mm": 26.0,
+        "post_radius_mm": 4.6,
+        "m3_clearance_diameter_mm": 3.4,
+        "front_nut_pocket_af_mm": 5.8,
+        "front_nut_pocket_depth_mm": 2.8,
+        "axial_clearance_without_shims_mm": 0.9,
+        "printed_axial_shim_thickness_mm": [
+          0.3,
+          0.5
+        ],
+        "axial_clearance_with_nominal_shims_mm": 0.1,
+        "part_ids": [
+          "TEST_XM_C01_Keyed_motor_cradle",
+          "TEST_XM_C02_Connector_access_rear_cap",
+          "TEST_XM_C04_1_Axial_fit_shim_030",
+          "TEST_XM_C04_2_Axial_fit_shim_050",
+          "TEST_XM_C03_1_Screw_stack_spacer",
+          "TEST_XM_C03_2_Screw_stack_spacer",
+          "TEST_XM_C03_3_Screw_stack_spacer",
+          "TEST_XM_C03_4_Screw_stack_spacer"
+        ]
+      },
+      "fastener_stack": {
+        "diameter_mm": 3,
+        "length_mm": 45.0,
+        "spacer_mm": 4.199999999999996,
+        "qty": 4,
+        "insertion_direction": "+LOCAL_Z",
+        "under_head_z_mm": -45.35,
+        "shaft_tip_z_mm": -0.35,
+        "cap_back_z_mm": -41.150000000000006,
+        "attachment_depth_mm": 0.0,
+        "attachment_far_face_z_mm": -41.150000000000006,
+        "rear_spacer_front_z_mm": -41.150000000000006,
+        "rear_spacer_back_z_mm": -45.35,
+        "attachment_nut_recess_mm": 0,
+        "deprecated_nut_recess_argument_mm": 0.0,
+        "front_nut_top_z_mm": -0.45,
+        "front_nut_bottom_z_mm": -2.85,
+        "front_nut_qty": 4,
+        "nominal_tip_beyond_nut_mm": 0.1,
+        "front_nut_boss_radius_mm": 4.6,
+        "front_nut_pocket_depth_mm": 2.8,
+        "front_nut_pocket_af_mm": 5.8
+      },
+      "assembly_notes": [
+        "Retain the supplied motor horn and central retaining screw.",
+        "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+        "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+        "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+      ]
+    },
+    {
+      "name": "TEST_AX_FRONT",
+      "kind": "AX",
+      "model": "AX-12A",
+      "motor_mass_g": 54.6,
+      "parent_object": null,
+      "transform_parent_from_motor_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          120.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "datum": "Installed horn front face at origin; output axis local +Z; case height local Y",
+      "manufacturer_interfaces": {
+        "published_width_height_depth_mm": [
+          32.0,
+          50.0,
+          40.0
+        ],
+        "main_case_width_height_depth_mm": [
+          32.0,
+          50.0,
+          32.0
+        ],
+        "case_top_y_mm": 11.5,
+        "case_bottom_y_mm": -38.5,
+        "main_case_front_z_mm": -5.0,
+        "main_case_back_z_mm": -37.0,
+        "rearmost_case_z_mm": -40.0,
+        "installed_reference_depth_to_horn_front_mm": 40.0,
+        "output_axis_from_top_mm": 11.5,
+        "horn_diameter_reference_mm": 22.0,
+        "horn_depth_mm": 5.0,
+        "horn_hole_thread": "M2 x 0.4",
+        "horn_hole_count": 4,
+        "horn_pcd_mm": 16.0,
+        "horn_hole_centres_motor_xy_mm": [
+          [
+            8.0,
+            0.0
+          ],
+          [
+            4.898587196589413e-16,
+            8.0
+          ],
+          [
+            -8.0,
+            9.797174393178826e-16
+          ],
+          [
+            -1.4695761589768238e-15,
+            -8.0
+          ]
+        ],
+        "horn_max_thread_depth_mm": 4.0,
+        "body_holes_used": false,
+        "interface_note": "Exterior and body holes imported from official ROBOTIS STEP at 0.01 mm chord tolerance. XM CAD horn face offset 2.0 mm differs from 2.2 mm on the older drawing. XM rear idler retained; actual supplied revision and physical fit require confirmation."
+      },
+      "has_printed_cradle": true,
+      "cradle_mounting_points_motor_xy_mm": [
+        [
+          -21.0,
+          15.5
+        ],
+        [
+          -21.0,
+          -42.5
+        ],
+        [
+          21.0,
+          15.5
+        ],
+        [
+          21.0,
+          -42.5
+        ]
+      ],
+      "cradle": {
+        "body_clearance_per_side_mm": 0.35,
+        "front_bezel_back_z_mm": -4.65,
+        "front_bezel_front_z_mm": -2.05,
+        "rear_cap_front_z_mm": -40.35,
+        "rear_cap_back_z_mm": -44.95,
+        "rear_cap_thickness_mm": 4.6,
+        "horn_window_diameter_mm": 34.0,
+        "post_radius_mm": 4.6,
+        "m3_clearance_diameter_mm": 3.4,
+        "front_nut_pocket_af_mm": 5.8,
+        "front_nut_pocket_depth_mm": 2.8,
+        "axial_clearance_without_shims_mm": 3.6999999999999997,
+        "printed_axial_shim_thickness_mm": [
+          0.3,
+          3.3
+        ],
+        "axial_clearance_with_nominal_shims_mm": 0.1,
+        "part_ids": [
+          "TEST_AX_FRONT_C01_Keyed_motor_cradle",
+          "TEST_AX_FRONT_C02_Connector_access_rear_cap",
+          "TEST_AX_FRONT_C04_1_Axial_fit_shim_030",
+          "TEST_AX_FRONT_C04_2_Axial_fit_shim_330"
+        ]
+      },
+      "fastener_stack": {
+        "diameter_mm": 3,
+        "length_mm": 45.0,
+        "spacer_mm": 0,
+        "qty": 4,
+        "insertion_direction": "-LOCAL_Z",
+        "under_head_z_mm": -5.65,
+        "shaft_tip_z_mm": -50.65,
+        "cap_back_z_mm": -44.95,
+        "attachment_depth_mm": 6.0,
+        "attachment_far_face_z_mm": -50.95,
+        "front_nut_qty": 0,
+        "rear_nut_qty": 4,
+        "rear_nut_top_z_mm": -48.35,
+        "rear_nut_bottom_z_mm": -50.75,
+        "rear_nut_pocket_top_z_mm": -48.15,
+        "rear_nut_pocket_bottom_z_mm": -51.05,
+        "socket_head_top_z_mm": -2.65,
+        "front_counterbore_diameter_mm": 6.2,
+        "front_counterbore_seat_z_mm": -5.65,
+        "assembly_note": "Front screws engage rear palm captive nuts created by gripper module; no front nut or rear spacer."
+      },
+      "assembly_notes": [
+        "Retain the supplied motor horn and central retaining screw.",
+        "Screw heads face rearward; shafts point along local +Z toward front captive M3 nuts.",
+        "Keep rear service access for screw tightening and motor daisy-chain connectors.",
+        "For the base motor, preserve the separately designed 8 mm printed-foot clearance beneath the floor."
+      ]
+    }
+  ]
+}

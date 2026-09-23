@@ -1,0 +1,16 @@
+{
+  "through_cap": {
+    "native_bad": 0,
+    "vertices": 4078,
+    "faces": 2328,
+    "cleanup": {
+      "part": "B01_open_front_base_240x190",
+      "duplicate_faces_removed": 0,
+      "nonmanifold_edges_before": 0,
+      "nonmanifold_edges_after": 0,
+      "vertex_relocation_mm": 0.0
+    },
+    "export_bad": 0,
+    "export_bad_details": []
+  }
+}

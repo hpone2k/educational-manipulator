@@ -1,0 +1,44 @@
+{
+  "J4_to_J5_mm": 78.0,
+  "J5_to_J6_horn_mm": 41.0,
+  "J6_to_gripper_horn_mm": 74.45,
+  "roll_bearing_length_mm": 16,
+  "neutral_axis": "J4 local+Z; all wrist and tool centres collinear",
+  "J5": {
+    "teeth": [
+      20,
+      60
+    ],
+    "module_mm": 1.5,
+    "pressure_angle_deg": 20.0,
+    "centre_distance_mm": 60.0,
+    "pitch_radii_mm": [
+      15.0,
+      45.0
+    ],
+    "base_radii_mm": [
+      14.095389311788626,
+      42.28616793536588
+    ],
+    "tip_radii_mm": [
+      16.5,
+      46.5
+    ],
+    "root_radii_mm": [
+      13.125,
+      43.125
+    ],
+    "radial_tip_root_clearance_mm": 0.375,
+    "total_tangential_backlash_mm": 0.2,
+    "tooth_thinning_per_gear_mm": 0.1,
+    "nominal_transverse_contact_ratio": 1.6707764325273948,
+    "pinion_phase_rad": 0.15707963267948966,
+    "wheel_phase_rad": 0.0,
+    "wheel_radians_per_pinion_radian": -0.3333333333333333
+  },
+  "radial_journal_clearance_mm": 0.25,
+  "nominal_pitch_range_deg": [
+    -25,
+    25
+  ]
+}

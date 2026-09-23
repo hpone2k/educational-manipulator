@@ -1,0 +1,3332 @@
+{
+  "loaded": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-4*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "frame_cycle": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-4*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "control_tag": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-4*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expression_reset": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -4.380776405334473
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-4*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "constant_expression": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1.1344640137963142",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1.1344640137963142",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "new_driver": {
+    "scene": "EDU06 R03 | Engineering assembly",
+    "window_scene": "EDU06 R03 | Engineering assembly",
+    "frame": 1,
+    "autoexec": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "control": {
+      "J1": 0,
+      "J2": 65,
+      "J3": 55,
+      "J4": 0,
+      "J5": 0,
+      "J6": 0,
+      "GRIP": 16
+    },
+    "objects": [
+      {
+        "name": "diagnostic_probe",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP lower driven jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -0.27925267815589905
+        ],
+        "world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "eval_world": [
+          234.1251983642578,
+          6.04999303817749,
+          330.63006591796875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "-1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GRIP upper idler jaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.27925267815589905
+        ],
+        "world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "eval_world": [
+          239.3346405029297,
+          6.049988269805908,
+          301.0858154296875
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1*q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"GRIP\"]",
+                    "resolved": 16
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 pinion \u2022 minus three times yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.15707963705062866
+        ],
+        "world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "eval_world": [
+          32.0,
+          0.0,
+          65.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-3*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J1 \u2022 base yaw",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J1\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "eval_world": [
+          -90.5,
+          -31.5,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1.1344640137963142",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J2 \u2022 shoulder pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          1.1344640254974365
+        ],
+        "world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "eval_world": [
+          -28.0,
+          0.0,
+          186.0
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "1.1344640137963142",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J2\"]",
+                    "resolved": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 motor/pinion rotation",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          -1.7627825736999512
+        ],
+        "world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "eval_world": [
+          -4.755990028381348,
+          19.000003814697266,
+          235.84695434570312
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "(9-2*q)*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J3 \u2022 elbow pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.9599310755729675
+        ],
+        "world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "eval_world": [
+          14.261825561523438,
+          -12.499993324279785,
+          276.63079833984375
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J3\"]",
+                    "resolved": 55
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J4 \u2022 forearm roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "eval_world": [
+          136.32876586914062,
+          40.99999237060547,
+          298.1545104980469
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J4\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J5 \u2022 wrist pitch",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "eval_world": [
+          167.84262084960938,
+          16.049991607666016,
+          303.71124267578125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J5\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "J6 \u2022 tool roll",
+        "rotation_mode": "XYZ",
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "eval_rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "eval_world": [
+          192.41357421875,
+          -15.950007438659668,
+          308.04376220703125
+        ],
+        "drivers": [
+          {
+            "path": "rotation_euler",
+            "index": 2,
+            "expression": "q*pi/180 ",
+            "valid": true,
+            "simple": true,
+            "muted": false,
+            "vars": [
+              {
+                "name": "q",
+                "type": "SINGLE_PROP",
+                "targets": [
+                  {
+                    "id": "CONTROL \u2022 angles in degrees \u2014 edit custom properties",
+                    "id_type": "OBJECT",
+                    "path": "[\"J6\"]",
+                    "resolved": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

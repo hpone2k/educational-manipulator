@@ -1,0 +1,62 @@
+{
+  "fixed_mount_to_J4_pitch_mm": 35.0,
+  "J4_pitch_to_J5_roll_horn_mm": 41.0,
+  "J5_roll_to_gripper_horn_mm": 94.45,
+  "open_palm_cable_service_gap_mm": 20,
+  "roll_bearing_length_mm": 16,
+  "neutral_axis": "Fixed flange local+Z; J4 pitch pivot, J5 roll axis and tool centreline collinear at zero pose",
+  "J4": {
+    "teeth": [
+      20,
+      60
+    ],
+    "module_mm": 1.5,
+    "pressure_angle_deg": 20.0,
+    "centre_distance_mm": 60.0,
+    "pitch_radii_mm": [
+      15.0,
+      45.0
+    ],
+    "base_radii_mm": [
+      14.095389311788626,
+      42.28616793536588
+    ],
+    "tip_radii_mm": [
+      16.5,
+      46.5
+    ],
+    "root_radii_mm": [
+      13.125,
+      43.125
+    ],
+    "radial_tip_root_clearance_mm": 0.375,
+    "total_tangential_backlash_mm": 0.2,
+    "tooth_thinning_per_gear_mm": 0.1,
+    "nominal_transverse_contact_ratio": 1.6707764325273948,
+    "pinion_phase_rad": 0.15707963267948966,
+    "wheel_phase_rad": 0.0,
+    "wheel_radians_per_pinion_radian": -0.3333333333333333
+  },
+  "radial_journal_clearance_mm": 0.25,
+  "nominal_pitch_range_deg": [
+    -25,
+    25
+  ],
+  "fixed_mount": {
+    "face_z_mm": 0,
+    "heel_thickness_mm": 5,
+    "pcd_mm": 48,
+    "phase_deg": 0,
+    "centre_access_diameter_mm": 26,
+    "screws": "Four M3x12, under-headZ5, tipZ-7; forearm supplies nutsZ-6.8..-4.4."
+  },
+  "trunnion_to_motor_post_radial_clearance_mm": 0.4,
+  "assembly_sequence": [
+    "Load radial-entry nuts in the forearm flange, then bolt the empty fixed fork to it using four M3x12 from the front. The moving carrier must be absent for straight driver access.",
+    "Assemble the J5 AX, its rear capture plate and supported roll sleeve as a separate moving unit; tighten its rear motor screws before sliding the unit into the fixed fork.",
+    "Insert the assembled moving unit from the front between the fork cheeks; insert removable trunnions from the sides and fasten their four M3x20 screws per side.",
+    "Install the60T pitch wheel and fixed J4 motor/pinion. Tighten rear motor screws from the open back; install the removable outboard pinion bridge last.",
+    "Attach the gripper palm to J5 output flange with the gripper AX absent, then install its front-loaded AX cradle and fingers as described in gripper-design-notes.json.",
+    "Hand-fit printed journals and slide coupons before powered tests; these clearances and load paths are a geometric prototype, not a measured payload rating."
+  ]
+}

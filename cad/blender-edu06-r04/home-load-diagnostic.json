@@ -1,0 +1,4351 @@
+{
+  "diagnostic": "Wrist sweep only; upstream held at saved pose when present. Full joint-range and sidecar verification not performed.",
+  "fixed_upstream_controls_deg": {
+    "J2": 65.0,
+    "J3": 55.0
+  },
+  "diagnostic_upstream_ratio_sources": {
+    "J2": {
+      "ratio": 5.0,
+      "source_part_name": "S_05_output_100T",
+      "diagnostic_only": "Part-name tooth count; final audit requires sidecar and evaluated driver verification"
+    },
+    "J3": {
+      "ratio": 4.0,
+      "source_part_name": "E_05_output_80T",
+      "diagnostic_only": "Part-name tooth count; final audit requires sidecar and evaluated driver verification"
+    }
+  },
+  "created_utc": "2026-09-23T07:10:09.159770+00:00",
+  "blend_modified_utc": "2026-09-23T07:00:42.617920+00:00",
+  "blend": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r04\\BUILD_DEBUG.blend",
+  "mass_inventory": [
+    {
+      "object": "B01_open_front_base_240x190",
+      "mass_g": 613.6216468689098,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 494856.16682976595,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.8452379703521729,
+        15.65882682800293,
+        26.72681427001953
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B02_structural_lid",
+      "mass_g": 267.3452309184923,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 215600.99267620346,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.15170234441757202,
+        -0.7303428649902344,
+        92.5
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B05_lower_journal_support",
+      "mass_g": 46.223313477788906,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 37276.86570789428,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.682481400512643e-10,
+        5.762970545220014e-09,
+        21.180368423461914
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B06_replaceable_lower_bushing",
+      "mass_g": 8.728885464437512,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 7039.423761643156,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.543336381544698e-15,
+        -1.8168773338798997e-16,
+        48.83795166015625
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B07_upper_bushing_and_thrust_ring",
+      "mass_g": 28.01397538013977,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 22591.915629144976,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        1.6204723674029253e-10,
+        -1.6127417457045823e-10,
+        94.6033706665039
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B08_printed_hollow_yaw_shaft",
+      "mass_g": 131.52294459241108,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 106066.89080033152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.9041873633440787e-10,
+        2.7472021185692697e-11,
+        85.5768814086914
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B17_split_yaw_retaining_collar",
+      "mass_g": 4.60237193085709,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3711.590266820234,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.307150840759277,
+        -0.04869024083018303,
+        37.70000076293945
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B09_yaw_60T_module1p5",
+      "mass_g": 61.23022567766327,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 49379.21425618006,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.4940989556677664e-09,
+        -9.611980100743267e-10,
+        70.0
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B18_yaw_gear_screw_spacer_0",
+      "mass_g": 0.018217079019675942,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.69119275780318,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.061922675756356e-17,
+        6.706895550121216e-17,
+        81.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B18_yaw_gear_screw_spacer_1",
+      "mass_g": 0.018217079019675942,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.69119275780318,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.061922675756356e-17,
+        6.706895550121216e-17,
+        81.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B18_yaw_gear_screw_spacer_2",
+      "mass_g": 0.018217079019675942,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.69119275780318,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.061922675756356e-17,
+        6.706895550121216e-17,
+        81.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B18_yaw_gear_screw_spacer_3",
+      "mass_g": 0.018217079019675942,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.69119275780318,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.061922675756356e-17,
+        6.706895550121216e-17,
+        81.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B10_rotating_pedestal_deck",
+      "mass_g": 123.88122819317358,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 99904.2162848174,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -23.27727699279785,
+        1.0727391697311936e-15,
+        115.0
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B19_deck_screw_spacer_0",
+      "mass_g": 0.029147437619707953,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 23.50599808040964,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -9.033020076848936e-17,
+        -1.1217475696170413e-17,
+        118.4000015258789
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B19_deck_screw_spacer_1",
+      "mass_g": 0.029147437619707953,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 23.50599808040964,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -9.033020076848936e-17,
+        -1.1217475696170413e-17,
+        118.4000015258789
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B19_deck_screw_spacer_2",
+      "mass_g": 0.029147437619707953,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 23.50599808040964,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -9.033020076848936e-17,
+        -1.1217475696170413e-17,
+        118.4000015258789
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "B19_deck_screw_spacer_3",
+      "mass_g": 0.029147437619707953,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 23.50599808040964,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -9.033020076848936e-17,
+        -1.1217475696170413e-17,
+        118.4000015258789
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 \u2022 base yaw"
+    },
+    {
+      "object": "J1_BASE_C01_Keyed_motor_cradle",
+      "mass_g": 22.88594518960582,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 18456.407410972435,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        7.28720150888762e-09,
+        -14.27818775177002,
+        -19.173845291137695
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C02_Connector_access_rear_cap",
+      "mass_g": 6.743061891222603,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5437.953138082745,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.925550688485771e-10,
+        -13.5,
+        -42.650001525878906
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.08593995674897924,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 69.30641673304777,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.126096158633991e-17,
+        -25.73141860961914,
+        -4.824999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C04_2_Axial_fit_shim_330",
+      "mass_g": 1.8508543529101127,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1492.6244781533167,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        -13.5,
+        -38.67499923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C03_1_Screw_stack_spacer",
+      "mass_g": 0.03866486846347738,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 31.181345535062405,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        15.5,
+        -65.57499694824219
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C03_2_Screw_stack_spacer",
+      "mass_g": 0.03866486648895462,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 31.18134394270534,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        -42.5,
+        -65.57499694824219
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C03_3_Screw_stack_spacer",
+      "mass_g": 0.03866486846347738,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 31.181345535062405,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        15.5,
+        -65.57499694824219
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "J1_BASE_C03_4_Screw_stack_spacer",
+      "mass_g": 0.03866486648895462,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 31.18134394270534,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        -42.5,
+        -65.57499694824219
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B11_yaw_20T_pinion",
+      "mass_g": 8.504343196238963,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 6858.341287289486,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.186926219761915e-11,
+        1.5341665438040053e-11,
+        5.626602649688721
+      ],
+      "descendant_of": [],
+      "rigid_group": "J1 pinion \u2022 minus three times yaw"
+    },
+    {
+      "object": "B12_yaw_pinion_journal_support",
+      "mass_g": 4.473962740792411,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3608.0344683809767,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -7.151588349296745e-11,
+        9.987209947937004e-10,
+        82.62725830078125
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B19_pinion_support_screw_spacer_0",
+      "mass_g": 0.054651237062775505,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 44.07357827643186,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        8.799771328282802e-11,
+        7.608548513449165e-11,
+        95.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B19_pinion_support_screw_spacer_1",
+      "mass_g": 0.054651237062775505,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 44.07357827643186,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        8.799771328282802e-11,
+        7.608548513449165e-11,
+        95.75
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B13_motor_floor_standoff_1",
+      "mass_g": 1.2948977657851384,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1044.2723917622084,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.2077735099171027e-16,
+        -2.4027293923840106e-17,
+        12.524999618530273
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B13_motor_floor_standoff_2",
+      "mass_g": 1.2948977657851384,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1044.2723917622084,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.2077735099171027e-16,
+        -2.4027293923840106e-17,
+        12.524999618530273
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B13_motor_floor_standoff_3",
+      "mass_g": 1.2948977657851384,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1044.2723917622084,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.2077735099171027e-16,
+        -2.4027293923840106e-17,
+        12.524999618530273
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B13_motor_floor_standoff_4",
+      "mass_g": 1.2948977657851384,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1044.2723917622084,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.2077735099171027e-16,
+        -2.4027293923840106e-17,
+        12.524999618530273
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B15_printed_foot_0",
+      "mass_g": 4.19322254827382,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3381.631087317596,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        5.158911145497491e-11,
+        -1.0778626602370167e-10,
+        -3.9294583797454834
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B16_foot_bolt_spacer_0",
+      "mass_g": 0.24056229995427136,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 194.00185480183174,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.785498800152226e-11,
+        -3.2517617071237126e-11,
+        6.550000190734863
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B15_printed_foot_1",
+      "mass_g": 4.19322254827382,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3381.631087317596,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        5.158911145497491e-11,
+        -1.0778626602370167e-10,
+        -3.9294583797454834
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B16_foot_bolt_spacer_1",
+      "mass_g": 0.24056229995427136,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 194.00185480183174,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.785498800152226e-11,
+        -3.2517617071237126e-11,
+        6.550000190734863
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B15_printed_foot_2",
+      "mass_g": 4.19322254827382,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3381.631087317596,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        5.158911145497491e-11,
+        -1.0778626602370167e-10,
+        -3.9294583797454834
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B16_foot_bolt_spacer_2",
+      "mass_g": 0.24056229995427136,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 194.00185480183174,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.785498800152226e-11,
+        -3.2517617071237126e-11,
+        6.550000190734863
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B15_printed_foot_3",
+      "mass_g": 4.19322254827382,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3381.631087317596,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        5.158911145497491e-11,
+        -1.0778626602370167e-10,
+        -3.9294583797454834
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B16_foot_bolt_spacer_3",
+      "mass_g": 0.24056229995427136,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 194.00185480183174,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.785498800152226e-11,
+        -3.2517617071237126e-11,
+        6.550000190734863
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "B14_U2D2_tray",
+      "mass_g": 9.01366284131635,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 7269.082936545444,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.722314761451685e-10,
+        7.510467942006827e-12,
+        2.795651912689209
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "S_01_rear_support",
+      "mass_g": 60.69174753184091,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 48944.957686968475,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -42.02022933959961,
+        -19.822757720947266,
+        -21.99632453918457
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_01_front_support",
+      "mass_g": 27.464184627503478,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 22148.53598992216,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.21277756989002228,
+        -27.562870025634766,
+        22.0
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_02_rear_plain_bushing",
+      "mass_g": 5.975061603899963,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4818.598067661261,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.896443612205758e-09,
+        -2.983014502078163e-09,
+        -19.812469482421875
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_02_front_plain_bushing",
+      "mass_g": 5.975061603025705,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4818.598066956214,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        2.1930335325492933e-09,
+        2.7671638314075153e-09,
+        19.812469482421875
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_03_independent_output_shaft",
+      "mass_g": 39.061780915347796,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 31501.43622205467,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.4424569578538353e-10,
+        8.769916459705485e-10,
+        10.111067771911621
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "S_04_shaft_retainer",
+      "mass_g": 2.9290104023125996,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 2362.1051631553223,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        1.4259055866219339e-16,
+        1.5510468959937742e-16,
+        -26.799999237060547
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "S_10_retainer_screw_spacer",
+      "mass_g": 0.10782905626714678,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 86.95891634447321,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        7.632399482493727e-17,
+        6.351688313223185e-17,
+        -28.850000381469727
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "S_05_output_100T",
+      "mass_g": 93.18701648497938,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 75150.81974595111,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.4612441862359447e-08,
+        1.866558285712472e-08,
+        37.5
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "S_XM_C01_Keyed_motor_cradle",
+      "mass_g": 20.044607230724473,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 16165.005831229413,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.8282252095834792e-09,
+        -12.132575988769531,
+        -17.756467819213867
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C02_Connector_access_rear_cap",
+      "mass_g": 6.110407401815304,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4927.7479046897615,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        2.1083962700729764e-11,
+        -12.516098022460938,
+        -38.849998474121094
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.10511282047591947,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 84.76840360961248,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        6.286623609728744e-17,
+        -16.392101287841797,
+        -1.8250000476837158
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C04_2_Axial_fit_shim_050",
+      "mass_g": 0.23730677099472883,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 191.3764282215555,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.26535315658531e-17,
+        -13.444457054138184,
+        -36.275001525878906
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C03_1_Screw_stack_spacer",
+      "mass_g": 0.12944389099938433,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39023467692286,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -19.25,
+        15.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C03_2_Screw_stack_spacer",
+      "mass_g": 0.12944388438899307,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39022934596215,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -19.25,
+        -39.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C03_3_Screw_stack_spacer",
+      "mass_g": 0.12944389099938433,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39023467692286,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        19.25,
+        15.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_XM_C03_4_Screw_stack_spacer",
+      "mass_g": 0.12944388438899307,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39022934596215,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        19.25,
+        -39.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_09_motor_mount_standoff_0",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_09_motor_mount_standoff_1",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_09_motor_mount_standoff_2",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_09_motor_mount_standoff_3",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_06_XM_pinion_20T",
+      "mass_g": 6.150646515215022,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4960.198802592759,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.41690251145954e-10,
+        1.6533888147485243e-10,
+        6.82486629486084
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 motor/pinion rotation"
+    },
+    {
+      "object": "S_07_pinion_journal_bridge",
+      "mass_g": 22.88037095641643,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 18451.912061626153,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -23.23154640197754,
+        -3.957458972930908,
+        31.398666381835938
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_11_bridge_screw_spacer_0",
+      "mass_g": 0.13116291332488703,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 105.77654300394116,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.224391781879831e-10,
+        -1.9096657588590915e-10,
+        53.29999923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_11_bridge_screw_spacer_1",
+      "mass_g": 0.13116291332488703,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 105.77654300394116,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.224391781879831e-10,
+        -1.9096657588590915e-10,
+        53.29999923706055
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "S_08_pedestal_foot",
+      "mass_g": 147.50697782694914,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 118957.2401830235,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -26.31304168701172,
+        -61.23424530029297,
+        2.9401023837749563e-09
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "A01_hollow_ribbed_link",
+      "mass_g": 50.164017630316394,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 40454.85292767451,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        49.58511734008789,
+        -1.1889228801464924e-07,
+        52.14634704589844
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A01_root_bolt_spacer_0",
+      "mass_g": 0.04007751824917385,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.32057923320472,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.8761387211327173e-17,
+        -3.091530960263042e-17,
+        50.04999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A01_root_bolt_spacer_1",
+      "mass_g": 0.04007751824917385,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.32057923320472,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.8761387211327173e-17,
+        -3.091530960263042e-17,
+        50.04999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A01_root_bolt_spacer_2",
+      "mass_g": 0.04007751824917385,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.32057923320472,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.8761387211327173e-17,
+        -3.091530960263042e-17,
+        50.04999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A01_root_bolt_spacer_3",
+      "mass_g": 0.04007751824917385,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.32057923320472,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.8761387211327173e-17,
+        -3.091530960263042e-17,
+        50.04999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "E_01_rear_support",
+      "mass_g": 54.68381825981199,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 44099.853435332254,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -49.58779525756836,
+        -6.067911624908447,
+        -21.995920181274414
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_01_front_support",
+      "mass_g": 11.119906628375404,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 8967.666635786616,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.906806268436867e-09,
+        1.6036573180500113e-09,
+        21.959875106811523
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_12_front_cheek_tie_0",
+      "mass_g": 1.2824856799686644,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1034.2626451360197,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.326583453144849e-11,
+        1.1261906338044803e-11,
+        1.9668471018530198e-10
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_12_front_cheek_tie_1",
+      "mass_g": 1.2824856799686644,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1034.2626451360197,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.326583453144849e-11,
+        1.1261906338044803e-11,
+        1.9668471018530198e-10
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_12_front_cheek_tie_2",
+      "mass_g": 1.2824856799686644,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1034.2626451360197,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.326583453144849e-11,
+        1.1261906338044803e-11,
+        1.9668471018530198e-10
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_12_front_cheek_tie_3",
+      "mass_g": 1.2824856799686644,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1034.2626451360197,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.326583453144849e-11,
+        1.1261906338044803e-11,
+        1.9668471018530198e-10
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_02_rear_plain_bushing",
+      "mass_g": 5.170813486312672,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4170.010876058606,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.925889223767911e-10,
+        1.338394811645216e-10,
+        -19.80738067626953
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_02_front_plain_bushing",
+      "mass_g": 5.170813488038116,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4170.010877450093,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.86984000400048e-09,
+        -1.0489098478672076e-09,
+        19.80738067626953
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_03_independent_output_shaft",
+      "mass_g": 30.365442845787005,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 24488.26035950565,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.183590223722945e-10,
+        9.71720259812514e-10,
+        12.978132247924805
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "E_04_shaft_retainer",
+      "mass_g": 2.2286968549275152,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1797.3361733286413,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.142893666658583e-17,
+        -2.8439128557085174e-16,
+        -26.799999237060547
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "E_10_retainer_screw_spacer",
+      "mass_g": 0.10782906912137197,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 86.95892671078384,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        7.632399482493727e-17,
+        6.351688313223185e-17,
+        -28.850000381469727
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "E_05_output_80T",
+      "mass_g": 59.91975861178733,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 48322.385977247846,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.788943794968418e-09,
+        1.4738131548508449e-10,
+        36.5
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "E_XM_C01_Keyed_motor_cradle",
+      "mass_g": 20.044607230724473,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 16165.005831229413,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.8282252095834792e-09,
+        -12.132575988769531,
+        -17.756467819213867
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C02_Connector_access_rear_cap",
+      "mass_g": 6.110407401815304,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4927.7479046897615,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        2.1083962700729764e-11,
+        -12.516098022460938,
+        -38.849998474121094
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.10511282047591947,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 84.76840360961248,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        6.286623609728744e-17,
+        -16.392101287841797,
+        -1.8250000476837158
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C04_2_Axial_fit_shim_050",
+      "mass_g": 0.23730677099472883,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 191.3764282215555,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.26535315658531e-17,
+        -13.444457054138184,
+        -36.275001525878906
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C03_1_Screw_stack_spacer",
+      "mass_g": 0.12944389099938433,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39023467692286,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -19.25,
+        15.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C03_2_Screw_stack_spacer",
+      "mass_g": 0.12944388438899307,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39022934596215,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -19.25,
+        -39.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C03_3_Screw_stack_spacer",
+      "mass_g": 0.12944389099938433,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39023467692286,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        19.25,
+        15.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_XM_C03_4_Screw_stack_spacer",
+      "mass_g": 0.12944388438899307,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 104.39022934596215,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        19.25,
+        -39.25,
+        -58.42499923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_09_motor_mount_standoff_0",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_09_motor_mount_standoff_1",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_09_motor_mount_standoff_2",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_09_motor_mount_standoff_3",
+      "mass_g": 0.5065403672108909,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 408.5002961378152,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.503709128382937e-11,
+        -1.1780838457542409e-11,
+        -14.324999809265137
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_06_XM_pinion_20T",
+      "mass_g": 5.238202718622381,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 4224.357031147082,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.237213771662312e-11,
+        -1.9155363406575532e-10,
+        5.9027838706970215
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 motor/pinion rotation"
+    },
+    {
+      "object": "E_07_pinion_journal_bridge",
+      "mass_g": 18.770153442625936,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 15137.220518246722,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -3.1578955284592737e-16,
+        2.8539584017651574e-16,
+        26.87535858154297
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_11_bridge_screw_spacer_0",
+      "mass_g": 0.021860439229497913,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 17.629386475401542,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.325672952287715e-16,
+        -9.28891667114834e-17,
+        49.79999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "E_11_bridge_screw_spacer_1",
+      "mass_g": 0.021860439229497913,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 17.629386475401542,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.325672952287715e-16,
+        -9.28891667114834e-17,
+        49.79999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "A02_elbow_spacer_0",
+      "mass_g": 0.20249773893334694,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 163.30462817205398,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.8775767319254584e-11,
+        -1.2985679372079506e-11,
+        40.5
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A04_elbow_bolt_spacer_0",
+      "mass_g": 0.2733718960688884,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 220.46120650716807,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.960538916078729e-13,
+        2.3369297491061813e-13,
+        53.54999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A02_elbow_spacer_1",
+      "mass_g": 0.20249773893334694,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 163.30462817205398,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.8775767319254584e-11,
+        -1.2985679372079506e-11,
+        40.5
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A04_elbow_bolt_spacer_1",
+      "mass_g": 0.2733718960688884,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 220.46120650716807,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.960538916078729e-13,
+        2.3369297491061813e-13,
+        53.54999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A02_elbow_spacer_2",
+      "mass_g": 0.20249773893334694,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 163.30462817205398,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.8775767319254584e-11,
+        -1.2985679372079506e-11,
+        40.5
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A04_elbow_bolt_spacer_2",
+      "mass_g": 0.2733718960688884,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 220.46120650716807,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.960538916078729e-13,
+        2.3369297491061813e-13,
+        53.54999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A02_elbow_spacer_3",
+      "mass_g": 0.20249773893334694,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 163.30462817205398,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.8775767319254584e-11,
+        -1.2985679372079506e-11,
+        40.5
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A04_elbow_bolt_spacer_3",
+      "mass_g": 0.2733718960688884,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 220.46120650716807,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.960538916078729e-13,
+        2.3369297491061813e-13,
+        53.54999923706055
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J2 \u2022 shoulder pitch"
+    },
+    {
+      "object": "A03_hollow_ribbed_link",
+      "mass_g": 59.6760890211188,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 48125.87824283774,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        49.35076904296875,
+        -5.29570198059082,
+        51.91984176635742
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "A03_root_bolt_spacer_0",
+      "mass_g": 0.1129458477880407,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 91.08536111938767,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.5899867240351e-11,
+        -3.9451501093745733e-11,
+        49.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "A03_root_bolt_spacer_1",
+      "mass_g": 0.1129458477880407,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 91.08536111938767,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.5899867240351e-11,
+        -3.9451501093745733e-11,
+        49.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "A03_root_bolt_spacer_2",
+      "mass_g": 0.1129458477880407,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 91.08536111938767,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.5899867240351e-11,
+        -3.9451501093745733e-11,
+        49.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "A03_root_bolt_spacer_3",
+      "mass_g": 0.1129458477880407,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 91.08536111938767,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.5899867240351e-11,
+        -3.9451501093745733e-11,
+        49.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch"
+    },
+    {
+      "object": "J4_AX_C01_Keyed_motor_cradle",
+      "mass_g": 35.81179974635301,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 28880.48366641372,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        2.170097657128167e-09,
+        -9.124971389770508,
+        -9.04959487915039
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C02_Connector_access_rear_cap",
+      "mass_g": 6.743062695058221,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5437.953786337275,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.925550688485771e-10,
+        -13.5,
+        -42.650001525878906
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.08593996699382042,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 69.30642499501647,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.126096158633991e-17,
+        -25.73141860961914,
+        -4.824999809265137
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C04_2_Axial_fit_shim_330",
+      "mass_g": 1.850854573549145,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1492.6246560880202,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        -13.5,
+        -38.67499923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C03_1_Screw_stack_spacer",
+      "mass_g": 0.006724258835067978,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5.422789383119337,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        15.5,
+        -51.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C03_2_Screw_stack_spacer",
+      "mass_g": 0.006724258491676092,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5.422789106190397,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        -42.5,
+        -51.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C03_3_Screw_stack_spacer",
+      "mass_g": 0.006724258835067978,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5.422789383119337,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        15.5,
+        -51.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J4_AX_C03_4_Screw_stack_spacer",
+      "mass_g": 0.006724258491676092,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5.422789106190397,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        -42.5,
+        -51.04999923706055
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "W01_supported_roll_output",
+      "mass_g": 24.484348080225445,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 19745.44200018181,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        1.720654452253001e-10,
+        -1.3729922754279755e-09,
+        13.196264266967773
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll"
+    },
+    {
+      "object": "W02_centred_fixed_pitch_fork",
+      "mass_g": 76.71993658607502,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 61870.91660167341,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        25.42066192626953,
+        -30.700471878051758,
+        -1.4287219047546387
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W03_moving_pitch_cradle",
+      "mass_g": 23.024424662375196,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 18568.084405141286,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.943173408508301,
+        10.242467880249023,
+        -6.057610590914919e-08
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch"
+    },
+    {
+      "object": "W04_idler_removable_trunnion",
+      "mass_g": 6.381629615316535,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5146.475496223012,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.079942772516887e-10,
+        -5.932247054696305e-11,
+        37.45884323120117
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch"
+    },
+    {
+      "object": "W04_drive_removable_trunnion",
+      "mass_g": 12.556348186667604,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 10126.087247312584,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        7.046956906897606e-10,
+        -2.137976684579712e-09,
+        38.54731369018555
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch"
+    },
+    {
+      "object": "W05_pitch_60T_module1p5",
+      "mass_g": 36.304594556144565,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 29277.898835600456,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -2.0932460209621695e-09,
+        3.991432517835847e-09,
+        46.582740783691406
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch"
+    },
+    {
+      "object": "J5_AX_C01_Keyed_motor_cradle",
+      "mass_g": 22.885947917823085,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 18456.40961114765,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        7.28720150888762e-09,
+        -14.27818775177002,
+        -19.173845291137695
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C02_Connector_access_rear_cap",
+      "mass_g": 6.743062695058221,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5437.953786337275,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.925550688485771e-10,
+        -13.5,
+        -42.650001525878906
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.08593996699382042,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 69.30642499501647,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.126096158633991e-17,
+        -25.73141860961914,
+        -4.824999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C04_2_Axial_fit_shim_330",
+      "mass_g": 1.850854573549145,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1492.6246560880202,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        -13.5,
+        -38.67499923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C03_1_Screw_stack_spacer",
+      "mass_g": 0.04034606603847188,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53715003102571,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        15.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C03_2_Screw_stack_spacer",
+      "mass_g": 0.040346063978094364,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53714836943094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        -42.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C03_3_Screw_stack_spacer",
+      "mass_g": 0.04034606603847188,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53715003102571,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        15.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J5_AX_C03_4_Screw_stack_spacer",
+      "mass_g": 0.040346063978094364,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53714836943094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        -42.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W06_pitch_20T_pinion",
+      "mass_g": 6.8219629675149065,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5501.583038318473,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        8.132129691862389e-11,
+        1.583249677195031e-11,
+        4.470318794250488
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 pinion \u2022 minus three times pitch"
+    },
+    {
+      "object": "W07_pitch_pinion_journal_bridge",
+      "mass_g": 19.227668374248857,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 15506.184172781335,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        10.662337303161621,
+        -23.715341567993164,
+        44.52516555786133
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W08_pinion_bridge_foot_-25",
+      "mass_g": 0.06755921727292637,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 54.48323973623094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0714019826401649e-16,
+        -3.0566000742526324e-18,
+        -1.8499999046325684
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W09_bridge_head_spacer_-25",
+      "mass_g": 0.05282942426304646,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 42.60437440568263,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.609242485579927e-11,
+        -7.445846023079739e-11,
+        59.32500076293945
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W08_pinion_bridge_foot_50",
+      "mass_g": 0.06755921727292637,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 54.48323973623094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0714019826401649e-16,
+        -3.0566000742526324e-18,
+        -1.8499999046325684
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "W09_bridge_head_spacer_50",
+      "mass_g": 0.05282942426304646,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 42.60437440568263,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.609242485579927e-11,
+        -7.445846023079739e-11,
+        59.32500076293945
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J6_AX_C01_Keyed_motor_cradle",
+      "mass_g": 35.811799753496544,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 28880.483672174632,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        1.4466635320786736e-06,
+        -9.124975204467773,
+        -9.04959487915039
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C02_Connector_access_rear_cap",
+      "mass_g": 6.743062695058221,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5437.953786337275,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.925550688485771e-10,
+        -13.5,
+        -42.650001525878906
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.08593996699382042,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 69.30642499501647,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.126096158633991e-17,
+        -25.73141860961914,
+        -4.824999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C04_2_Axial_fit_shim_330",
+      "mass_g": 1.850854573549145,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1492.6246560880202,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        -13.5,
+        -38.67499923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C03_1_Screw_stack_spacer",
+      "mass_g": 0.04034606603847188,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53715003102571,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        15.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C03_2_Screw_stack_spacer",
+      "mass_g": 0.040346063978094364,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53714836943094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -21.0,
+        -42.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C03_3_Screw_stack_spacer",
+      "mass_g": 0.04034606603847188,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53715003102571,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        15.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "J6_AX_C03_4_Screw_stack_spacer",
+      "mass_g": 0.040346063978094364,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 32.53714836943094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        21.0,
+        -42.5,
+        -50.54999923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "W10_supported_roll_output",
+      "mass_g": 24.484348080225445,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 19745.44200018181,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        1.720654452253001e-10,
+        -1.3729922754279755e-09,
+        13.196264266967773
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll"
+    },
+    {
+      "object": "GRIP_C01_Keyed_motor_cradle",
+      "mass_g": 21.648940020580948,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 17458.8225972427,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        4.772082728976557e-09,
+        -14.099727630615234,
+        -20.15176010131836
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "GRIP_C02_Connector_access_rear_cap",
+      "mass_g": 6.743062695058221,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5437.953786337275,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -6.925550688485771e-10,
+        -13.5,
+        -42.650001525878906
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "GRIP_C04_1_Axial_fit_shim_030",
+      "mass_g": 0.08593996699382042,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 69.30642499501647,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.126096158633991e-17,
+        -25.73141860961914,
+        -4.824999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "GRIP_C04_2_Axial_fit_shim_330",
+      "mass_g": 1.850854573549145,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1492.6246560880202,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        -13.5,
+        -38.67499923706055
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G01_Windowed_rear_palm",
+      "mass_g": 20.118455726706728,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 16224.561069924779,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -8.459592137910477e-09,
+        -2.1936161518096924,
+        -48.553016662597656
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G02_Captured_slide_lower_frame",
+      "mass_g": 20.652222763384174,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 16655.018357567882,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        2.0327689531640658e-10,
+        2.106042673588604e-09,
+        3.9062561988830566
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G03_1_Rear_frame_standoff",
+      "mass_g": 3.8863148060607866,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3134.1248435974085,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.0,
+        -56.349998474121094,
+        -22.325000762939453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G04_1_Frame_tie_spacer",
+      "mass_g": 0.07804217647951021,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 62.93723909637921,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.0,
+        -56.349998474121094,
+        13.074999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G03_2_Rear_frame_standoff",
+      "mass_g": 3.8863148060607866,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3134.1248435974085,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.0,
+        56.349998474121094,
+        -22.325000762939453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G04_2_Frame_tie_spacer",
+      "mass_g": 0.07804217647951021,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 62.93723909637921,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.0,
+        56.349998474121094,
+        13.074999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G03_3_Rear_frame_standoff",
+      "mass_g": 3.8863148060607875,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3134.1248435974094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.0,
+        -56.349998474121094,
+        -22.325000762939453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G04_3_Frame_tie_spacer",
+      "mass_g": 0.07804217647951021,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 62.9372390963792,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.0,
+        -56.349998474121094,
+        13.074999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G03_4_Rear_frame_standoff",
+      "mass_g": 3.8863148060607875,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3134.1248435974094,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.0,
+        56.349998474121094,
+        -22.325000762939453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G04_4_Frame_tie_spacer",
+      "mass_g": 0.07804217647951021,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 62.9372390963792,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.0,
+        56.349998474121094,
+        13.074999809265137
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G05_R_Slide_retaining_lip",
+      "mass_g": 3.9400015948379377,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3177.4206409983367,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.512821197509766,
+        1.6327271132321464e-11,
+        10.5
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G05_L_Slide_retaining_lip",
+      "mass_g": 3.940001594950251,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3177.420641088912,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.512821197509766,
+        7.285800435186118e-12,
+        10.5
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G06_20T_m1p5_AX_rack_pinion",
+      "mass_g": 7.046793772937096,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 5682.898203981529,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -4.129718789158687e-11,
+        6.696486420931791e-11,
+        5.12682580947876
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP pinion rotation"
+    },
+    {
+      "object": "G07_Pinion_outboard_journal_bridge",
+      "mass_g": 4.76370183263074,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 3841.6950263151125,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        6.3922707405073e-11,
+        -2.351888996054985e-11,
+        17.86104965209961
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G08_1_Bridge_screw_spacer",
+      "mass_g": 0.01814935120898585,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.63657355563375,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -32.0,
+        -4.6459760465620824e-17,
+        21.549999237060547
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G08_2_Bridge_screw_spacer",
+      "mass_g": 0.01814935120898585,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14.63657355563375,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        32.0,
+        -9.955662956918748e-18,
+        21.549999237060547
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    },
+    {
+      "object": "G09_R_Rack_and_raised_slide",
+      "mass_g": 13.100318970812216,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 10564.773363558239,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.903614044189453,
+        19.00965690612793,
+        8.484221458435059
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP right jaw carriage"
+    },
+    {
+      "object": "G10_R_Long_finger_75x24x12",
+      "mass_g": 18.588749761552755,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14990.927227058673,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.057250008708934e-10,
+        30.97481918334961,
+        52.850677490234375
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP right jaw carriage"
+    },
+    {
+      "object": "G11_R_Flat_and_V_keyed_contact_pad",
+      "mass_g": 7.594752816909847,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 6124.800658798264,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        24.785167694091797,
+        60.81934356689453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP right jaw carriage"
+    },
+    {
+      "object": "G12_R_Removable_pad_tip_stop",
+      "mass_g": 1.3055218945311573,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1052.840237525127,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.3831679942025166e-12,
+        29.909711837768555,
+        98.5
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP right jaw carriage"
+    },
+    {
+      "object": "G09_L_Rack_and_raised_slide",
+      "mass_g": 13.100318970812216,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 10564.773363558239,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        9.903614044189453,
+        19.00965690612793,
+        8.484221458435059
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP left jaw carriage"
+    },
+    {
+      "object": "G10_L_Long_finger_75x24x12",
+      "mass_g": 18.588749761552755,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 14990.927227058673,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        3.057250008708934e-10,
+        30.97481918334961,
+        52.850677490234375
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP left jaw carriage"
+    },
+    {
+      "object": "G11_L_Flat_and_V_keyed_contact_pad",
+      "mass_g": 7.594752816909847,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 6124.800658798264,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        0.0,
+        24.785167694091797,
+        60.81934356689453
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP left jaw carriage"
+    },
+    {
+      "object": "G12_L_Removable_pad_tip_stop",
+      "mass_g": 1.3055218945311573,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 1052.840237525127,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.3831679942025166e-12,
+        29.909711837768555,
+        98.5
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIP left jaw carriage"
+    },
+    {
+      "object": "W11_palm_screw_spacer_0",
+      "mass_g": 0.03643416238264198,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 29.382389018259662,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0390965099913554e-17,
+        -3.8729959473382243e-17,
+        30.0
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll"
+    },
+    {
+      "object": "W11_palm_screw_spacer_1",
+      "mass_g": 0.03643416238264198,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 29.382389018259662,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0390965099913554e-17,
+        -3.8729959473382243e-17,
+        30.0
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll"
+    },
+    {
+      "object": "W11_palm_screw_spacer_2",
+      "mass_g": 0.03643416238264198,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 29.382389018259662,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0390965099913554e-17,
+        -3.8729959473382243e-17,
+        30.0
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll"
+    },
+    {
+      "object": "W11_palm_screw_spacer_3",
+      "mass_g": 0.03643416238264198,
+      "source": "solid_mesh_PLA_1.24g_per_cm3",
+      "printed": true,
+      "signed_solid_volume_mm3": 29.382389018259662,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.0390965099913554e-17,
+        -3.8729959473382243e-17,
+        30.0
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll"
+    },
+    {
+      "object": "J1_BASE | AX-12A dimensioned case",
+      "mass_g": 54.6,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.03148648887872696,
+        -13.170806884765625,
+        -20.572546005249023
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "U2D2 USB\u2013TTL converter",
+      "mass_g": 9.0,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -5.694143518412368e-16,
+        0.0,
+        7.449999809265137
+      ],
+      "descendant_of": [],
+      "rigid_group": "FIXED"
+    },
+    {
+      "object": "S_XM | XM430-W350-T dimensioned case",
+      "mass_g": 82.0,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.1068932437297008e-08,
+        -11.808574676513672,
+        -18.901369094848633
+      ],
+      "descendant_of": [],
+      "rigid_group": "J2 \u2022 shoulder pitch DATUM"
+    },
+    {
+      "object": "E_XM | XM430-W350-T dimensioned case",
+      "mass_g": 82.0,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -1.1068932437297008e-08,
+        -11.808574676513672,
+        -18.901369094848633
+      ],
+      "descendant_of": [
+        "J2"
+      ],
+      "rigid_group": "J3 \u2022 elbow pitch DATUM"
+    },
+    {
+      "object": "J4_AX | AX-12A dimensioned case",
+      "mass_g": 54.6,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.03148648887872696,
+        -13.170806884765625,
+        -20.572546005249023
+      ],
+      "descendant_of": [
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J4 \u2022 forearm roll DATUM"
+    },
+    {
+      "object": "J5_AX | AX-12A dimensioned case",
+      "mass_g": 54.6,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.03148648887872696,
+        -13.170806884765625,
+        -20.572546005249023
+      ],
+      "descendant_of": [
+        "J4",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J5 \u2022 geared wrist pitch DATUM"
+    },
+    {
+      "object": "J6_AX | AX-12A dimensioned case",
+      "mass_g": 54.6,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.03148648887872696,
+        -13.170806884765625,
+        -20.572546005249023
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "J6 \u2022 tool roll DATUM"
+    },
+    {
+      "object": "GRIP | AX-12A dimensioned case",
+      "mass_g": 54.6,
+      "source": "motor_or_electronics_reference_mass",
+      "printed": false,
+      "signed_solid_volume_mm3": null,
+      "positive_mesh_volume": true,
+      "centroid_local_mm": [
+        -0.03148648887872696,
+        -13.170806884765625,
+        -20.572546005249023
+      ],
+      "descendant_of": [
+        "J4",
+        "J5",
+        "J6",
+        "J2",
+        "J3"
+      ],
+      "rigid_group": "GRIPPER"
+    }
+  ],
+  "neutral_centreline_alignment": {
+    "pass": true,
+    "neutral_controls": {
+      "J4": 0.0,
+      "J5": 0.0,
+      "J6": 0.0,
+      "GRIP": 45.0
+    },
+    "J4_axis_origin_world_mm": [
+      136.13180541992188,
+      40.99999237060547,
+      298.1197814941406
+    ],
+    "J4_axis_unit_world": [
+      0.9848077893257141,
+      -3.508055357315243e-08,
+      0.17364823818206787
+    ],
+    "distance_from_J4_axis_mm": {
+      "J5_pitch_origin": 5.822781717837731e-06,
+      "J6_roll_origin": 1.1448700234550983e-05,
+      "fixed_tool_tip_marker": 3.427888903761567e-05,
+      "mean_grip_contact": 1.721589709452422e-05
+    },
+    "axial_stations_from_J4_mm": {
+      "J5_pitch_origin": 77.99999856948865,
+      "J6_roll_origin": 117.99999189376844,
+      "fixed_tool_tip_marker": 292.4500169754023,
+      "mean_grip_contact": 222.44998741149877
+    },
+    "axis_dot_products": {
+      "J4_dot_J6": 0.9999999720603187,
+      "J4_dot_tool": 0.9999999720603187,
+      "J4_dot_J5_pitch": 7.549793057393117e-08
+    },
+    "position_tolerance_mm": 0.05,
+    "scope": "Verifies the neutral tool path is straight and centred while J5 is transverse; it does not imply the wrist remains collinear when pitch is commanded."
+  },
+  "poses": [
+    {
+      "name": "home",
+      "control_values": {
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 141,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 3,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_01_rear_support",
+              "E_06_XM_pinion_20T"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "gross_interpenetration_sampled",
+            "known_interface_note": null,
+            "triangle_intersection_pairs": 305,
+            "nonparallel_pairs_in_first_256": 251,
+            "aabb_overlap_extents_mm": [
+              27.418234722906938,
+              6.000000908542734,
+              6.722559629028865
+            ],
+            "maximum_sampled_depth_mm": 0.9848222732543945,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.9848222732543945,
+              "inside_samples": 5,
+              "samples_tested": 16,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": {
+                "vertex_world_mm": [
+                  -21.011886596679688,
+                  25.000001907348633,
+                  212.0800018310547
+                ],
+                "nearest_surface_world_mm": [
+                  -21.7569522857666,
+                  25.000003814697266,
+                  212.72401428222656
+                ],
+                "nearest_normal_world": [
+                  -0.7565557956695557,
+                  0.0,
+                  0.6539290547370911
+                ],
+                "vertex_in_first_object_local_mm": [
+                  6.9881134033203125,
+                  26.08000373840332,
+                  -25.0
+                ],
+                "vertex_in_second_object_local_mm": [
+                  6.937096118927002,
+                  9.637999534606934,
+                  5.999998092651367
+                ],
+                "signed_nearest_normal_distance_mm": -0.9848222136497498
+              }
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "S_01_front_support",
+              "E_XM_C02_Connector_access_rear_cap"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 \u2022 shoulder pitch"
+            ],
+            "classification": "gross_interpenetration_sampled",
+            "known_interface_note": null,
+            "triangle_intersection_pairs": 629,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              65.0,
+              3.15000093879749,
+              21.501990261066084
+            ],
+            "maximum_sampled_depth_mm": 2.8500022888183594,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 1.4500045776367188,
+              "inside_samples": 18,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": {
+                "vertex_world_mm": [
+                  -28.0,
+                  -18.999998092651367,
+                  213.0
+                ],
+                "nearest_surface_world_mm": [
+                  -27.99999237060547,
+                  -17.54999351501465,
+                  213.0
+                ],
+                "nearest_normal_world": [
+                  1.229839767802332e-07,
+                  1.0,
+                  -2.2285533418653358e-07
+                ],
+                "vertex_in_first_object_local_mm": [
+                  0.0,
+                  26.999998092651367,
+                  19.0
+                ],
+                "vertex_in_second_object_local_mm": [
+                  -13.029707908630371,
+                  -11.410688400268555,
+                  -38.000003814697266
+                ],
+                "signed_nearest_normal_distance_mm": -1.450004577637657
+              }
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 2.8500022888183594,
+              "inside_samples": 53,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": {
+                "vertex_world_mm": [
+                  -9.038308143615723,
+                  -22.14999771118164,
+                  192.28163146972656
+                ],
+                "nearest_surface_world_mm": [
+                  -9.038308143615723,
+                  -25.0,
+                  192.28163146972656
+                ],
+                "nearest_normal_world": [
+                  3.188397101894225e-07,
+                  -0.9999999403953552,
+                  2.0898038854966217e-08
+                ],
+                "vertex_in_first_object_local_mm": [
+                  -23.793373107910156,
+                  14.530400276184082,
+                  -41.14999771118164
+                ],
+                "vertex_in_second_object_local_mm": [
+                  18.961692810058594,
+                  6.28162956237793,
+                  22.14999771118164
+                ],
+                "signed_nearest_normal_distance_mm": -2.8500020503997803
+              }
+            }
+          },
+          {
+            "objects": [
+              "S_01_front_support",
+              "E_09_motor_mount_standoff_0"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 \u2022 shoulder pitch"
+            ],
+            "classification": "gross_interpenetration_sampled",
+            "known_interface_note": null,
+            "triangle_intersection_pairs": 281,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              8.200001328023166,
+              2.8500040311151977,
+              8.200001351050446
+            ],
+            "maximum_sampled_depth_mm": 2.8499984741210938,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.8798688650131226,
+              "inside_samples": 3,
+              "samples_tested": 3,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": {
+                "vertex_world_mm": [
+                  -3.5296897888183594,
+                  -25.0,
+                  197.4106903076172
+                ],
+                "nearest_surface_world_mm": [
+                  -2.716798782348633,
+                  -25.0,
+                  197.74740600585938
+                ],
+                "nearest_normal_world": [
+                  0.9238823056221008,
+                  -1.4135018489014328e-07,
+                  0.3826766908168793
+                ],
+                "vertex_in_first_object_local_mm": [
+                  24.47031021118164,
+                  11.410688400268555,
+                  25.0
+                ],
+                "vertex_in_second_object_local_mm": [
+                  2.433183193206787,
+                  2.105271816253662,
+                  -12.49999713897705
+                ],
+                "signed_nearest_normal_distance_mm": -0.8798688501119614
+              }
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 2.8499984741210938,
+              "inside_samples": 56,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": {
+                "vertex_world_mm": [
+                  -9.101452827453613,
+                  -22.150001525878906,
+                  192.9544219970703
+                ],
+                "nearest_surface_world_mm": [
+                  -9.101452827453613,
+                  -25.0,
+                  192.9544219970703
+                ],
+                "nearest_normal_world": [
+                  3.188397101894225e-07,
+                  -0.9999999403953552,
+                  2.0898038854966217e-08
+                ],
+                "vertex_in_first_object_local_mm": [
+                  -3.9603025913238525,
+                  -1.0611608028411865,
+                  -9.649998664855957
+                ],
+                "vertex_in_second_object_local_mm": [
+                  18.898548126220703,
+                  6.95442008972168,
+                  22.150001525878906
+                ],
+                "signed_nearest_normal_distance_mm": -2.8499982357025146
+              }
+            }
+          },
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1806,
+            "nonparallel_pairs_in_first_256": 228,
+            "aabb_overlap_extents_mm": [
+              19.495724246327445,
+              9.104663508452404e-06,
+              19.495724250760503
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": false
+      },
+      "load_cases": [
+        {
+          "payload_g": 0,
+          "payload_point_world_mm": [
+            424.1388244628906,
+            41.00000762939453,
+            348.9032287597656
+          ],
+          "joints": {
+            "J2": {
+              "motor": "XM430-W350-T",
+              "ratio": 5.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                -28.0,
+                0.0,
+                186.0
+              ],
+              "axis_unit_world": [
+                0.0,
+                -1.0,
+                7.549790126404332e-08
+              ],
+              "descendant_mass_g_before_allowance": 1314.1847335442858,
+              "descendant_mass_g_with_10percent_allowance": 1445.6032068987145,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -2.0727033615112305,
+              "payload_axis_torque_nm": 0.0,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -2.279973268508911,
+              "total_gravity_bending_vector_nm": [
+                -0.23490744829177856,
+                2.279973268508911,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 2.2920426394448565,
+              "moving_mass_first_moment_world_kg_m": [
+                0.2324131578207016,
+                0.023945707827806473,
+                0.14683140814304352
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 2.6968640438774,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.8298043211930461,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7015302364642804,
+              "motor_gravity_to_comparison_ratio": 0.855524678614976,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.0522953546964207,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J3": {
+              "motor": "XM430-W350-T",
+              "ratio": 4.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                14.261825561523438,
+                -12.499993324279785,
+                276.63079833984375
+              ],
+              "axis_unit_world": [
+                1.368486692854276e-07,
+                1.0,
+                -1.393114814618457e-07
+              ],
+              "descendant_mass_g_before_allowance": 910.3025475763063,
+              "descendant_mass_g_with_10percent_allowance": 1001.332802333937,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6554598252382497,
+              "payload_axis_torque_nm": 0.0,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 1.821006594543384,
+              "total_gravity_bending_vector_nm": [
+                -0.4468415379524231,
+                1.8210066556930542,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 1.875028713324355,
+              "moving_mass_first_moment_world_kg_m": [
+                0.18562757968902588,
+                0.04554959386587143,
+                0.042191021144390106
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 1.8674509565325803,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.7182503678971462,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7003871517474554,
+              "motor_gravity_to_comparison_ratio": 0.8541306728627505,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.050580727621183,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J4": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                136.13180541992188,
+                40.99999237060547,
+                298.1197814941406
+              ],
+              "axis_unit_world": [
+                0.9848077893257141,
+                -3.508055357315243e-08,
+                0.17364823818206787
+              ],
+              "descendant_mass_g_before_allowance": 658.4343937658049,
+              "descendant_mass_g_with_10percent_allowance": 724.2778331423855,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 0.04599508650290929,
+              "payload_axis_torque_nm": 0.0,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 0.050594610426887954,
+              "total_gravity_bending_vector_nm": [
+                0.0513751395046711,
+                0.8154429793357849,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.8170597752372515,
+              "moving_mass_first_moment_world_kg_m": [
+                0.08312365412712097,
+                -0.005237015895545483,
+                0.022463103756308556
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.09125142293542739,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.10735461521814987,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.05952307109045642,
+              "motor_gravity_to_comparison_ratio": 0.19841023696818808,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.08928460663568463,
+              "one_point_five_case_exceeds_comparison": false
+            },
+            "J5": {
+              "motor": "AX-12A",
+              "ratio": 3.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                212.94680786132812,
+                40.9999885559082,
+                311.6643371582031
+              ],
+              "axis_unit_world": [
+                1.1853174441966985e-08,
+                -1.0,
+                1.655316452797706e-07
+              ],
+              "descendant_mass_g_before_allowance": 444.61251106121114,
+              "descendant_mass_g_with_10percent_allowance": 489.0737621673323,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -0.30890810467101293,
+              "payload_axis_torque_nm": 0.0,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -0.33979886745439836,
+              "total_gravity_bending_vector_nm": [
+                0.02092989906668663,
+                0.33979886770248413,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.34044284748954967,
+              "moving_mass_first_moment_world_kg_m": [
+                0.03463801369071007,
+                -0.002133526373654604,
+                0.0032159292604774237
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.3412603081104676,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.17500528621049619,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.174255829463794,
+              "motor_gravity_to_comparison_ratio": 0.5808527648793134,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.261383744195691,
+              "one_point_five_case_exceeds_comparison": false
+            },
+            "J6": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                252.339111328125,
+                40.9999885559082,
+                318.6102600097656
+              ],
+              "axis_unit_world": [
+                0.9848076701164246,
+                1.1591524895493421e-07,
+                0.17364831268787384
+              ],
+              "descendant_mass_g_before_allowance": 267.0924727915762,
+              "descendant_mass_g_with_10percent_allowance": 293.80172007073384,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6615185714385916e-05,
+              "payload_axis_torque_nm": 0.0,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 1.8276936026850876e-05,
+              "total_gravity_bending_vector_nm": [
+                1.8535120034357533e-05,
+                0.20194309949874878,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.20194309597293528,
+              "moving_mass_first_moment_world_kg_m": [
+                0.020585432648658752,
+                -1.889368036245287e-06,
+                0.0023042308166623116
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.01280600032742708,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.015065882738149506,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 2.150227767864809e-05,
+              "motor_gravity_to_comparison_ratio": 7.167425892882697e-05,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 3.2253416517972135e-05,
+              "one_point_five_case_exceeds_comparison": false
+            }
+          }
+        },
+        {
+          "payload_g": 25,
+          "payload_point_world_mm": [
+            424.1388244628906,
+            41.00000762939453,
+            348.9032287597656
+          ],
+          "joints": {
+            "J2": {
+              "motor": "XM430-W350-T",
+              "ratio": 5.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                -28.0,
+                0.0,
+                186.0
+              ],
+              "axis_unit_world": [
+                0.0,
+                -1.0,
+                7.549790126404332e-08
+              ],
+              "descendant_mass_g_before_allowance": 1314.1847335442858,
+              "descendant_mass_g_with_10percent_allowance": 1445.6032068987145,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -2.0727033615112305,
+              "payload_axis_torque_nm": -0.11088705062866211,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -2.3908603191375732,
+              "total_gravity_bending_vector_nm": [
+                -0.24496270716190338,
+                2.3908603191375732,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 2.403376781291592,
+              "moving_mass_first_moment_world_kg_m": [
+                0.24371662735939026,
+                0.024970708414912224,
+                0.15090398490428925
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 2.8120636058715682,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.8652503402681748,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7356493289654071,
+              "motor_gravity_to_comparison_ratio": 0.8971333280065941,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.1034739934481106,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J3": {
+              "motor": "XM430-W350-T",
+              "ratio": 4.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                14.261825561523438,
+                -12.499993324279785,
+                276.63079833984375
+              ],
+              "axis_unit_world": [
+                1.368486692854276e-07,
+                1.0,
+                -1.393114814618457e-07
+              ],
+              "descendant_mass_g_before_allowance": 910.3025475763063,
+              "descendant_mass_g_with_10percent_allowance": 1001.332802333937,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6554598252382497,
+              "payload_axis_torque_nm": 0.1005223375484503,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 1.9215289916964764,
+              "total_gravity_bending_vector_nm": [
+                -0.4599624276161194,
+                1.9215290546417236,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 1.9758135767683294,
+              "moving_mass_first_moment_world_kg_m": [
+                0.19587451219558716,
+                0.04688709229230881,
+                0.043997831642627716
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 1.9694081189298658,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.7574646611268714,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7390496121909524,
+              "motor_gravity_to_comparison_ratio": 0.9012800148670153,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.1085744182864286,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J4": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                136.13180541992188,
+                40.99999237060547,
+                298.1197814941406
+              ],
+              "axis_unit_world": [
+                0.9848077893257141,
+                -3.508055357315243e-08,
+                0.17364823818206787
+              ],
+              "descendant_mass_g_before_allowance": 658.4343937658049,
+              "descendant_mass_g_with_10percent_allowance": 724.2778331423855,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 0.04599508650290929,
+              "payload_axis_torque_nm": -6.163235699574443e-09,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 0.05059460422372908,
+              "total_gravity_bending_vector_nm": [
+                0.0513751357793808,
+                0.8860766887664795,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.8875648011262769,
+              "moving_mass_first_moment_world_kg_m": [
+                0.09032382816076279,
+                -0.005237015429884195,
+                0.023732690140604973
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.09125143336647154,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.10735462748996652,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.05952306379262245,
+              "motor_gravity_to_comparison_ratio": 0.19841021264207484,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.08928459568893367,
+              "one_point_five_case_exceeds_comparison": false
+            },
+            "J5": {
+              "motor": "AX-12A",
+              "ratio": 3.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                212.94680786132812,
+                40.9999885559082,
+                311.6643371582031
+              ],
+              "axis_unit_world": [
+                1.1853174441966985e-08,
+                -1.0,
+                1.655316452797706e-07
+              ],
+              "descendant_mass_g_before_allowance": 444.61251106121114,
+              "descendant_mass_g_with_10percent_allowance": 489.0737621673323,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -0.30890810467101293,
+              "payload_axis_torque_nm": -0.051794845610857065,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -0.3915937242411264,
+              "total_gravity_bending_vector_nm": [
+                0.020929893478751183,
+                0.39159372448921204,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.39215265511136477,
+              "moving_mass_first_moment_world_kg_m": [
+                0.03991781547665596,
+                -0.0021335259079933167,
+                0.004146901424974203
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.3937012025861444,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.20189805260827914,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.2008172944826289,
+              "motor_gravity_to_comparison_ratio": 0.669390981608763,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.30122594172394335,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J6": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                252.339111328125,
+                40.9999885559082,
+                318.6102600097656
+              ],
+              "axis_unit_world": [
+                0.9848076701164246,
+                1.1591524895493421e-07,
+                0.17364831268787384
+              ],
+              "descendant_mass_g_before_allowance": 267.0924727915762,
+              "descendant_mass_g_with_10percent_allowance": 293.80172007073384,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6615185714385916e-05,
+              "payload_axis_torque_nm": 2.772528873151714e-10,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 1.8277212486594863e-05,
+              "total_gravity_bending_vector_nm": [
+                1.8530441593611613e-05,
+                0.24407698214054108,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.2440769806278102,
+              "moving_mass_first_moment_world_kg_m": [
+                0.024880426004529,
+                -1.8888912336478825e-06,
+                0.003061555093154311
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.012805998191965715,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.015065880225842017,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 2.1502602925405723e-05,
+              "motor_gravity_to_comparison_ratio": 7.167534308468575e-05,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 3.225390438810858e-05,
+              "one_point_five_case_exceeds_comparison": false
+            }
+          }
+        },
+        {
+          "payload_g": 50,
+          "payload_point_world_mm": [
+            424.1388244628906,
+            41.00000762939453,
+            348.9032287597656
+          ],
+          "joints": {
+            "J2": {
+              "motor": "XM430-W350-T",
+              "ratio": 5.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                -28.0,
+                0.0,
+                186.0
+              ],
+              "axis_unit_world": [
+                0.0,
+                -1.0,
+                7.549790126404332e-08
+              ],
+              "descendant_mass_g_before_allowance": 1314.1847335442858,
+              "descendant_mass_g_with_10percent_allowance": 1445.6032068987145,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -2.0727033615112305,
+              "payload_axis_torque_nm": -0.22177410125732422,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -2.5017473697662354,
+              "total_gravity_bending_vector_nm": [
+                -0.2550179660320282,
+                2.5017473697662354,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 2.5147115369861286,
+              "moving_mass_first_moment_world_kg_m": [
+                0.2550201117992401,
+                0.025995709002017975,
+                0.15497657656669617
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 2.927475502381187,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.9007616930403652,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7697684214665339,
+              "motor_gravity_to_comparison_ratio": 0.9387419773982121,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.154652632199801,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J3": {
+              "motor": "XM430-W350-T",
+              "ratio": 4.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.82,
+              "axis_origin_world_mm": [
+                14.261825561523438,
+                -12.499993324279785,
+                276.63079833984375
+              ],
+              "axis_unit_world": [
+                1.368486692854276e-07,
+                1.0,
+                -1.393114814618457e-07
+              ],
+              "descendant_mass_g_before_allowance": 910.3025475763063,
+              "descendant_mass_g_with_10percent_allowance": 1001.332802333937,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6554598252382497,
+              "payload_axis_torque_nm": 0.2010446750969006,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 2.0220512696402864,
+              "total_gravity_bending_vector_nm": [
+                -0.4730832874774933,
+                2.0220513343811035,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 2.0766558473328414,
+              "moving_mass_first_moment_world_kg_m": [
+                0.20612142980098724,
+                0.048224594444036484,
+                0.045804642140865326
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 2.071376599486256,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.7966833074947138,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.7777120267847255,
+              "motor_gravity_to_comparison_ratio": 0.9484293009569824,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 1.1665680401770882,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J4": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                136.13180541992188,
+                40.99999237060547,
+                298.1197814941406
+              ],
+              "axis_unit_world": [
+                0.9848077893257141,
+                -3.508055357315243e-08,
+                0.17364823818206787
+              ],
+              "descendant_mass_g_before_allowance": 658.4343937658049,
+              "descendant_mass_g_with_10percent_allowance": 724.2778331423855,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 0.04599508650290929,
+              "payload_axis_torque_nm": -1.2326471399148886e-08,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 0.05059459802056665,
+              "total_gravity_bending_vector_nm": [
+                0.0513751320540905,
+                0.9567104578018188,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.9580888736962694,
+              "moving_mass_first_moment_world_kg_m": [
+                0.0975240021944046,
+                -0.005237014964222908,
+                0.02500227652490139
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.09125143039901945,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.10735462399884642,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.059523056494784295,
+              "motor_gravity_to_comparison_ratio": 0.19841018831594764,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.08928458474217645,
+              "one_point_five_case_exceeds_comparison": false
+            },
+            "J5": {
+              "motor": "AX-12A",
+              "ratio": 3.0,
+              "efficiency": 0.65,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                212.94680786132812,
+                40.9999885559082,
+                311.6643371582031
+              ],
+              "axis_unit_world": [
+                1.1853174441966985e-08,
+                -1.0,
+                1.655316452797706e-07
+              ],
+              "descendant_mass_g_before_allowance": 444.61251106121114,
+              "descendant_mass_g_with_10percent_allowance": 489.0737621673323,
+              "gravity_axis_torque_without_allowance_or_payload_nm": -0.30890810467101293,
+              "payload_axis_torque_nm": -0.10358969122171413,
+              "gravity_axis_torque_with_allowance_and_payload_nm": -0.4433885512255319,
+              "total_gravity_bending_vector_nm": [
+                0.020929889753460884,
+                0.44338855147361755,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.4438822637902617,
+              "moving_mass_first_moment_world_kg_m": [
+                0.045197613537311554,
+                -0.0021335254423320293,
+                0.005077873822301626
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.4461780581080381,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.22880926056822465,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 0.22737874421822146,
+              "motor_gravity_to_comparison_ratio": 0.7579291473940716,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 0.3410681163273322,
+              "one_point_five_case_exceeds_comparison": true
+            },
+            "J6": {
+              "motor": "AX-12A",
+              "ratio": 1,
+              "efficiency": 0.85,
+              "comparison_nm": 0.3,
+              "axis_origin_world_mm": [
+                252.339111328125,
+                40.9999885559082,
+                318.6102600097656
+              ],
+              "axis_unit_world": [
+                0.9848076701164246,
+                1.1591524895493421e-07,
+                0.17364831268787384
+              ],
+              "descendant_mass_g_before_allowance": 267.0924727915762,
+              "descendant_mass_g_with_10percent_allowance": 293.80172007073384,
+              "gravity_axis_torque_without_allowance_or_payload_nm": 1.6615185714385916e-05,
+              "payload_axis_torque_nm": 5.545057746303428e-10,
+              "gravity_axis_torque_with_allowance_and_payload_nm": 1.8277490763551896e-05,
+              "total_gravity_bending_vector_nm": [
+                1.8525764971855097e-05,
+                0.2862108647823334,
+                0.0
+              ],
+              "total_gravity_bending_vector_magnitude_nm": 0.2862108670432052,
+              "moving_mass_first_moment_world_kg_m": [
+                0.029175419360399246,
+                -1.8884143173636403e-06,
+                0.003818879369646311
+              ],
+              "gravity_axis_torque_bound_over_all_base_orientations_nm": 0.01280599605650155,
+              "motor_gravity_torque_bound_over_all_base_orientations_nm": 0.015065877713531236,
+              "orientation_bound_note": "Worst gravity direction for this relative pose; may not be reachable in the declared full-arm limits. An upper bound, not the actual world-pose torque.",
+              "estimated_motor_gravity_torque_nm": 2.1502930310061055e-05,
+              "motor_gravity_to_comparison_ratio": 7.167643436687019e-05,
+              "gravity_exceeds_estimated_motor_comparison": false,
+              "motor_torque_with_arbitrary_1p5_allowance_nm": 3.225439546509158e-05,
+              "one_point_five_case_exceeds_comparison": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,143 @@
+{
+  "scope": "Supplementary H06 J5-to-GRIP routing tests; source mechanical native unchanged. Final delivery-wide wiring reports remain authoritative.",
+  "created_utc": "2026-09-23T17:22:22.863044+00:00",
+  "status": "PASS",
+  "harness": "H06_J5_GRIP",
+  "helper_sha256": "16084b46e3b616f9c4391d46d767f9bf1140e53746ba47360692812f75cc9cb7",
+  "test_native_sha256": "cb0810b4efa900b18369650bc3a995baac10e14de664c00894b514594f94f52a",
+  "animation": {
+    "frames": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109,
+      121,
+      133,
+      145,
+      157,
+      169,
+      180,
+      192,
+      204,
+      216,
+      228,
+      240,
+      252,
+      264,
+      276,
+      288,
+      300,
+      312,
+      324,
+      336,
+      348,
+      360
+    ],
+    "checks": {
+      "endpoints_attached": true,
+      "gear_route_clear": true,
+      "structure_route_clear": true,
+      "all_bends_at_least_12mm": true,
+      "strands_separated": true
+    }
+  },
+  "operating": {
+    "pose_count": 19,
+    "poses": [
+      "home",
+      "J1_min",
+      "J1_max",
+      "J2_min",
+      "J2_max",
+      "J3_min",
+      "J3_max",
+      "J4_min",
+      "J4_max",
+      "J5_min",
+      "J5_max",
+      "GRIP_min",
+      "GRIP_max",
+      "combined_low",
+      "combined_high",
+      "palm_corner_pitch_-25_roll_-30",
+      "palm_corner_pitch_-25_roll_30",
+      "palm_corner_pitch_25_roll_-30",
+      "palm_corner_pitch_25_roll_30"
+    ],
+    "checks": {
+      "endpoints_attached": true,
+      "gear_route_clear": true,
+      "structure_route_clear": true,
+      "all_bends_at_least_12mm": true,
+      "strands_separated": true
+    }
+  },
+  "dense_wrist": {
+    "pose_count": 275,
+    "curve_samples": 401,
+    "passed": true,
+    "curves": {
+      "H06_J5_GRIP / route centre": {
+        "radius_mm": 13.747850738210042,
+        "pitch_deg": 0,
+        "roll_deg": -60,
+        "sample": 256
+      },
+      "H06_J5_GRIP / GND": {
+        "radius_mm": 14.897915398522834,
+        "pitch_deg": 25,
+        "roll_deg": -40,
+        "sample": 4
+      },
+      "H06_J5_GRIP / VDD": {
+        "radius_mm": 13.747850738210042,
+        "pitch_deg": 0,
+        "roll_deg": -60,
+        "sample": 256
+      },
+      "H06_J5_GRIP / DATA": {
+        "radius_mm": 12.262552861987086,
+        "pitch_deg": -10,
+        "roll_deg": -60,
+        "sample": 257
+      }
+    },
+    "minimum_strand_distance": {
+      "distance_mm": 1.5734816498609177,
+      "pitch_deg": -15,
+      "roll_deg": -60,
+      "pair": [
+        "VDD",
+        "DATA"
+      ],
+      "sample": 263,
+      "segment": 262
+    },
+    "insulation_diameter_mm": 1.44,
+    "strand_clearance_passed": true
+  },
+  "sources": [
+    "gripper-wire-test/test_h06.py",
+    "gripper-wire-test/test_dense_bends.py",
+    "audit_wiring.py",
+    "gripper_wiring_guides.py",
+    "wiring_module.py"
+  ],
+  "reports": [
+    "gripper-wire-test/audit.json",
+    "gripper-wire-test/operating-audit.json",
+    "gripper-wire-test/dense-bend-audit.json"
+  ],
+  "limitations": [
+    "Discrete structural sampling and polygonal strand-distance approximation; not continuous collision certification.",
+    "Individual H06 test excludes inter-harness cable contact.",
+    "Curve length varies with motion; no constant-length cable, strain, torsion, fatigue or connector-engagement proof.",
+    "Guide empties specify routing, not installed clips. Physical cable retention remains to be established."
+  ]
+}

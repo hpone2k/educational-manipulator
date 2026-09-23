@@ -1,0 +1,20 @@
+[
+  {
+    "method": "dissolve_limit",
+    "result": "W03_moving_pitch_cradle: both triangulators produced degenerate or nonmanifold STL triangles",
+    "vertices": 2182,
+    "faces": 1230
+  },
+  {
+    "method": "post_tri_degenerate",
+    "result": "W03_moving_pitch_cradle: both triangulators produced degenerate or nonmanifold STL triangles",
+    "vertices": 2236,
+    "faces": 4518
+  },
+  {
+    "method": "dissolve_verts",
+    "result": "W03_moving_pitch_cradle: both triangulators produced degenerate or nonmanifold STL triangles",
+    "vertices": 2236,
+    "faces": 1237
+  }
+]

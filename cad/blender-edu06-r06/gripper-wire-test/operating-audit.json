@@ -1,0 +1,2868 @@
+{
+  "revision": "R06",
+  "limits": {
+    "J1": [
+      -40.0,
+      40.0
+    ],
+    "J2": [
+      45.0,
+      90.0
+    ],
+    "J3": [
+      30.0,
+      75.0
+    ],
+    "J4": [
+      -25.0,
+      25.0
+    ],
+    "J5": [
+      -60.0,
+      60.0
+    ],
+    "GRIP": [
+      20.0,
+      70.0
+    ]
+  },
+  "poses": [
+    {
+      "name": "home",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.644243613297743,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475043500144439,
+            "minimum_strand_center_spacing_mm": 1.7065263986587524,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21359252929688,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                47.04753112792969,
+                7.216477870941162,
+                249.5628662109375
+              ],
+              "closest": [
+                46.623958587646484,
+                5.567802906036377,
+                249.44166564941406
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2777306267744,
+            "length_max_mm": 488.2777306267744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.36568897703089,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                209.51025390625,
+                -7.293940544128418,
+                294.6000671386719
+              ]
+            },
+            "length_min_mm": 491.45469315283714,
+            "length_max_mm": 491.45469315283714,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.64296327134083,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21360778808594,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "length_min_mm": 488.2777085933744,
+            "length_max_mm": 488.2777085933744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.803342137931118,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.09866333007812,
+                -3.951047420501709,
+                293.3962707519531
+              ]
+            },
+            "length_min_mm": 485.1922878342117,
+            "length_max_mm": 485.1922878342117,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J1_min",
+      "control_values": {
+        "J1": -40.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.64327001217967,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 44.42999475479141,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475255586816388,
+            "minimum_strand_center_spacing_mm": 1.7065266370773315,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                149.27235412597656,
+                -156.21817016601562,
+                293.66278076171875
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                34.12839889526367,
+                -42.71147155761719,
+                249.5628662109375
+              ],
+              "closest": [
+                32.74417495727539,
+                -43.70216369628906,
+                249.44166564941406
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.27774364120694,
+            "length_max_mm": 488.27774364120694,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.363557193791184,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                149.2549591064453,
+                -158.256103515625,
+                294.6000671386719
+              ]
+            },
+            "length_min_mm": 491.454723712438,
+            "length_max_mm": 491.454723712438,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.64327001217967,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                149.27235412597656,
+                -156.21817016601562,
+                293.66278076171875
+              ]
+            },
+            "length_min_mm": 488.27772773086167,
+            "length_max_mm": 488.27772773086167,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.809934020578183,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                150.32240295410156,
+                -154.78797912597656,
+                293.3962707519531
+              ]
+            },
+            "length_min_mm": 485.19230515541744,
+            "length_max_mm": 485.19230515541744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J1_max",
+      "control_values": {
+        "J1": 40.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.646666371204272,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 44.59175046685996,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475150959352131,
+            "minimum_strand_center_spacing_mm": 1.706526517868042,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                156.62789916992188,
+                147.45216369628906,
+                293.66278076171875
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                24.85107421875,
+                53.76776123046875,
+                249.5628662109375
+              ],
+              "closest": [
+                25.586345672607422,
+                52.23253631591797,
+                249.44166564941406
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2777600518952,
+            "length_max_mm": 488.2777600518952,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.361463846224,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                158.6318359375,
+                147.08116149902344,
+                294.6000671386719
+              ]
+            },
+            "length_min_mm": 491.45473321799045,
+            "length_max_mm": 491.45473321799045,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.646666371204272,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                156.62789916992188,
+                147.45216369628906,
+                293.66278076171875
+              ]
+            },
+            "length_min_mm": 488.277742723675,
+            "length_max_mm": 488.277742723675,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.808775479723128,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                155.40176391601562,
+                148.734619140625,
+                293.3962707519531
+              ]
+            },
+            "length_min_mm": 485.19232339862725,
+            "length_max_mm": 485.19232339862725,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J2_min",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 45.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.637261790473215,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8474857862726739,
+            "minimum_strand_center_spacing_mm": 1.7065249681472778,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                230.79103088378906,
+                -5.721611022949219,
+                206.38014221191406
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                64.26138305664062,
+                7.216474533081055,
+                220.0618133544922
+              ],
+              "closest": [
+                63.82190704345703,
+                5.567799091339111,
+                220.09278869628906
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.277740386934,
+            "length_max_mm": 488.277740386934,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.372612881305706,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                232.33001708984375,
+                -7.293947219848633,
+                206.81739807128906
+              ]
+            },
+            "length_min_mm": 491.4547116801476,
+            "length_max_mm": 491.4547116801476,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.637261790473215,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                230.79103088378906,
+                -5.721611022949219,
+                206.38014221191406
+              ]
+            },
+            "length_min_mm": 488.2777330697896,
+            "length_max_mm": 488.2777330697896,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.809835168894846,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                230.59188842773438,
+                -3.951054334640503,
+                206.16900634765625
+              ]
+            },
+            "length_min_mm": 485.1923036668358,
+            "length_max_mm": 485.1923036668358,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J2_max",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 90.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.63756532005543,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475332030965985,
+            "minimum_strand_center_spacing_mm": 1.706519603729248,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                140.58197021484375,
+                -5.721596717834473,
+                383.4037780761719
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                13.153335571289062,
+                7.216479301452637,
+                275.32391357421875
+              ],
+              "closest": [
+                12.820685386657715,
+                5.567806243896484,
+                275.0350646972656
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.27771755461004,
+            "length_max_mm": 488.27771755461004,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.367319939228544,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                141.36102294921875,
+                -7.293933391571045,
+                384.8012390136719
+              ]
+            },
+            "length_min_mm": 491.45472552167865,
+            "length_max_mm": 491.45472552167865,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.63756532005543,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                140.58197021484375,
+                -5.721596717834473,
+                383.4037780761719
+              ]
+            },
+            "length_min_mm": 488.27771380559506,
+            "length_max_mm": 488.27771380559506,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.81370008621123,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                140.5904541015625,
+                -3.9510414600372314,
+                383.1136474609375
+              ]
+            },
+            "length_min_mm": 485.19226922907217,
+            "length_max_mm": 485.19226922907217,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J3_min",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 30.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.63826631372733,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475222598626617,
+            "minimum_strand_center_spacing_mm": 1.7065249681472778,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                182.84378051757812,
+                -5.721589088439941,
+                374.0345764160156
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                55.41515350341797,
+                7.21647834777832,
+                265.9547424316406
+              ],
+              "closest": [
+                55.082489013671875,
+                5.567803859710693,
+                265.6658935546875
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2777080283356,
+            "length_max_mm": 488.2777080283356,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.36903490922425,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                183.62283325195312,
+                -7.293925762176514,
+                375.4320068359375
+              ]
+            },
+            "length_min_mm": 491.45468995272324,
+            "length_max_mm": 491.45468995272324,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.63826631372733,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                182.84378051757812,
+                -5.721589088439941,
+                374.0345764160156
+              ]
+            },
+            "length_min_mm": 488.27769989865027,
+            "length_max_mm": 488.27769989865027,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.805329650985076,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                182.85226440429688,
+                -3.951033592224121,
+                373.7444763183594
+              ]
+            },
+            "length_min_mm": 485.1922523780569,
+            "length_max_mm": 485.1922523780569,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J3_max",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 75.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.64597525240864,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8474902252731429,
+            "minimum_strand_center_spacing_mm": 1.7065259218215942,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                202.3421630859375,
+                -5.721612453460693,
+                226.30023193359375
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                35.812530517578125,
+                7.216477394104004,
+                239.98187255859375
+              ],
+              "closest": [
+                35.373043060302734,
+                5.56780481338501,
+                240.01284790039062
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2776969008927,
+            "length_max_mm": 488.2776969008927,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.367420879186543,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                203.88116455078125,
+                -7.293950080871582,
+                226.7375030517578
+              ]
+            },
+            "length_min_mm": 491.4546884896083,
+            "length_max_mm": 491.4546884896083,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.646824715491373,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                202.34217834472656,
+                -5.721612453460693,
+                226.30023193359375
+              ]
+            },
+            "length_min_mm": 488.27768416610536,
+            "length_max_mm": 488.27768416610536,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.81414124263307,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                202.1430206298828,
+                -3.9510562419891357,
+                226.08908081054688
+              ]
+            },
+            "length_min_mm": 485.19224380332946,
+            "length_max_mm": 485.19224380332946,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J4_min",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -25.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.64328400350234,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.847255839338418,
+            "minimum_strand_center_spacing_mm": 1.7272945642471313,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.388671875,
+                -5.721609592437744,
+                259.31427001953125
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                46.51951217651367,
+                7.072875499725342,
+                252.07955932617188
+              ],
+              "closest": [
+                46.04249954223633,
+                5.413702487945557,
+                252.02342224121094
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 442.5775889593589,
+            "length_max_mm": 442.5775889593589,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 520,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.371548151756276,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                200.9609375,
+                -7.29416036605835,
+                259.612060546875
+              ]
+            },
+            "length_min_mm": 445.4633718569405,
+            "length_max_mm": 445.4633718569405,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 520,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.64328400350234,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.388671875,
+                -5.721609592437744,
+                259.31427001953125
+              ]
+            },
+            "length_min_mm": 442.5775693416331,
+            "length_max_mm": 442.5775693416331,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 520,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.823933416157193,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.1705322265625,
+                -3.9508378505706787,
+                259.1250915527344
+              ]
+            },
+            "length_min_mm": 439.7859991685331,
+            "length_max_mm": 439.7859991685331,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 520,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J4_max",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 25.0,
+        "J5": 0.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8484285008672456,
+            "minimum_strand_center_spacing_mm": 1.672290325164795,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                48.024009704589844,
+                7.378652572631836,
+                247.3677978515625
+              ],
+              "closest": [
+                47.6498908996582,
+                5.760013103485107,
+                247.17649841308594
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 527.6654740406426,
+            "length_max_mm": 527.6654740406426,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.189503140168783,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.78952026367188,
+                2.712120294570923,
+                282.7348327636719
+              ]
+            },
+            "length_min_mm": 531.176398521064,
+            "length_max_mm": 531.176398521064,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "length_min_mm": 527.6654510154442,
+            "length_max_mm": 527.6654510154442,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 15.563856339740306,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7748565673828,
+                7.387863636016846,
+                282.67205810546875
+              ]
+            },
+            "length_min_mm": 524.2468511094697,
+            "length_max_mm": 524.2468511094697,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 610,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J5_min",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": -60.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 13.990545787430412,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8513361571171858,
+            "minimum_strand_center_spacing_mm": 1.559604287147522,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                194.1719512939453,
+                -98.11079406738281,
+                258.54595947265625
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                194.74183654785156,
+                -93.45297241210938,
+                264.72467041015625
+              ],
+              "closest": [
+                193.95001220703125,
+                -94.4944839477539,
+                265.5735778808594
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 549.5546151698204,
+            "length_max_mm": 549.5546151698204,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 640,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.571668060006111,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                193.36822509765625,
+                -99.56301879882812,
+                258.58441162109375
+              ]
+            },
+            "length_min_mm": 553.7944623297099,
+            "length_max_mm": 553.7944623297099,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 650,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 13.990545787430412,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                194.1719512939453,
+                -98.11079406738281,
+                258.54595947265625
+              ]
+            },
+            "length_min_mm": 549.5545992983759,
+            "length_max_mm": 549.5545992983759,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 640,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 12.49451947698628,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                194.9757080078125,
+                -96.6585693359375,
+                258.50750732421875
+              ]
+            },
+            "length_min_mm": 545.4432899725817,
+            "length_max_mm": 545.4432899725817,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 640,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "J5_max",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 60.0,
+        "GRIP": 45.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.634109111989005,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8437060835367896,
+            "minimum_strand_center_spacing_mm": 1.778835654258728,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                207.60618591308594,
+                11.780320167541504,
+                297.107666015625
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                207.07203674316406,
+                11.315673828125,
+                294.9516906738281
+              ],
+              "closest": [
+                206.4071044921875,
+                12.156448364257812,
+                296.37127685546875
+              ],
+              "conductor_pair": [
+                "GND",
+                "VDD"
+              ]
+            },
+            "length_min_mm": 499.2302128369746,
+            "length_max_mm": 499.2302128369746,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.245781100662185,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                209.37399291992188,
+                10.641077995300293,
+                296.266845703125
+              ]
+            },
+            "length_min_mm": 497.99179267881294,
+            "length_max_mm": 497.99179267881294,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.634109111989005,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                207.60618591308594,
+                11.780320167541504,
+                297.107666015625
+              ]
+            },
+            "length_min_mm": 499.23019838657217,
+            "length_max_mm": 499.23019838657217,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.93145287012539,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                207.00071716308594,
+                12.614275932312012,
+                298.5592346191406
+              ]
+            },
+            "length_min_mm": 500.5582024971262,
+            "length_max_mm": 500.5582024971262,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 590,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "GRIP_min",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 20.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.644243613297743,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475043500144439,
+            "minimum_strand_center_spacing_mm": 1.7065263986587524,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21359252929688,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                47.04753112792969,
+                7.216477870941162,
+                249.5628662109375
+              ],
+              "closest": [
+                46.623958587646484,
+                5.567802906036377,
+                249.44166564941406
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2777306267744,
+            "length_max_mm": 488.2777306267744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.36568897703089,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                209.51025390625,
+                -7.293940544128418,
+                294.6000671386719
+              ]
+            },
+            "length_min_mm": 491.45469315283714,
+            "length_max_mm": 491.45469315283714,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.64296327134083,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21360778808594,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "length_min_mm": 488.2777085933744,
+            "length_max_mm": 488.2777085933744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.803342137931118,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.09866333007812,
+                -3.951047420501709,
+                293.3962707519531
+              ]
+            },
+            "length_min_mm": 485.1922878342117,
+            "length_max_mm": 485.1922878342117,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "GRIP_max",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.644243613297743,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8475043500144439,
+            "minimum_strand_center_spacing_mm": 1.7065263986587524,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21359252929688,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                47.04753112792969,
+                7.216477870941162,
+                249.5628662109375
+              ],
+              "closest": [
+                46.623958587646484,
+                5.567802906036377,
+                249.44166564941406
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 488.2777306267744,
+            "length_max_mm": 488.2777306267744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.36568897703089,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                209.51025390625,
+                -7.293940544128418,
+                294.6000671386719
+              ]
+            },
+            "length_min_mm": 491.45469315283714,
+            "length_max_mm": 491.45469315283714,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 580,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.64296327134083,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.21360778808594,
+                -5.721603870391846,
+                293.66278076171875
+              ]
+            },
+            "length_min_mm": 488.2777085933744,
+            "length_max_mm": 488.2777085933744,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.803342137931118,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                208.09866333007812,
+                -3.951047420501709,
+                293.3962707519531
+              ]
+            },
+            "length_min_mm": 485.1922878342117,
+            "length_max_mm": 485.1922878342117,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 570,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "combined_low",
+      "control_values": {
+        "J1": -40.0,
+        "J2": 45.0,
+        "J3": 30.0,
+        "J4": -25.0,
+        "J5": -60.0,
+        "GRIP": 20.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 13.990461378640205,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8512911558733873,
+            "minimum_strand_center_spacing_mm": 1.557797908782959,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                86.2264404296875,
+                -223.92190551757812,
+                227.39840698242188
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                91.24773406982422,
+                -222.05538940429688,
+                233.0110321044922
+              ],
+              "closest": [
+                90.2326889038086,
+                -222.56243896484375,
+                234.0784149169922
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 510.24529665906044,
+            "length_max_mm": 510.24529665906044,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.572036676447219,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                84.72622680664062,
+                -224.55661010742188,
+                227.70706176757812
+              ]
+            },
+            "length_min_mm": 514.2915031028101,
+            "length_max_mm": 514.2915031028101,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 13.99062704521722,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                86.2264404296875,
+                -223.92190551757812,
+                227.39840698242188
+              ]
+            },
+            "length_min_mm": 510.2453030196013,
+            "length_max_mm": 510.2453030196013,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 12.49365149042123,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 77,
+              "xyz": [
+                87.72665405273438,
+                -223.28721618652344,
+                227.08970642089844
+              ]
+            },
+            "length_min_mm": 506.33150998519375,
+            "length_max_mm": 506.33150998519375,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 590,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "combined_high",
+      "control_values": {
+        "J1": 40.0,
+        "J2": 90.0,
+        "J3": 75.0,
+        "J4": 25.0,
+        "J5": 60.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 15.343083501347076,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 44.92403210119736,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.843354062381632,
+            "minimum_strand_center_spacing_mm": 1.7794889211654663,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                58.79484558105469,
+                79.42182922363281,
+                302.37933349609375
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                103.04769897460938,
+                124.72368621826172,
+                354.5740661621094
+              ],
+              "closest": [
+                101.52082061767578,
+                124.55061340332031,
+                355.471435546875
+              ],
+              "conductor_pair": [
+                "GND",
+                "VDD"
+              ]
+            },
+            "length_min_mm": 532.1407141662537,
+            "length_max_mm": 532.1407141662537,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.501562729390427,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                60.295745849609375,
+                77.62841033935547,
+                302.3581237792969
+              ]
+            },
+            "length_min_mm": 531.0368099697392,
+            "length_max_mm": 531.0368099697392,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 15.344556276697844,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                58.79484558105469,
+                79.42183685302734,
+                302.3793640136719
+              ]
+            },
+            "length_min_mm": 532.1407025687088,
+            "length_max_mm": 532.1407025687088,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 15.251863940086317,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                57.2939453125,
+                81.21524810791016,
+                302.4005432128906
+              ]
+            },
+            "length_min_mm": 533.3327205824661,
+            "length_max_mm": 533.3327205824661,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 620,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "palm_corner_pitch_-25_roll_-30",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -25.0,
+        "J5": -30.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.641352612554662,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8530055520893609,
+            "minimum_strand_center_spacing_mm": 1.7069120407104492,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                200.71531677246094,
+                -13.408112525939941,
+                264.2654113769531
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                46.723506927490234,
+                6.978931903839111,
+                252.04226684570312
+              ],
+              "closest": [
+                46.04138946533203,
+                5.414790153503418,
+                252.0006866455078
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 475.4951793165368,
+            "length_max_mm": 475.4951793165368,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 560,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.40263483587567,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                202.4423370361328,
+                -14.382913589477539,
+                265.29681396484375
+              ]
+            },
+            "length_min_mm": 479.4569554961265,
+            "length_max_mm": 479.4569554961265,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 560,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.641352612554662,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                200.71531677246094,
+                -13.408112525939941,
+                264.2654113769531
+              ]
+            },
+            "length_min_mm": 475.4951566166203,
+            "length_max_mm": 475.4951566166203,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 560,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.774716797155396,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                200.3079376220703,
+                -12.035236358642578,
+                263.1845397949219
+              ]
+            },
+            "length_min_mm": 471.64680119320263,
+            "length_max_mm": 471.64680119320263,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 550,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "palm_corner_pitch_-25_roll_30",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -25.0,
+        "J5": 30.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 18.648883691609,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8413199237410671,
+            "minimum_strand_center_spacing_mm": 1.7695046663284302,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.23446655273438,
+                3.4979939460754395,
+                258.7387390136719
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                45.968170166015625,
+                7.177618026733398,
+                252.14817810058594
+              ],
+              "closest": [
+                46.04428482055664,
+                5.411953926086426,
+                252.05995178222656
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 433.09281799691223,
+            "length_max_mm": 433.09281799691223,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 510,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 17.291128731812748,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 111,
+              "xyz": [
+                200.6370086669922,
+                1.880712866783142,
+                258.01580810546875
+              ]
+            },
+            "length_min_mm": 433.56647766323795,
+            "length_max_mm": 433.56647766323795,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 510,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 18.648883691609,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.23446655273438,
+                3.4979939460754395,
+                258.7387390136719
+              ]
+            },
+            "length_min_mm": 433.0927986132045,
+            "length_max_mm": 433.0927986132045,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 510,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 19.90087541408739,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 110,
+              "xyz": [
+                199.1785430908203,
+                5.054765701293945,
+                259.6158142089844
+              ]
+            },
+            "length_min_mm": 432.7043790816082,
+            "length_max_mm": 432.7043790816082,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 510,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "palm_corner_pitch_25_roll_-30",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 25.0,
+        "J5": -30.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.853581053830438,
+            "minimum_strand_center_spacing_mm": 1.6236591339111328,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                48.16917037963867,
+                7.283032417297363,
+                247.39344787597656
+              ],
+              "closest": [
+                47.64878845214844,
+                5.759557247161865,
+                247.18251037597656
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 555.5647728355749,
+            "length_max_mm": 555.5647728355749,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 650,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.129502009954168,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7920379638672,
+                2.713179588317871,
+                282.74566650390625
+              ]
+            },
+            "length_min_mm": 560.1017265596191,
+            "length_max_mm": 560.1017265596191,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 650,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "length_min_mm": 555.5647562462489,
+            "length_max_mm": 555.5647562462489,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 650,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 15.63455322829111,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.77232360839844,
+                7.386804580688477,
+                282.6612854003906
+              ]
+            },
+            "length_min_mm": 551.1371754760467,
+            "length_max_mm": 551.1371754760467,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 640,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    },
+    {
+      "name": "palm_corner_pitch_25_roll_30",
+      "control_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 25.0,
+        "J5": 30.0,
+        "GRIP": 70.0
+      },
+      "report": {
+        "revision": "R06",
+        "frames": [
+          1
+        ],
+        "curves": {
+          "H06_J5_GRIP / route centre": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "CENTRE",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 0.8416006782523473,
+            "minimum_strand_center_spacing_mm": 1.76522958278656,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "minimum_strand_spacing_location": {
+              "frame": 1,
+              "point": [
+                46.87641525268555,
+                7.176366806030273,
+                252.35055541992188
+              ],
+              "closest": [
+                46.88622283935547,
+                5.413281440734863,
+                252.26412963867188
+              ],
+              "conductor_pair": [
+                "VDD",
+                "DATA"
+              ]
+            },
+            "length_min_mm": 515.200635944389,
+            "length_max_mm": 515.200635944389,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / GND": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "GND",
+            "minimum_bend_radius_mm": 15.349772464581978,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.78314208984375,
+                2.7108359336853027,
+                282.70758056640625
+              ]
+            },
+            "length_min_mm": 516.2457457267893,
+            "length_max_mm": 516.2457457267893,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / VDD": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "VDD",
+            "minimum_bend_radius_mm": 15.341667306637943,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.7821807861328,
+                5.049992084503174,
+                282.7034606933594
+              ]
+            },
+            "length_min_mm": 515.2006084126854,
+            "length_max_mm": 515.2006084126854,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          },
+          "H06_J5_GRIP / DATA": {
+            "harness": "H06_J5_GRIP",
+            "conductor": "DATA",
+            "minimum_bend_radius_mm": 15.399930391973566,
+            "endpoint_max_error_mm": 0.0,
+            "gear_surface_clearance_mm": 1000000000.0,
+            "gear_intrusions": [],
+            "structural_contacts": [],
+            "minimum_structural_surface_clearance_mm": 1000000000.0,
+            "minimum_strand_center_spacing_mm": null,
+            "minimum_bend_location": {
+              "frame": 1,
+              "sample": 1,
+              "xyz": [
+                132.78121948242188,
+                7.389148235321045,
+                282.6993408203125
+              ]
+            },
+            "length_min_mm": 514.2373993981103,
+            "length_max_mm": 514.2373993981103,
+            "variation_mm": 0.0,
+            "provisional_cut_length_mm": 600,
+            "bend_radius_target_mm": 12.0,
+            "bend_target_met": true
+          }
+        },
+        "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+        "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. This includes2.5mm terminal pitch (3.22mm endpoint radius) and1.8mm intermediate guide pitch.",
+        "endpoints_attached": true,
+        "gear_route_clear": true,
+        "structure_route_clear": true,
+        "all_bends_at_least_12mm": true,
+        "strands_separated": true,
+        "strand_spacing_scope": "Minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Does not prove an exhaustive continuous swept cable contact solution.",
+        "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+      }
+    }
+  ],
+  "endpoints_attached": true,
+  "gear_route_clear": true,
+  "structure_route_clear": true,
+  "all_bends_at_least_12mm": true,
+  "strands_separated": true,
+  "limitation": "Discrete named operating poses, not continuous or exhaustive cable flex/clearance validation. Source native file was not saved."
+}

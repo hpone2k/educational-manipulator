@@ -1,0 +1,3659 @@
+{
+  "audit": "fresh_load_delivered_animation_collision_sampling_v1",
+  "created_utc": "2026-09-23T07:23:23.872010+00:00",
+  "blend": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r04\\EDU06_R04.blend",
+  "blend_bytes": 16248174,
+  "blend_modified_utc": "2026-09-23T07:20:55.268154+00:00",
+  "animation_action": "CONTROL \u2022 angles in degrees \u2014 edit custom propertiesAction",
+  "scene": "EDU06 R04 | Engineering assembly",
+  "sampled_frames": [
+    1,
+    13,
+    25,
+    37,
+    49,
+    61,
+    73,
+    85,
+    97,
+    109,
+    121,
+    133,
+    145,
+    157,
+    169,
+    181,
+    193,
+    205,
+    217,
+    229,
+    241,
+    253,
+    265,
+    277,
+    289,
+    301,
+    313,
+    325,
+    337,
+    349,
+    360
+  ],
+  "fps": 30,
+  "controller_animation_preserved": true,
+  "complete": true,
+  "frames": [
+    {
+      "frame": 1,
+      "time_seconds": 0.0,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.1871032714844,
+        41.0,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        425.1236572265625,
+        41.00000762939453,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 121,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 13,
+      "time_seconds": 0.4,
+      "evaluated_CONTROL_values": {
+        "J1": 3.003695487976074,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        353.51092529296875,
+        61.075218200683594,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        422.3527526855469,
+        64.6875228881836,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 142,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4236,
+            "nonparallel_pairs_in_first_256": 111,
+            "aabb_overlap_extents_mm": [
+              19.565633918711598,
+              1.2366012974247553,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10001,
+            "nonparallel_pairs_in_first_256": 46,
+            "aabb_overlap_extents_mm": [
+              19.563260755210976,
+              1.901201703232637,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 25,
+      "time_seconds": 0.8,
+      "evaluated_CONTROL_values": {
+        "J1": 10.130109786987305,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        342.9866943359375,
+        107.93324279785156,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        410.8486022949219,
+        120.05809020996094,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 167,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4162,
+            "nonparallel_pairs_in_first_256": 128,
+            "aabb_overlap_extents_mm": [
+              19.510732983203553,
+              4.150699265177302,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10234,
+            "nonparallel_pairs_in_first_256": 46,
+            "aabb_overlap_extents_mm": [
+              19.508392146957007,
+              6.381468915259594,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 37,
+      "time_seconds": 1.2,
+      "evaluated_CONTROL_values": {
+        "J1": 18.55223846435547,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        323.177490234375,
+        161.1058349609375,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        388.53167724609375,
+        183.03932189941406,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 187,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4359,
+            "nonparallel_pairs_in_first_256": 121,
+            "aabb_overlap_extents_mm": [
+              19.057565863949264,
+              7.508491126875207,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10053,
+            "nonparallel_pairs_in_first_256": 31,
+            "aabb_overlap_extents_mm": [
+              19.05531324723514,
+              10.121151146518628,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 49,
+      "time_seconds": 1.6,
+      "evaluated_CONTROL_values": {
+        "J1": 25.443065643310547,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        301.3116149902344,
+        202.07568359375,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        363.56219482421875,
+        231.69178771972656,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 204,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4296,
+            "nonparallel_pairs_in_first_256": 120,
+            "aabb_overlap_extents_mm": [
+              18.38033524232104,
+              10.138484545941267,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 9856,
+            "nonparallel_pairs_in_first_256": 129,
+            "aabb_overlap_extents_mm": [
+              18.378190212509352,
+              11.139786725017917,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 61,
+      "time_seconds": 2.0,
+      "evaluated_CONTROL_values": {
+        "J1": 27.933696746826172,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        292.2191162109375,
+        216.19534301757812,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        353.1238708496094,
+        248.4886474609375,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 210,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4107,
+            "nonparallel_pairs_in_first_256": 109,
+            "aabb_overlap_extents_mm": [
+              18.06959012616936,
+              11.054964614951274,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10126,
+            "nonparallel_pairs_in_first_256": 116,
+            "aabb_overlap_extents_mm": [
+              18.06749097495196,
+              11.469067786274715,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 73,
+      "time_seconds": 2.4,
+      "evaluated_CONTROL_values": {
+        "J1": 18.611709594726562,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        323.0101013183594,
+        161.47027587890625,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        388.34149169921875,
+        183.47157287597656,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 187,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4367,
+            "nonparallel_pairs_in_first_256": 106,
+            "aabb_overlap_extents_mm": [
+              19.05288724652621,
+              7.531708699808995,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10299,
+            "nonparallel_pairs_in_first_256": 42,
+            "aabb_overlap_extents_mm": [
+              19.050635629648383,
+              10.130590502307102,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 85,
+      "time_seconds": 2.8,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.1871032714844,
+        41.0,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        425.1236572265625,
+        41.00000762939453,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 121,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 97,
+      "time_seconds": 3.2,
+      "evaluated_CONTROL_values": {
+        "J1": -18.611713409423828,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        349.18060302734375,
+        -83.75865936279297,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        414.511962890625,
+        -105.75996398925781,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 186,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4466,
+            "nonparallel_pairs_in_first_256": 133,
+            "aabb_overlap_extents_mm": [
+              19.052886665460107,
+              7.531711438412195,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10321,
+            "nonparallel_pairs_in_first_256": 41,
+            "aabb_overlap_extents_mm": [
+              19.05063367577963,
+              8.34247973400154,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 109,
+      "time_seconds": 3.6,
+      "evaluated_CONTROL_values": {
+        "J1": -27.933700561523438,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        330.63201904296875,
+        -143.74917602539062,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        391.53680419921875,
+        -176.04246520996094,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 211,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 4161,
+            "nonparallel_pairs_in_first_256": 108,
+            "aabb_overlap_extents_mm": [
+              18.06959028710179,
+              11.054966623065045,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10728,
+            "nonparallel_pairs_in_first_256": 68,
+            "aabb_overlap_extents_mm": [
+              18.067490193401483,
+              11.469070884891376,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 121,
+      "time_seconds": 4.0,
+      "evaluated_CONTROL_values": {
+        "J1": -23.79869270324707,
+        "J2": 66.8005599975586,
+        "J3": 56.6505126953125,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        337.2935791015625,
+        -116.29344177246094,
+        339.09979248046875
+      ],
+      "tool_tip_world_mm": [
+        400.33905029296875,
+        -144.09808349609375,
+        351.4356689453125
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 201,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 8782,
+            "nonparallel_pairs_in_first_256": 63,
+            "aabb_overlap_extents_mm": [
+              18.565502990251517,
+              9.522576056815486,
+              19.49701329708597
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 6903,
+            "nonparallel_pairs_in_first_256": 116,
+            "aabb_overlap_extents_mm": [
+              18.56823560965684,
+              10.515319855995841,
+              19.49999917985599
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 133,
+      "time_seconds": 4.4,
+      "evaluated_CONTROL_values": {
+        "J1": -13.533409118652344,
+        "J2": 71.1999740600586,
+        "J3": 60.68330383300781,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        344.8154296875,
+        -47.5640869140625,
+        344.0364685058594
+      ],
+      "tool_tip_world_mm": [
+        411.7285461425781,
+        -63.669776916503906,
+        356.81298828125
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 175,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10006,
+            "nonparallel_pairs_in_first_256": 66,
+            "aabb_overlap_extents_mm": [
+              19.37411942841439,
+              5.522012015510686,
+              19.494179632777218
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 7682,
+            "nonparallel_pairs_in_first_256": 70,
+            "aabb_overlap_extents_mm": [
+              19.376491664622804,
+              6.034471110504548,
+              19.49661907981931
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 145,
+      "time_seconds": 4.8,
+      "evaluated_CONTROL_values": {
+        "J1": -3.5336074829101562,
+        "J2": 75.485595703125,
+        "J3": 64.61180114746094,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        339.8594970703125,
+        18.36225700378418,
+        348.3065185546875
+      ],
+      "tool_tip_world_mm": [
+        408.4719543457031,
+        14.125349044799805,
+        361.51177978515625
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 139,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 7803,
+            "nonparallel_pairs_in_first_256": 90,
+            "aabb_overlap_extents_mm": [
+              19.569397522099095,
+              1.4544267828093105,
+              19.495522137487455
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 10523,
+            "nonparallel_pairs_in_first_256": 23,
+            "aabb_overlap_extents_mm": [
+              19.57128861279495,
+              1.5675664030242622,
+              19.497415408126187
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 157,
+      "time_seconds": 5.2,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 76.93099212646484,
+        "J3": 65.9367446899414,
+        "J4": 0.1725102961063385,
+        "J5": 0.1035061776638031,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        335.38970947265625,
+        40.99920654296875,
+        349.8823547363281
+      ],
+      "tool_tip_world_mm": [
+        404.08074951171875,
+        40.998836517333984,
+        363.356201171875
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 119,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1864,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.495322544302894,
+              3.3670299757204702e-06,
+              19.495322680199024
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2023,
+            "nonparallel_pairs_in_first_256": 222,
+            "aabb_overlap_extents_mm": [
+              19.499320813998466,
+              6.5491318466115445e-06,
+              19.499320746601086
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 169,
+      "time_seconds": 5.6,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 74.2382583618164,
+        "J3": 63.46840286254883,
+        "J4": 6.904361724853516,
+        "J5": 4.142617225646973,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        337.9256286621094,
+        39.736900329589844,
+        357.29559326171875
+      ],
+      "tool_tip_world_mm": [
+        405.57489013671875,
+        39.129024505615234,
+        375.2735900878906
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 137,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1674,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.494105947177474,
+              3.366984088870595e-06,
+              19.494106083073575
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2141,
+            "nonparallel_pairs_in_first_256": 185,
+            "aabb_overlap_extents_mm": [
+              19.495073399037523,
+              6.594677781635028e-06,
+              19.49507334718993
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 181,
+      "time_seconds": 6.0,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 69.61129760742188,
+        "J3": 59.227020263671875,
+        "J4": 18.471771240234375,
+        "J5": 11.083062171936035,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        340.90350341796875,
+        32.14118957519531,
+        367.9139404296875
+      ],
+      "tool_tip_world_mm": [
+        406.17230224609375,
+        27.877758026123047,
+        392.8499755859375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 171,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2008,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.49872048896168,
+              3.3671582677641254e-06,
+              19.49872062485781
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1855,
+            "nonparallel_pairs_in_first_256": 221,
+            "aabb_overlap_extents_mm": [
+              19.495128971664215,
+              6.6577127348921294e-06,
+              19.495128947484602
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 193,
+      "time_seconds": 6.4,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.78077697753906,
+        "J3": 55.7157096862793,
+        "J4": 28.048065185546875,
+        "J5": 16.828840255737305,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        342.251220703125,
+        21.19948959350586,
+        373.38067626953125
+      ],
+      "tool_tip_world_mm": [
+        405.09637451171875,
+        11.67020034790039,
+        402.700927734375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 180,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1830,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.49926973404729,
+              3.3671789871903e-06,
+              19.49926986994342
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2035,
+            "nonparallel_pairs_in_first_256": 249,
+            "aabb_overlap_extents_mm": [
+              19.49602646597333,
+              6.695032890746688e-06,
+              19.496026465496698
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 205,
+      "time_seconds": 6.8,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 29.39431381225586,
+        "J5": 17.654769897460938,
+        "J6": 1.2002744674682617,
+        "GRIP": 44.142662048339844
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        342.76678466796875,
+        19.348966598510742,
+        373.5813293457031
+      ],
+      "tool_tip_world_mm": [
+        405.24456787109375,
+        8.929086685180664,
+        403.37982177734375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 182,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 217,
+      "time_seconds": 7.2,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 23.814340591430664,
+        "J5": 14.435731887817383,
+        "J6": 11.211138725280762,
+        "GRIP": 36.992042541503906
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        345.9043273925781,
+        26.35922622680664,
+        368.79266357421875
+      ],
+      "tool_tip_world_mm": [
+        409.89215087890625,
+        19.313140869140625,
+        396.28656005859375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 186,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 229,
+      "time_seconds": 7.6,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 14.374326705932617,
+        "J5": 8.869250297546387,
+        "J6": 24.872373580932617,
+        "GRIP": 27.234018325805664
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        350.70208740234375,
+        35.432743072509766,
+        358.01287841796875
+      ],
+      "tool_tip_world_mm": [
+        416.9989013671875,
+        32.753421783447266,
+        380.31884765625
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 176,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 241,
+      "time_seconds": 8.0,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 3.514028549194336,
+        "J5": 2.230672836303711,
+        "J6": 34.21953201293945,
+        "GRIP": 20.557472229003906
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        355.0973205566406,
+        40.65299987792969,
+        342.4671630859375
+      ],
+      "tool_tip_world_mm": [
+        423.5093994140625,
+        40.48601531982422,
+        357.29150390625
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 153,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 253,
+      "time_seconds": 8.4,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -6.4384236335754395,
+        "J5": -4.250093936920166,
+        "J6": 32.99393081665039,
+        "GRIP": 22.865814208984375
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        357.6531982421875,
+        39.791259765625,
+        326.3034362792969
+      ],
+      "tool_tip_world_mm": [
+        427.29534912109375,
+        39.20954132080078,
+        333.3487243652344
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 135,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 265,
+      "time_seconds": 8.8,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -14.452665328979492,
+        "J5": -9.871374130249023,
+        "J6": 24.481595993041992,
+        "GRIP": 35.02629089355469
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        358.2593994140625,
+        34.77659606933594,
+        312.7679748535156
+      ],
+      "tool_tip_world_mm": [
+        428.19329833984375,
+        31.781497955322266,
+        313.29913330078125
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 123,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 277,
+      "time_seconds": 9.2,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -20.33557891845703,
+        "J5": -14.2722806930542,
+        "J6": 13.242881774902344,
+        "GRIP": 51.08159637451172
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        357.6045227050781,
+        28.53876304626465,
+        303.0298156738281
+      ],
+      "tool_tip_world_mm": [
+        427.2232666015625,
+        22.541616439819336,
+        298.8742980957031
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 131,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 289,
+      "time_seconds": 9.6,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -23.90799903869629,
+        "J5": -17.09760093688965,
+        "J6": 3.6399993896484375,
+        "GRIP": 64.80000305175781
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.6451110839844,
+        23.66973304748535,
+        297.3059387207031
+      ],
+      "tool_tip_world_mm": [
+        425.80206298828125,
+        15.329292297363281,
+        290.395751953125
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 142,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 301,
+      "time_seconds": 10.0,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -24.97939682006836,
+        "J5": -17.985166549682617,
+        "J6": 0.0,
+        "GRIP": 69.9793930053711
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.25701904296875,
+        22.034547805786133,
+        295.5960693359375
+      ],
+      "tool_tip_world_mm": [
+        425.22723388671875,
+        12.907149314880371,
+        287.8629455566406
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 146,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 313,
+      "time_seconds": 10.4,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -21.987730026245117,
+        "J5": -15.831167221069336,
+        "J6": 0.0,
+        "GRIP": 66.98773193359375
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        357.14300537109375,
+        26.143754959106445,
+        299.729248046875
+      ],
+      "tool_tip_world_mm": [
+        426.53961181640625,
+        18.993972778320312,
+        293.9853210449219
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 138,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 325,
+      "time_seconds": 10.8,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -15.596064567565918,
+        "J5": -11.229166030883789,
+        "J6": 0.0,
+        "GRIP": 60.596065521240234
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        358.1822509765625,
+        33.38498306274414,
+        309.5712890625
+      ],
+      "tool_tip_world_mm": [
+        428.0789794921875,
+        29.720151901245117,
+        308.56396484375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 125,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 337,
+      "time_seconds": 11.2,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -8.204398155212402,
+        "J5": -5.907167434692383,
+        "J6": 0.0,
+        "GRIP": 53.20439529418945
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        357.999267578125,
+        38.863807678222656,
+        322.1963806152344
+      ],
+      "tool_tip_world_mm": [
+        427.8079528808594,
+        37.83574295043945,
+        327.26507568359375
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 126,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 349,
+      "time_seconds": 11.6,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": -2.2127323150634766,
+        "J5": -1.5931663513183594,
+        "J6": 0.0,
+        "GRIP": 47.212730407714844
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.83343505859375,
+        40.84386444091797,
+        332.9322814941406
+      ],
+      "tool_tip_world_mm": [
+        426.0810241699219,
+        40.768733978271484,
+        343.16778564453125
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 122,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    },
+    {
+      "frame": 360,
+      "time_seconds": 11.966666666666667,
+      "evaluated_CONTROL_values": {
+        "J1": 0.0,
+        "J2": 65.0,
+        "J3": 55.0,
+        "J4": 0.0,
+        "J5": 0.0,
+        "J6": 0.0,
+        "GRIP": 45.0
+      },
+      "control_units": {
+        "J1": "deg",
+        "J2": "deg",
+        "J3": "deg",
+        "J4": "deg",
+        "J5": "deg",
+        "J6": "deg",
+        "GRIP": "mm clear pad gap"
+      },
+      "angles_outside_declared_limits": {},
+      "grip_contact_midpoint_world_mm": [
+        356.1871032714844,
+        41.0,
+        336.9214782714844
+      ],
+      "tool_tip_world_mm": [
+        425.1236572265625,
+        41.00000762939453,
+        349.0768737792969
+      ],
+      "collision_screen": {
+        "object_count": 197,
+        "aabb_candidate_pairs": 121,
+        "pairs_ignored_same_rigid_group": 2522,
+        "classification_counts": {
+          "gross_interpenetration_sampled": 0,
+          "small_interpenetration_sampled": 0,
+          "surface_crossing_requires_review": 0,
+          "surface_contact_candidate": 0,
+          "matching_motor_case_horn_interface_candidate": 2
+        },
+        "events": [
+          {
+            "objects": [
+              "S_XM | XM430-W350-T dimensioned case",
+              "S_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J1 \u2022 base yaw",
+              "J2 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 1628,
+            "nonparallel_pairs_in_first_256": 256,
+            "aabb_overlap_extents_mm": [
+              19.498100154215535,
+              3.367134844722841e-06,
+              19.498100290111665
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          },
+          {
+            "objects": [
+              "E_XM | XM430-W350-T dimensioned case",
+              "E_XM | installed stock horn"
+            ],
+            "rigid_groups": [
+              "J2 \u2022 shoulder pitch",
+              "J3 motor/pinion rotation"
+            ],
+            "classification": "matching_motor_case_horn_interface_candidate",
+            "known_interface_note": "Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review",
+            "triangle_intersection_pairs": 2065,
+            "nonparallel_pairs_in_first_256": 233,
+            "aabb_overlap_extents_mm": [
+              19.495724683348357,
+              6.700620271971047e-06,
+              19.495724687781376
+            ],
+            "maximum_sampled_depth_mm": 0.0,
+            "first_vertices_in_second": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            },
+            "second_vertices_in_first": {
+              "maximum_sampled_depth_mm": 0.0,
+              "inside_samples": 0,
+              "samples_tested": 64,
+              "ray_iteration_limit_count": 0,
+              "deepest_sample": null
+            }
+          }
+        ],
+        "clear_of_reported_crossings_or_penetrations": true
+      }
+    }
+  ],
+  "limitations": [
+    "This checks 31 discrete snapshots, not every frame or continuous swept collision.",
+    "The actual CONTROL keyframe animation is evaluated; its action is never cleared or replaced.",
+    "Same-rigid-body pairs and removed service panel/coupons are excluded as in the assembly audit.",
+    "Matching motor case/stock-horn zero-depth contacts are explicitly identified and retained.",
+    "The mesh classifier cannot establish strength, friction, cable flex, dynamics or physical buildability."
+  ],
+  "summary": {
+    "sample_count": 31,
+    "frames_with_unresolved_crossings_or_penetrations": [],
+    "frames_outside_declared_joint_limits": [],
+    "all_sampled_frames_clear_of_unresolved_crossings_or_penetrations": true,
+    "elapsed_seconds": 38.25791179999942,
+    "continuous_motion_validated": false,
+    "physical_function_validated": false
+  }
+}

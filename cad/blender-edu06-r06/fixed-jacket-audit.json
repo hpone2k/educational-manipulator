@@ -1,0 +1,4318 @@
+{
+  "audit": "R06_fixed_USB_and_external_DC_jacket_geometry_screen_v1",
+  "created_utc": "2026-09-23T17:35:39.070173+00:00",
+  "native_file": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r06\\EDU06_R06.blend",
+  "fixed_world_routes": true,
+  "frame": 1,
+  "structural_mesh_count_including_tagged_hardware": 703,
+  "all_passed": true,
+  "jackets": [
+    {
+      "curve": "USB cable / PC to U2D2",
+      "conductor": "USB",
+      "radius_mm": 2.35,
+      "sample_count": 501,
+      "length_mm": 248.85925951416445,
+      "minimum_bend_radius_mm": 13.467373098601897,
+      "minimum_bend_location": {
+        "sample": 31,
+        "xyz": [
+          -91.7294921875,
+          -14.770339012145996,
+          23.711315155029297
+        ]
+      },
+      "bend_target_12mm_met": true,
+      "lowest_near_structure_surface_clearance_mm": 0.24691667556762686,
+      "accepted_printed_clamp_bore_samples": [
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 236,
+          "clearance_mm": 0.8360501766204833,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 237,
+          "clearance_mm": 0.7328139781951903,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 238,
+          "clearance_mm": 0.6388439178466796,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 239,
+          "clearance_mm": 0.554494285583496,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 240,
+          "clearance_mm": 0.48004164695739737,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 241,
+          "clearance_mm": 0.4157279968261718,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 242,
+          "clearance_mm": 0.36175479888916007,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 243,
+          "clearance_mm": 0.3182260036468505,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 244,
+          "clearance_mm": 0.28517045974731436,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 245,
+          "clearance_mm": 0.26249446868896475,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 246,
+          "clearance_mm": 0.25003066062927237,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 247,
+          "clearance_mm": 0.24726905822753897,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 248,
+          "clearance_mm": 0.24741926193237296,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 249,
+          "clearance_mm": 0.2475027084350585,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 250,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 251,
+          "clearance_mm": 0.2475153446197509,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 252,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 253,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 254,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 255,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 256,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 257,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 258,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 259,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 260,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 261,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 262,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 263,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 264,
+          "clearance_mm": 0.24751462936401358,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 265,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 266,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 267,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 268,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 269,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 270,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 271,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 272,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 273,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 274,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 275,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 276,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 277,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 278,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 279,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 280,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 281,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 282,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 283,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 284,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 285,
+          "clearance_mm": 0.24752225875854483,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 286,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 287,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 288,
+          "clearance_mm": 0.24752106666564933,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 289,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 290,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 291,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 292,
+          "clearance_mm": 0.24752225875854483,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 293,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 294,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 295,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 296,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 297,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 298,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 299,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 300,
+          "clearance_mm": 0.24751057624816886,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 301,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 302,
+          "clearance_mm": 0.24752154350280753,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 303,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 304,
+          "clearance_mm": 0.2475162982940673,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 305,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 306,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 307,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 308,
+          "clearance_mm": 0.24751057624816886,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 309,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 310,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 311,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 312,
+          "clearance_mm": 0.24751176834106436,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 313,
+          "clearance_mm": 0.24751343727111808,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 314,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 315,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 316,
+          "clearance_mm": 0.24752130508422843,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 317,
+          "clearance_mm": 0.24751343727111808,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 318,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 319,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 320,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 321,
+          "clearance_mm": 0.24751057624816886,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 322,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 323,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 324,
+          "clearance_mm": 0.24752011299133292,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 325,
+          "clearance_mm": 0.24751224517822257,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 326,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 327,
+          "clearance_mm": 0.24752106666564933,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 328,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 329,
+          "clearance_mm": 0.2475170135498046,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 330,
+          "clearance_mm": 0.24752011299133292,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 331,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 332,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 333,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 334,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 335,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 336,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 337,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 338,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 339,
+          "clearance_mm": 0.2475170135498046,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 340,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 341,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 342,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 343,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 344,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 345,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 346,
+          "clearance_mm": 0.24751987457275382,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 347,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 348,
+          "clearance_mm": 0.2475170135498046,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 349,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 350,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 351,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 352,
+          "clearance_mm": 0.24752035140991202,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 353,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 354,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 355,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 356,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 357,
+          "clearance_mm": 0.2512849807739257,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 358,
+          "clearance_mm": 0.26441802978515616,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 359,
+          "clearance_mm": 0.28689470291137686,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 360,
+          "clearance_mm": 0.3185285568237304,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 361,
+          "clearance_mm": 0.359062099456787,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 362,
+          "clearance_mm": 0.40814223289489737,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 363,
+          "clearance_mm": 0.4653691291809081,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 364,
+          "clearance_mm": 0.5302781105041503,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 365,
+          "clearance_mm": 0.602399730682373,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 366,
+          "clearance_mm": 0.6812485694885253,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 367,
+          "clearance_mm": 0.7663322925567626,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 368,
+          "clearance_mm": 0.8571621417999267,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 236,
+          "clearance_mm": 0.8069194793701171,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 237,
+          "clearance_mm": 0.7087246417999267,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 238,
+          "clearance_mm": 0.6193114757537841,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 239,
+          "clearance_mm": 0.5390206813812255,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 240,
+          "clearance_mm": 0.46811809539794913,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 241,
+          "clearance_mm": 0.4068359374999999,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 242,
+          "clearance_mm": 0.3553847312927245,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 243,
+          "clearance_mm": 0.31388726234436026,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 244,
+          "clearance_mm": 0.28240647315978995,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 245,
+          "clearance_mm": 0.26087751388549796,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 246,
+          "clearance_mm": 0.2491966724395751,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 247,
+          "clearance_mm": 0.24691667556762686,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 248,
+          "clearance_mm": 0.24734535217285147,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 249,
+          "clearance_mm": 0.24749460220336905,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 250,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 251,
+          "clearance_mm": 0.24751415252685538,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 252,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 253,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 254,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 255,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 256,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 257,
+          "clearance_mm": 0.24752130508422843,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 258,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 259,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 260,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 261,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 262,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 263,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 264,
+          "clearance_mm": 0.24751081466674796,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 265,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 266,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 267,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 268,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 269,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 270,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 271,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 272,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 273,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 274,
+          "clearance_mm": 0.2475184440612792,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 275,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 276,
+          "clearance_mm": 0.2475174903869628,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 277,
+          "clearance_mm": 0.2475184440612792,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 278,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 279,
+          "clearance_mm": 0.247517967224121,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 280,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 281,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 282,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 283,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 284,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 285,
+          "clearance_mm": 0.24752130508422843,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 286,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 287,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 288,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 289,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 290,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 291,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 292,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 293,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 294,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 295,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 296,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 297,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 298,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 299,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 300,
+          "clearance_mm": 0.24751057624816886,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 301,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 302,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 303,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 304,
+          "clearance_mm": 0.24751057624816886,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 305,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 306,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 307,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 308,
+          "clearance_mm": 0.24750986099243155,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 309,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 310,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 311,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 312,
+          "clearance_mm": 0.24751105308532706,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 313,
+          "clearance_mm": 0.24751343727111808,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 314,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 315,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 316,
+          "clearance_mm": 0.24752011299133292,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 317,
+          "clearance_mm": 0.24751343727111808,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 318,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 319,
+          "clearance_mm": 0.24752082824707022,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 320,
+          "clearance_mm": 0.24752082824707022,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 321,
+          "clearance_mm": 0.24751415252685538,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 322,
+          "clearance_mm": 0.24752202033996573,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 323,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 324,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 325,
+          "clearance_mm": 0.24751391410827628,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 326,
+          "clearance_mm": 0.2475174903869628,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 327,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 328,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 329,
+          "clearance_mm": 0.2475177288055419,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 330,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 331,
+          "clearance_mm": 0.24751939773559561,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 332,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 333,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 334,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 335,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 336,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 337,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 338,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 339,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 340,
+          "clearance_mm": 0.24752130508422843,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 341,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 342,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 343,
+          "clearance_mm": 0.24752178192138663,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 344,
+          "clearance_mm": 0.2475182056427001,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 345,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 346,
+          "clearance_mm": 0.2475191593170165,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 347,
+          "clearance_mm": 0.24751987457275382,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 348,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 349,
+          "clearance_mm": 0.2475184440612792,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 350,
+          "clearance_mm": 0.24752106666564933,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 351,
+          "clearance_mm": 0.2475189208984374,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 352,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 353,
+          "clearance_mm": 0.2475184440612792,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 354,
+          "clearance_mm": 0.2475186824798583,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 355,
+          "clearance_mm": 0.24751963615417472,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 356,
+          "clearance_mm": 0.24752058982849112,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 357,
+          "clearance_mm": 0.2512859344482421,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 358,
+          "clearance_mm": 0.26441874504089347,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 359,
+          "clearance_mm": 0.28689565658569327,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 360,
+          "clearance_mm": 0.3185326099395751,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 361,
+          "clearance_mm": 0.359062099456787,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 362,
+          "clearance_mm": 0.4081429481506347,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 363,
+          "clearance_mm": 0.4653700828552245,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 364,
+          "clearance_mm": 0.5302788257598876,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 365,
+          "clearance_mm": 0.6024033069610595,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 366,
+          "clearance_mm": 0.6812492847442626,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 367,
+          "clearance_mm": 0.7663330078124999,
+          "nominal_radial_gap_mm": 0.25
+        },
+        {
+          "part": "B22_usb_split_cable_saddle",
+          "sample": 368,
+          "clearance_mm": 0.8571630954742431,
+          "nominal_radial_gap_mm": 0.25
+        }
+      ],
+      "unresolved_contacts": [],
+      "structure_screen_passed": true,
+      "pass": true
+    },
+    {
+      "curve": "External DC supply / fused injection",
+      "conductor": "EXTERNAL_DC",
+      "radius_mm": 2.8,
+      "sample_count": 501,
+      "length_mm": 109.57308935733161,
+      "minimum_bend_radius_mm": 19.175059378872422,
+      "minimum_bend_location": {
+        "sample": 425,
+        "xyz": [
+          84.5625,
+          128.953125,
+          23.734375
+        ]
+      },
+      "bend_target_12mm_met": true,
+      "lowest_near_structure_surface_clearance_mm": 0.39694161415100115,
+      "accepted_printed_clamp_bore_samples": [
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 68,
+          "clearance_mm": 0.9669243812561037,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 69,
+          "clearance_mm": 0.903164577484131,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 70,
+          "clearance_mm": 0.8435830593109133,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 71,
+          "clearance_mm": 0.7881316661834719,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 72,
+          "clearance_mm": 0.7367422103881838,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 73,
+          "clearance_mm": 0.6893579483032228,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 74,
+          "clearance_mm": 0.6459087848663332,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 75,
+          "clearance_mm": 0.6063096046447756,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 76,
+          "clearance_mm": 0.5704793453216555,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 77,
+          "clearance_mm": 0.5383355140686037,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 78,
+          "clearance_mm": 0.5097746372222902,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 79,
+          "clearance_mm": 0.4847025394439699,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 80,
+          "clearance_mm": 0.4630171775817873,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 81,
+          "clearance_mm": 0.44462413787841815,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 82,
+          "clearance_mm": 0.429400157928467,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 83,
+          "clearance_mm": 0.41723556518554705,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 84,
+          "clearance_mm": 0.4080230712890627,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 85,
+          "clearance_mm": 0.4016499042510988,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 86,
+          "clearance_mm": 0.39799685478210467,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 87,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 88,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 89,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 90,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 91,
+          "clearance_mm": 0.3969473361968996,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 92,
+          "clearance_mm": 0.3969456672668459,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 93,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 94,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 95,
+          "clearance_mm": 0.39694399833679217,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 96,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 97,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 98,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 99,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 100,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 101,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 102,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 103,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 104,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 105,
+          "clearance_mm": 0.39694328308105487,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 106,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 107,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 108,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 109,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 110,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 111,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 112,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 113,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 114,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 115,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 116,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 117,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 118,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 119,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 120,
+          "clearance_mm": 0.39694232940673846,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 121,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 122,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 123,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 124,
+          "clearance_mm": 0.396950674057007,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 125,
+          "clearance_mm": 0.3969470977783205,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 126,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 127,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 128,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 129,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 130,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 131,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 132,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 133,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 134,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 135,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 136,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 137,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 138,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 139,
+          "clearance_mm": 0.3969470977783205,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 140,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 141,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 142,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 143,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 144,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 145,
+          "clearance_mm": 0.3969449520111086,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 146,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 147,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 148,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 149,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 150,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 151,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 152,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 153,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 154,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 155,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 156,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 157,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 158,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 159,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 160,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 161,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 162,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 163,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 164,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 165,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 166,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 167,
+          "clearance_mm": 0.3969444751739504,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 168,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 169,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 170,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 171,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 172,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 173,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 174,
+          "clearance_mm": 0.396950674057007,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 175,
+          "clearance_mm": 0.3969513893127443,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 176,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 177,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 178,
+          "clearance_mm": 0.3969490051269533,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 179,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 180,
+          "clearance_mm": 0.39694161415100115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 181,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 182,
+          "clearance_mm": 0.39694423675537127,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 183,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 184,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 185,
+          "clearance_mm": 0.3969451904296877,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 186,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 187,
+          "clearance_mm": 0.3969463825225832,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 188,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 189,
+          "clearance_mm": 0.3969451904296877,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 190,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 191,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 192,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 193,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 194,
+          "clearance_mm": 0.3969456672668459,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 195,
+          "clearance_mm": 0.39694161415100115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 196,
+          "clearance_mm": 0.3969454288482668,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 197,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 198,
+          "clearance_mm": 0.39694423675537127,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 199,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 200,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 201,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 202,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 203,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 204,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 205,
+          "clearance_mm": 0.39694232940673846,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 206,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 207,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 208,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 209,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 210,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 211,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 212,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 213,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 214,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 215,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 216,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 217,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 218,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 219,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 220,
+          "clearance_mm": 0.39694256782531756,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 221,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 222,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 223,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 224,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 225,
+          "clearance_mm": 0.3969501972198488,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 226,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 227,
+          "clearance_mm": 0.3969501972198488,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 228,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 229,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 230,
+          "clearance_mm": 0.3969451904296877,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 231,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 232,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 233,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 234,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 235,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 236,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 237,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 238,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 239,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 240,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 241,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 242,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 243,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 244,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 245,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 246,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 247,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 248,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 249,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 250,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 251,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 252,
+          "clearance_mm": 0.3969470977783205,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 253,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 254,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 255,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 256,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 257,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 258,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 259,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 260,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 261,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 262,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 263,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 264,
+          "clearance_mm": 0.3969456672668459,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 265,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 266,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 267,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 268,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 269,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 270,
+          "clearance_mm": 0.3970283985137941,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 271,
+          "clearance_mm": 0.39921255111694354,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 272,
+          "clearance_mm": 0.4043943405151369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 273,
+          "clearance_mm": 0.41256875991821307,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 274,
+          "clearance_mm": 0.4237284183502199,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 275,
+          "clearance_mm": 0.43784947395324725,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 276,
+          "clearance_mm": 0.45490880012512225,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 277,
+          "clearance_mm": 0.47486920356750506,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 278,
+          "clearance_mm": 0.4976889610290529,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 279,
+          "clearance_mm": 0.5233184814453127,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 280,
+          "clearance_mm": 0.5516907691955568,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 281,
+          "clearance_mm": 0.5827679157257082,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 282,
+          "clearance_mm": 0.6164576530456545,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 283,
+          "clearance_mm": 0.6527006149291994,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 284,
+          "clearance_mm": 0.6914252758026125,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 285,
+          "clearance_mm": 0.7325555801391603,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 286,
+          "clearance_mm": 0.77600474357605,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 287,
+          "clearance_mm": 0.8216988563537599,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 288,
+          "clearance_mm": 0.8695578098297121,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B01_open_front_base_240x240",
+          "sample": 289,
+          "clearance_mm": 0.9195022106170656,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 68,
+          "clearance_mm": 0.966925096511841,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 69,
+          "clearance_mm": 0.9031652927398683,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 70,
+          "clearance_mm": 0.8435835361480715,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 71,
+          "clearance_mm": 0.7881321430206301,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 72,
+          "clearance_mm": 0.7367429256439211,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 73,
+          "clearance_mm": 0.689358425140381,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 74,
+          "clearance_mm": 0.6459092617034914,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 75,
+          "clearance_mm": 0.6063100814819338,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 76,
+          "clearance_mm": 0.5704800605773928,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 77,
+          "clearance_mm": 0.538336229324341,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 78,
+          "clearance_mm": 0.5097753524780275,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 79,
+          "clearance_mm": 0.4847032546997072,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 80,
+          "clearance_mm": 0.4630190849304201,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 81,
+          "clearance_mm": 0.44462485313415545,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 82,
+          "clearance_mm": 0.4294008731842043,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 83,
+          "clearance_mm": 0.41723651885986346,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 84,
+          "clearance_mm": 0.4080240249633791,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 85,
+          "clearance_mm": 0.401647996902466,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 86,
+          "clearance_mm": 0.397997570037842,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 87,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 88,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 89,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 90,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 91,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 92,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 93,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 94,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 95,
+          "clearance_mm": 0.39694328308105487,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 96,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 97,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 98,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 99,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 100,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 101,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 102,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 103,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 104,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 105,
+          "clearance_mm": 0.39694375991821307,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 106,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 107,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 108,
+          "clearance_mm": 0.3969475746154787,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 109,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 110,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 111,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 112,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 113,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 114,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 115,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 116,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 117,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 118,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 119,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 120,
+          "clearance_mm": 0.39694209098815936,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 121,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 122,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 123,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 124,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 125,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 126,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 127,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 128,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 129,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 130,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 131,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 132,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 133,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 134,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 135,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 136,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 137,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 138,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 139,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 140,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 141,
+          "clearance_mm": 0.3969516277313234,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 142,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 143,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 144,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 145,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 146,
+          "clearance_mm": 0.39694399833679217,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 147,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 148,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 149,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 150,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 151,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 152,
+          "clearance_mm": 0.3969485282897951,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 153,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 154,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 155,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 156,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 157,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 158,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 159,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 160,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 161,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 162,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 163,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 164,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 165,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 166,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 167,
+          "clearance_mm": 0.3969490051269533,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 168,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 169,
+          "clearance_mm": 0.3969468593597414,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 170,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 171,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 172,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 173,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 174,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 175,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 176,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 177,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 178,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 179,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 180,
+          "clearance_mm": 0.39694209098815936,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 181,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 182,
+          "clearance_mm": 0.3969513893127443,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 183,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 184,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 185,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 186,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 187,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 188,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 189,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 190,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 191,
+          "clearance_mm": 0.3969513893127443,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 192,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 193,
+          "clearance_mm": 0.39694399833679217,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 194,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 195,
+          "clearance_mm": 0.39694375991821307,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 196,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 197,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 198,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 199,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 200,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 201,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 202,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 203,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 204,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 205,
+          "clearance_mm": 0.39694399833679217,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 206,
+          "clearance_mm": 0.396950674057007,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 207,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 208,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 209,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 210,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 211,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 212,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 213,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 214,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 215,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 216,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 217,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 218,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 219,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 220,
+          "clearance_mm": 0.39694352149963397,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 221,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 222,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 223,
+          "clearance_mm": 0.3969499588012697,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 224,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 225,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 226,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 227,
+          "clearance_mm": 0.3969501972198488,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 228,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 229,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 230,
+          "clearance_mm": 0.3969480514526369,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 231,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 232,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 233,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 234,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 235,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 236,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 237,
+          "clearance_mm": 0.3969509124755861,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 238,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 239,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 240,
+          "clearance_mm": 0.396945905685425,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 241,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 242,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 243,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 244,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 245,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 246,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 247,
+          "clearance_mm": 0.3969511508941652,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 248,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 249,
+          "clearance_mm": 0.3969494819641115,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 250,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 251,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 252,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 253,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 254,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 255,
+          "clearance_mm": 0.3969466209411623,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 256,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 257,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 258,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 259,
+          "clearance_mm": 0.3969470977783205,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 260,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 261,
+          "clearance_mm": 0.3969492435455324,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 262,
+          "clearance_mm": 0.3969487667083742,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 263,
+          "clearance_mm": 0.396948289871216,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 264,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 265,
+          "clearance_mm": 0.3969461441040041,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 266,
+          "clearance_mm": 0.3969497203826906,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 267,
+          "clearance_mm": 0.3969478130340578,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 268,
+          "clearance_mm": 0.3969473361968996,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 269,
+          "clearance_mm": 0.3969504356384279,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 270,
+          "clearance_mm": 0.3970288753509523,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 271,
+          "clearance_mm": 0.39921278953552264,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 272,
+          "clearance_mm": 0.404394578933716,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 273,
+          "clearance_mm": 0.41256923675537127,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 274,
+          "clearance_mm": 0.4237288951873781,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 275,
+          "clearance_mm": 0.43785018920898455,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 276,
+          "clearance_mm": 0.45490903854370135,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 277,
+          "clearance_mm": 0.47486944198608416,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 278,
+          "clearance_mm": 0.4976894378662111,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 279,
+          "clearance_mm": 0.5233187198638918,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 280,
+          "clearance_mm": 0.5516898155212404,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 281,
+          "clearance_mm": 0.5827686309814455,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 282,
+          "clearance_mm": 0.6164581298828127,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 283,
+          "clearance_mm": 0.6527010917663576,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 284,
+          "clearance_mm": 0.6914255142211916,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 285,
+          "clearance_mm": 0.7325543880462648,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 286,
+          "clearance_mm": 0.7760049819946291,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 287,
+          "clearance_mm": 0.821699094772339,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 288,
+          "clearance_mm": 0.8695609092712404,
+          "nominal_radial_gap_mm": 0.4
+        },
+        {
+          "part": "B22_power_split_cable_saddle",
+          "sample": 289,
+          "clearance_mm": 0.9195024490356447,
+          "nominal_radial_gap_mm": 0.4
+        }
+      ],
+      "unresolved_contacts": [],
+      "structure_screen_passed": true,
+      "pass": true
+    }
+  ],
+  "scope": "501 centreline samples per actual evaluated jacket with its own radius. Same-body structure and tagged hardware included. The real printed saddle-axis fit accepts only its nominal 0.25/0.4 mm radial clearance with 0.01 mm numerical/facet allowance; other structure needs 0.5 mm. Only the immediate outward U2D2 USB face is provisional. No electrical rating, continuous collision, flexible-cable stress, plug fit or fatigue validation."
+}

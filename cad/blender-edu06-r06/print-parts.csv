@@ -1,0 +1,187 @@
+﻿Part ID,X mm,Y mm,Z mm,Solid PLA mass g,Description
+B01_open_front_base_240x240,241.0,240.0,90.0,744.023,"4 mm walls, 5 mm floor; four M4 fasteners attach printed feet. External bench attachment must be provided separately. M3 captive nuts in top posts."
+B02_structural_lid,240.0,240.0,5.0,341.498,Remove to access drive. Hole Ø42.4 captures upper printed journal bushing.
+B03_service_front_panel,230.0,85.0,3.0,68.486,"Removable front panel; shown lying in front. Assembly transform: translation(0,-118.5,5) with no rotation."
+B05_lower_journal_support,64.0,62.0,46.0,46.223,Four M3 floor bolts; lower sleeve seat Ø42.3. Printed support carries overturning load.
+B06_replaceable_lower_bushing,52.0,52.0,10.0,8.729,Ø32.5 running bore for Ø32 shaft. Trial clearance 0.25 radial.
+B07_upper_bushing_and_thrust_ring,90.0,90.0,14.0,28.014,"Replaceable polymer plain bearing, not a ball bearing. Printed thrust surface; friction unmeasured."
+B08_printed_hollow_yaw_shaft,76.0,76.0,80.0,131.523,"Ø32 journal; 14 mm cable bore. Radial gap0.25, axial running allowance0.3. No metal shaft."
+B17_split_yaw_retaining_collar,48.0,38.0,10.0,4.602,Split printed collar under lower sleeve;0.3 axial gap prevents lifting without clamping the bearing.
+B09_yaw_60T_module1p5,92.999,92.999,10.0,61.23,"60 teeth, pitch Ø90, 20° involute. 60 mm centre distance."
+B18_yaw_gear_screw_spacer_0,7.0,7.0,0.5,0.018,
+B18_yaw_gear_screw_spacer_1,7.0,7.0,0.5,0.018,
+B18_yaw_gear_screw_spacer_2,7.0,7.0,0.5,0.018,
+B18_yaw_gear_screw_spacer_3,7.0,7.0,0.5,0.018,
+B10_rotating_pedestal_deck,160.0,108.0,6.0,123.882,Structural deck 160×108×6; keyed bolt patterns to yaw flange and shoulder stand.
+B19_deck_screw_spacer_0,7.0,7.0,0.8,0.029,
+B19_deck_screw_spacer_1,7.0,7.0,0.8,0.029,
+B19_deck_screw_spacer_2,7.0,7.0,0.8,0.029,
+B19_deck_screw_spacer_3,7.0,7.0,0.8,0.029,
+J1_BASE_C01_Keyed_motor_cradle,51.2,67.2,39.3,22.886,AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Standard base-compatible frame.
+J1_BASE_C02_Connector_access_rear_cap,51.2,67.2,4.6,6.743,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+J1_BASE_C04_1_Axial_fit_shim_030,31.9,32.663,0.3,0.08,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J1_BASE_C04_2_Axial_fit_shim_330,31.9,49.9,3.3,1.851,Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J1_BASE_C03_1_Screw_stack_spacer,6.8,6.8,1.15,0.039,Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm.
+J1_BASE_C03_2_Screw_stack_spacer,6.8,6.8,1.15,0.039,Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm.
+J1_BASE_C03_3_Screw_stack_spacer,6.8,6.8,1.15,0.039,Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm.
+J1_BASE_C03_4_Screw_stack_spacer,6.8,6.8,1.15,0.039,Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm.
+B11_yaw_20T_pinion,32.999,32.999,21.0,8.504,M2×6 through 4 mm counterbore floor into AX horn (2 mm). External printed Ø8 journal support.
+B12_yaw_pinion_journal_support,22.0,40.0,11.0,4.474,Ø8.5 printed bearing bore; 0.25 mm radial gap. Top ears attach underside deck.
+B19_pinion_support_screw_spacer_0,7.0,7.0,1.5,0.055,
+B19_pinion_support_screw_spacer_1,7.0,7.0,1.5,0.055,
+B13_motor_floor_standoff_1,10.0,10.0,15.05,1.295,
+B13_motor_floor_standoff_2,10.0,10.0,15.05,1.295,
+B13_motor_floor_standoff_3,10.0,10.0,15.05,1.295,
+B13_motor_floor_standoff_4,10.0,10.0,15.05,1.295,
+B15_printed_foot_0,24.0,24.0,8.0,4.193,"Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+B16_foot_bolt_spacer_0,10.0,10.0,3.1,0.241,
+B15_printed_foot_1,24.0,24.0,8.0,4.193,"Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+B16_foot_bolt_spacer_1,10.0,10.0,3.1,0.241,
+B15_printed_foot_2,24.0,24.0,8.0,4.193,"Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+B16_foot_bolt_spacer_2,10.0,10.0,3.1,0.241,
+B15_printed_foot_3,24.0,24.0,8.0,4.193,"Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+B16_foot_bolt_spacer_3,10.0,10.0,3.1,0.241,
+B14_U2D2_tray,60.0,41.0,18.25,10.304,"Cavity49×20, U2D2 nominal48×18×14.9. Low end stops and removable roof strap mechanically retain the case. Connector revision must be checked."
+B23_U2D2_removable_retention_strap,10.0,41.0,2.5,1.191,0.35mm nominal case-roof clearance; two M3×20 into side-loaded tray nuts. No invented holes in the U2D2 PCB.
+B20_adjustable_accessory_tray,130.0,68.0,3.0,26.306,"112×68×3 mm deck plus mounting ears; 3.4 mm capsule slots. Four removable M3×16 mount screws. Clear accessory envelope100×65×30 above deck; board-hole positions are intentionally not assumed. Select screw length and removable printed standoffs from the actual PCB, keeping underside fasteners above the floor."
+B21_adjustable_power_module_plate,54.0,58.0,3.0,9.901,"54×58×3 slotted universal plate, four M3×16 mounting screws. Reserved hub envelope45×35×22; actual power distribution hardware and board standoffs remain unselected."
+B22_usb_split_cable_saddle,24.0,14.0,6.0,2.15,"Nominal cable bore Ø5.2; 0.4 mm split gap. Two M3×40 through floor. Fit to actual flexible cable jacket; this is a printable clamp, not a rated gland or connector."
+B22_power_split_cable_saddle,24.0,14.0,6.0,2.06,"Nominal cable bore Ø6.4; 0.4 mm split gap. Two M3×35 through floor. Fit to actual flexible cable jacket; this is a printable clamp, not a rated gland or connector."
+S_01_rear_support,140.5,90.0,6.0,50.309,Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment.
+S_01_front_support,59.0,90.0,6.0,23.568,Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment.
+S_02_rear_plain_bushing,38.0,38.0,10.0,5.975,Printed running bore Ø24.5; journal Ø24. Fit coupon first.
+S_02_front_plain_bushing,38.0,38.0,10.0,5.975,Printed running bore Ø24.5; journal Ø24. Fit coupon first.
+S_03_independent_output_shaft,50.0,50.0,81.8,49.317,"External printed pivot, independent of motor shaft. Shoulder flanges provide axial clearance, not clamped rotating cheeks."
+S_04_shaft_retainer,52.0,52.0,29.2,26.465,Positively keyed rear output flange; male hex20AF/female20.4AF. Supports second link plate. 0.3mm axial clearance at stationary cheek. Fit and torsion testing required.
+S_10_retainer_screw_spacer,11.0,11.0,5.0,0.49,
+S_05_output_100T,127.5,127.5,12.0,93.187,"5:1 reduction, module1.25, 20 degree pressure angle, pitch diameter125.0."
+S_XM_C01_Keyed_motor_cradle,47.7,63.7,36.3,11.704,"XM430-W350-T cradle: 0.35 mm per side; 26.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+S_XM_C02_Connector_access_rear_cap,47.7,63.7,4.6,6.149,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+S_XM_C04_1_Axial_fit_shim_030,28.4,46.4,0.3,0.105,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+S_XM_C04_2_Axial_fit_shim_050,28.4,46.4,0.5,0.237,Printed motor seating spacer 0.50 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+S_XM_C03_1_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+S_XM_C03_2_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+S_XM_C03_3_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+S_XM_C03_4_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+S_09_motor_mount_standoff_0,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+S_09_motor_mount_standoff_1,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+S_09_motor_mount_standoff_2,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+S_09_motor_mount_standoff_3,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+S_06_XM_pinion_20T,27.499,27.499,22.0,6.151,Eight M2×6 with 4.5 mm floor =1.5 mm nominal engagement into XM horn. Check screw length.
+S_07_pinion_journal_bridge,46.0,52.0,70.5,22.446,External Ø8.5 polymer bearing; two long legs lie outside both gear sweeps and bolt to rear support plate.
+S_11_bridge_screw_spacer_0,7.0,7.0,3.6,0.131,
+S_11_bridge_screw_spacer_1,7.0,7.0,3.6,0.131,
+S_08_pedestal_foot,152.0,14.0,62.0,144.027,Bears on rotating deck; four matching vertical M3 holes at120×40mm. CentralØ16vertical cable passage continues hollow yaw shaft through the pedestal.
+E_01_rear_support,114.25,103.0,6.0,45.871,Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment.
+E_01_front_support,75.0,103.0,6.0,22.597,Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment.
+E_12_front_cheek_tie_0,6.8,6.8,38.0,1.282,38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange.
+E_12_front_cheek_tie_1,6.8,6.8,38.0,1.282,38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange.
+E_12_front_cheek_tie_2,6.8,6.8,38.0,1.282,38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange.
+E_12_front_cheek_tie_3,6.8,6.8,38.0,1.282,38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange.
+E_02_rear_plain_bushing,34.0,34.0,10.0,5.171,Printed running bore Ø20.5; journal Ø20. Fit coupon first.
+E_02_front_plain_bushing,34.0,34.0,10.0,5.171,Printed running bore Ø20.5; journal Ø20. Fit coupon first.
+E_03_independent_output_shaft,50.0,50.0,68.8,33.862,"External printed pivot, independent of motor shaft. Shoulder flanges provide axial clearance, not clamped rotating cheeks."
+E_04_shaft_retainer,52.0,52.0,16.2,18.431,Positively keyed rear output flange; male hex17AF/female17.4AF. Supports second link plate. 0.3mm axial clearance at stationary cheek. Fit and torsion testing required.
+E_10_retainer_screw_spacer,11.0,11.0,8.0,0.784,
+E_05_output_80T,102.5,102.5,10.0,59.92,"4:1 reduction, module1.25, 20 degree pressure angle, pitch diameter100.0."
+E_XM_C01_Keyed_motor_cradle,47.7,63.7,36.3,11.704,"XM430-W350-T cradle: 0.35 mm per side; 26.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+E_XM_C02_Connector_access_rear_cap,47.7,63.7,4.6,6.149,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+E_XM_C04_1_Axial_fit_shim_030,28.4,46.4,0.3,0.105,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+E_XM_C04_2_Axial_fit_shim_050,28.4,46.4,0.5,0.237,Printed motor seating spacer 0.50 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+E_XM_C03_1_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+E_XM_C03_2_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+E_XM_C03_3_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+E_XM_C03_4_Screw_stack_spacer,6.8,6.8,3.85,0.129,Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm.
+E_09_motor_mount_standoff_0,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+E_09_motor_mount_standoff_1,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+E_09_motor_mount_standoff_2,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+E_09_motor_mount_standoff_3,8.2,8.2,9.35,0.507,9.35mm rear support gap; shared coaxial M3 mounting stack.
+E_06_XM_pinion_20T,27.499,27.499,20.0,5.238,Eight M2×6 with 4.5 mm floor =1.5 mm nominal engagement into XM horn. Check screw length.
+E_07_pinion_journal_bridge,20.0,77.0,68.5,18.829,External Ø8.5 polymer bearing; two long legs lie outside both gear sweeps and bolt to rear support plate.
+E_11_bridge_screw_spacer_0,7.0,7.0,0.6,0.022,
+E_11_bridge_screw_spacer_1,7.0,7.0,0.6,0.022,
+A01_left_upper_fork,203.0,75.0,6.0,62.67,Matched 6mm curved side plate; shoulder/elbow pivot centres100mm. Fixed elbow ears beyond gear sweep. No lateral joint offset.
+A02_-1_elbow_outer_support_0,11.0,11.0,29.5,3.141,29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius.
+A02_-1_elbow_outer_support_1,11.0,11.0,29.5,3.141,29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius.
+A01_right_upper_fork,203.0,75.0,6.0,62.67,Matched 6mm curved side plate; shoulder/elbow pivot centres100mm. Fixed elbow ears beyond gear sweep. No lateral joint offset.
+A02_1_elbow_outer_support_0,11.0,11.0,29.5,3.141,29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius.
+A02_1_elbow_outer_support_1,11.0,11.0,29.5,3.141,29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius.
+A01_front_flange_spacer,52.0,52.0,11.0,21.216,Four through-fasteners transmit torque; bore clears central pivot retainer.
+A01_front_bolt_washer_0,7.0,7.0,5.1,0.186,
+A01_front_bolt_washer_1,7.0,7.0,5.1,0.186,
+A01_front_bolt_washer_2,7.0,7.0,5.1,0.186,
+A01_front_bolt_washer_3,7.0,7.0,5.1,0.186,
+A03_left_forearm_fork,91.8,52.0,6.0,22.843,Matched6mm rounded forearm side plates; both output-shaft ends support the centred wrist crossmember.
+A03_right_forearm_fork,91.8,52.0,6.0,22.843,Matched6mm rounded forearm side plates; both output-shaft ends support the centred wrist crossmember.
+A03_front_bolt_washer_0,7.0,7.0,3.1,0.113,
+A03_front_bolt_washer_1,7.0,7.0,3.1,0.113,
+A03_front_bolt_washer_2,7.0,7.0,3.1,0.113,
+A03_front_bolt_washer_3,7.0,7.0,3.1,0.113,
+A05_centred_wrist_crossmember,83.0,60.0,25.0,71.548,"83mm transverse bridge atx53.8..63.8 behind wrist gear sweep; centredØ60neck/flange to frontdatumx78.8. Ø26access,fourM3on48PCD; open radial nut slots."
+W02_centred_fixed_pitch_fork,78.0,127.0,72.6,63.195,Neutral roll/pitch axes intersect on centreline. Side cheeks haveØ20.5 journal bores and6mm bearing length. Motor rear mounting42×58mm pattern rotated90°. Continuous curved printed webs join both cheeks to the fixed forearm flange.
+W03_moving_pitch_cradle,26.0,68.0,60.0,22.645,"Two removable side trunnions leave central motor bay open. J5 horn41mm ahead of pitch axis; rear capture plate5mm. Four M3 bolted trunnions per side,14PCD,45°."
+W04_idler_removable_trunnion,28.0,28.0,12.6,6.382,Ø20 journal throughØ20.5 fork bore;0.3mm axial gap. Four M3×20 into moving cradle; flange does not clamp fixed fork.
+W04_drive_removable_trunnion,44.0,44.0,12.6,12.556,Ø20 journal throughØ20.5 fork bore;0.3mm axial gap. Four M3×20 into moving cradle; flange does not clamp fixed fork.
+W05_pitch_60T_module1p5,92.999,92.999,8.0,36.305,"60T /20T,20° involute;60mm centres;8mm face. Printed output trunnion carries bending independently from motor horn."
+J4_AX_C01_Keyed_motor_cradle,51.2,67.2,39.3,13.459,"AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+J4_AX_C02_Connector_access_rear_cap,51.2,67.2,4.6,6.786,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+J4_AX_C04_1_Axial_fit_shim_030,31.9,32.663,0.3,0.08,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J4_AX_C04_2_Axial_fit_shim_330,31.9,49.9,3.3,1.851,Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J4_AX_C03_1_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J4_AX_C03_2_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J4_AX_C03_3_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J4_AX_C03_4_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+W06_pitch_20T_pinion,32.999,32.999,16.5,6.822,FourM2×6 at16PCD through4mm floor =>2mm horn engagement. ExternalØ8 printed front journal.
+W07_pitch_pinion_journal_bridge,85.0,45.0,59.95,19.228,Ø8.5 running bore; two independent columns attach motor rear plate using M3×70 through1 mm foot spacers and1.45 mm head spacers. Install after horn screws.
+W08_pinion_bridge_foot_-15,9.0,9.0,1.0,0.068,
+W09_bridge_head_spacer_-15,7.0,7.0,1.45,0.053,
+W08_pinion_bridge_foot_50,9.0,9.0,1.0,0.068,
+W09_bridge_head_spacer_50,7.0,7.0,1.45,0.053,
+J5_AX_C01_Keyed_motor_cradle,58.0,71.1,58.35,28.141,"AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs. Integral front annular sleeve Ø40.5, sixteen mm bearing length. Polymer fit/friction trial required."
+J5_AX_C02_Connector_access_rear_cap,51.2,67.2,4.6,6.786,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+J5_AX_C04_1_Axial_fit_shim_030,31.9,32.663,0.3,0.08,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J5_AX_C04_2_Axial_fit_shim_330,31.9,49.9,3.3,1.851,Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+J5_AX_C03_1_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J5_AX_C03_2_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J5_AX_C03_3_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+J5_AX_C03_4_Screw_stack_spacer,6.8,6.8,1.2,0.04,Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm.
+W10_supported_roll_output,60.0,60.0,23.5,24.484,"Ø40 printed journal / Ø40.5 fixed sleeve;0.25 radial,0.5 front axial clearance. Four M2×6 on16PCD engage stock horn2mm. Output M3 on48PCD at0°; rear captive nuts."
+GRIP_C01_Keyed_motor_cradle,51.2,67.2,38.3,12.602,"AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front M3x45 socket screws into separate rear palm captive nuts. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+GRIP_C02_Connector_access_rear_cap,51.2,67.2,4.6,6.786,4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked.
+GRIP_C04_1_Axial_fit_shim_030,31.9,32.663,0.3,0.08,Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+GRIP_C04_2_Axial_fit_shim_330,31.9,49.9,3.3,1.851,Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed.
+G01_Windowed_rear_palm,75.0,123.7,6.0,20.723,"75 x123.7 mm open rear frame,4 mm ribs and6 mm local bolted bosses; rear datum -50.95. Four PCD48 phase-zero M3 interface holes. CentreØ26access plus20x10 rear AX connector passage at(0,-15); diagonal printed ribs connect lower interface boss to both motor ribs. Four AX cradle rear captive nuts accept front-inserted M3x45. Four frame-tie nut pockets open rearward."
+G02_Captured_slide_lower_frame,74.0,120.7,8.7,20.652,"3 mm guide floor with two3 mm-wide bearing lands under each foot. Rails start X±24.35 to clear rack backbones X±24.00. Guide floor Z3.30; slide foot bottom3.65, top8.65; fixed retaining lips startZ9.00. Central stops endY±10.65; outer stops startY±52.35."
+G03_1_Rear_frame_standoff,10.0,10.0,45.25,3.886,"45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+G04_1_Frame_tie_spacer,7.0,7.0,2.15,0.078,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G03_2_Rear_frame_standoff,10.0,10.0,45.25,3.886,"45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+G04_2_Frame_tie_spacer,7.0,7.0,2.15,0.078,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G03_3_Rear_frame_standoff,10.0,10.0,45.25,3.886,"45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+G04_3_Frame_tie_spacer,7.0,7.0,2.15,0.078,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G03_4_Rear_frame_standoff,10.0,10.0,45.25,3.886,"45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+G04_4_Frame_tie_spacer,7.0,7.0,2.15,0.078,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G05_R_Slide_retaining_lip,9.0,120.7,3.0,3.94,Removable 3 mm printed upper guide; 0.35 mm vertical running clearance over carriage feet. Fixed wall clearance at carriage outer edge0.35 mm.
+G05_L_Slide_retaining_lip,9.0,120.7,3.0,3.94,Removable 3 mm printed upper guide; 0.35 mm vertical running clearance over carriage feet. Fixed wall clearance at carriage outer edge0.35 mm.
+G06_20T_m1p5_AX_rack_pinion,32.999,32.999,22.5,7.047,"20T module1.5,20deg,8 mm face,total tangential backlash0.20. Four M2x6 on16 PCD through4 mm floor leave2 mm horn engagement. Retain supplied centre screw; Ø6x0.3 rear clearance recess. Printed OD8 outboard journal, no added metal bearing."
+G07_Pinion_outboard_journal_bridge,74.0,15.0,9.3,4.764,"Integral OD15 boss containsØ8.5 plain bearing forØ8 journal:0.25 mm radial allowance,3.25 mm bearing wall. Bolted to guide centre blocks, above rack teeth. Hand-fit and wear tests required."
+G08_1_Bridge_screw_spacer,7.0,7.0,0.5,0.018,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G08_2_Bridge_screw_spacer,7.0,7.0,0.5,0.018,Printed axial stack spacer; 3.4 mm M3 clearance bore.
+G09_R_Rack_and_raised_slide,67.0,70.0,18.0,13.1,14 analytic rack teeth; pitch line X15. Raised crossbar bottomZ13 lets opposite rack pass belowZ8 throughout20–70 mm gap. Captured slide feet run Z3.65..8.65 with0.35 mm each-side vertical allowance.
+G10_R_Long_finger_75x24x12,42.0,79.0,16.0,18.323,"75 mm finger body (Z22..97),24 mm width,12 mm thickness; keyed replaceable pad. Root flange4 mm with two M3x10 and captive nuts in carriage. Open rear relief leaves3 mm walls behind key and at each side. Tip M3 nut loads through outer-side slot and bears under3.7 mm roof. Print on outer back with key slot up; preview removable supports in open rear pocket and inspect short slot-roof bridges."
+G11_R_Flat_and_V_keyed_contact_pad,24.0,71.65,6.0,7.595,"3 mm replaceable printed pad; flat lands maintain specified gap. Central14 mm-wide,1.2 mm-deep V overZ35..85 supports round objects.3 mm front pad plus integral T key slides into finger with0.3 mm side allowance; remove tip cap to replace."
+G12_R_Removable_pad_tip_stop,24.0,15.0,3.0,1.293,"3 mm printed axial pad stop. One M3x10 atX0,Yfinger-centre+2 into side-loaded captive nut. Slide pad from tip only after cap removal;0.35 mm nominal pad endplay."
+G09_L_Rack_and_raised_slide,67.0,70.0,18.0,13.1,14 analytic rack teeth; pitch line X15. Raised crossbar bottomZ13 lets opposite rack pass belowZ8 throughout20–70 mm gap. Captured slide feet run Z3.65..8.65 with0.35 mm each-side vertical allowance.
+G10_L_Long_finger_75x24x12,42.0,79.0,16.0,18.323,"75 mm finger body (Z22..97),24 mm width,12 mm thickness; keyed replaceable pad. Root flange4 mm with two M3x10 and captive nuts in carriage. Open rear relief leaves3 mm walls behind key and at each side. Tip M3 nut loads through outer-side slot and bears under3.7 mm roof. Print on outer back with key slot up; preview removable supports in open rear pocket and inspect short slot-roof bridges."
+G11_L_Flat_and_V_keyed_contact_pad,24.0,71.65,6.0,7.595,"3 mm replaceable printed pad; flat lands maintain specified gap. Central14 mm-wide,1.2 mm-deep V overZ35..85 supports round objects.3 mm front pad plus integral T key slides into finger with0.3 mm side allowance; remove tip cap to replace."
+G12_L_Removable_pad_tip_stop,24.0,15.0,3.0,1.293,"3 mm printed axial pad stop. One M3x10 atX0,Yfinger-centre+2 into side-loaded captive nut. Slide pad from tip only after cap removal;0.35 mm nominal pad endplay."
+W12_palm_service_gap_post_0,9.0,9.0,20.0,1.351,20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits.
+W11_palm_screw_spacer_0,7.0,7.0,4.0,0.146,
+W12_palm_service_gap_post_1,9.0,9.0,20.0,1.351,20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits.
+W11_palm_screw_spacer_1,7.0,7.0,4.0,0.146,
+W12_palm_service_gap_post_2,9.0,9.0,20.0,1.351,20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits.
+W11_palm_screw_spacer_2,7.0,7.0,4.0,0.146,
+W12_palm_service_gap_post_3,9.0,9.0,20.0,1.351,20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits.
+W11_palm_screw_spacer_3,7.0,7.0,4.0,0.146,
+F01_hole_and_nut_coupon,92.0,46.0,5.0,24.021,Print first. Ø3.2/3.4/3.6; Ø8.3/8.5/8.7; nut5.6/5.8/6.0AF. Not structural.
+F02_AX_16PCD_horn_coupon,26.0,26.0,4.0,2.299,4 M2 clearances2.3 on16PCD. Verify against supplied horn using M2x6. Not structural.
+F02_XM_16PCD_horn_coupon,26.0,26.0,4.5,2.494,8 M2 clearances2.3 on16PCD. Verify against supplied horn using M2x6. Not structural.

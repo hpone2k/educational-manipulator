@@ -1,0 +1,463 @@
+{
+  "pass": true,
+  "native_document": "WIRING CONNECTIVITY \u2014 R06",
+  "topology_matches_six_actual_motor_cases": true,
+  "expected_physical_bus_edges": [
+    [
+      "U2D2",
+      "POWER_INJECTION"
+    ],
+    [
+      "POWER_INJECTION",
+      "J1_BASE"
+    ],
+    [
+      "J1_BASE",
+      "S_XM"
+    ],
+    [
+      "S_XM",
+      "E_XM"
+    ],
+    [
+      "E_XM",
+      "J4_AX"
+    ],
+    [
+      "J4_AX",
+      "J5_AX"
+    ],
+    [
+      "J5_AX",
+      "GRIP"
+    ]
+  ],
+  "actual_physical_bus_edges": [
+    [
+      "U2D2",
+      "POWER_INJECTION"
+    ],
+    [
+      "POWER_INJECTION",
+      "J1_BASE"
+    ],
+    [
+      "J1_BASE",
+      "S_XM"
+    ],
+    [
+      "S_XM",
+      "E_XM"
+    ],
+    [
+      "E_XM",
+      "J4_AX"
+    ],
+    [
+      "J4_AX",
+      "J5_AX"
+    ],
+    [
+      "J5_AX",
+      "GRIP"
+    ]
+  ],
+  "curve_count": 28,
+  "expected_curve_count": 28,
+  "errors": [],
+  "curves": [
+    {
+      "curve": "H00_U2D2_POWER / route centre",
+      "harness_id": "H00_U2D2_POWER",
+      "conductor": "CENTRE",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H00_U2D2_POWER / GND",
+      "harness_id": "H00_U2D2_POWER",
+      "conductor": "GND",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H00_U2D2_POWER / VDD",
+      "harness_id": "H00_U2D2_POWER",
+      "conductor": "VDD",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H00_U2D2_POWER / DATA",
+      "harness_id": "H00_U2D2_POWER",
+      "conductor": "DATA",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H01_POWER_J1 / route centre",
+      "harness_id": "H01_POWER_J1",
+      "conductor": "CENTRE",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H01_POWER_J1 / GND",
+      "harness_id": "H01_POWER_J1",
+      "conductor": "GND",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H01_POWER_J1 / VDD",
+      "harness_id": "H01_POWER_J1",
+      "conductor": "VDD",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H01_POWER_J1 / DATA",
+      "harness_id": "H01_POWER_J1",
+      "conductor": "DATA",
+      "anchor_count": 9,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H02_J1_J2 / route centre",
+      "harness_id": "H02_J1_J2",
+      "conductor": "CENTRE",
+      "anchor_count": 16,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H02_J1_J2 / GND",
+      "harness_id": "H02_J1_J2",
+      "conductor": "GND",
+      "anchor_count": 16,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H02_J1_J2 / VDD",
+      "harness_id": "H02_J1_J2",
+      "conductor": "VDD",
+      "anchor_count": 16,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H02_J1_J2 / DATA",
+      "harness_id": "H02_J1_J2",
+      "conductor": "DATA",
+      "anchor_count": 16,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H03_J2_J3 / route centre",
+      "harness_id": "H03_J2_J3",
+      "conductor": "CENTRE",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H03_J2_J3 / GND",
+      "harness_id": "H03_J2_J3",
+      "conductor": "GND",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H03_J2_J3 / VDD",
+      "harness_id": "H03_J2_J3",
+      "conductor": "VDD",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H03_J2_J3 / DATA",
+      "harness_id": "H03_J2_J3",
+      "conductor": "DATA",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H04_J3_J4 / route centre",
+      "harness_id": "H04_J3_J4",
+      "conductor": "CENTRE",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H04_J3_J4 / GND",
+      "harness_id": "H04_J3_J4",
+      "conductor": "GND",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H04_J3_J4 / VDD",
+      "harness_id": "H04_J3_J4",
+      "conductor": "VDD",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H04_J3_J4 / DATA",
+      "harness_id": "H04_J3_J4",
+      "conductor": "DATA",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H05_J4_J5 / route centre",
+      "harness_id": "H05_J4_J5",
+      "conductor": "CENTRE",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H05_J4_J5 / GND",
+      "harness_id": "H05_J4_J5",
+      "conductor": "GND",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H05_J4_J5 / VDD",
+      "harness_id": "H05_J4_J5",
+      "conductor": "VDD",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H05_J4_J5 / DATA",
+      "harness_id": "H05_J4_J5",
+      "conductor": "DATA",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H06_J5_GRIP / route centre",
+      "harness_id": "H06_J5_GRIP",
+      "conductor": "CENTRE",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": true,
+      "pass": true
+    },
+    {
+      "curve": "H06_J5_GRIP / GND",
+      "harness_id": "H06_J5_GRIP",
+      "conductor": "GND",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H06_J5_GRIP / VDD",
+      "harness_id": "H06_J5_GRIP",
+      "conductor": "VDD",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    },
+    {
+      "curve": "H06_J5_GRIP / DATA",
+      "harness_id": "H06_J5_GRIP",
+      "conductor": "DATA",
+      "anchor_count": 10,
+      "maximum_world_control_point_anchor_error_mm": 0.0,
+      "first_last_anchor_error_mm": [
+        0.0,
+        0.0
+      ],
+      "spline_interpolates_endpoint_controls": true,
+      "centreline_matches_declared_endpoint_objects": null,
+      "pass": true
+    }
+  ],
+  "scope": "Verifies seven saved physical bus edges, six installed motor IDs, and evaluated control-point/anchor tracking for seven route centres plus 21 conductors. Does not establish cable clearance, bend radius, plug engagement, cut length, conductor suitability, power design or communication configuration."
+}

@@ -1,0 +1,28 @@
+part,CAD_volume_mm3,solid_PLA_mass_g_at_1.24g_per_cm3,status
+C01_clearance_and_M3_nut_coupon,11830.45,14.67,fit coupon
+P01_AX_horn_adapter,3218.88,3.99,fit coupon
+P02_XM_horn_adapter,3152.4,3.91,fit coupon
+P03_XM_side_mount_coupon,3549.48,4.4,fit coupon
+P04_AX_body_mount_plate,7314.41,9.07,development print
+P05_base_plate,157233.35,194.97,development print
+P06_turntable_interface_ring_PROVISIONAL,102909.9,127.61,development print
+P07_base_gear_60T_M2,61175.8,75.86,development print
+P08_base_pinion_20T_M2,9132.17,11.32,development print
+P09_shoulder_gear_80T_M1p5,65526.13,81.25,development print
+P10_elbow_gear_40T_M1p5,20297.28,25.17,development print
+P11_XM_pinion_20T_M1p5,4739.48,5.88,development print
+P12_shoulder_bearing_cheek,61582.78,76.36,development print
+P13_upper_link_cheek_120,15578.71,19.32,development print
+P14_forearm_cheek_100,15475.77,19.19,development print
+P15_cross_tie_50,9146.04,11.34,development print
+P16_upper_box_skin,10472.84,12.99,development print
+P17_forearm_box_skin,8072.84,10.01,development print
+R03_608_bearing_REFERENCE,2309.07,,purchased reference; do not print
+R01_AX12A_body_REFERENCE,64000,,motor envelope; do not print
+R02_XM430_body_REFERENCE,45058.5,,motor envelope; do not print
+P18_AX_wrist_bridge,5393.93,6.69,development print
+P19_gripper_base_plate,20141.79,24.98,development print
+P20_gripper_pinion_20T_M1p5,3654.33,4.53,development print
+P21_gripper_rack,2535.27,3.14,development print
+P22_gripper_guide_rail,5614.73,6.96,development print
+P23_gripper_finger,4025.71,4.99,development print

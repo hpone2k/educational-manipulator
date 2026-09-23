@@ -1,0 +1,44 @@
+[
+  {
+    "upper": true,
+    "boundaries_before": 772,
+    "before_faces": 6158,
+    "bounds_before": [
+      [
+        -9.75,
+        -9.75,
+        -1.9999990463256836
+      ],
+      [
+        9.75,
+        9.75,
+        4.700000762939453
+      ]
+    ],
+    "bad": 0,
+    "boundary": 0,
+    "volume": 711.0843939358209,
+    "zero": 0
+  },
+  {
+    "upper": false,
+    "boundaries_before": 772,
+    "before_faces": 33608,
+    "bounds_before": [
+      [
+        -14.25,
+        -35.25,
+        -38.0
+      ],
+      [
+        14.25,
+        11.25,
+        -1.9999990463256836
+      ]
+    ],
+    "bad": 0,
+    "boundary": 0,
+    "volume": 42719.06523815326,
+    "zero": 0
+  }
+]

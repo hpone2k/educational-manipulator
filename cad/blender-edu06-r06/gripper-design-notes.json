@@ -1,0 +1,177 @@
+{
+  "revision": "R06",
+  "units": "mm",
+  "control_property": "GRIP",
+  "home_gap_mm": 45.0,
+  "gripper_datum": "AX installed horn front, +Z toward fingers",
+  "rear_interface_z_mm": -50.95,
+  "rear_interface_pcd_mm": 48,
+  "rear_interface_holes_mm": [
+    [
+      24,
+      0
+    ],
+    [
+      0,
+      24
+    ],
+    [
+      -24,
+      0
+    ],
+    [
+      0,
+      -24
+    ]
+  ],
+  "rear_interface_screw": "4 x M3x12 from full6 mm palm seats; four captive nuts in J5 flange; wrist builder provides these references",
+  "rear_interface_central_access_diameter_mm": 26,
+  "motor": "Dynamixel AX-12A official STEP reference; mechanically captured with four front-inserted M3x45 into rear-palm nuts",
+  "motor_stack": {
+    "diameter_mm": 3,
+    "length_mm": 45.0,
+    "spacer_mm": 0,
+    "qty": 4,
+    "insertion_direction": "-LOCAL_Z",
+    "under_head_z_mm": -5.65,
+    "shaft_tip_z_mm": -50.65,
+    "cap_back_z_mm": -44.95,
+    "attachment_depth_mm": 6.0,
+    "attachment_far_face_z_mm": -50.95,
+    "front_nut_qty": 0,
+    "rear_nut_qty": 4,
+    "rear_nut_top_z_mm": -48.35,
+    "rear_nut_bottom_z_mm": -50.75,
+    "rear_nut_pocket_top_z_mm": -48.15,
+    "rear_nut_pocket_bottom_z_mm": -51.05,
+    "socket_head_top_z_mm": -2.65,
+    "front_counterbore_diameter_mm": 6.2,
+    "front_counterbore_seat_z_mm": -5.65,
+    "assembly_note": "Front screws engage rear palm captive nuts created by gripper module; no front nut or rear spacer."
+  },
+  "finger_body_mm": [
+    24,
+    12,
+    75
+  ],
+  "finger_body_z_mm": [
+    22,
+    97
+  ],
+  "pad_thickness_mm": 3,
+  "pad_v_depth_mm": 1.2,
+  "tool_tip_z_mm": 100.0,
+  "physical_screw_head_front_z_mm": 103,
+  "contact_marker_z_mm": 30.0,
+  "rear_frame_size_xy_mm": [
+    75,
+    123.7
+  ],
+  "rear_frame_web_thickness_mm": 4,
+  "rear_frame_bolted_boss_thickness_mm": 6,
+  "nodes": {
+    "fixed": "GRIPPER",
+    "right": "GRIP right jaw carriage",
+    "left": "GRIP left jaw carriage",
+    "pinion": "GRIP pinion rotation",
+    "tip": "GRIP tool centreline tip",
+    "contacts": [
+      "GRIP right contact",
+      "GRIP left contact"
+    ]
+  },
+  "fasteners_excluding_motor_and_wrist": [
+    {
+      "size": "M3x65",
+      "qty": 4,
+      "purpose": "front-to-rear frame ties",
+      "under_head_z": 14.15,
+      "tip_z": -50.85,
+      "nut_z": [
+        -50.75,
+        -48.35
+      ],
+      "spacer_mm": 2.15
+    },
+    {
+      "size": "M3x25",
+      "qty": 2,
+      "purpose": "outboard bearing bridge",
+      "under_head_z": 21.8,
+      "tip_z": -3.2,
+      "nut_z": [
+        -2.1,
+        0.3
+      ],
+      "spacer_mm": 0.5
+    },
+    {
+      "size": "M3x10",
+      "qty": 4,
+      "purpose": "finger root flanges",
+      "under_head_z": 22,
+      "tip_z": 12,
+      "nut_z": [
+        12.4,
+        14.8
+      ]
+    },
+    {
+      "size": "M3x10",
+      "qty": 2,
+      "purpose": "removable pad tip stops",
+      "under_head_z": 100,
+      "tip_z": 90,
+      "nut_z": [
+        90.7,
+        93.1
+      ]
+    },
+    {
+      "size": "M2x6",
+      "qty": 4,
+      "purpose": "pinion to AX horn",
+      "under_head_z": 4,
+      "tip_z": -2,
+      "printed_floor_mm": 4
+    }
+  ],
+  "assembly_sequence": [
+    "Print a short rail/foot and T-key fit coupon first; the nominal0.35 mm slide and0.3 mm key clearances are not measured printer accuracy.",
+    "Insert rear palm frame-tie nuts and motor-cradle nuts before attaching palm to wrist. With AX absent, install four PCD48 interface M3x12 from front with a straight driver; the centre\u00d826 opening exposes J5 stock-horn M2 screws.",
+    "Place AX rear cap, seating shims, motor and front cradle onto the palm fromfront. Tighten four front-inserted M3x45 into palm captive nuts before installing pinion and guide frame. Do not substitute rear-inserted cradle bolts here.",
+    "Seat gear on stock horn, retaining its centre screw; install four M2x6. Verify tip does not bottom in actual horn.",
+    "Assemble lower frame and standoffs, lower each rack-foot carriage fromabove into its open guide bay before fastening upper retaining lips and journal bridge. Phase pinion angle0 and gap45 as modeled; fixed end stops prevent horizontal insertion from the rail ends.",
+    "Install finger root captive nuts, bolt fingers to carriages, slide pads in from tips, and secure printed cap into side-loaded tip nut.",
+    "Hand-cycle20\u201370 mm without motor torque first. No rubbing, axial lock, tooth climbing or wire pinch is acceptable. Then commission current/torque-limited motion and measure actual holding force."
+  ],
+  "limitations": [
+    "Geometric prototype, not validated payload or fatigue rating.",
+    "PLA sliding surfaces require fit and wear trials; no added metal bearings assumed.",
+    "Round-object grip depends on measured pad friction and sphere size; no secure grip is claimed from geometry alone."
+  ],
+  "math_check": {
+    "tested_gaps": 101,
+    "gap_range_mm": [
+      20.0,
+      70.0
+    ],
+    "tooth_polygon_penetrations": [],
+    "negative_control_overlap_detected": true,
+    "pinion_teeth": 20,
+    "module_mm": 1.5,
+    "pressure_angle_deg": 20,
+    "pitch_radius_mm": 15.0,
+    "total_mesh_backlash_mm": 0.2,
+    "pinion_radians": "(GRIP - 45) / 30",
+    "right_carriage_y_mm": "(GRIP - 45) / 2",
+    "left_carriage_y_mm": "-(GRIP - 45) / 2",
+    "ax_total_angle_range_deg": 95.49296585513721,
+    "nominal_commanded_end_stop_clearance_mm": 0.35,
+    "slide_vertical_clearance_each_face_mm": 0.35,
+    "rack_backbone_to_slide_upright_clearance_mm": 0.35,
+    "opposite_rack_to_crossbar_axial_gap_mm": 5,
+    "cradle_front_to_fixed_guide_back_clearance_mm": 2.35,
+    "scope": "Analytical polygon interference and nominal dimensions only; no printed friction, strength or motor-load validation."
+  }
+}

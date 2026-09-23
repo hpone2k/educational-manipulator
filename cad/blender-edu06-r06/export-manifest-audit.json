@@ -1,0 +1,53 @@
+{
+  "build_complete": {
+    "ok": true,
+    "printed_meshes": 186,
+    "blend": "EDU06_R06.blend"
+  },
+  "native_modified_timestamp": 1790181335.7555826,
+  "manifest_count": 186,
+  "stl_count": 186,
+  "missing_stls": [],
+  "unexpected_stls": [],
+  "case_outer_envelope_mm": [
+    241,
+    240,
+    95
+  ],
+  "nominal_shell_and_lid_envelope_mm": [
+    240,
+    240,
+    95
+  ],
+  "fixed_case_bounds_mm": {
+    "x": [
+      -120.5,
+      120.5
+    ],
+    "y": [
+      -120,
+      120
+    ],
+    "z": [
+      0,
+      95
+    ]
+  },
+  "largest_part": {
+    "id": "B01_open_front_base_240x240",
+    "dimensions_mm": [
+      241.0,
+      240.0,
+      90.0
+    ],
+    "volume_mm3": 600018.23018154,
+    "solid_PLA_mass_g": 744.0226054251096,
+    "centroid_local_mm": [
+      -0.8524166941642761,
+      17.919822692871094,
+      25.2080020904541
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4 mm walls, 5 mm floor; four M4 fasteners attach printed feet. External bench attachment must be provided separately. M3 captive nuts in top posts."
+  }
+}

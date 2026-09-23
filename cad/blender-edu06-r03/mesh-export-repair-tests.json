@@ -1,0 +1,46 @@
+{
+  "B03_service_front_panel": {
+    "cleanup": {
+      "part": "B03_service_front_panel",
+      "duplicate_faces_removed": 0,
+      "nonmanifold_edges_before": 0,
+      "nonmanifold_edges_after": 0,
+      "vertex_relocation_mm": 0.0
+    },
+    "vertex_coordinates_identical": true,
+    "corrected_export": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "faces": 1516
+    },
+    "old_export": {
+      "native_bad": 15,
+      "coordinate_bad": 15,
+      "duplicate_faces": 3,
+      "faces": 1516
+    }
+  },
+  "G04_front_pivot_bridge": {
+    "cleanup": {
+      "part": "G04_front_pivot_bridge",
+      "duplicate_faces_removed": 4,
+      "nonmanifold_edges_before": 18,
+      "nonmanifold_edges_after": 0,
+      "vertex_relocation_mm": 0.0
+    },
+    "vertex_coordinates_identical": true,
+    "corrected_export": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "faces": 1824
+    },
+    "old_export": {
+      "native_bad": 0,
+      "coordinate_bad": 0,
+      "duplicate_faces": 0,
+      "faces": 1824
+    }
+  }
+}

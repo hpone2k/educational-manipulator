@@ -1,0 +1,210 @@
+[
+  {
+    "part_id": "P01_base_plate",
+    "quantity": 1,
+    "dimensions_mm": [
+      180.0,
+      180.0,
+      12.0
+    ],
+    "volume_mm3": 296902.17,
+    "triangles": 2612,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "180 mm base plate with four anchor holes and cable bore",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P02_motor_housing",
+    "quantity": 1,
+    "dimensions_mm": [
+      112.0,
+      112.0,
+      64.0
+    ],
+    "volume_mm3": 220317.2,
+    "triangles": 2852,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Open cup, 8 mm floor and 8 mm walls; provisional motor mounting",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P03_rotating_deck",
+    "quantity": 1,
+    "dimensions_mm": [
+      112.0,
+      112.0,
+      10.0
+    ],
+    "volume_mm3": 96839.05,
+    "triangles": 2602,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Yaw deck; coupling and bearing arrangement require hardware design",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P04_shoulder_bracket",
+    "quantity": 2,
+    "dimensions_mm": [
+      50.0,
+      64.0,
+      26.0
+    ],
+    "volume_mm3": 33168.75,
+    "triangles": 2214,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Reversible shoulder bracket with integral mounting foot",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P05_upper_link_plate",
+    "quantity": 2,
+    "dimensions_mm": [
+      226.0,
+      46.0,
+      7.0
+    ],
+    "volume_mm3": 57693.87,
+    "triangles": 3392,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "180 mm pivot spacing; two side plates form one link",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P06_forearm_plate",
+    "quantity": 2,
+    "dimensions_mm": [
+      188.0,
+      38.0,
+      7.0
+    ],
+    "volume_mm3": 38473.87,
+    "triangles": 3384,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "150 mm pivot spacing; two side plates form one link",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P07_upper_spacer",
+    "quantity": 2,
+    "dimensions_mm": [
+      16.0,
+      16.0,
+      46.0
+    ],
+    "volume_mm3": 8535.68,
+    "triangles": 512,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Link cross spacer with through-bolt bore",
+    "print_orientation": "Stand on one annular end; verify hole tolerance",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P08_forearm_spacer",
+    "quantity": 2,
+    "dimensions_mm": [
+      16.0,
+      16.0,
+      30.0
+    ],
+    "volume_mm3": 5566.75,
+    "triangles": 512,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Link cross spacer with through-bolt bore",
+    "print_orientation": "Stand on one annular end; verify hole tolerance",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P09_wrist_side_plate",
+    "quantity": 2,
+    "dimensions_mm": [
+      82.0,
+      38.0,
+      7.0
+    ],
+    "volume_mm3": 20309.85,
+    "triangles": 1488,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "52 mm wrist bridge; print two",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P10_roll_carrier",
+    "quantity": 1,
+    "dimensions_mm": [
+      42.0,
+      56.0,
+      26.0
+    ],
+    "volume_mm3": 48586.55,
+    "triangles": 3072,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Generic 22.4 mm bore; final bearing and motor mount unspecified",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P11_gripper_palm",
+    "quantity": 1,
+    "dimensions_mm": [
+      76.0,
+      28.0,
+      12.0
+    ],
+    "volume_mm3": 21896.63,
+    "triangles": 1492,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Concept parallel-gripper palm; transmission and drive not yet designed",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P12_gripper_finger",
+    "quantity": 2,
+    "dimensions_mm": [
+      48.0,
+      14.0,
+      16.0
+    ],
+    "volume_mm3": 8064.27,
+    "triangles": 818,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Mirrored parallel finger; provisional rail and actuator interface",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  },
+  {
+    "part_id": "P13_clearance_coupon",
+    "quantity": 1,
+    "dimensions_mm": [
+      58.0,
+      26.0,
+      6.0
+    ],
+    "volume_mm3": 8277.31,
+    "triangles": 1240,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "description": "Hole diameters left to right: 3.4, 4.4, 8.4, 6.6 mm",
+    "print_orientation": "Largest flat face on the bed",
+    "status": "Prototype \u2014 motor fit and strength unverified"
+  }
+]

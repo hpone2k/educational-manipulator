@@ -1,0 +1,207 @@
+{
+  "revision": "EDU06-L01",
+  "status": "preliminary sizing study; not manufacturing release",
+  "materialAssumption": "standard PLA, Bambu printer, 0.4 mm nozzle; exact filament and printer unknown",
+  "links_mm": {
+    "upper": 120,
+    "forearm": 100,
+    "wristToTool": 150
+  },
+  "motors": {
+    "AX12A": {
+      "body_mm": [
+        32,
+        50,
+        40
+      ],
+      "mass_g": 54.6,
+      "count": 5
+    },
+    "XM430W350T": {
+      "body_mm": [
+        28.5,
+        46.5,
+        34
+      ],
+      "mass_g": 82,
+      "count": 2
+    }
+  },
+  "movingMassAssumptions": [
+    {
+      "name": "upper link print",
+      "mass_g": 45,
+      "x_mm": 60,
+      "loadGroup": 2
+    },
+    {
+      "name": "upper link hardware",
+      "mass_g": 25,
+      "x_mm": 60,
+      "loadGroup": 2
+    },
+    {
+      "name": "J3 XM430",
+      "mass_g": 82,
+      "x_mm": 120,
+      "loadGroup": 2
+    },
+    {
+      "name": "J3 reduction and support",
+      "mass_g": 40,
+      "x_mm": 120,
+      "loadGroup": 2
+    },
+    {
+      "name": "forearm print",
+      "mass_g": 35,
+      "x_mm": 170,
+      "loadGroup": 3
+    },
+    {
+      "name": "forearm hardware",
+      "mass_g": 20,
+      "x_mm": 170,
+      "loadGroup": 3
+    },
+    {
+      "name": "J4 AX12",
+      "mass_g": 54.6,
+      "x_mm": 220,
+      "loadGroup": 3
+    },
+    {
+      "name": "J5 AX12",
+      "mass_g": 54.6,
+      "x_mm": 255,
+      "loadGroup": 3
+    },
+    {
+      "name": "J6 AX12",
+      "mass_g": 54.6,
+      "x_mm": 290,
+      "loadGroup": 5
+    },
+    {
+      "name": "gripper AX12",
+      "mass_g": 54.6,
+      "x_mm": 325,
+      "loadGroup": 5
+    },
+    {
+      "name": "wrist print",
+      "mass_g": 40,
+      "x_mm": 270,
+      "loadGroup": 5
+    },
+    {
+      "name": "wrist hardware",
+      "mass_g": 25,
+      "x_mm": 290,
+      "loadGroup": 5
+    },
+    {
+      "name": "gripper print",
+      "mass_g": 25,
+      "x_mm": 345,
+      "loadGroup": 5
+    },
+    {
+      "name": "gripper rails and screws",
+      "mass_g": 15,
+      "x_mm": 340,
+      "loadGroup": 5
+    },
+    {
+      "name": "moving cables",
+      "mass_g": 20,
+      "x_mm": 190,
+      "loadGroup": 3
+    }
+  ],
+  "screeningResults": {
+    "zero": [
+      {
+        "joint": "J2",
+        "Nm": 1.20895400535
+      },
+      {
+        "joint": "J3",
+        "Nm": 0.55536039615
+      },
+      {
+        "joint": "J5",
+        "Nm": 0.10525477444999998
+      }
+    ],
+    "fifty": [
+      {
+        "joint": "J2",
+        "Nm": 1.39037703035
+      },
+      {
+        "joint": "J3",
+        "Nm": 0.67794352115
+      },
+      {
+        "joint": "J5",
+        "Nm": 0.16164301194999997
+      }
+    ],
+    "hundred": [
+      {
+        "joint": "J2",
+        "Nm": 1.57180005535
+      },
+      {
+        "joint": "J3",
+        "Nm": 0.80052664615
+      },
+      {
+        "joint": "J5",
+        "Nm": 0.21803124944999996
+      }
+    ],
+    "twohundred": [
+      {
+        "joint": "J2",
+        "Nm": 1.9346461053500001
+      },
+      {
+        "joint": "J3",
+        "Nm": 1.04569289615
+      },
+      {
+        "joint": "J5",
+        "Nm": 0.33080772444999995
+      }
+    ]
+  },
+  "estimatedMotorPlanningTorque_Nm": {
+    "XM": 0.82,
+    "AX": 0.3
+  },
+  "externalReduction": {
+    "J1": 3,
+    "J2": 4,
+    "J3": 2
+  },
+  "assumedReductionEfficiency": 0.8,
+  "fasteners": {
+    "printedClearanceTrial_mm": {
+      "M2": 2.3,
+      "M2_5": 2.8,
+      "M3": 3.4
+    },
+    "M3printedPocketTrial": {
+      "acrossFlats_mm": 5.8,
+      "depth_mm": 2.7,
+      "bossOD_mm": 11
+    },
+    "motorMounting": "must follow specific ROBOTIS drawing; do not use M3 universally"
+  },
+  "sourceDrawings": {
+    "AX": "https://emanual.robotis.com/assets/images/dxl/ax/ax-12a_dimension.png",
+    "XM": "https://media.distrelec.com/Web/Downloads/_t/ds/Dynamixel_XM-Series_eng_tds.pdf"
+  }
+}

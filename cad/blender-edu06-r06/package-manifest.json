@@ -1,0 +1,1395 @@
+{
+  "files": [
+    {
+      "path": "EDU06_R06.blend",
+      "bytes": 16173887,
+      "sha256": "869208f257acd2ade561dd7bbd4942c6f8e8492dac20dde2fd4500a1fa258fc5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8627,
+      "sha256": "58a47530813eb214f5a07509c2020a05759e7fe104f8233903ccddef7082721f"
+    },
+    {
+      "path": "engineering-review.md",
+      "bytes": 18215,
+      "sha256": "8fbd1b2ec7ac6434aa7c3f49744d22fc5916ed7dd1dbfa110577618c95d9545a"
+    },
+    {
+      "path": "assembled-preview.png",
+      "bytes": 2792414,
+      "sha256": "9ea2b65813d9f5b1c64613e11d50c3fd19df3faa816bb31ac659f2ce2dac5216"
+    },
+    {
+      "path": "base-detail.png",
+      "bytes": 1755339,
+      "sha256": "4ba9b4976c4ffcad58aecc213c51c2f2bbac052d44b3381f5d9496fa2c3a8a6a"
+    },
+    {
+      "path": "wrist-straight-preview.png",
+      "bytes": 1918275,
+      "sha256": "92e178500c0aa07ab6b6f16675e752816ab617a8fb16fc67979f1292ccc10e68"
+    },
+    {
+      "path": "motor-map.png",
+      "bytes": 4589575,
+      "sha256": "992de4be6c1e8f669de60f4c7b14bf339d3ba2dc15a778f5ad5fa5800f6b857e"
+    },
+    {
+      "path": "motion-preview.gif",
+      "bytes": 3784430,
+      "sha256": "f23dce8c45eb15158d56e631e45d242509a86c47318a9e9ffc78f56b496a164f"
+    },
+    {
+      "path": "print-parts.csv",
+      "bytes": 30872,
+      "sha256": "e141459d4a3472b90836f9134f3c8f5be1b4afbba1291a4338f296fa23fedfc8"
+    },
+    {
+      "path": "hardware-bom.csv",
+      "bytes": 418,
+      "sha256": "334da2d23af9b3389b6f7534587c4d4b9450cedecd46c5a4571d8d95bc279c26"
+    },
+    {
+      "path": "top-alignment-preview.png",
+      "bytes": 2064308,
+      "sha256": "2d6fc4fd1ba56790219079a643cc6f88c425cb398d4b956b18f367bfbbdf68c9"
+    },
+    {
+      "path": "top-alignment-render.json",
+      "bytes": 809,
+      "sha256": "e4d3b0a2e9874b0f54bb52bf3b7256f7b854110a728c9c6762294cdb0fe45e5a"
+    },
+    {
+      "path": "wiring-notes.md",
+      "bytes": 10452,
+      "sha256": "461275accdf7606506577ff2e2b8a4fca9daf8ffe100ea31f0b45464c8eb58e8"
+    },
+    {
+      "path": "wiring-evidence.md",
+      "bytes": 2275,
+      "sha256": "9a8843a4c246f4242fa1ec929d8813c451fd2b09b1faf47ca0b4e48c87657ae5"
+    },
+    {
+      "path": "wiring-final-summary.json",
+      "bytes": 3126,
+      "sha256": "fbd6736fa6b0345cd715e7e164a9aa2efbbeb9c077c5f6292005a6ec401eb74f"
+    },
+    {
+      "path": "base-layout.json",
+      "bytes": 4399,
+      "sha256": "b644c0d2fba61cf2db6772528748d71f24d44963d391b7c1f480794b332f4630"
+    },
+    {
+      "path": "WIRING_REFRESH_COMPLETE.json",
+      "bytes": 529,
+      "sha256": "0b83fee1b4b7bc4ace11afe7623f80991d1ef087e25fc78bf65a52ca9f9d750d"
+    },
+    {
+      "path": "build_edu06.py",
+      "bytes": 18131,
+      "sha256": "fb65fea51a626c4106fd2b818bc539f1bd398cdbf266cc8dbeaac9e8fe440667"
+    },
+    {
+      "path": "blender_lib.py",
+      "bytes": 11316,
+      "sha256": "0a2c01165b3e810ca33968de34025ed43a0b97ae1fe814feed4856d7e6b8c542"
+    },
+    {
+      "path": "motor_models.py",
+      "bytes": 31877,
+      "sha256": "93a6b2af7592ff212b9b34694b8af43d8a3f70b5575c8e909f361e541b5c07f8"
+    },
+    {
+      "path": "wrist_module.py",
+      "bytes": 17307,
+      "sha256": "b0b70c9208315fb260a2f7a846432d4a6236070356038f1eb7fae4ac24a729d4"
+    },
+    {
+      "path": "gripper_module.py",
+      "bytes": 20911,
+      "sha256": "f68813d6afe1a01c2e6cb761d3fd701f8c60f4c95ad462be41fe880e4db6a49b"
+    },
+    {
+      "path": "gear_math.py",
+      "bytes": 11569,
+      "sha256": "739261b392beb5ed06c61caae2ebdada4fea82bc6c00aa95b0e772ed2052109c"
+    },
+    {
+      "path": "mesh_repair.py",
+      "bytes": 4403,
+      "sha256": "2294f05da6b8cce3c3dc157fc26e62f5b4ad1b1bd23e0f07ad96c5028c8a90bf"
+    },
+    {
+      "path": "base_module.py",
+      "bytes": 21660,
+      "sha256": "2d571806d6cd868fd6928edc79460a187adc3f8d3ea1be3c867b2a1b6870519f"
+    },
+    {
+      "path": "arm_module.py",
+      "bytes": 5460,
+      "sha256": "1385ef16c2b4dddc4a2e8b9a1d8aa07023f9fadf0299509ed51d2481057e2dd3"
+    },
+    {
+      "path": "wiring_module.py",
+      "bytes": 33404,
+      "sha256": "3b9b43eb64dc311f1853f8a5d1594389bb0ba46e714f2ebbffab203d30e76edd"
+    },
+    {
+      "path": "base_wiring_guides.py",
+      "bytes": 5102,
+      "sha256": "cdffe6b8af9671a5b78faa46813127ea04e75f43e7a955fa746208675244faff"
+    },
+    {
+      "path": "refresh_wiring.py",
+      "bytes": 3185,
+      "sha256": "89f39f94caa203db9b232717650603f177b29f52db470a0ed6a36c2d3fe65470"
+    },
+    {
+      "path": "reducer_cheek.py",
+      "bytes": 5314,
+      "sha256": "9eac39d2a6d1bfb4dec3282d79c0fe3fc4295bbb432accd3c0ef8161be6a6e50"
+    },
+    {
+      "path": "palm_profile.py",
+      "bytes": 4263,
+      "sha256": "0dd5f3159169d7c530b778343128af735b70f41ae83c38d5e4860eef75b12978"
+    },
+    {
+      "path": "audit_wiring.py",
+      "bytes": 2715,
+      "sha256": "755e0a79f33e7b1efdd4cd8126359c8e15e70c55554daac21c628903aae2a8fb"
+    },
+    {
+      "path": "render_top_alignment.py",
+      "bytes": 3536,
+      "sha256": "8dd90a85555af5d8ccabd7c1bcdf72d3b72a3647a5a93ef305fd61a8db35cd00"
+    },
+    {
+      "path": "upper_link_wiring_guides.py",
+      "bytes": 2701,
+      "sha256": "f846fc8df11f652467e1f2c6e674f2a29389eff3a5ed4a6a5dff127fb62109bb"
+    },
+    {
+      "path": "wrist_wiring_guides.py",
+      "bytes": 4991,
+      "sha256": "88ab8a3a74fe1f33190b31a74e123356cd843d93db187a26dd3f230b3dcdf356"
+    },
+    {
+      "path": "gripper_wiring_guides.py",
+      "bytes": 1990,
+      "sha256": "16084b46e3b616f9c4391d46d767f9bf1140e53746ba47360692812f75cc9cb7"
+    },
+    {
+      "path": "fixed_jacket_guides.py",
+      "bytes": 7236,
+      "sha256": "0a77e2610ade3a083c877399ea686b30a663a8652846a0224e05252ca828df04"
+    },
+    {
+      "path": "verify_exports.py",
+      "bytes": 14739,
+      "sha256": "43eb13b7e6ce640592dc3291b016ef5682e2e795b4aed10e02d4ee1ad864694d"
+    },
+    {
+      "path": "audit_assembly.py",
+      "bytes": 82531,
+      "sha256": "a6b196b35c5c13363a11e9725f45fde1a44ca9a78146c8aaf203df276b67daba"
+    },
+    {
+      "path": "audit_demo_trajectory.py",
+      "bytes": 7465,
+      "sha256": "31efe2c220ecde453f6b4bbed271800c5c6290aa3500aa027ce859809121edd0"
+    },
+    {
+      "path": "finish_blender.py",
+      "bytes": 8138,
+      "sha256": "109f0ea0b4e6eed884b2801a99d291920d0bb2aaa83289515f0d23c74da4b243"
+    },
+    {
+      "path": "render_inspection.py",
+      "bytes": 3785,
+      "sha256": "6960f4d3087d861aa597bd2342c670030645982bdb89c2953d2bd09fb1da4410"
+    },
+    {
+      "path": "render_motion_preview.py",
+      "bytes": 2577,
+      "sha256": "8b54aecb2f4ff837ced9a37945c6e9327f72f692037f3fd6a467b1fc6aa74246"
+    },
+    {
+      "path": "render_motor_map.py",
+      "bytes": 7958,
+      "sha256": "ff7043d41cb8e13708e60fa3161384c3e5fb9f982f08fd6529146f4513b51728"
+    },
+    {
+      "path": "finalize_delivery.py",
+      "bytes": 5638,
+      "sha256": "8fbf2665d06152e62ecf024eb087d4bb3c284f8fd3a1e43cc9ab26942c430174"
+    },
+    {
+      "path": "package_delivery.py",
+      "bytes": 6358,
+      "sha256": "2964da3e2834643d9cae6a3df1141e5151304ad8479069a9231297ad3442f785"
+    },
+    {
+      "path": "part-metrics.json",
+      "bytes": 95299,
+      "sha256": "b951c89aa8d64c22c2ac137be3e71505d436fd87706d6c4796ed21978e486fc6"
+    },
+    {
+      "path": "hole-features.json",
+      "bytes": 128290,
+      "sha256": "5e7a50b51605f681df5efedf8afdda8ec48a8e3d9c82f181e978c3cc6f245c2d"
+    },
+    {
+      "path": "hardware-bom.json",
+      "bytes": 15385,
+      "sha256": "c71df43ef482ef7252ff577932b4703164fc4f113db79ca7e5c096a9ce458026"
+    },
+    {
+      "path": "gear-pairs.json",
+      "bytes": 3332,
+      "sha256": "83d32cbd66fbc68d6ba0cb30304b07d6cba402493c52e06a4212f7fab3040cba"
+    },
+    {
+      "path": "motor-interface-schedule.json",
+      "bytes": 29756,
+      "sha256": "8073b29f6622e9e9f165505e24080965d4d9510eddfaeaa12bba78e1a00f99a4"
+    },
+    {
+      "path": "gripper-design-notes.json",
+      "bytes": 5917,
+      "sha256": "333a95a7b4a589d0185c40c421295ed8e494c7b7d3f7413ec03c6af3eff4a5bc"
+    },
+    {
+      "path": "wrist-dimensions.json",
+      "bytes": 2495,
+      "sha256": "9ec7029702ef355c49d5c6d9c001206e9446d15f7eb4ceffae6261cf26f1df76"
+    },
+    {
+      "path": "gear-profile-audit.json",
+      "bytes": 4324,
+      "sha256": "9d813ec1c5ee10a52776f147cb1afac6ab7fd57b1d76995f9c2518257dd87e7d"
+    },
+    {
+      "path": "gripper-math-check.json",
+      "bytes": 869,
+      "sha256": "126ee4b6b4957e273981cab7e4e2246dc0af6409c0dd8bf608b23eb4741ac1cc"
+    },
+    {
+      "path": "stl-audit.json",
+      "bytes": 343262,
+      "sha256": "0bd859222e1de7d08a4ab6dc8395f4c9aa567a9f5a6fe30fc0b5c3813ddeb522"
+    },
+    {
+      "path": "export-manifest-audit.json",
+      "bytes": 1099,
+      "sha256": "5a5c565ec0fe6d41c307fc3cda1a5a6609dc598e38c8fa7a3ed09ac4d00545aa"
+    },
+    {
+      "path": "mass-load-audit.json",
+      "bytes": 1308842,
+      "sha256": "68706e813b7c0015fcbd69ced890d07a60eadccafd57e5259ee324f7f8ff8a81"
+    },
+    {
+      "path": "demo-trajectory-audit.json",
+      "bytes": 1592052,
+      "sha256": "ae1bf416da3bb2a1b41f9a708f83caa03a68e3a87e41b17aaa7c59b19c10f7b6"
+    },
+    {
+      "path": "delivery-integrity.json",
+      "bytes": 4669,
+      "sha256": "64d0c71b54cb4d0d6802414783be469169fd148fde66e92a12522f4c9532bb62"
+    },
+    {
+      "path": "motion-preview-render.json",
+      "bytes": 12564,
+      "sha256": "8e13052e553731c25b8773361a996acc7edb4f9f8c8df068a77242de98576288"
+    },
+    {
+      "path": "wiring-audit.json",
+      "bytes": 30863,
+      "sha256": "5f21646664ceef32105de5340b24376eb711cd94ad4d850009c913f067eae743"
+    },
+    {
+      "path": "wiring-connectivity.json",
+      "bytes": 24549,
+      "sha256": "6cc61f043efcb0ffd0ae2d5e70e92f26d8595e8d0f4d12f8ab7d900a30e883ac"
+    },
+    {
+      "path": "wiring-operating-range-audit.json",
+      "bytes": 681182,
+      "sha256": "aad4e7212dce546a3c330e1b99f64c46fc1cab298954399d0afd33b467abd379"
+    },
+    {
+      "path": "wiring-kinematics-audit.json",
+      "bytes": 857953,
+      "sha256": "7047da4de0441374ced0051b888c81085f995efda6cfb23effd88f0a0c4b8778"
+    },
+    {
+      "path": "fixed-jacket-audit.json",
+      "bytes": 134653,
+      "sha256": "789fe1920f6709078b315d3f5cf93cc6124e8ab187b83d67e62160ab80c078d1"
+    },
+    {
+      "path": "motor-references/AX-12A.pdf",
+      "bytes": 200359,
+      "sha256": "f706b6d4ac12cf4c5aee73a28675aeb32bfce440edf46a37966969158654b32c"
+    },
+    {
+      "path": "motor-references/AX-12A.stp",
+      "bytes": 1952194,
+      "sha256": "0c76483f3955a6a79d4daf213083dc30f2834977b765529c4708dfc8c787a43c"
+    },
+    {
+      "path": "motor-references/XM_H-430_idler.pdf",
+      "bytes": 237317,
+      "sha256": "dc51987999be9a3e7605b60b9fdc4d832d9dd905c1c5a4b9be7980e7f1da4e7e"
+    },
+    {
+      "path": "motor-references/XM_H-430_idler.stp",
+      "bytes": 698785,
+      "sha256": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22"
+    },
+    {
+      "path": "motor-references/AX-official-mm.json.gz",
+      "bytes": 1154221,
+      "sha256": "f8a7324d2f7c65448d62b26023882e4659165cb3cb5b09c249b82a6bbe506abf"
+    },
+    {
+      "path": "motor-references/XM-official-mm.json.gz",
+      "bytes": 588616,
+      "sha256": "b976459cc619692ed49e52918d441ed9fdf3904e7ce731e3c5c7957ca4aa3f3e"
+    },
+    {
+      "path": "motor-references/README-official-cad.md",
+      "bytes": 8142,
+      "sha256": "fc55bacfdcea3bbad56b171711055bee18a19dc1e9bf8f6e9757fc2930e42061"
+    },
+    {
+      "path": "motor-references/official-downloads.json",
+      "bytes": 2938,
+      "sha256": "80f696ab3ebb4971ca38cfb3935a14cd9f1185f973e46842c5141c81cbe9069e"
+    },
+    {
+      "path": "motor-references/cad-conversion-report.json",
+      "bytes": 29611,
+      "sha256": "8cb8f2b49dcdb827e5bfd54986fb1e74f28a5f72e36b7eca64d4afb0a12e8e7c"
+    },
+    {
+      "path": "motor-references/normalized-mesh-summary.json",
+      "bytes": 13439,
+      "sha256": "d87f3387cc72d4c7db522c03ad5b805801c25298f932920a65b4b20cf2ec2faa"
+    },
+    {
+      "path": "motor-references/motor-import-test.json",
+      "bytes": 33154,
+      "sha256": "a25220d5b1ecd88752019dcb8a1873ec2a5088c27455175395981962bb002038"
+    },
+    {
+      "path": "motor-references/vendor-cache-test.json",
+      "bytes": 7661,
+      "sha256": "5e72d0a20b1b014777d99c30cbca183f7643fa8d239fa238f7aede8cead28016"
+    },
+    {
+      "path": "motor-references/ax-shim-connectivity-test.json",
+      "bytes": 1201,
+      "sha256": "2966e3f4d47529ad1c48c8bdf62cb85fbd2b38aef924d3e59bdb9aa1c266d3ad"
+    },
+    {
+      "path": "motor-references/test_vendor_motor_import.py",
+      "bytes": 2299,
+      "sha256": "1975b6f6d244563542e0151dd39b9ddfaabab99bed399e230949466e2aad6f2f"
+    },
+    {
+      "path": "motor-references/test_vendor_cache.py",
+      "bytes": 2706,
+      "sha256": "7260ed5b603dcb012f8d136c796ec5b18cb3aa3ff8a8ab4e73351d1d8c59b7ce"
+    },
+    {
+      "path": "motor-references/test_ax_shim_connectivity.py",
+      "bytes": 3497,
+      "sha256": "4400c65546f584a485ca86587ba62ce790e6970e4c5fc478cb3f755f3ed6527f"
+    },
+    {
+      "path": "motor-references/convert_official_cad.py",
+      "bytes": 2340,
+      "sha256": "97862b8df0c674d6835659e02aac1dcf1fc6568e1c6d3e24ce083305d305d737"
+    },
+    {
+      "path": "motor-references/normalize_motor_meshes.py",
+      "bytes": 2955,
+      "sha256": "c1d391078aa5615ae437d97317e348c51bccddba6ad357d7036beb8214222c92"
+    },
+    {
+      "path": "motor-references/AX-12A-drawing.png",
+      "bytes": 124871,
+      "sha256": "7fddecba15e73b570410d19bf9f6aa6101407a659339baa55b51704aed1df8d4"
+    },
+    {
+      "path": "motor-references/XM_H-430_idler-drawing.png",
+      "bytes": 219183,
+      "sha256": "cfddd8e2f37bcfea4abff9b5dc2a73c9ffa6c44cca154ddb517345b082442a91"
+    },
+    {
+      "path": "H06-route-evidence.json",
+      "bytes": 3613,
+      "sha256": "6f78a6478fdb9d1c63c0172c480b9d5ee1bdede29a37aee0550968f76e12cbc9"
+    },
+    {
+      "path": "gripper-wire-test/test_h06.py",
+      "bytes": 2743,
+      "sha256": "15630dd4fc6ff7548025c64d5d7efcaa9f796c252cb0dfe91e173f58d21078e7"
+    },
+    {
+      "path": "gripper-wire-test/test_dense_bends.py",
+      "bytes": 2164,
+      "sha256": "93670dbdc99b49798efbcf4e2117fad660a2370a6192809ffc940d09e846e245"
+    },
+    {
+      "path": "gripper-wire-test/audit.json",
+      "bytes": 4622,
+      "sha256": "e68153f147a63c50c810f2170eca3c8ea7b41f1d81f617394eb9b458dfa1960e"
+    },
+    {
+      "path": "gripper-wire-test/operating-audit.json",
+      "bytes": 114218,
+      "sha256": "795b78db334c105266bfa0091eac011f5c2e8ba545dce81009536c65d4f00156"
+    },
+    {
+      "path": "gripper-wire-test/dense-bend-audit.json",
+      "bytes": 961,
+      "sha256": "66c8dd76fff118df8b3509b2ff55d46861bb6551969fe28ff8d4cb2fe28a6ba5"
+    },
+    {
+      "path": "prototype_stl/B01_open_front_base_240x240.stl",
+      "bytes": 791284,
+      "sha256": "4c0217cdf93b76c58788810a18aa6f558d93038f2eaaf4ba8ffc552c7624f0fb"
+    },
+    {
+      "path": "prototype_stl/B02_structural_lid.stl",
+      "bytes": 137784,
+      "sha256": "80ddf98579e51a62d0281e589eb3ecc8036132db420ffff17b21e1283ef097b2"
+    },
+    {
+      "path": "prototype_stl/B03_service_front_panel.stl",
+      "bytes": 75884,
+      "sha256": "9159ab89bef75e46c05ca9ffb6cfea732d1ad5df9b0889515a299bf192d092fb"
+    },
+    {
+      "path": "prototype_stl/B05_lower_journal_support.stl",
+      "bytes": 169884,
+      "sha256": "2aa5e0162a1717b9fbe964ea3cf7f86d88521fff267e4b38779be12ce32b0c4e"
+    },
+    {
+      "path": "prototype_stl/B06_replaceable_lower_bushing.stl",
+      "bytes": 73084,
+      "sha256": "dcea7c280c4a45c8ea4e900ba8f7d9bf9dba8c7a2dbdcefff456f2a5476a7455"
+    },
+    {
+      "path": "prototype_stl/B07_upper_bushing_and_thrust_ring.stl",
+      "bytes": 82684,
+      "sha256": "949cf3fcfe94bc75d5a1f72b285ae15dc709c392f66a01ea0991e6d7bb5d69d9"
+    },
+    {
+      "path": "prototype_stl/B08_printed_hollow_yaw_shaft.stl",
+      "bytes": 246184,
+      "sha256": "7bcd4abefb10e1b1dede30e222d647e421bbd6af8ea281169124341f5259783d"
+    },
+    {
+      "path": "prototype_stl/B17_split_yaw_retaining_collar.stl",
+      "bytes": 47984,
+      "sha256": "58bff666f7dbc28e45156795f81004b7a21284a50d77fc4ec802639d991dc271"
+    },
+    {
+      "path": "prototype_stl/B09_yaw_60T_module1p5.stl",
+      "bytes": 442084,
+      "sha256": "34eaa457fb6560105014ac6795758e42932a2610959a7bec21a9a6c5fbe71caa"
+    },
+    {
+      "path": "prototype_stl/B18_yaw_gear_screw_spacer_0.stl",
+      "bytes": 24084,
+      "sha256": "9b27806a5e178e3cd926ee7b08865109122a182e46de47ec71d2005ee8ee173d"
+    },
+    {
+      "path": "prototype_stl/B18_yaw_gear_screw_spacer_1.stl",
+      "bytes": 24084,
+      "sha256": "9b27806a5e178e3cd926ee7b08865109122a182e46de47ec71d2005ee8ee173d"
+    },
+    {
+      "path": "prototype_stl/B18_yaw_gear_screw_spacer_2.stl",
+      "bytes": 24084,
+      "sha256": "9b27806a5e178e3cd926ee7b08865109122a182e46de47ec71d2005ee8ee173d"
+    },
+    {
+      "path": "prototype_stl/B18_yaw_gear_screw_spacer_3.stl",
+      "bytes": 24084,
+      "sha256": "9b27806a5e178e3cd926ee7b08865109122a182e46de47ec71d2005ee8ee173d"
+    },
+    {
+      "path": "prototype_stl/B10_rotating_pedestal_deck.stl",
+      "bytes": 96884,
+      "sha256": "7892678dd71fb66525639daec39765e47077cdf5c1a8c91f8837773591558589"
+    },
+    {
+      "path": "prototype_stl/B19_deck_screw_spacer_0.stl",
+      "bytes": 24084,
+      "sha256": "ce34498c63e5e8e37697b6d7d1615dff1cf0164f2971d827fbe76e5c8d3c9297"
+    },
+    {
+      "path": "prototype_stl/B19_deck_screw_spacer_1.stl",
+      "bytes": 24084,
+      "sha256": "ce34498c63e5e8e37697b6d7d1615dff1cf0164f2971d827fbe76e5c8d3c9297"
+    },
+    {
+      "path": "prototype_stl/B19_deck_screw_spacer_2.stl",
+      "bytes": 24084,
+      "sha256": "ce34498c63e5e8e37697b6d7d1615dff1cf0164f2971d827fbe76e5c8d3c9297"
+    },
+    {
+      "path": "prototype_stl/B19_deck_screw_spacer_3.stl",
+      "bytes": 24084,
+      "sha256": "ce34498c63e5e8e37697b6d7d1615dff1cf0164f2971d827fbe76e5c8d3c9297"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C01_Keyed_motor_cradle.stl",
+      "bytes": 95884,
+      "sha256": "ca20ce57b53aced39e8efbe5f96db1e591bf4256eebfe7e6355a1feaecfc339b"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C02_Connector_access_rear_cap.stl",
+      "bytes": 89384,
+      "sha256": "510afeb3311f76d81981245d3f1028f9488da3e33ab82f7286cedf7a32193dab"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 2684,
+      "sha256": "c24688ce1a2681a30252920af2a4e39a96704cef49015850fc261320c9d9c664"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C04_2_Axial_fit_shim_330.stl",
+      "bytes": 1684,
+      "sha256": "deb69a4421d03e1fde5a646dd93f9f668e7bcdef1d111a54c75d7e508750f4a3"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C03_1_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "f1d571c7e14d0d7848ea3755bf571c8a134bb947d3e0c5cc68ab2b101efa7538"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C03_2_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "891a916ae098798370077698b96d94c16c7e215025f397aee688c2896514fded"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C03_3_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "f1d571c7e14d0d7848ea3755bf571c8a134bb947d3e0c5cc68ab2b101efa7538"
+    },
+    {
+      "path": "prototype_stl/J1_BASE_C03_4_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "891a916ae098798370077698b96d94c16c7e215025f397aee688c2896514fded"
+    },
+    {
+      "path": "prototype_stl/B11_yaw_20T_pinion.stl",
+      "bytes": 232184,
+      "sha256": "e57022057eb89c15b4c1d17435d41b239f0b5d135c3f7fb7f229a70ad4ff79c1"
+    },
+    {
+      "path": "prototype_stl/B12_yaw_pinion_journal_support.stl",
+      "bytes": 75384,
+      "sha256": "f105bbf634a5dd6670db038b36182a2ae931bdaa58744ec61d6e4439bdfafa5d"
+    },
+    {
+      "path": "prototype_stl/B19_pinion_support_screw_spacer_0.stl",
+      "bytes": 24184,
+      "sha256": "490642f0727a429a27efe9c1b6653046de55dcc442f13b0fc33f3dfb606b0979"
+    },
+    {
+      "path": "prototype_stl/B19_pinion_support_screw_spacer_1.stl",
+      "bytes": 24184,
+      "sha256": "490642f0727a429a27efe9c1b6653046de55dcc442f13b0fc33f3dfb606b0979"
+    },
+    {
+      "path": "prototype_stl/B13_motor_floor_standoff_1.stl",
+      "bytes": 24084,
+      "sha256": "5f41a5a2eba92ceb8a290821db1af5cb297ec24f31c1e3229fc29ba674cef819"
+    },
+    {
+      "path": "prototype_stl/B13_motor_floor_standoff_2.stl",
+      "bytes": 24084,
+      "sha256": "5f41a5a2eba92ceb8a290821db1af5cb297ec24f31c1e3229fc29ba674cef819"
+    },
+    {
+      "path": "prototype_stl/B13_motor_floor_standoff_3.stl",
+      "bytes": 24084,
+      "sha256": "5f41a5a2eba92ceb8a290821db1af5cb297ec24f31c1e3229fc29ba674cef819"
+    },
+    {
+      "path": "prototype_stl/B13_motor_floor_standoff_4.stl",
+      "bytes": 24084,
+      "sha256": "5f41a5a2eba92ceb8a290821db1af5cb297ec24f31c1e3229fc29ba674cef819"
+    },
+    {
+      "path": "prototype_stl/B15_printed_foot_0.stl",
+      "bytes": 25484,
+      "sha256": "ab6fe1df0f28bb52aa9bc58bf817a13905e22dcd07a5a82232212f40552584d5"
+    },
+    {
+      "path": "prototype_stl/B16_foot_bolt_spacer_0.stl",
+      "bytes": 24184,
+      "sha256": "297196ca49714a2e1c0bffa2e05b0750449d05b0faacc8530af760abe4eda3cb"
+    },
+    {
+      "path": "prototype_stl/B15_printed_foot_1.stl",
+      "bytes": 25484,
+      "sha256": "ab6fe1df0f28bb52aa9bc58bf817a13905e22dcd07a5a82232212f40552584d5"
+    },
+    {
+      "path": "prototype_stl/B16_foot_bolt_spacer_1.stl",
+      "bytes": 24184,
+      "sha256": "297196ca49714a2e1c0bffa2e05b0750449d05b0faacc8530af760abe4eda3cb"
+    },
+    {
+      "path": "prototype_stl/B15_printed_foot_2.stl",
+      "bytes": 25484,
+      "sha256": "ab6fe1df0f28bb52aa9bc58bf817a13905e22dcd07a5a82232212f40552584d5"
+    },
+    {
+      "path": "prototype_stl/B16_foot_bolt_spacer_2.stl",
+      "bytes": 24184,
+      "sha256": "297196ca49714a2e1c0bffa2e05b0750449d05b0faacc8530af760abe4eda3cb"
+    },
+    {
+      "path": "prototype_stl/B15_printed_foot_3.stl",
+      "bytes": 25484,
+      "sha256": "ab6fe1df0f28bb52aa9bc58bf817a13905e22dcd07a5a82232212f40552584d5"
+    },
+    {
+      "path": "prototype_stl/B16_foot_bolt_spacer_3.stl",
+      "bytes": 24184,
+      "sha256": "297196ca49714a2e1c0bffa2e05b0750449d05b0faacc8530af760abe4eda3cb"
+    },
+    {
+      "path": "prototype_stl/B14_U2D2_tray.stl",
+      "bytes": 184784,
+      "sha256": "6e4236cfe3caa36cbbd572f4e2fd8796304c608bcc32f42966ea614fd4104b25"
+    },
+    {
+      "path": "prototype_stl/B23_U2D2_removable_retention_strap.stl",
+      "bytes": 29884,
+      "sha256": "49f0d8830e4f56c7ef6e9d851a186116e5686bf7efdf300fdd7c3f40c5ee8b39"
+    },
+    {
+      "path": "prototype_stl/B20_adjustable_accessory_tray.stl",
+      "bytes": 194284,
+      "sha256": "7118a94f3f12ca8dc2a6ea57b609126eaaae9db6afb7f21f6eb3c3b5292a46d9"
+    },
+    {
+      "path": "prototype_stl/B21_adjustable_power_module_plate.stl",
+      "bytes": 74584,
+      "sha256": "fc96c52398d971824f73c47f27f065ef42c9f9b68322fb3aae1d81753a97cb9f"
+    },
+    {
+      "path": "prototype_stl/B22_usb_split_cable_saddle.stl",
+      "bytes": 37684,
+      "sha256": "631d9e1c41f31536d9739832955b5730f2c7347cd1772253d706983a3699c2ec"
+    },
+    {
+      "path": "prototype_stl/B22_power_split_cable_saddle.stl",
+      "bytes": 37684,
+      "sha256": "ff5e8f76d4710ee1396ada94aa0006caac390f0af15dac07fd84ff543b293982"
+    },
+    {
+      "path": "prototype_stl/S_01_rear_support.stl",
+      "bytes": 216984,
+      "sha256": "47d1aa3adbb2168ae10cc8370f3ff684eb2052148e19c99f93664c02e422470c"
+    },
+    {
+      "path": "prototype_stl/S_01_front_support.stl",
+      "bytes": 106684,
+      "sha256": "c68a1770d9f326e83d18880dccd76374f706ce5562b02358f34449436c0fa21a"
+    },
+    {
+      "path": "prototype_stl/S_02_rear_plain_bushing.stl",
+      "bytes": 72084,
+      "sha256": "1d95d1086073dac5436308c51b032a9dbe4bfc0e7ac1aa789f88af144d3485a1"
+    },
+    {
+      "path": "prototype_stl/S_02_front_plain_bushing.stl",
+      "bytes": 72084,
+      "sha256": "8dedbb57332f01c98ca7c83079410cb164c1ade9a596fef148c35c61ce334b5d"
+    },
+    {
+      "path": "prototype_stl/S_03_independent_output_shaft.stl",
+      "bytes": 105584,
+      "sha256": "d3ff343a06b9c65618cc60489736389b890bf7888c084bc7bba41a8724106e7f"
+    },
+    {
+      "path": "prototype_stl/S_04_shaft_retainer.stl",
+      "bytes": 132684,
+      "sha256": "7f1c3dedad416328f1cdfc5b6683a67826bd612a943fca28f48852e943003140"
+    },
+    {
+      "path": "prototype_stl/S_10_retainer_screw_spacer.stl",
+      "bytes": 24184,
+      "sha256": "5c2dbb570cfc1842f4356a3a5d71178e394f3708bba63377a9017b4b58a4b90a"
+    },
+    {
+      "path": "prototype_stl/S_05_output_100T.stl",
+      "bytes": 606984,
+      "sha256": "dd5c2afc9d5fccecd76b454286e7ce06cd44bf3891e44778db647383b8ec7724"
+    },
+    {
+      "path": "prototype_stl/S_XM_C01_Keyed_motor_cradle.stl",
+      "bytes": 298684,
+      "sha256": "550a9313ee39353eee960dc43f07ac9b03a8f24481a78841b6b336efa8f7ae7f"
+    },
+    {
+      "path": "prototype_stl/S_XM_C02_Connector_access_rear_cap.stl",
+      "bytes": 94484,
+      "sha256": "96e98244ed64b24e6d835655b28529bc47e7ce3d3eced1d6b440dc37fca23652"
+    },
+    {
+      "path": "prototype_stl/S_XM_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 6684,
+      "sha256": "16e5cf00f1df7522448adcb11071c3b7428c22fa41ae8555c1412912047c1843"
+    },
+    {
+      "path": "prototype_stl/S_XM_C04_2_Axial_fit_shim_050.stl",
+      "bytes": 4284,
+      "sha256": "1389fe63ad763f2abd5f0749f741d993c2b48947842cf03123a769d10f068cf6"
+    },
+    {
+      "path": "prototype_stl/S_XM_C03_1_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "b7deece6175fd44260ea425b696542591030acdda5e447b086d0d42bd1802a72"
+    },
+    {
+      "path": "prototype_stl/S_XM_C03_2_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "63ee002d0f723fa47336d3f6eff7323895eb9544ff94ebcecd0e6420799cdc37"
+    },
+    {
+      "path": "prototype_stl/S_XM_C03_3_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "b7deece6175fd44260ea425b696542591030acdda5e447b086d0d42bd1802a72"
+    },
+    {
+      "path": "prototype_stl/S_XM_C03_4_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "63ee002d0f723fa47336d3f6eff7323895eb9544ff94ebcecd0e6420799cdc37"
+    },
+    {
+      "path": "prototype_stl/S_09_motor_mount_standoff_0.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/S_09_motor_mount_standoff_1.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/S_09_motor_mount_standoff_2.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/S_09_motor_mount_standoff_3.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/S_06_XM_pinion_20T.stl",
+      "bytes": 320884,
+      "sha256": "7dc1504b7ab065a68d12dc218b9682125efe51af899c42771013ad7c47e65580"
+    },
+    {
+      "path": "prototype_stl/S_07_pinion_journal_bridge.stl",
+      "bytes": 67184,
+      "sha256": "42cdbf6dac4108329dcbcd362f84da0ed7a0668b26c3754621f90fc4b35fe5be"
+    },
+    {
+      "path": "prototype_stl/S_11_bridge_screw_spacer_0.stl",
+      "bytes": 24184,
+      "sha256": "0bba6fb7353d7864d8a943d8c6eed1058321d60b018cd30118c6b786dd67ff9a"
+    },
+    {
+      "path": "prototype_stl/S_11_bridge_screw_spacer_1.stl",
+      "bytes": 24184,
+      "sha256": "0bba6fb7353d7864d8a943d8c6eed1058321d60b018cd30118c6b786dd67ff9a"
+    },
+    {
+      "path": "prototype_stl/S_08_pedestal_foot.stl",
+      "bytes": 121284,
+      "sha256": "29ea94c9da6718f025c66f67cd9ba9574717ff2a3985ded07c81b6e9f5b03ec4"
+    },
+    {
+      "path": "prototype_stl/E_01_rear_support.stl",
+      "bytes": 206284,
+      "sha256": "f3e8499764dcf6c0fc9f9122581610443a71ea73b0b305cd8e62fa80aca860db"
+    },
+    {
+      "path": "prototype_stl/E_01_front_support.stl",
+      "bytes": 125984,
+      "sha256": "cf8b08d8b6be91305c37b70302b35eaba55f70cb0e098af02a51f785696bf11c"
+    },
+    {
+      "path": "prototype_stl/E_12_front_cheek_tie_0.stl",
+      "bytes": 24184,
+      "sha256": "f1e404c2399e072841c48a391dc3de0960bc744d3531f9e37802f45d28dfda2b"
+    },
+    {
+      "path": "prototype_stl/E_12_front_cheek_tie_1.stl",
+      "bytes": 24184,
+      "sha256": "f1e404c2399e072841c48a391dc3de0960bc744d3531f9e37802f45d28dfda2b"
+    },
+    {
+      "path": "prototype_stl/E_12_front_cheek_tie_2.stl",
+      "bytes": 24184,
+      "sha256": "f1e404c2399e072841c48a391dc3de0960bc744d3531f9e37802f45d28dfda2b"
+    },
+    {
+      "path": "prototype_stl/E_12_front_cheek_tie_3.stl",
+      "bytes": 24184,
+      "sha256": "f1e404c2399e072841c48a391dc3de0960bc744d3531f9e37802f45d28dfda2b"
+    },
+    {
+      "path": "prototype_stl/E_02_rear_plain_bushing.stl",
+      "bytes": 71884,
+      "sha256": "ee10df3d015933c259b556369858c490dd49786d07dcbb3c2dc72eb7e149daf4"
+    },
+    {
+      "path": "prototype_stl/E_02_front_plain_bushing.stl",
+      "bytes": 71884,
+      "sha256": "ede995ab683f46401d17a149e957a0314aef28ab82ac724918602b035c6c7ef7"
+    },
+    {
+      "path": "prototype_stl/E_03_independent_output_shaft.stl",
+      "bytes": 105584,
+      "sha256": "bab7d34ddd182d7f51a61ae3edea3056a0ba658db780dd6d0bfbf3129586a1e1"
+    },
+    {
+      "path": "prototype_stl/E_04_shaft_retainer.stl",
+      "bytes": 132584,
+      "sha256": "64f3b922f689a09099e4f7d70a57fd110fd21282629e5d38e1d3855c0d4299a5"
+    },
+    {
+      "path": "prototype_stl/E_10_retainer_screw_spacer.stl",
+      "bytes": 24184,
+      "sha256": "3bdf09ff2ac10b3bcefdac655ac3c264ee97e03d5827f16684ed397ec36a6311"
+    },
+    {
+      "path": "prototype_stl/E_05_output_80T.stl",
+      "bytes": 501684,
+      "sha256": "86bb6b5ba00ee10784f5423d9f096b30051408305dd7437f59502861ff2c6486"
+    },
+    {
+      "path": "prototype_stl/E_XM_C01_Keyed_motor_cradle.stl",
+      "bytes": 298684,
+      "sha256": "550a9313ee39353eee960dc43f07ac9b03a8f24481a78841b6b336efa8f7ae7f"
+    },
+    {
+      "path": "prototype_stl/E_XM_C02_Connector_access_rear_cap.stl",
+      "bytes": 94484,
+      "sha256": "96e98244ed64b24e6d835655b28529bc47e7ce3d3eced1d6b440dc37fca23652"
+    },
+    {
+      "path": "prototype_stl/E_XM_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 6684,
+      "sha256": "16e5cf00f1df7522448adcb11071c3b7428c22fa41ae8555c1412912047c1843"
+    },
+    {
+      "path": "prototype_stl/E_XM_C04_2_Axial_fit_shim_050.stl",
+      "bytes": 4284,
+      "sha256": "1389fe63ad763f2abd5f0749f741d993c2b48947842cf03123a769d10f068cf6"
+    },
+    {
+      "path": "prototype_stl/E_XM_C03_1_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "b7deece6175fd44260ea425b696542591030acdda5e447b086d0d42bd1802a72"
+    },
+    {
+      "path": "prototype_stl/E_XM_C03_2_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "63ee002d0f723fa47336d3f6eff7323895eb9544ff94ebcecd0e6420799cdc37"
+    },
+    {
+      "path": "prototype_stl/E_XM_C03_3_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "b7deece6175fd44260ea425b696542591030acdda5e447b086d0d42bd1802a72"
+    },
+    {
+      "path": "prototype_stl/E_XM_C03_4_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "63ee002d0f723fa47336d3f6eff7323895eb9544ff94ebcecd0e6420799cdc37"
+    },
+    {
+      "path": "prototype_stl/E_09_motor_mount_standoff_0.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/E_09_motor_mount_standoff_1.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/E_09_motor_mount_standoff_2.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/E_09_motor_mount_standoff_3.stl",
+      "bytes": 24184,
+      "sha256": "a24ade62aafd87945e0aa2bc802b6038b786256fdee91770d213295fb03289df"
+    },
+    {
+      "path": "prototype_stl/E_06_XM_pinion_20T.stl",
+      "bytes": 320884,
+      "sha256": "dbaff8824cc11669dee8c298d0820b9aa4e4586572d2f2efa46c1be6cc52cc1b"
+    },
+    {
+      "path": "prototype_stl/E_07_pinion_journal_bridge.stl",
+      "bytes": 67484,
+      "sha256": "2103aa9c612d72ce7f6c1484352963cd4b71b783b66c5fa2e9198a058b64f73e"
+    },
+    {
+      "path": "prototype_stl/E_11_bridge_screw_spacer_0.stl",
+      "bytes": 24084,
+      "sha256": "5b2120143ab207075bc1fe20af6492263e4a662f1cf740141f234ca812a7481d"
+    },
+    {
+      "path": "prototype_stl/E_11_bridge_screw_spacer_1.stl",
+      "bytes": 24084,
+      "sha256": "5b2120143ab207075bc1fe20af6492263e4a662f1cf740141f234ca812a7481d"
+    },
+    {
+      "path": "prototype_stl/A01_left_upper_fork.stl",
+      "bytes": 87084,
+      "sha256": "29be4c0475e29c77c35667853a1252bf8c9f71f34489f604c44c1a11964ae978"
+    },
+    {
+      "path": "prototype_stl/A02_-1_elbow_outer_support_0.stl",
+      "bytes": 24084,
+      "sha256": "d0c0f246013f71eb7eac6396f5f04d2c082d8b500c4acea109f747e4301fa55e"
+    },
+    {
+      "path": "prototype_stl/A02_-1_elbow_outer_support_1.stl",
+      "bytes": 24084,
+      "sha256": "d0c0f246013f71eb7eac6396f5f04d2c082d8b500c4acea109f747e4301fa55e"
+    },
+    {
+      "path": "prototype_stl/A01_right_upper_fork.stl",
+      "bytes": 87084,
+      "sha256": "29be4c0475e29c77c35667853a1252bf8c9f71f34489f604c44c1a11964ae978"
+    },
+    {
+      "path": "prototype_stl/A02_1_elbow_outer_support_0.stl",
+      "bytes": 24084,
+      "sha256": "d0c0f246013f71eb7eac6396f5f04d2c082d8b500c4acea109f747e4301fa55e"
+    },
+    {
+      "path": "prototype_stl/A02_1_elbow_outer_support_1.stl",
+      "bytes": 24084,
+      "sha256": "d0c0f246013f71eb7eac6396f5f04d2c082d8b500c4acea109f747e4301fa55e"
+    },
+    {
+      "path": "prototype_stl/A01_front_flange_spacer.stl",
+      "bytes": 63884,
+      "sha256": "6804bb9f3dadeb3dfe930cc5a3b16abc1d2ddc09b559637d5a44e80c8c3843a9"
+    },
+    {
+      "path": "prototype_stl/A01_front_bolt_washer_0.stl",
+      "bytes": 24184,
+      "sha256": "b7204109bd905bcfbf625e399a52fe03ef462b8761182d8a200e25b00d28e4fe"
+    },
+    {
+      "path": "prototype_stl/A01_front_bolt_washer_1.stl",
+      "bytes": 24184,
+      "sha256": "b7204109bd905bcfbf625e399a52fe03ef462b8761182d8a200e25b00d28e4fe"
+    },
+    {
+      "path": "prototype_stl/A01_front_bolt_washer_2.stl",
+      "bytes": 24184,
+      "sha256": "b7204109bd905bcfbf625e399a52fe03ef462b8761182d8a200e25b00d28e4fe"
+    },
+    {
+      "path": "prototype_stl/A01_front_bolt_washer_3.stl",
+      "bytes": 24184,
+      "sha256": "b7204109bd905bcfbf625e399a52fe03ef462b8761182d8a200e25b00d28e4fe"
+    },
+    {
+      "path": "prototype_stl/A03_left_forearm_fork.stl",
+      "bytes": 88984,
+      "sha256": "b1475ee1f586642da5972b9d4942ffc000df63ed179068fc0d5ff226995c6b50"
+    },
+    {
+      "path": "prototype_stl/A03_right_forearm_fork.stl",
+      "bytes": 88984,
+      "sha256": "b1475ee1f586642da5972b9d4942ffc000df63ed179068fc0d5ff226995c6b50"
+    },
+    {
+      "path": "prototype_stl/A03_front_bolt_washer_0.stl",
+      "bytes": 24184,
+      "sha256": "4a3a18b899a87d9f22c4682fb7078be82ac207f393bdc1c2d9ed74b3b3aa82c3"
+    },
+    {
+      "path": "prototype_stl/A03_front_bolt_washer_1.stl",
+      "bytes": 24184,
+      "sha256": "4a3a18b899a87d9f22c4682fb7078be82ac207f393bdc1c2d9ed74b3b3aa82c3"
+    },
+    {
+      "path": "prototype_stl/A03_front_bolt_washer_2.stl",
+      "bytes": 24184,
+      "sha256": "4a3a18b899a87d9f22c4682fb7078be82ac207f393bdc1c2d9ed74b3b3aa82c3"
+    },
+    {
+      "path": "prototype_stl/A03_front_bolt_washer_3.stl",
+      "bytes": 24184,
+      "sha256": "4a3a18b899a87d9f22c4682fb7078be82ac207f393bdc1c2d9ed74b3b3aa82c3"
+    },
+    {
+      "path": "prototype_stl/A05_centred_wrist_crossmember.stl",
+      "bytes": 216884,
+      "sha256": "e121ad220efb5f100d6650f70793eb77773f85517df28ba8ca386dfb0b1cb754"
+    },
+    {
+      "path": "prototype_stl/W02_centred_fixed_pitch_fork.stl",
+      "bytes": 319784,
+      "sha256": "73a481900c361ae7effd65a2aefb2800f63504773f50488b30722a9a54e4a396"
+    },
+    {
+      "path": "prototype_stl/W03_moving_pitch_cradle.stl",
+      "bytes": 233884,
+      "sha256": "6701992ca82a3585313ca5e43ba042b98ec76a6e7f153abcb6adf8140165dd7f"
+    },
+    {
+      "path": "prototype_stl/W04_idler_removable_trunnion.stl",
+      "bytes": 83384,
+      "sha256": "d8f28f39507d74484f4ef9e5b730023c36295e58a744872ff26390d45c296a71"
+    },
+    {
+      "path": "prototype_stl/W04_drive_removable_trunnion.stl",
+      "bytes": 128284,
+      "sha256": "a14f9159a17a362eefa9cda7670a2358c20d7d461f1bd2dfed1eb7f46f030b8e"
+    },
+    {
+      "path": "prototype_stl/W05_pitch_60T_module1p5.stl",
+      "bytes": 465384,
+      "sha256": "e5e23314223ece58d32c5bc8a161b9b70e1a4d54053abc62bbb12dc364f37d30"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C01_Keyed_motor_cradle.stl",
+      "bytes": 297084,
+      "sha256": "7bf45040c1689f02c8c0aab84386bd5e68231dd50e7bef61f119b846fa349d9c"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C02_Connector_access_rear_cap.stl",
+      "bytes": 90184,
+      "sha256": "d5d84049cc5d85569d822c481400ee50dc980fce4173decf3d5e201545d69b44"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 2684,
+      "sha256": "c24688ce1a2681a30252920af2a4e39a96704cef49015850fc261320c9d9c664"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C04_2_Axial_fit_shim_330.stl",
+      "bytes": 1684,
+      "sha256": "deb69a4421d03e1fde5a646dd93f9f668e7bcdef1d111a54c75d7e508750f4a3"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C03_1_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "382a31a5a90e0b4eb8a5e698d923964dcb68ab42e89a27ccb1951efd2bc2258b"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C03_2_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "165b4814e4742dc30903b02660abaacbda08b9225e84ee3dc885e07aec3bd468"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C03_3_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "382a31a5a90e0b4eb8a5e698d923964dcb68ab42e89a27ccb1951efd2bc2258b"
+    },
+    {
+      "path": "prototype_stl/J4_AX_C03_4_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "165b4814e4742dc30903b02660abaacbda08b9225e84ee3dc885e07aec3bd468"
+    },
+    {
+      "path": "prototype_stl/W06_pitch_20T_pinion.stl",
+      "bytes": 232184,
+      "sha256": "d560fad5c1c7526f5967d8411754078cb6fba92d9879fe22ccc62387d2bbd139"
+    },
+    {
+      "path": "prototype_stl/W07_pitch_pinion_journal_bridge.stl",
+      "bytes": 78084,
+      "sha256": "0d2a23050a626e110a302ce058beea008afe5ef628aa0b40ba2219d58c1dd168"
+    },
+    {
+      "path": "prototype_stl/W08_pinion_bridge_foot_-15.stl",
+      "bytes": 24084,
+      "sha256": "e8b977c534a52fad14a76fa64013f96b7cd8a60009865e494b2de290560cfc40"
+    },
+    {
+      "path": "prototype_stl/W09_bridge_head_spacer_-15.stl",
+      "bytes": 24184,
+      "sha256": "d44e34fc7960f943665eac53addea3bbb7b90f98e8d7f380a06e6fb19492b5db"
+    },
+    {
+      "path": "prototype_stl/W08_pinion_bridge_foot_50.stl",
+      "bytes": 24084,
+      "sha256": "e8b977c534a52fad14a76fa64013f96b7cd8a60009865e494b2de290560cfc40"
+    },
+    {
+      "path": "prototype_stl/W09_bridge_head_spacer_50.stl",
+      "bytes": 24184,
+      "sha256": "d44e34fc7960f943665eac53addea3bbb7b90f98e8d7f380a06e6fb19492b5db"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C01_Keyed_motor_cradle.stl",
+      "bytes": 434184,
+      "sha256": "802748eb614220ea1a7420e8ef2ead4f15ad0b99e5ab12b15257550119ea9649"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C02_Connector_access_rear_cap.stl",
+      "bytes": 90184,
+      "sha256": "d5d84049cc5d85569d822c481400ee50dc980fce4173decf3d5e201545d69b44"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 2684,
+      "sha256": "c24688ce1a2681a30252920af2a4e39a96704cef49015850fc261320c9d9c664"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C04_2_Axial_fit_shim_330.stl",
+      "bytes": 1684,
+      "sha256": "deb69a4421d03e1fde5a646dd93f9f668e7bcdef1d111a54c75d7e508750f4a3"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C03_1_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "382a31a5a90e0b4eb8a5e698d923964dcb68ab42e89a27ccb1951efd2bc2258b"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C03_2_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "165b4814e4742dc30903b02660abaacbda08b9225e84ee3dc885e07aec3bd468"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C03_3_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "382a31a5a90e0b4eb8a5e698d923964dcb68ab42e89a27ccb1951efd2bc2258b"
+    },
+    {
+      "path": "prototype_stl/J5_AX_C03_4_Screw_stack_spacer.stl",
+      "bytes": 17684,
+      "sha256": "165b4814e4742dc30903b02660abaacbda08b9225e84ee3dc885e07aec3bd468"
+    },
+    {
+      "path": "prototype_stl/W10_supported_roll_output.stl",
+      "bytes": 193484,
+      "sha256": "5aab5e1048e3244827c65f8ebce860ee43f9d1de940ebe18e5bd93752d2b6ab8"
+    },
+    {
+      "path": "prototype_stl/GRIP_C01_Keyed_motor_cradle.stl",
+      "bytes": 330684,
+      "sha256": "7d7ba30b8c97fab6e6d3bac504d6b00fd6957bbd743aac61c6a8b3eae38ccde7"
+    },
+    {
+      "path": "prototype_stl/GRIP_C02_Connector_access_rear_cap.stl",
+      "bytes": 90184,
+      "sha256": "d5d84049cc5d85569d822c481400ee50dc980fce4173decf3d5e201545d69b44"
+    },
+    {
+      "path": "prototype_stl/GRIP_C04_1_Axial_fit_shim_030.stl",
+      "bytes": 2684,
+      "sha256": "c24688ce1a2681a30252920af2a4e39a96704cef49015850fc261320c9d9c664"
+    },
+    {
+      "path": "prototype_stl/GRIP_C04_2_Axial_fit_shim_330.stl",
+      "bytes": 1684,
+      "sha256": "deb69a4421d03e1fde5a646dd93f9f668e7bcdef1d111a54c75d7e508750f4a3"
+    },
+    {
+      "path": "prototype_stl/G01_Windowed_rear_palm.stl",
+      "bytes": 519184,
+      "sha256": "df4f5552fddef9d9e44abf257aae5f690056e4326739271ae56a60eb84e530cf"
+    },
+    {
+      "path": "prototype_stl/G02_Captured_slide_lower_frame.stl",
+      "bytes": 76684,
+      "sha256": "8fdd45e4f7a8481ed675d61739eb87e4248aaac53bfde673d807bcdd8d379cd6"
+    },
+    {
+      "path": "prototype_stl/G03_1_Rear_frame_standoff.stl",
+      "bytes": 19284,
+      "sha256": "3abf3c127a028bd769c3c09e04a47842432454be38dbb6836c36f60f2fc56ceb"
+    },
+    {
+      "path": "prototype_stl/G04_1_Frame_tie_spacer.stl",
+      "bytes": 17684,
+      "sha256": "7aa7ce935c26e1371f624cea723496197f13ce6d666207e2fdc9a0f0e76c7d0a"
+    },
+    {
+      "path": "prototype_stl/G03_2_Rear_frame_standoff.stl",
+      "bytes": 19284,
+      "sha256": "3abf3c127a028bd769c3c09e04a47842432454be38dbb6836c36f60f2fc56ceb"
+    },
+    {
+      "path": "prototype_stl/G04_2_Frame_tie_spacer.stl",
+      "bytes": 17684,
+      "sha256": "7aa7ce935c26e1371f624cea723496197f13ce6d666207e2fdc9a0f0e76c7d0a"
+    },
+    {
+      "path": "prototype_stl/G03_3_Rear_frame_standoff.stl",
+      "bytes": 19284,
+      "sha256": "ebdd4901feafd98e3f5750fcf6328892d7d585ebeffcdefa4e1a7fbb805fc7d6"
+    },
+    {
+      "path": "prototype_stl/G04_3_Frame_tie_spacer.stl",
+      "bytes": 17684,
+      "sha256": "cf19c45724489f2ad00d1b337ed539ac8f17add77309ddeaf4277f6b035cab65"
+    },
+    {
+      "path": "prototype_stl/G03_4_Rear_frame_standoff.stl",
+      "bytes": 19284,
+      "sha256": "ebdd4901feafd98e3f5750fcf6328892d7d585ebeffcdefa4e1a7fbb805fc7d6"
+    },
+    {
+      "path": "prototype_stl/G04_4_Frame_tie_spacer.stl",
+      "bytes": 17684,
+      "sha256": "cf19c45724489f2ad00d1b337ed539ac8f17add77309ddeaf4277f6b035cab65"
+    },
+    {
+      "path": "prototype_stl/G05_R_Slide_retaining_lip.stl",
+      "bytes": 30284,
+      "sha256": "4f1dca75e74d65182d71f79c64ec0e88d1bb3dde76cb236565d7eb9cd5e4f248"
+    },
+    {
+      "path": "prototype_stl/G05_L_Slide_retaining_lip.stl",
+      "bytes": 30184,
+      "sha256": "aa7bd3cf2bf0491a9dcb44fb1d9b107268e479e5eb74fff07ffc99a5c5d3ead2"
+    },
+    {
+      "path": "prototype_stl/G06_20T_m1p5_AX_rack_pinion.stl",
+      "bytes": 232984,
+      "sha256": "9ec3d35dc7570510943fef5928fa5185d0cfe659b8a7ee36bcb512a045ca5d85"
+    },
+    {
+      "path": "prototype_stl/G07_Pinion_outboard_journal_bridge.stl",
+      "bytes": 48684,
+      "sha256": "f8971f3205f7fd49920bf5ed19b76754c28fc5425a754658ecb7c4e1ed9e0989"
+    },
+    {
+      "path": "prototype_stl/G08_1_Bridge_screw_spacer.stl",
+      "bytes": 17684,
+      "sha256": "d81c1fa3d8544f4e388f9e94092e797a94d5130b90af0386e516c9acb47c7f17"
+    },
+    {
+      "path": "prototype_stl/G08_2_Bridge_screw_spacer.stl",
+      "bytes": 17684,
+      "sha256": "a3a18ffc8395c9da8abf98c4d4a2bc97e91f3ce74e2a57a20ac75f8a48a46972"
+    },
+    {
+      "path": "prototype_stl/G09_R_Rack_and_raised_slide.stl",
+      "bytes": 46384,
+      "sha256": "60ca55f8b0f8bbdd7f238fc5f11ef24eb92e6040275f09811836415cbfc2543b"
+    },
+    {
+      "path": "prototype_stl/G10_R_Long_finger_75x24x12.stl",
+      "bytes": 71784,
+      "sha256": "36c867105b0bc0bee93497288024bfc583aa6661d2ddeba6f1eece21a26ee84e"
+    },
+    {
+      "path": "prototype_stl/G11_R_Flat_and_V_keyed_contact_pad.stl",
+      "bytes": 7784,
+      "sha256": "4a6578af5c2a68fee9717e43f8447a294b8cfb9bd0b076541382be6ea950aea5"
+    },
+    {
+      "path": "prototype_stl/G12_R_Removable_pad_tip_stop.stl",
+      "bytes": 18484,
+      "sha256": "3d9758da74b474468e491dcc2ceef1bb85e62bacb1d990d10ed08b216893aea4"
+    },
+    {
+      "path": "prototype_stl/G09_L_Rack_and_raised_slide.stl",
+      "bytes": 46384,
+      "sha256": "60ca55f8b0f8bbdd7f238fc5f11ef24eb92e6040275f09811836415cbfc2543b"
+    },
+    {
+      "path": "prototype_stl/G10_L_Long_finger_75x24x12.stl",
+      "bytes": 71784,
+      "sha256": "36c867105b0bc0bee93497288024bfc583aa6661d2ddeba6f1eece21a26ee84e"
+    },
+    {
+      "path": "prototype_stl/G11_L_Flat_and_V_keyed_contact_pad.stl",
+      "bytes": 7784,
+      "sha256": "4a6578af5c2a68fee9717e43f8447a294b8cfb9bd0b076541382be6ea950aea5"
+    },
+    {
+      "path": "prototype_stl/G12_L_Removable_pad_tip_stop.stl",
+      "bytes": 18484,
+      "sha256": "3d9758da74b474468e491dcc2ceef1bb85e62bacb1d990d10ed08b216893aea4"
+    },
+    {
+      "path": "prototype_stl/W12_palm_service_gap_post_0.stl",
+      "bytes": 24184,
+      "sha256": "5c020287f1cd9d7dd0146face9c866d4796ee97281d717975664e88bffb14711"
+    },
+    {
+      "path": "prototype_stl/W11_palm_screw_spacer_0.stl",
+      "bytes": 24184,
+      "sha256": "f172f1df3b13fc6c789a1ed9761b7c3d9a83740e23b1a6cbf33157cbd05007ef"
+    },
+    {
+      "path": "prototype_stl/W12_palm_service_gap_post_1.stl",
+      "bytes": 24184,
+      "sha256": "5c020287f1cd9d7dd0146face9c866d4796ee97281d717975664e88bffb14711"
+    },
+    {
+      "path": "prototype_stl/W11_palm_screw_spacer_1.stl",
+      "bytes": 24184,
+      "sha256": "f172f1df3b13fc6c789a1ed9761b7c3d9a83740e23b1a6cbf33157cbd05007ef"
+    },
+    {
+      "path": "prototype_stl/W12_palm_service_gap_post_2.stl",
+      "bytes": 24184,
+      "sha256": "5c020287f1cd9d7dd0146face9c866d4796ee97281d717975664e88bffb14711"
+    },
+    {
+      "path": "prototype_stl/W11_palm_screw_spacer_2.stl",
+      "bytes": 24184,
+      "sha256": "f172f1df3b13fc6c789a1ed9761b7c3d9a83740e23b1a6cbf33157cbd05007ef"
+    },
+    {
+      "path": "prototype_stl/W12_palm_service_gap_post_3.stl",
+      "bytes": 24184,
+      "sha256": "5c020287f1cd9d7dd0146face9c866d4796ee97281d717975664e88bffb14711"
+    },
+    {
+      "path": "prototype_stl/W11_palm_screw_spacer_3.stl",
+      "bytes": 24184,
+      "sha256": "f172f1df3b13fc6c789a1ed9761b7c3d9a83740e23b1a6cbf33157cbd05007ef"
+    },
+    {
+      "path": "prototype_stl/F01_hole_and_nut_coupon.stl",
+      "bytes": 73184,
+      "sha256": "f90c7362b44daf495e6bbd85efb483e0b327420d819eebba65105be131998697"
+    },
+    {
+      "path": "prototype_stl/F02_AX_16PCD_horn_coupon.stl",
+      "bytes": 63784,
+      "sha256": "cfd5930202a1c3a02b032dc77df2e06b247b03ce7a0e9a18cbc2cfef1d3d10d7"
+    },
+    {
+      "path": "prototype_stl/F02_XM_16PCD_horn_coupon.stl",
+      "bytes": 104084,
+      "sha256": "1985afa336d4e8eb8c1913264ddc5f35589066838b1ad9fe93bff083a3177e04"
+    }
+  ],
+  "prototype_only": true
+}

@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "B01_open_front_base_240x240",
+    "dimensions_mm": [
+      241.0,
+      240.0,
+      90.0
+    ],
+    "volume_mm3": 600018.23018154,
+    "solid_PLA_mass_g": 744.0226054251096,
+    "centroid_local_mm": [
+      -0.8524166941642761,
+      17.919822692871094,
+      25.2080020904541
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4 mm walls, 5 mm floor; four M4 fasteners attach printed feet. External bench attachment must be provided separately. M3 captive nuts in top posts."
+  },
+  {
+    "id": "B02_structural_lid",
+    "dimensions_mm": [
+      240.0,
+      240.0,
+      5.0
+    ],
+    "volume_mm3": 275401.36343016033,
+    "solid_PLA_mass_g": 341.4976906533988,
+    "centroid_local_mm": [
+      -0.11883377283811569,
+      -0.5758639574050903,
+      92.5001449584961
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Remove to access drive. Hole \u00d842.4 captures upper printed journal bushing."
+  },
+  {
+    "id": "B03_service_front_panel",
+    "dimensions_mm": [
+      230.0,
+      85.0,
+      3.0000038146972656
+    ],
+    "volume_mm3": 55230.4714492748,
+    "solid_PLA_mass_g": 68.48578459710076,
+    "centroid_local_mm": [
+      0.14070284366607666,
+      -2.210198690733023e-09,
+      42.708839416503906
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Removable front panel; shown lying in front. Assembly transform: translation(0,-118.5,5) with no rotation."
+  },
+  {
+    "id": "B05_lower_journal_support",
+    "dimensions_mm": [
+      64.0,
+      62.0,
+      46.0
+    ],
+    "volume_mm3": 37276.903775268605,
+    "solid_PLA_mass_g": 46.22336068133307,
+    "centroid_local_mm": [
+      -6.582127298315754e-06,
+      -4.454397640074603e-06,
+      21.180383682250977
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Four M3 floor bolts; lower sleeve seat \u00d842.3. Printed support carries overturning load."
+  },
+  {
+    "id": "B06_replaceable_lower_bushing",
+    "dimensions_mm": [
+      52.0,
+      52.0,
+      10.0
+    ],
+    "volume_mm3": 7039.426136920995,
+    "solid_PLA_mass_g": 8.728888409782034,
+    "centroid_local_mm": [
+      4.6820554189253016e-07,
+      -4.21384993387619e-06,
+      48.83782196044922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d832.5 running bore for \u00d832 shaft. Trial clearance 0.25 radial."
+  },
+  {
+    "id": "B07_upper_bushing_and_thrust_ring",
+    "dimensions_mm": [
+      90.0,
+      90.0,
+      14.0
+    ],
+    "volume_mm3": 22591.90763338408,
+    "solid_PLA_mass_g": 28.013965465396257,
+    "centroid_local_mm": [
+      -8.580571375205182e-06,
+      -3.305285281385295e-05,
+      94.60348510742188
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Replaceable polymer plain bearing, not a ball bearing. Printed thrust surface; friction unmeasured."
+  },
+  {
+    "id": "B08_printed_hollow_yaw_shaft",
+    "dimensions_mm": [
+      76.0,
+      76.0,
+      80.0
+    ],
+    "volume_mm3": 106066.91924107913,
+    "solid_PLA_mass_g": 131.52297985893813,
+    "centroid_local_mm": [
+      1.033490434565465e-06,
+      6.081250830902718e-06,
+      85.5763168334961
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d832 journal; 14 mm cable bore. Radial gap0.25, axial running allowance0.3. No metal shaft."
+  },
+  {
+    "id": "B17_split_yaw_retaining_collar",
+    "dimensions_mm": [
+      48.0,
+      38.0,
+      10.0
+    ],
+    "volume_mm3": 3711.5900213459486,
+    "solid_PLA_mass_g": 4.602371626468976,
+    "centroid_local_mm": [
+      4.307145595550537,
+      -0.04868954420089722,
+      37.70008087158203
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Split printed collar under lower sleeve;0.3 axial gap prevents lifting without clamping the bearing."
+  },
+  {
+    "id": "B09_yaw_60T_module1p5",
+    "dimensions_mm": [
+      92.99930572509766,
+      92.99930572509766,
+      10.0
+    ],
+    "volume_mm3": 49379.14069070612,
+    "solid_PLA_mass_g": 61.23013445647558,
+    "centroid_local_mm": [
+      -2.29701599891996e-05,
+      -1.2175106348877307e-05,
+      70.0000228881836
+    ],
+    "nonmanifold_edges": 0,
+    "description": "60 teeth, pitch \u00d890, 20\u00b0 involute. 60 mm centre distance."
+  },
+  {
+    "id": "B18_yaw_gear_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.691112091144088,
+    "solid_PLA_mass_g": 0.01821697899301867,
+    "centroid_local_mm": [
+      -4.346138666733168e-06,
+      -2.350381237192778e-06,
+      81.75226593017578
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B18_yaw_gear_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.691112091144088,
+    "solid_PLA_mass_g": 0.01821697899301867,
+    "centroid_local_mm": [
+      -4.346138666733168e-06,
+      -2.350381237192778e-06,
+      81.75226593017578
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B18_yaw_gear_screw_spacer_2",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.691112091144088,
+    "solid_PLA_mass_g": 0.01821697899301867,
+    "centroid_local_mm": [
+      -4.346138666733168e-06,
+      -2.350381237192778e-06,
+      81.75226593017578
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B18_yaw_gear_screw_spacer_3",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.691112091144088,
+    "solid_PLA_mass_g": 0.01821697899301867,
+    "centroid_local_mm": [
+      -4.346138666733168e-06,
+      -2.350381237192778e-06,
+      81.75226593017578
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B10_rotating_pedestal_deck",
+    "dimensions_mm": [
+      160.0,
+      108.0,
+      6.0
+    ],
+    "volume_mm3": 99904.5027643836,
+    "solid_PLA_mass_g": 123.88158342783565,
+    "centroid_local_mm": [
+      -23.27720069885254,
+      2.031916483247187e-05,
+      114.99996948242188
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Structural deck 160\u00d7108\u00d76; keyed bolt patterns to yaw flange and shoulder stand."
+  },
+  {
+    "id": "B19_deck_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.8000030517578125
+    ],
+    "volume_mm3": 23.50607899824846,
+    "solid_PLA_mass_g": 0.02914753795782809,
+    "centroid_local_mm": [
+      6.298767857515486e-06,
+      -1.7673911543170107e-06,
+      118.40258026123047
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B19_deck_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.8000030517578125
+    ],
+    "volume_mm3": 23.50607899824846,
+    "solid_PLA_mass_g": 0.02914753795782809,
+    "centroid_local_mm": [
+      6.298767857515486e-06,
+      -1.7673911543170107e-06,
+      118.40258026123047
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B19_deck_screw_spacer_2",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.8000030517578125
+    ],
+    "volume_mm3": 23.50607899824846,
+    "solid_PLA_mass_g": 0.02914753795782809,
+    "centroid_local_mm": [
+      6.298767857515486e-06,
+      -1.7673911543170107e-06,
+      118.40258026123047
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B19_deck_screw_spacer_3",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.8000030517578125
+    ],
+    "volume_mm3": 23.50607899824846,
+    "solid_PLA_mass_g": 0.02914753795782809,
+    "centroid_local_mm": [
+      6.298767857515486e-06,
+      -1.7673911543170107e-06,
+      118.40258026123047
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "J1_BASE_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.19999694824219,
+      39.30000305175781
+    ],
+    "volume_mm3": 18456.405935258637,
+    "solid_PLA_mass_g": 22.88594335972071,
+    "centroid_local_mm": [
+      4.4330204218567815e-06,
+      -14.278182029724121,
+      -19.173906326293945
+    ],
+    "nonmanifold_edges": 0,
+    "description": "AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Standard base-compatible frame."
+  },
+  {
+    "id": "J1_BASE_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.19999694824219,
+      4.599998474121094
+    ],
+    "volume_mm3": 5437.952914097041,
+    "solid_PLA_mass_g": 6.7430616134803305,
+    "centroid_local_mm": [
+      2.5709794499562122e-05,
+      -13.50006103515625,
+      -42.649932861328125
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "J1_BASE_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      31.899999618530273,
+      32.663326263427734,
+      0.3000001907348633
+    ],
+    "volume_mm3": 64.38017137845357,
+    "solid_PLA_mass_g": 0.07983141250928243,
+    "centroid_local_mm": [
+      2.9922599424025975e-05,
+      -28.444480895996094,
+      -4.824999809265137
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J1_BASE_C04_2_Axial_fit_shim_330",
+    "dimensions_mm": [
+      31.899999618530273,
+      49.900001525878906,
+      3.3000030517578125
+    ],
+    "volume_mm3": 1492.622746785481,
+    "solid_PLA_mass_g": 1.8508522060139965,
+    "centroid_local_mm": [
+      -4.007338702649577e-06,
+      -13.499993324279785,
+      -38.675010681152344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J1_BASE_C03_1_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.149993896484375
+    ],
+    "volume_mm3": 31.179656902948963,
+    "solid_PLA_mass_g": 0.038662774559656714,
+    "centroid_local_mm": [
+      -21.000574111938477,
+      15.500251770019531,
+      -65.5760498046875
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm."
+  },
+  {
+    "id": "J1_BASE_C03_2_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.149993896484375
+    ],
+    "volume_mm3": 31.195836067199576,
+    "solid_PLA_mass_g": 0.03868283672332747,
+    "centroid_local_mm": [
+      -20.99717903137207,
+      -42.49575424194336,
+      -65.56758117675781
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm."
+  },
+  {
+    "id": "J1_BASE_C03_3_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.149993896484375
+    ],
+    "volume_mm3": 31.186953544616472,
+    "solid_PLA_mass_g": 0.03867182239532443,
+    "centroid_local_mm": [
+      20.99888801574707,
+      15.49914264678955,
+      -65.5722427368164
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm."
+  },
+  {
+    "id": "J1_BASE_C03_4_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.149993896484375
+    ],
+    "volume_mm3": 31.161545753479245,
+    "solid_PLA_mass_g": 0.03864031673431426,
+    "centroid_local_mm": [
+      21.002723693847656,
+      -42.50615692138672,
+      -65.5855484008789
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.15 mm spacer for standard M3x65 rear-inserted screw; attachment stack depth 20.05 mm."
+  },
+  {
+    "id": "B11_yaw_20T_pinion",
+    "dimensions_mm": [
+      32.99853515625,
+      32.99853515625,
+      21.0
+    ],
+    "volume_mm3": 6858.341140734159,
+    "solid_PLA_mass_g": 8.504343014510358,
+    "centroid_local_mm": [
+      -2.864877615138539e-07,
+      -3.6722863683280593e-07,
+      5.626558303833008
+    ],
+    "nonmanifold_edges": 0,
+    "description": "M2\u00d76 through 4 mm counterbore floor into AX horn (2 mm). External printed \u00d88 journal support."
+  },
+  {
+    "id": "B12_yaw_pinion_journal_support",
+    "dimensions_mm": [
+      22.0,
+      40.0,
+      11.0
+    ],
+    "volume_mm3": 3608.035359501833,
+    "solid_PLA_mass_g": 4.473963845782273,
+    "centroid_local_mm": [
+      6.315916039056901e-07,
+      1.505564227954892e-06,
+      82.62713623046875
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d88.5 printed bearing bore; 0.25 mm radial gap. Top ears attach underside deck."
+  },
+  {
+    "id": "B19_pinion_support_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      1.5
+    ],
+    "volume_mm3": 44.073562552531136,
+    "solid_PLA_mass_g": 0.05465121756513861,
+    "centroid_local_mm": [
+      1.274754367841524e-06,
+      -2.203043322879239e-06,
+      95.75059509277344
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B19_pinion_support_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      1.5
+    ],
+    "volume_mm3": 44.073562552531136,
+    "solid_PLA_mass_g": 0.05465121756513861,
+    "centroid_local_mm": [
+      1.274754367841524e-06,
+      -2.203043322879239e-06,
+      95.75059509277344
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B13_motor_floor_standoff_1",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      15.049999237060547
+    ],
+    "volume_mm3": 1044.2724100016064,
+    "solid_PLA_mass_g": 1.2948977884019919,
+    "centroid_local_mm": [
+      -5.698492344663464e-08,
+      -7.534253221308518e-09,
+      12.524984359741211
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B13_motor_floor_standoff_2",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      15.049999237060547
+    ],
+    "volume_mm3": 1044.2724100016064,
+    "solid_PLA_mass_g": 1.2948977884019919,
+    "centroid_local_mm": [
+      -5.698492344663464e-08,
+      -7.534253221308518e-09,
+      12.524984359741211
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B13_motor_floor_standoff_3",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      15.049999237060547
+    ],
+    "volume_mm3": 1044.2724100016064,
+    "solid_PLA_mass_g": 1.2948977884019919,
+    "centroid_local_mm": [
+      -5.698492344663464e-08,
+      -7.534253221308518e-09,
+      12.524984359741211
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B13_motor_floor_standoff_4",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      15.049999237060547
+    ],
+    "volume_mm3": 1044.2724100016064,
+    "solid_PLA_mass_g": 1.2948977884019919,
+    "centroid_local_mm": [
+      -5.698492344663464e-08,
+      -7.534253221308518e-09,
+      12.524984359741211
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B15_printed_foot_0",
+    "dimensions_mm": [
+      24.0,
+      24.0,
+      8.0
+    ],
+    "volume_mm3": 3381.6310445728423,
+    "solid_PLA_mass_g": 4.193222495270325,
+    "centroid_local_mm": [
+      -1.0970425279310803e-07,
+      2.820160815986128e-08,
+      -3.9294564723968506
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+  },
+  {
+    "id": "B16_foot_bolt_spacer_0",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      3.1000003814697266
+    ],
+    "volume_mm3": 194.0018513500689,
+    "solid_PLA_mass_g": 0.24056229567408544,
+    "centroid_local_mm": [
+      -3.179908247830099e-08,
+      -2.304281387921492e-08,
+      6.550012111663818
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B15_printed_foot_1",
+    "dimensions_mm": [
+      24.0,
+      24.0,
+      8.0
+    ],
+    "volume_mm3": 3381.6310445728423,
+    "solid_PLA_mass_g": 4.193222495270325,
+    "centroid_local_mm": [
+      -1.0970425279310803e-07,
+      2.820160815986128e-08,
+      -3.9294564723968506
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+  },
+  {
+    "id": "B16_foot_bolt_spacer_1",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      3.1000003814697266
+    ],
+    "volume_mm3": 194.0018513500689,
+    "solid_PLA_mass_g": 0.24056229567408544,
+    "centroid_local_mm": [
+      -3.179908247830099e-08,
+      -2.304281387921492e-08,
+      6.550012111663818
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B15_printed_foot_2",
+    "dimensions_mm": [
+      24.0,
+      24.0,
+      8.0
+    ],
+    "volume_mm3": 3381.6310445728423,
+    "solid_PLA_mass_g": 4.193222495270325,
+    "centroid_local_mm": [
+      -1.0970425279310803e-07,
+      2.820160815986128e-08,
+      -3.9294564723968506
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+  },
+  {
+    "id": "B16_foot_bolt_spacer_2",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      3.1000003814697266
+    ],
+    "volume_mm3": 194.0018513500689,
+    "solid_PLA_mass_g": 0.24056229567408544,
+    "centroid_local_mm": [
+      -3.179908247830099e-08,
+      -2.304281387921492e-08,
+      6.550012111663818
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B15_printed_foot_3",
+    "dimensions_mm": [
+      24.0,
+      24.0,
+      8.0
+    ],
+    "volume_mm3": 3381.6310445728423,
+    "solid_PLA_mass_g": 4.193222495270325,
+    "centroid_local_mm": [
+      -1.0970425279310803e-07,
+      2.820160815986128e-08,
+      -3.9294564723968506
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed 8mm foot clears underside motor screw heads; captive M4 nut, no rubber or metal bearing."
+  },
+  {
+    "id": "B16_foot_bolt_spacer_3",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      3.1000003814697266
+    ],
+    "volume_mm3": 194.0018513500689,
+    "solid_PLA_mass_g": 0.24056229567408544,
+    "centroid_local_mm": [
+      -3.179908247830099e-08,
+      -2.304281387921492e-08,
+      6.550012111663818
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "B14_U2D2_tray",
+    "dimensions_mm": [
+      60.0,
+      41.0,
+      18.25
+    ],
+    "volume_mm3": 8309.949541829226,
+    "solid_PLA_mass_g": 10.304337431868241,
+    "centroid_local_mm": [
+      5.391563604462135e-07,
+      5.710604682462872e-07,
+      4.075220108032227
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Cavity49\u00d720, U2D2 nominal48\u00d718\u00d714.9. Low end stops and removable roof strap mechanically retain the case. Connector revision must be checked."
+  },
+  {
+    "id": "B23_U2D2_removable_retention_strap",
+    "dimensions_mm": [
+      10.0,
+      41.0,
+      2.5
+    ],
+    "volume_mm3": 960.8410792104855,
+    "solid_PLA_mass_g": 1.1914429382210021,
+    "centroid_local_mm": [
+      2.855106799870555e-07,
+      8.317495030496502e-07,
+      19.500003814697266
+    ],
+    "nonmanifold_edges": 0,
+    "description": "0.35mm nominal case-roof clearance; two M3\u00d720 into side-loaded tray nuts. No invented holes in the U2D2 PCB."
+  },
+  {
+    "id": "B20_adjustable_accessory_tray",
+    "dimensions_mm": [
+      130.0,
+      68.0,
+      3.0
+    ],
+    "volume_mm3": 21214.336202915918,
+    "solid_PLA_mass_g": 26.30577689161574,
+    "centroid_local_mm": [
+      2.342924972253968e-06,
+      -2.9921540090072085e-07,
+      1.4999972581863403
+    ],
+    "nonmanifold_edges": 0,
+    "description": "112\u00d768\u00d73 mm deck plus mounting ears; 3.4 mm capsule slots. Four removable M3\u00d716 mount screws. Clear accessory envelope100\u00d765\u00d730 above deck; board-hole positions are intentionally not assumed. Select screw length and removable printed standoffs from the actual PCB, keeping underside fasteners above the floor."
+  },
+  {
+    "id": "B21_adjustable_power_module_plate",
+    "dimensions_mm": [
+      54.0,
+      58.0,
+      3.0
+    ],
+    "volume_mm3": 7984.564656239639,
+    "solid_PLA_mass_g": 9.900860173737152,
+    "centroid_local_mm": [
+      9.985161852910096e-08,
+      6.784176775909145e-08,
+      1.4999990463256836
+    ],
+    "nonmanifold_edges": 0,
+    "description": "54\u00d758\u00d73 slotted universal plate, four M3\u00d716 mounting screws. Reserved hub envelope45\u00d735\u00d722; actual power distribution hardware and board standoffs remain unselected."
+  },
+  {
+    "id": "B22_usb_split_cable_saddle",
+    "dimensions_mm": [
+      24.0,
+      14.0,
+      6.0
+    ],
+    "volume_mm3": 1733.6784264072803,
+    "solid_PLA_mass_g": 2.1497612487450275,
+    "centroid_local_mm": [
+      7.977639597811503e-07,
+      3.4260119718965143e-07,
+      31.349559783935547
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Nominal cable bore \u00d85.2; 0.4 mm split gap. Two M3\u00d740 through floor. Fit to actual flexible cable jacket; this is a printable clamp, not a rated gland or connector."
+  },
+  {
+    "id": "B22_power_split_cable_saddle",
+    "dimensions_mm": [
+      24.0,
+      14.0,
+      6.0
+    ],
+    "volume_mm3": 1661.2146882958095,
+    "solid_PLA_mass_g": 2.059906213486804,
+    "centroid_local_mm": [
+      2.0407915144460276e-06,
+      5.613450753116922e-07,
+      27.41082763671875
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Nominal cable bore \u00d86.4; 0.4 mm split gap. Two M3\u00d735 through floor. Fit to actual flexible cable jacket; this is a printable clamp, not a rated gland or connector."
+  },
+  {
+    "id": "S_01_rear_support",
+    "dimensions_mm": [
+      140.5,
+      90.0,
+      6.0
+    ],
+    "volume_mm3": 40571.95034165815,
+    "solid_PLA_mass_g": 50.309218423656105,
+    "centroid_local_mm": [
+      -39.918880462646484,
+      -18.48818588256836,
+      -21.99559211730957
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment."
+  },
+  {
+    "id": "S_01_front_support",
+    "dimensions_mm": [
+      59.0,
+      90.0,
+      6.0
+    ],
+    "volume_mm3": 19006.83977498613,
+    "solid_PLA_mass_g": 23.568481320982798,
+    "centroid_local_mm": [
+      1.027590587909799e-05,
+      -24.99569320678711,
+      21.999954223632812
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment."
+  },
+  {
+    "id": "S_02_rear_plain_bushing",
+    "dimensions_mm": [
+      38.0,
+      38.0,
+      10.0
+    ],
+    "volume_mm3": 4818.5979930559815,
+    "solid_PLA_mass_g": 5.975061511389417,
+    "centroid_local_mm": [
+      1.829529082897352e-06,
+      -2.0583192394951766e-07,
+      -19.81254005432129
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed running bore \u00d824.5; journal \u00d824. Fit coupon first."
+  },
+  {
+    "id": "S_02_front_plain_bushing",
+    "dimensions_mm": [
+      38.0,
+      38.0,
+      10.0
+    ],
+    "volume_mm3": 4818.597602566084,
+    "solid_PLA_mass_g": 5.975061027181944,
+    "centroid_local_mm": [
+      -6.871620144011104e-07,
+      1.2935745417053113e-06,
+      19.81244659423828
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed running bore \u00d824.5; journal \u00d824. Fit coupon first."
+  },
+  {
+    "id": "S_03_independent_output_shaft",
+    "dimensions_mm": [
+      50.0,
+      50.0,
+      81.80000305175781
+    ],
+    "volume_mm3": 39772.06928811963,
+    "solid_PLA_mass_g": 49.31736591726834,
+    "centroid_local_mm": [
+      5.139909831086698e-07,
+      -7.274715017047129e-07,
+      0.15007561445236206
+    ],
+    "nonmanifold_edges": 0,
+    "description": "External printed pivot, independent of motor shaft. Shoulder flanges provide axial clearance, not clamped rotating cheeks."
+  },
+  {
+    "id": "S_04_shaft_retainer",
+    "dimensions_mm": [
+      52.0,
+      52.0,
+      29.19999885559082
+    ],
+    "volume_mm3": 21342.661089698475,
+    "solid_PLA_mass_g": 26.46489975122611,
+    "centroid_local_mm": [
+      -4.655173597711837e-07,
+      1.0422754712635651e-06,
+      -44.57948684692383
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Positively keyed rear output flange; male hex20AF/female20.4AF. Supports second link plate. 0.3mm axial clearance at stationary cheek. Fit and torsion testing required."
+  },
+  {
+    "id": "S_10_retainer_screw_spacer",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      5.0
+    ],
+    "volume_mm3": 395.2681943873562,
+    "solid_PLA_mass_g": 0.49013256104032166,
+    "centroid_local_mm": [
+      3.1831032742957177e-07,
+      -3.2451180231873877e-07,
+      -56.99999237060547
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "S_05_output_100T",
+    "dimensions_mm": [
+      127.49964141845703,
+      127.49964141845703,
+      12.0
+    ],
+    "volume_mm3": 75150.78957174331,
+    "solid_PLA_mass_g": 93.1869790689617,
+    "centroid_local_mm": [
+      -4.97422934131464e-06,
+      -4.076865025126608e-06,
+      37.49943923950195
+    ],
+    "nonmanifold_edges": 0,
+    "description": "5:1 reduction, module1.25, 20 degree pressure angle, pitch diameter125.0."
+  },
+  {
+    "id": "S_XM_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      47.70000076293945,
+      63.70000457763672,
+      36.30000305175781
+    ],
+    "volume_mm3": 9438.861523106585,
+    "solid_PLA_mass_g": 11.704188288652166,
+    "centroid_local_mm": [
+      -1.0099912515215692e-06,
+      -12.228355407714844,
+      -16.991525650024414
+    ],
+    "nonmanifold_edges": 0,
+    "description": "XM430-W350-T cradle: 0.35 mm per side; 26.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+  },
+  {
+    "id": "S_XM_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      47.70000076293945,
+      63.69999694824219,
+      4.600002288818359
+    ],
+    "volume_mm3": 4959.243504599974,
+    "solid_PLA_mass_g": 6.149461945703967,
+    "centroid_local_mm": [
+      2.2122464997664792e-06,
+      -12.51282787322998,
+      -38.850006103515625
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "S_XM_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      28.399999618530273,
+      46.400001525878906,
+      0.2999999523162842
+    ],
+    "volume_mm3": 84.76845645035303,
+    "solid_PLA_mass_g": 0.10511288599843775,
+    "centroid_local_mm": [
+      -4.500137720242492e-07,
+      -16.392122268676758,
+      -1.8250001668930054
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "S_XM_C04_2_Axial_fit_shim_050",
+    "dimensions_mm": [
+      28.399999618530273,
+      46.400001525878906,
+      0.5
+    ],
+    "volume_mm3": 191.37669205665537,
+    "solid_PLA_mass_g": 0.23730709815025267,
+    "centroid_local_mm": [
+      3.10251307382714e-05,
+      -13.444437026977539,
+      -36.274898529052734
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.50 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "S_XM_C03_1_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.39372201760587,
+    "solid_PLA_mass_g": 0.1294482153018313,
+    "centroid_local_mm": [
+      -19.24989891052246,
+      15.249871253967285,
+      -58.42457580566406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "S_XM_C03_2_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.38554350535084,
+    "solid_PLA_mass_g": 0.12943807394663503,
+    "centroid_local_mm": [
+      -19.250019073486328,
+      -39.250465393066406,
+      -58.425514221191406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "S_XM_C03_3_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.38597408930474,
+    "solid_PLA_mass_g": 0.12943860787073788,
+    "centroid_local_mm": [
+      19.250146865844727,
+      15.250170707702637,
+      -58.42561340332031
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "S_XM_C03_4_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.39742533365884,
+    "solid_PLA_mass_g": 0.12945280741373696,
+    "centroid_local_mm": [
+      19.24970245361328,
+      -39.24937057495117,
+      -58.42393493652344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "S_09_motor_mount_standoff_0",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "S_09_motor_mount_standoff_1",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "S_09_motor_mount_standoff_2",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "S_09_motor_mount_standoff_3",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "S_06_XM_pinion_20T",
+    "dimensions_mm": [
+      27.498836517333984,
+      27.498836517333984,
+      22.0
+    ],
+    "volume_mm3": 4960.198458530285,
+    "solid_PLA_mass_g": 6.150646088577553,
+    "centroid_local_mm": [
+      -3.230576339774416e-07,
+      3.507520887069404e-07,
+      6.824893951416016
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Eight M2\u00d76 with 4.5 mm floor =1.5 mm nominal engagement into XM horn. Check screw length."
+  },
+  {
+    "id": "S_07_pinion_journal_bridge",
+    "dimensions_mm": [
+      46.0,
+      52.0,
+      70.5
+    ],
+    "volume_mm3": 18101.383303344253,
+    "solid_PLA_mass_g": 22.445715296146876,
+    "centroid_local_mm": [
+      -24.10491371154785,
+      -4.2168354988098145,
+      31.069488525390625
+    ],
+    "nonmanifold_edges": 0,
+    "description": "External \u00d88.5 polymer bearing; two long legs lie outside both gear sweeps and bolt to rear support plate."
+  },
+  {
+    "id": "S_11_bridge_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.5999984741210938
+    ],
+    "volume_mm3": 105.77662029365693,
+    "solid_PLA_mass_g": 0.1311630091641346,
+    "centroid_local_mm": [
+      -2.3983776031855086e-07,
+      -7.128218015850507e-08,
+      53.300045013427734
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "S_11_bridge_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.5999984741210938
+    ],
+    "volume_mm3": 105.77662029365693,
+    "solid_PLA_mass_g": 0.1311630091641346,
+    "centroid_local_mm": [
+      -2.3983776031855086e-07,
+      -7.128218015850507e-08,
+      53.300045013427734
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "S_08_pedestal_foot",
+    "dimensions_mm": [
+      152.0,
+      14.0,
+      62.0
+    ],
+    "volume_mm3": 116150.48019610194,
+    "solid_PLA_mass_g": 144.0265954431664,
+    "centroid_local_mm": [
+      -26.948902130126953,
+      -61.24000930786133,
+      6.739982723047433e-07
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Bears on rotating deck; four matching vertical M3 holes at120\u00d740mm. Central\u00d816vertical cable passage continues hollow yaw shaft through the pedestal."
+  },
+  {
+    "id": "E_01_rear_support",
+    "dimensions_mm": [
+      114.25,
+      103.0,
+      6.0
+    ],
+    "volume_mm3": 36992.842435769744,
+    "solid_PLA_mass_g": 45.871124620354486,
+    "centroid_local_mm": [
+      -33.755245208740234,
+      -18.754318237304688,
+      -21.995086669921875
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment."
+  },
+  {
+    "id": "E_01_front_support",
+    "dimensions_mm": [
+      75.0,
+      103.0,
+      6.0
+    ],
+    "volume_mm3": 18223.131580134257,
+    "solid_PLA_mass_g": 22.596683159366478,
+    "centroid_local_mm": [
+      -8.729344367980957,
+      -24.730419158935547,
+      21.980215072631836
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Stationary cheek with replaceable polymer journal sleeve; two separate sides carry bending moment."
+  },
+  {
+    "id": "E_12_front_cheek_tie_0",
+    "dimensions_mm": [
+      6.800000190734863,
+      6.800000190734863,
+      38.0
+    ],
+    "volume_mm3": 1034.2626441949983,
+    "solid_PLA_mass_g": 1.282485678801798,
+    "centroid_local_mm": [
+      6.339309077674216e-09,
+      2.1668910221706028e-08,
+      -8.575356247320087e-08
+    ],
+    "nonmanifold_edges": 0,
+    "description": "38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange."
+  },
+  {
+    "id": "E_12_front_cheek_tie_1",
+    "dimensions_mm": [
+      6.800000190734863,
+      6.800000190734863,
+      38.0
+    ],
+    "volume_mm3": 1034.2626441949983,
+    "solid_PLA_mass_g": 1.282485678801798,
+    "centroid_local_mm": [
+      6.339309077674216e-09,
+      2.1668910221706028e-08,
+      -8.575356247320087e-08
+    ],
+    "nonmanifold_edges": 0,
+    "description": "38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange."
+  },
+  {
+    "id": "E_12_front_cheek_tie_2",
+    "dimensions_mm": [
+      6.800000190734863,
+      6.800000190734863,
+      38.0
+    ],
+    "volume_mm3": 1034.2626441949983,
+    "solid_PLA_mass_g": 1.282485678801798,
+    "centroid_local_mm": [
+      6.339309077674216e-09,
+      2.1668910221706028e-08,
+      -8.575356247320087e-08
+    ],
+    "nonmanifold_edges": 0,
+    "description": "38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange."
+  },
+  {
+    "id": "E_12_front_cheek_tie_3",
+    "dimensions_mm": [
+      6.800000190734863,
+      6.800000190734863,
+      38.0
+    ],
+    "volume_mm3": 1034.2626441949983,
+    "solid_PLA_mass_g": 1.282485678801798,
+    "centroid_local_mm": [
+      6.339309077674216e-09,
+      2.1668910221706028e-08,
+      -8.575356247320087e-08
+    ],
+    "nonmanifold_edges": 0,
+    "description": "38mm stationary tie between bearing cheeks. M3x50 head is flush with rear cheek; nut recessed clear of rotating flange."
+  },
+  {
+    "id": "E_02_rear_plain_bushing",
+    "dimensions_mm": [
+      34.0,
+      34.0,
+      10.0
+    ],
+    "volume_mm3": 4170.010723059373,
+    "solid_PLA_mass_g": 5.170813296593622,
+    "centroid_local_mm": [
+      -2.5248289148294134e-07,
+      1.0666487924027024e-06,
+      -19.807451248168945
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed running bore \u00d820.5; journal \u00d820. Fit coupon first."
+  },
+  {
+    "id": "E_02_front_plain_bushing",
+    "dimensions_mm": [
+      34.0,
+      34.0,
+      10.0
+    ],
+    "volume_mm3": 4170.010255505629,
+    "solid_PLA_mass_g": 5.17081271682698,
+    "centroid_local_mm": [
+      -1.6283320292131975e-07,
+      1.1434915592190009e-07,
+      19.807476043701172
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed running bore \u00d820.5; journal \u00d820. Fit coupon first."
+  },
+  {
+    "id": "E_03_independent_output_shaft",
+    "dimensions_mm": [
+      50.0,
+      50.0,
+      68.80000305175781
+    ],
+    "volume_mm3": 27308.18099131887,
+    "solid_PLA_mass_g": 33.8621444292354,
+    "centroid_local_mm": [
+      5.18374463354121e-07,
+      -1.0634124691932811e-06,
+      8.407369613647461
+    ],
+    "nonmanifold_edges": 0,
+    "description": "External printed pivot, independent of motor shaft. Shoulder flanges provide axial clearance, not clamped rotating cheeks."
+  },
+  {
+    "id": "E_04_shaft_retainer",
+    "dimensions_mm": [
+      52.0,
+      52.0,
+      16.200000762939453
+    ],
+    "volume_mm3": 14863.886054664812,
+    "solid_PLA_mass_g": 18.431218707784367,
+    "centroid_local_mm": [
+      -1.6165236615961476e-07,
+      -9.022890594678756e-07,
+      -36.66706848144531
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Positively keyed rear output flange; male hex17AF/female17.4AF. Supports second link plate. 0.3mm axial clearance at stationary cheek. Fit and torsion testing required."
+  },
+  {
+    "id": "E_10_retainer_screw_spacer",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      8.0
+    ],
+    "volume_mm3": 632.4292154113452,
+    "solid_PLA_mass_g": 0.7842122271100681,
+    "centroid_local_mm": [
+      3.433659117035859e-07,
+      -3.2044029651956407e-09,
+      -45.49997329711914
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "E_05_output_80T",
+    "dimensions_mm": [
+      102.49956512451172,
+      102.49956512451172,
+      10.0
+    ],
+    "volume_mm3": 48322.40411144753,
+    "solid_PLA_mass_g": 59.91978109819494,
+    "centroid_local_mm": [
+      4.7277158046199474e-06,
+      1.3719596609007567e-05,
+      36.50069046020508
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4:1 reduction, module1.25, 20 degree pressure angle, pitch diameter100.0."
+  },
+  {
+    "id": "E_XM_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      47.70000076293945,
+      63.70000457763672,
+      36.30000305175781
+    ],
+    "volume_mm3": 9438.861523106585,
+    "solid_PLA_mass_g": 11.704188288652166,
+    "centroid_local_mm": [
+      -1.0099912515215692e-06,
+      -12.228355407714844,
+      -16.991525650024414
+    ],
+    "nonmanifold_edges": 0,
+    "description": "XM430-W350-T cradle: 0.35 mm per side; 26.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+  },
+  {
+    "id": "E_XM_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      47.70000076293945,
+      63.69999694824219,
+      4.600002288818359
+    ],
+    "volume_mm3": 4959.243504599974,
+    "solid_PLA_mass_g": 6.149461945703967,
+    "centroid_local_mm": [
+      2.2122464997664792e-06,
+      -12.51282787322998,
+      -38.850006103515625
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "E_XM_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      28.399999618530273,
+      46.400001525878906,
+      0.2999999523162842
+    ],
+    "volume_mm3": 84.76845645035303,
+    "solid_PLA_mass_g": 0.10511288599843775,
+    "centroid_local_mm": [
+      -4.500137720242492e-07,
+      -16.392122268676758,
+      -1.8250001668930054
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "E_XM_C04_2_Axial_fit_shim_050",
+    "dimensions_mm": [
+      28.399999618530273,
+      46.400001525878906,
+      0.5
+    ],
+    "volume_mm3": 191.37669205665537,
+    "solid_PLA_mass_g": 0.23730709815025267,
+    "centroid_local_mm": [
+      3.10251307382714e-05,
+      -13.444437026977539,
+      -36.274898529052734
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.50 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "E_XM_C03_1_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.39372201760587,
+    "solid_PLA_mass_g": 0.1294482153018313,
+    "centroid_local_mm": [
+      -19.24989891052246,
+      15.249871253967285,
+      -58.42457580566406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "E_XM_C03_2_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.38554350535084,
+    "solid_PLA_mass_g": 0.12943807394663503,
+    "centroid_local_mm": [
+      -19.250019073486328,
+      -39.250465393066406,
+      -58.425514221191406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "E_XM_C03_3_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.38597408930474,
+    "solid_PLA_mass_g": 0.12943860787073788,
+    "centroid_local_mm": [
+      19.250146865844727,
+      15.250170707702637,
+      -58.42561340332031
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "E_XM_C03_4_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      3.8499984741210938
+    ],
+    "volume_mm3": 104.39742533365884,
+    "solid_PLA_mass_g": 0.12945280741373696,
+    "centroid_local_mm": [
+      19.24970245361328,
+      -39.24937057495117,
+      -58.42393493652344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 3.85 mm spacer for standard M3x60 rear-inserted screw; attachment stack depth 15.35 mm."
+  },
+  {
+    "id": "E_09_motor_mount_standoff_0",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "E_09_motor_mount_standoff_1",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "E_09_motor_mount_standoff_2",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "E_09_motor_mount_standoff_3",
+    "dimensions_mm": [
+      8.199999809265137,
+      8.199999809265137,
+      9.350000381469727
+    ],
+    "volume_mm3": 408.50032619362077,
+    "solid_PLA_mass_g": 0.5065404044800897,
+    "centroid_local_mm": [
+      -6.730139290311854e-08,
+      -5.734297658932519e-08,
+      -14.324993133544922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "9.35mm rear support gap; shared coaxial M3 mounting stack."
+  },
+  {
+    "id": "E_06_XM_pinion_20T",
+    "dimensions_mm": [
+      27.498836517333984,
+      27.498836517333984,
+      20.0
+    ],
+    "volume_mm3": 4224.357433986237,
+    "solid_PLA_mass_g": 5.238203218142934,
+    "centroid_local_mm": [
+      1.1733230564914265e-07,
+      -5.8626028476282954e-08,
+      5.902790546417236
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Eight M2\u00d76 with 4.5 mm floor =1.5 mm nominal engagement into XM horn. Check screw length."
+  },
+  {
+    "id": "E_07_pinion_journal_bridge",
+    "dimensions_mm": [
+      20.0,
+      77.0,
+      68.5
+    ],
+    "volume_mm3": 15184.331132743511,
+    "solid_PLA_mass_g": 18.828570604601953,
+    "centroid_local_mm": [
+      4.5911534130027576e-07,
+      -11.317715644836426,
+      26.93618392944336
+    ],
+    "nonmanifold_edges": 0,
+    "description": "External \u00d88.5 polymer bearing; two long legs lie outside both gear sweeps and bolt to rear support plate."
+  },
+  {
+    "id": "E_11_bridge_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5999984741210938
+    ],
+    "volume_mm3": 17.62939321001364,
+    "solid_PLA_mass_g": 0.02186044758041691,
+    "centroid_local_mm": [
+      -2.7183882593817543e-06,
+      -2.2779360620006628e-07,
+      49.800193786621094
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "E_11_bridge_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5999984741210938
+    ],
+    "volume_mm3": 17.62939321001364,
+    "solid_PLA_mass_g": 0.02186044758041691,
+    "centroid_local_mm": [
+      -2.7183882593817543e-06,
+      -2.2779360620006628e-07,
+      49.800193786621094
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A01_left_upper_fork",
+    "dimensions_mm": [
+      203.0,
+      75.0,
+      6.0
+    ],
+    "volume_mm3": 50540.08317742731,
+    "solid_PLA_mass_g": 62.669703140009865,
+    "centroid_local_mm": [
+      76.54277801513672,
+      13.049506187438965,
+      -57.50008773803711
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Matched 6mm curved side plate; shoulder/elbow pivot centres100mm. Fixed elbow ears beyond gear sweep. No lateral joint offset."
+  },
+  {
+    "id": "A02_-1_elbow_outer_support_0",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      29.5
+    ],
+    "volume_mm3": 2532.8494712511697,
+    "solid_PLA_mass_g": 3.1407333443514505,
+    "centroid_local_mm": [
+      -4.330006575514744e-09,
+      -5.647834644406657e-09,
+      -39.75002670288086
+    ],
+    "nonmanifold_edges": 0,
+    "description": "29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius."
+  },
+  {
+    "id": "A02_-1_elbow_outer_support_1",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      29.5
+    ],
+    "volume_mm3": 2532.8494712511697,
+    "solid_PLA_mass_g": 3.1407333443514505,
+    "centroid_local_mm": [
+      -4.330006575514744e-09,
+      -5.647834644406657e-09,
+      -39.75002670288086
+    ],
+    "nonmanifold_edges": 0,
+    "description": "29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius."
+  },
+  {
+    "id": "A01_right_upper_fork",
+    "dimensions_mm": [
+      203.0,
+      75.0,
+      6.0
+    ],
+    "volume_mm3": 50539.99917676072,
+    "solid_PLA_mass_g": 62.66959897918329,
+    "centroid_local_mm": [
+      76.54256439208984,
+      13.049482345581055,
+      57.50020217895508
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Matched 6mm curved side plate; shoulder/elbow pivot centres100mm. Fixed elbow ears beyond gear sweep. No lateral joint offset."
+  },
+  {
+    "id": "A02_1_elbow_outer_support_0",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      29.5
+    ],
+    "volume_mm3": 2532.8496435383963,
+    "solid_PLA_mass_g": 3.1407335579876112,
+    "centroid_local_mm": [
+      -5.647834422362052e-10,
+      3.765222855722783e-10,
+      39.75001907348633
+    ],
+    "nonmanifold_edges": 0,
+    "description": "29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius."
+  },
+  {
+    "id": "A02_1_elbow_outer_support_1",
+    "dimensions_mm": [
+      11.0,
+      11.0,
+      29.5
+    ],
+    "volume_mm3": 2532.8496435383963,
+    "solid_PLA_mass_g": 3.1407335579876112,
+    "centroid_local_mm": [
+      -5.647834422362052e-10,
+      3.765222855722783e-10,
+      39.75001907348633
+    ],
+    "nonmanifold_edges": 0,
+    "description": "29.5mm support between fixed cheek and outer fork; ear radius exceeds gear tip radius."
+  },
+  {
+    "id": "A01_front_flange_spacer",
+    "dimensions_mm": [
+      52.0,
+      52.0,
+      11.0
+    ],
+    "volume_mm3": 17109.345865885396,
+    "solid_PLA_mass_g": 21.21558887369789,
+    "centroid_local_mm": [
+      9.56497842707904e-07,
+      1.2396567683481408e-07,
+      48.99986267089844
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Four through-fasteners transmit torque; bore clears central pivot retainer."
+  },
+  {
+    "id": "A01_front_bolt_washer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      5.099998474121094
+    ],
+    "volume_mm3": 149.85013800859434,
+    "solid_PLA_mass_g": 0.18581417113065699,
+    "centroid_local_mm": [
+      8.057160130192642e-07,
+      2.1359802815368312e-07,
+      63.049922943115234
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A01_front_bolt_washer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      5.099998474121094
+    ],
+    "volume_mm3": 149.85013800859434,
+    "solid_PLA_mass_g": 0.18581417113065699,
+    "centroid_local_mm": [
+      8.057160130192642e-07,
+      2.1359802815368312e-07,
+      63.049922943115234
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A01_front_bolt_washer_2",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      5.099998474121094
+    ],
+    "volume_mm3": 149.85013800859434,
+    "solid_PLA_mass_g": 0.18581417113065699,
+    "centroid_local_mm": [
+      8.057160130192642e-07,
+      2.1359802815368312e-07,
+      63.049922943115234
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A01_front_bolt_washer_3",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      5.099998474121094
+    ],
+    "volume_mm3": 149.85013800859434,
+    "solid_PLA_mass_g": 0.18581417113065699,
+    "centroid_local_mm": [
+      8.057160130192642e-07,
+      2.1359802815368312e-07,
+      63.049922943115234
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A03_left_forearm_fork",
+    "dimensions_mm": [
+      91.80000305175781,
+      52.0,
+      6.0
+    ],
+    "volume_mm3": 18421.500759124807,
+    "solid_PLA_mass_g": 22.84266094131476,
+    "centroid_local_mm": [
+      20.910001754760742,
+      -1.7175093489640858e-06,
+      -44.49991226196289
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Matched6mm rounded forearm side plates; both output-shaft ends support the centred wrist crossmember."
+  },
+  {
+    "id": "A03_right_forearm_fork",
+    "dimensions_mm": [
+      91.80000305175781,
+      52.0,
+      6.0
+    ],
+    "volume_mm3": 18421.503159920372,
+    "solid_PLA_mass_g": 22.842663918301263,
+    "centroid_local_mm": [
+      20.909984588623047,
+      -9.361190677736886e-06,
+      44.499942779541016
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Matched6mm rounded forearm side plates; both output-shaft ends support the centred wrist crossmember."
+  },
+  {
+    "id": "A03_front_bolt_washer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.0999984741210938
+    ],
+    "volume_mm3": 91.08536044259874,
+    "solid_PLA_mass_g": 0.11294584694882244,
+    "centroid_local_mm": [
+      2.364978399782558e-07,
+      -8.785082172835246e-07,
+      49.04997634887695
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A03_front_bolt_washer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.0999984741210938
+    ],
+    "volume_mm3": 91.08536044259874,
+    "solid_PLA_mass_g": 0.11294584694882244,
+    "centroid_local_mm": [
+      2.364978399782558e-07,
+      -8.785082172835246e-07,
+      49.04997634887695
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A03_front_bolt_washer_2",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.0999984741210938
+    ],
+    "volume_mm3": 91.08536044259874,
+    "solid_PLA_mass_g": 0.11294584694882244,
+    "centroid_local_mm": [
+      2.364978399782558e-07,
+      -8.785082172835246e-07,
+      49.04997634887695
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A03_front_bolt_washer_3",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      3.0999984741210938
+    ],
+    "volume_mm3": 91.08536044259874,
+    "solid_PLA_mass_g": 0.11294584694882244,
+    "centroid_local_mm": [
+      2.364978399782558e-07,
+      -8.785082172835246e-07,
+      49.04997634887695
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "A05_centred_wrist_crossmember",
+    "dimensions_mm": [
+      83.0,
+      60.0,
+      25.0
+    ],
+    "volume_mm3": 57699.76920414091,
+    "solid_PLA_mass_g": 71.54771381313473,
+    "centroid_local_mm": [
+      -1.2273605989321368e-06,
+      -1.694803302143555e-07,
+      -12.679810523986816
+    ],
+    "nonmanifold_edges": 0,
+    "description": "83mm transverse bridge atx53.8..63.8 behind wrist gear sweep; centred\u00d860neck/flange to frontdatumx78.8. \u00d826access,fourM3on48PCD; open radial nut slots."
+  },
+  {
+    "id": "W02_centred_fixed_pitch_fork",
+    "dimensions_mm": [
+      78.0,
+      127.0,
+      72.60000610351562
+    ],
+    "volume_mm3": 50963.83936923167,
+    "solid_PLA_mass_g": 63.19516081784727,
+    "centroid_local_mm": [
+      16.947574615478516,
+      -24.724010467529297,
+      -4.945563316345215
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Neutral roll/pitch axes intersect on centreline. Side cheeks have\u00d820.5 journal bores and6mm bearing length. Motor rear mounting42\u00d758mm pattern rotated90\u00b0. Continuous curved printed webs join both cheeks to the fixed forearm flange."
+  },
+  {
+    "id": "W03_moving_pitch_cradle",
+    "dimensions_mm": [
+      26.0,
+      68.0,
+      60.0
+    ],
+    "volume_mm3": 18262.195683785958,
+    "solid_PLA_mass_g": 22.64512264789459,
+    "centroid_local_mm": [
+      4.21626091003418,
+      10.3147611618042,
+      -8.261398676268072e-08
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Two removable side trunnions leave central motor bay open. J5 horn41mm ahead of pitch axis; rear capture plate5mm. Four M3 bolted trunnions per side,14PCD,45\u00b0."
+  },
+  {
+    "id": "W04_idler_removable_trunnion",
+    "dimensions_mm": [
+      28.0,
+      28.0,
+      12.599998474121094
+    ],
+    "volume_mm3": 5146.4752280513585,
+    "solid_PLA_mass_g": 6.381629282783685,
+    "centroid_local_mm": [
+      -2.235720586440948e-07,
+      -2.4312188884323405e-07,
+      37.45891571044922
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d820 journal through\u00d820.5 fork bore;0.3mm axial gap. Four M3\u00d720 into moving cradle; flange does not clamp fixed fork."
+  },
+  {
+    "id": "W04_drive_removable_trunnion",
+    "dimensions_mm": [
+      44.0,
+      44.0,
+      12.599998474121094
+    ],
+    "volume_mm3": 10126.08692633011,
+    "solid_PLA_mass_g": 12.556347788649337,
+    "centroid_local_mm": [
+      -1.3863287904314348e-06,
+      1.1437213061071816e-06,
+      38.54710006713867
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d820 journal through\u00d820.5 fork bore;0.3mm axial gap. Four M3\u00d720 into moving cradle; flange does not clamp fixed fork."
+  },
+  {
+    "id": "W05_pitch_60T_module1p5",
+    "dimensions_mm": [
+      92.99930572509766,
+      92.99930572509766,
+      8.0
+    ],
+    "volume_mm3": 29277.861956164612,
+    "solid_PLA_mass_g": 36.30454882564412,
+    "centroid_local_mm": [
+      7.061790938678314e-07,
+      -6.017713531036861e-06,
+      46.58222961425781
+    ],
+    "nonmanifold_edges": 0,
+    "description": "60T /20T,20\u00b0 involute;60mm centres;8mm face. Printed output trunnion carries bending independently from motor horn."
+  },
+  {
+    "id": "J4_AX_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.20000457763672,
+      39.30000305175781
+    ],
+    "volume_mm3": 10854.279363871396,
+    "solid_PLA_mass_g": 13.459306411200531,
+    "centroid_local_mm": [
+      -5.42360885447124e-06,
+      -14.829028129577637,
+      -17.814620971679688
+    ],
+    "nonmanifold_edges": 0,
+    "description": "AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+  },
+  {
+    "id": "J4_AX_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.19999694824219,
+      4.600002288818359
+    ],
+    "volume_mm3": 5472.423612489409,
+    "solid_PLA_mass_g": 6.785805279486866,
+    "centroid_local_mm": [
+      3.886479316861369e-05,
+      -13.500039100646973,
+      -42.64988327026367
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "J4_AX_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      31.899999618530273,
+      32.663326263427734,
+      0.3000001907348633
+    ],
+    "volume_mm3": 64.38017137845357,
+    "solid_PLA_mass_g": 0.07983141250928243,
+    "centroid_local_mm": [
+      2.9922599424025975e-05,
+      -28.444480895996094,
+      -4.824999809265137
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J4_AX_C04_2_Axial_fit_shim_330",
+    "dimensions_mm": [
+      31.899999618530273,
+      49.900001525878906,
+      3.3000030517578125
+    ],
+    "volume_mm3": 1492.622746785481,
+    "solid_PLA_mass_g": 1.8508522060139965,
+    "centroid_local_mm": [
+      -4.007338702649577e-06,
+      -13.499993324279785,
+      -38.675010681152344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J4_AX_C03_1_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53799827893573,
+    "solid_PLA_mass_g": 0.04034711786588031,
+    "centroid_local_mm": [
+      -21.000001907348633,
+      15.499873161315918,
+      -50.549781799316406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J4_AX_C03_2_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.5346274375914,
+    "solid_PLA_mass_g": 0.040342938022613344,
+    "centroid_local_mm": [
+      -21.000505447387695,
+      -42.50056076049805,
+      -50.550819396972656
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J4_AX_C03_3_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53938436508167,
+    "solid_PLA_mass_g": 0.04034883661270128,
+    "centroid_local_mm": [
+      20.999488830566406,
+      15.499626159667969,
+      -50.5492057800293
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J4_AX_C03_4_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53496082623815,
+    "solid_PLA_mass_g": 0.0403433514245353,
+    "centroid_local_mm": [
+      21.000425338745117,
+      -42.500938415527344,
+      -50.5510139465332
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "W06_pitch_20T_pinion",
+    "dimensions_mm": [
+      32.99853515625,
+      32.99853515625,
+      16.5
+    ],
+    "volume_mm3": 5501.582330631784,
+    "solid_PLA_mass_g": 6.821962089983413,
+    "centroid_local_mm": [
+      4.047193158385198e-08,
+      4.5717965235780866e-07,
+      4.470302581787109
+    ],
+    "nonmanifold_edges": 0,
+    "description": "FourM2\u00d76 at16PCD through4mm floor =>2mm horn engagement. External\u00d88 printed front journal."
+  },
+  {
+    "id": "W07_pitch_pinion_journal_bridge",
+    "dimensions_mm": [
+      85.0,
+      45.0,
+      59.94999694824219
+    ],
+    "volume_mm3": 15506.147608004418,
+    "solid_PLA_mass_g": 19.22762303392548,
+    "centroid_local_mm": [
+      12.563811302185059,
+      -23.715360641479492,
+      44.52536392211914
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d88.5 running bore; two independent columns attach motor rear plate using M3\u00d770 through1 mm foot spacers and1.45 mm head spacers. Install after horn screws."
+  },
+  {
+    "id": "W08_pinion_bridge_foot_-15",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      0.9999998807907104
+    ],
+    "volume_mm3": 54.4832344176248,
+    "solid_PLA_mass_g": 0.06755921067785475,
+    "centroid_local_mm": [
+      -2.1292825636010093e-07,
+      -5.0050488198394305e-08,
+      -1.84999418258667
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W09_bridge_head_spacer_-15",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      1.4499969482421875
+    ],
+    "volume_mm3": 42.60438305139498,
+    "solid_PLA_mass_g": 0.05282943498372978,
+    "centroid_local_mm": [
+      -5.607034267995914e-07,
+      -2.1347389065340394e-06,
+      59.32456588745117
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W08_pinion_bridge_foot_50",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      0.9999998807907104
+    ],
+    "volume_mm3": 54.4832344176248,
+    "solid_PLA_mass_g": 0.06755921067785475,
+    "centroid_local_mm": [
+      -2.1292825636010093e-07,
+      -5.0050488198394305e-08,
+      -1.84999418258667
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W09_bridge_head_spacer_50",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      1.4499969482421875
+    ],
+    "volume_mm3": 42.60438305139498,
+    "solid_PLA_mass_g": 0.05282943498372978,
+    "centroid_local_mm": [
+      -5.607034267995914e-07,
+      -2.1347389065340394e-06,
+      59.32456588745117
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "J5_AX_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      58.0,
+      71.0999984741211,
+      58.350006103515625
+    ],
+    "volume_mm3": 22694.623982814446,
+    "solid_PLA_mass_g": 28.141333738689912,
+    "centroid_local_mm": [
+      -4.883464953309158e-06,
+      -8.200323104858398,
+      -4.659512519836426
+    ],
+    "nonmanifold_edges": 0,
+    "description": "AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front captive M3 nuts: 5.8 AF x 2.8 mm recess in 9.2 mm bosses. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs. Integral front annular sleeve \u00d840.5, sixteen mm bearing length. Polymer fit/friction trial required."
+  },
+  {
+    "id": "J5_AX_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.19999694824219,
+      4.600002288818359
+    ],
+    "volume_mm3": 5472.423612489409,
+    "solid_PLA_mass_g": 6.785805279486866,
+    "centroid_local_mm": [
+      3.886479316861369e-05,
+      -13.500039100646973,
+      -42.64988327026367
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "J5_AX_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      31.899999618530273,
+      32.663326263427734,
+      0.3000001907348633
+    ],
+    "volume_mm3": 64.38017137845357,
+    "solid_PLA_mass_g": 0.07983141250928243,
+    "centroid_local_mm": [
+      2.9922599424025975e-05,
+      -28.444480895996094,
+      -4.824999809265137
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J5_AX_C04_2_Axial_fit_shim_330",
+    "dimensions_mm": [
+      31.899999618530273,
+      49.900001525878906,
+      3.3000030517578125
+    ],
+    "volume_mm3": 1492.622746785481,
+    "solid_PLA_mass_g": 1.8508522060139965,
+    "centroid_local_mm": [
+      -4.007338702649577e-06,
+      -13.499993324279785,
+      -38.675010681152344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "J5_AX_C03_1_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53799827893573,
+    "solid_PLA_mass_g": 0.04034711786588031,
+    "centroid_local_mm": [
+      -21.000001907348633,
+      15.499873161315918,
+      -50.549781799316406
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J5_AX_C03_2_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.5346274375914,
+    "solid_PLA_mass_g": 0.040342938022613344,
+    "centroid_local_mm": [
+      -21.000505447387695,
+      -42.50056076049805,
+      -50.550819396972656
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J5_AX_C03_3_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.799999237060547,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53938436508167,
+    "solid_PLA_mass_g": 0.04034883661270128,
+    "centroid_local_mm": [
+      20.999488830566406,
+      15.499626159667969,
+      -50.5492057800293
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "J5_AX_C03_4_Screw_stack_spacer",
+    "dimensions_mm": [
+      6.799999237060547,
+      6.8000030517578125,
+      1.1999969482421875
+    ],
+    "volume_mm3": 32.53496082623815,
+    "solid_PLA_mass_g": 0.0403433514245353,
+    "centroid_local_mm": [
+      21.000425338745117,
+      -42.500938415527344,
+      -50.5510139465332
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed rear 1.2 mm spacer for standard M3x50 rear-inserted screw; attachment stack depth 5.0 mm."
+  },
+  {
+    "id": "W10_supported_roll_output",
+    "dimensions_mm": [
+      60.0,
+      60.0,
+      23.5
+    ],
+    "volume_mm3": 19745.435767890016,
+    "solid_PLA_mass_g": 24.48434035218362,
+    "centroid_local_mm": [
+      2.2970752411310968e-07,
+      -4.250265419614152e-07,
+      13.19620132446289
+    ],
+    "nonmanifold_edges": 0,
+    "description": "\u00d840 printed journal / \u00d840.5 fixed sleeve;0.25 radial,0.5 front axial clearance. Four M2\u00d76 on16PCD engage stock horn2mm. Output M3 on48PCD at0\u00b0; rear captive nuts."
+  },
+  {
+    "id": "GRIP_C01_Keyed_motor_cradle",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.20000457763672,
+      38.30000305175781
+    ],
+    "volume_mm3": 10163.089614386803,
+    "solid_PLA_mass_g": 12.602231121839635,
+    "centroid_local_mm": [
+      -7.647718902603629e-09,
+      -14.535783767700195,
+      -19.09599494934082
+    ],
+    "nonmanifold_edges": 0,
+    "description": "AX-12A cradle: 0.35 mm per side; 34.0 mm front access window; 4 M3 posts. Front M3x45 socket screws into separate rear palm captive nuts. Case is located by corners and front/rear lips; no invented motor-body holes. Sculpted open saddle: 7.2 mm column waists, 9.2 mm end bosses, rounded end locating pads and bowed side ribs."
+  },
+  {
+    "id": "GRIP_C02_Connector_access_rear_cap",
+    "dimensions_mm": [
+      51.20000076293945,
+      67.19999694824219,
+      4.600002288818359
+    ],
+    "volume_mm3": 5472.423612489409,
+    "solid_PLA_mass_g": 6.785805279486866,
+    "centroid_local_mm": [
+      3.886479316861369e-05,
+      -13.500039100646973,
+      -42.64988327026367
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4.6 mm rear cap; 4 M3 clearance bores matched to cradle. Screws insert from the rear supporting wall and engage front captive nuts. Rear window clears the connector envelope; actual plugs must be checked."
+  },
+  {
+    "id": "GRIP_C04_1_Axial_fit_shim_030",
+    "dimensions_mm": [
+      31.899999618530273,
+      32.663326263427734,
+      0.3000001907348633
+    ],
+    "volume_mm3": 64.38017137845357,
+    "solid_PLA_mass_g": 0.07983141250928243,
+    "centroid_local_mm": [
+      2.9922599424025975e-05,
+      -28.444480895996094,
+      -4.824999809265137
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 0.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "GRIP_C04_2_Axial_fit_shim_330",
+    "dimensions_mm": [
+      31.899999618530273,
+      49.900001525878906,
+      3.3000030517578125
+    ],
+    "volume_mm3": 1492.622746785481,
+    "solid_PLA_mass_g": 1.8508522060139965,
+    "centroid_local_mm": [
+      -4.007338702649577e-06,
+      -13.499993324279785,
+      -38.675010681152344
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed motor seating spacer 3.30 mm. Uses official STEP seating face; rear aperture clears vendor protrusions. Nominal total endplay 0.10 mm; confirm actual hardware seating and adjust thickness after fit coupon. AX front spacer is one connected U at the side/lower seating flange; nonfunctional upper corner remnants are removed."
+  },
+  {
+    "id": "G01_Windowed_rear_palm",
+    "dimensions_mm": [
+      75.0,
+      123.69999694824219,
+      6.0
+    ],
+    "volume_mm3": 16712.339011539607,
+    "solid_PLA_mass_g": 20.72330037430911,
+    "centroid_local_mm": [
+      8.159707249433268e-06,
+      -3.5945167541503906,
+      -48.567020416259766
+    ],
+    "nonmanifold_edges": 0,
+    "description": "75 x123.7 mm open rear frame,4 mm ribs and6 mm local bolted bosses; rear datum -50.95. Four PCD48 phase-zero M3 interface holes. Centre\u00d826access plus20x10 rear AX connector passage at(0,-15); diagonal printed ribs connect lower interface boss to both motor ribs. Four AX cradle rear captive nuts accept front-inserted M3x45. Four frame-tie nut pockets open rearward."
+  },
+  {
+    "id": "G02_Captured_slide_lower_frame",
+    "dimensions_mm": [
+      74.0,
+      120.69999694824219,
+      8.699999809265137
+    ],
+    "volume_mm3": 16655.010361978548,
+    "solid_PLA_mass_g": 20.6522128488534,
+    "centroid_local_mm": [
+      6.596410457859747e-07,
+      2.418683834548574e-06,
+      3.906259536743164
+    ],
+    "nonmanifold_edges": 0,
+    "description": "3 mm guide floor with two3 mm-wide bearing lands under each foot. Rails start X\u00b124.35 to clear rack backbones X\u00b124.00. Guide floor Z3.30; slide foot bottom3.65, top8.65; fixed retaining lips startZ9.00. Central stops endY\u00b110.65; outer stops startY\u00b152.35."
+  },
+  {
+    "id": "G03_1_Rear_frame_standoff",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      45.25
+    ],
+    "volume_mm3": 3134.1339715768927,
+    "solid_PLA_mass_g": 3.886326124755347,
+    "centroid_local_mm": [
+      -31.999998092651367,
+      -56.3499641418457,
+      -22.32497787475586
+    ],
+    "nonmanifold_edges": 0,
+    "description": "45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+  },
+  {
+    "id": "G04_1_Frame_tie_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      2.1499996185302734
+    ],
+    "volume_mm3": 62.937991539637245,
+    "solid_PLA_mass_g": 0.07804310950915018,
+    "centroid_local_mm": [
+      -31.999862670898438,
+      -56.349727630615234,
+      13.074975967407227
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G03_2_Rear_frame_standoff",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      45.25
+    ],
+    "volume_mm3": 3134.1105667029856,
+    "solid_PLA_mass_g": 3.886297102711702,
+    "centroid_local_mm": [
+      -32.00004577636719,
+      56.35003662109375,
+      -22.325063705444336
+    ],
+    "nonmanifold_edges": 0,
+    "description": "45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+  },
+  {
+    "id": "G04_2_Frame_tie_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      2.1499996185302734
+    ],
+    "volume_mm3": 62.94161963462833,
+    "solid_PLA_mass_g": 0.07804760834693913,
+    "centroid_local_mm": [
+      -31.99949073791504,
+      56.34897994995117,
+      13.074790954589844
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G03_3_Rear_frame_standoff",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      45.25
+    ],
+    "volume_mm3": 3134.115707317985,
+    "solid_PLA_mass_g": 3.8863034770743017,
+    "centroid_local_mm": [
+      32.000022888183594,
+      -56.35002899169922,
+      -22.324979782104492
+    ],
+    "nonmanifold_edges": 0,
+    "description": "45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+  },
+  {
+    "id": "G04_3_Frame_tie_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      2.1499996185302734
+    ],
+    "volume_mm3": 62.9361291726431,
+    "solid_PLA_mass_g": 0.07804080017407744,
+    "centroid_local_mm": [
+      32.0001106262207,
+      -56.35020446777344,
+      13.075029373168945
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G03_4_Rear_frame_standoff",
+    "dimensions_mm": [
+      10.0,
+      10.0,
+      45.25
+    ],
+    "volume_mm3": 3134.1412076006363,
+    "solid_PLA_mass_g": 3.886335097424789,
+    "centroid_local_mm": [
+      31.999961853027344,
+      56.34994888305664,
+      -22.3250732421875
+    ],
+    "nonmanifold_edges": 0,
+    "description": "45.25 mm long, OD10/ID3.4 printed standoff; clamped by M3x65 between rear palm and retained front rail."
+  },
+  {
+    "id": "G04_4_Frame_tie_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      2.1499996185302734
+    ],
+    "volume_mm3": 62.93880709012347,
+    "solid_PLA_mass_g": 0.0780441207917531,
+    "centroid_local_mm": [
+      31.999855041503906,
+      56.349605560302734,
+      13.074897766113281
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G05_R_Slide_retaining_lip",
+    "dimensions_mm": [
+      9.0,
+      120.69999694824219,
+      3.0
+    ],
+    "volume_mm3": 3177.4157903070254,
+    "solid_PLA_mass_g": 3.9399955799807116,
+    "centroid_local_mm": [
+      32.51283264160156,
+      0.00014706453657709062,
+      10.500006675720215
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Removable 3 mm printed upper guide; 0.35 mm vertical running clearance over carriage feet. Fixed wall clearance at carriage outer edge0.35 mm."
+  },
+  {
+    "id": "G05_L_Slide_retaining_lip",
+    "dimensions_mm": [
+      9.0,
+      120.69999694824219,
+      3.0
+    ],
+    "volume_mm3": 3177.4172343413015,
+    "solid_PLA_mass_g": 3.939997370583214,
+    "centroid_local_mm": [
+      -32.512840270996094,
+      -0.00012001812137896195,
+      10.500022888183594
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Removable 3 mm printed upper guide; 0.35 mm vertical running clearance over carriage feet. Fixed wall clearance at carriage outer edge0.35 mm."
+  },
+  {
+    "id": "G06_20T_m1p5_AX_rack_pinion",
+    "dimensions_mm": [
+      32.99853515625,
+      32.99853515625,
+      22.5
+    ],
+    "volume_mm3": 5682.897461230925,
+    "solid_PLA_mass_g": 7.046792851926347,
+    "centroid_local_mm": [
+      -8.538364681953681e-08,
+      1.551447894598823e-07,
+      5.1267781257629395
+    ],
+    "nonmanifold_edges": 0,
+    "description": "20T module1.5,20deg,8 mm face,total tangential backlash0.20. Four M2x6 on16 PCD through4 mm floor leave2 mm horn engagement. Retain supplied centre screw; \u00d86x0.3 rear clearance recess. Printed OD8 outboard journal, no added metal bearing."
+  },
+  {
+    "id": "G07_Pinion_outboard_journal_bridge",
+    "dimensions_mm": [
+      74.0,
+      15.0,
+      9.299999237060547
+    ],
+    "volume_mm3": 3841.6951927522864,
+    "solid_PLA_mass_g": 4.763702039012835,
+    "centroid_local_mm": [
+      1.0146316071768524e-06,
+      6.23516811515401e-08,
+      17.861021041870117
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Integral OD15 boss contains\u00d88.5 plain bearing for\u00d88 journal:0.25 mm radial allowance,3.25 mm bearing wall. Bolted to guide centre blocks, above rack teeth. Hand-fit and wear tests required."
+  },
+  {
+    "id": "G08_1_Bridge_screw_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.636598075429596,
+    "solid_PLA_mass_g": 0.0181493816135327,
+    "centroid_local_mm": [
+      -31.99985122680664,
+      -2.3654984033782966e-05,
+      21.549968719482422
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G08_2_Bridge_screw_spacer",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      0.5
+    ],
+    "volume_mm3": 14.636745875080388,
+    "solid_PLA_mass_g": 0.01814956488509968,
+    "centroid_local_mm": [
+      31.999937057495117,
+      4.9637230404186994e-05,
+      21.549896240234375
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Printed axial stack spacer; 3.4 mm M3 clearance bore."
+  },
+  {
+    "id": "G09_R_Rack_and_raised_slide",
+    "dimensions_mm": [
+      67.0,
+      70.0,
+      18.0
+    ],
+    "volume_mm3": 10564.77426171301,
+    "solid_PLA_mass_g": 13.100320084524132,
+    "centroid_local_mm": [
+      9.903604507446289,
+      19.009672164916992,
+      8.48422908782959
+    ],
+    "nonmanifold_edges": 0,
+    "description": "14 analytic rack teeth; pitch line X15. Raised crossbar bottomZ13 lets opposite rack pass belowZ8 throughout20\u201370 mm gap. Captured slide feet run Z3.65..8.65 with0.35 mm each-side vertical allowance."
+  },
+  {
+    "id": "G10_R_Long_finger_75x24x12",
+    "dimensions_mm": [
+      42.0,
+      79.0,
+      16.0
+    ],
+    "volume_mm3": 14776.936776499922,
+    "solid_PLA_mass_g": 18.323401602859903,
+    "centroid_local_mm": [
+      1.0105106412083842e-05,
+      30.98415756225586,
+      52.826263427734375
+    ],
+    "nonmanifold_edges": 0,
+    "description": "75 mm finger body (Z22..97),24 mm width,12 mm thickness; keyed replaceable pad. Root flange4 mm with two M3x10 and captive nuts in carriage. Open rear relief leaves3 mm walls behind key and at each side. Tip M3 nut loads through outer-side slot and bears under3.7 mm roof. Print on outer back with key slot up; preview removable supports in open rear pocket and inspect short slot-roof bridges."
+  },
+  {
+    "id": "G11_R_Flat_and_V_keyed_contact_pad",
+    "dimensions_mm": [
+      24.0,
+      71.6500015258789,
+      6.000001907348633
+    ],
+    "volume_mm3": 6124.796559651699,
+    "solid_PLA_mass_g": 7.594747733968107,
+    "centroid_local_mm": [
+      2.1923560780123807e-06,
+      24.78517723083496,
+      60.819366455078125
+    ],
+    "nonmanifold_edges": 0,
+    "description": "3 mm replaceable printed pad; flat lands maintain specified gap. Central14 mm-wide,1.2 mm-deep V overZ35..85 supports round objects.3 mm front pad plus integral T key slides into finger with0.3 mm side allowance; remove tip cap to replace."
+  },
+  {
+    "id": "G12_R_Removable_pad_tip_stop",
+    "dimensions_mm": [
+      24.0,
+      15.0,
+      3.0
+    ],
+    "volume_mm3": 1042.3847822050304,
+    "solid_PLA_mass_g": 1.2925571299342378,
+    "centroid_local_mm": [
+      -5.533026342163794e-05,
+      29.908790588378906,
+      98.5000228881836
+    ],
+    "nonmanifold_edges": 0,
+    "description": "3 mm printed axial pad stop. One M3x10 atX0,Yfinger-centre+2 into side-loaded captive nut. Slide pad from tip only after cap removal;0.35 mm nominal pad endplay."
+  },
+  {
+    "id": "G09_L_Rack_and_raised_slide",
+    "dimensions_mm": [
+      67.0,
+      70.0,
+      18.0
+    ],
+    "volume_mm3": 10564.77426171301,
+    "solid_PLA_mass_g": 13.100320084524132,
+    "centroid_local_mm": [
+      9.903604507446289,
+      19.009672164916992,
+      8.48422908782959
+    ],
+    "nonmanifold_edges": 0,
+    "description": "14 analytic rack teeth; pitch line X15. Raised crossbar bottomZ13 lets opposite rack pass belowZ8 throughout20\u201370 mm gap. Captured slide feet run Z3.65..8.65 with0.35 mm each-side vertical allowance."
+  },
+  {
+    "id": "G10_L_Long_finger_75x24x12",
+    "dimensions_mm": [
+      42.0,
+      79.0,
+      16.0
+    ],
+    "volume_mm3": 14776.936776499922,
+    "solid_PLA_mass_g": 18.323401602859903,
+    "centroid_local_mm": [
+      1.0105106412083842e-05,
+      30.98415756225586,
+      52.826263427734375
+    ],
+    "nonmanifold_edges": 0,
+    "description": "75 mm finger body (Z22..97),24 mm width,12 mm thickness; keyed replaceable pad. Root flange4 mm with two M3x10 and captive nuts in carriage. Open rear relief leaves3 mm walls behind key and at each side. Tip M3 nut loads through outer-side slot and bears under3.7 mm roof. Print on outer back with key slot up; preview removable supports in open rear pocket and inspect short slot-roof bridges."
+  },
+  {
+    "id": "G11_L_Flat_and_V_keyed_contact_pad",
+    "dimensions_mm": [
+      24.0,
+      71.6500015258789,
+      6.000001907348633
+    ],
+    "volume_mm3": 6124.796559651699,
+    "solid_PLA_mass_g": 7.594747733968107,
+    "centroid_local_mm": [
+      2.1923560780123807e-06,
+      24.78517723083496,
+      60.819366455078125
+    ],
+    "nonmanifold_edges": 0,
+    "description": "3 mm replaceable printed pad; flat lands maintain specified gap. Central14 mm-wide,1.2 mm-deep V overZ35..85 supports round objects.3 mm front pad plus integral T key slides into finger with0.3 mm side allowance; remove tip cap to replace."
+  },
+  {
+    "id": "G12_L_Removable_pad_tip_stop",
+    "dimensions_mm": [
+      24.0,
+      15.0,
+      3.0
+    ],
+    "volume_mm3": 1042.3847822050304,
+    "solid_PLA_mass_g": 1.2925571299342378,
+    "centroid_local_mm": [
+      -5.533026342163794e-05,
+      29.908790588378906,
+      98.5000228881836
+    ],
+    "nonmanifold_edges": 0,
+    "description": "3 mm printed axial pad stop. One M3x10 atX0,Yfinger-centre+2 into side-loaded captive nut. Slide pad from tip only after cap removal;0.35 mm nominal pad endplay."
+  },
+  {
+    "id": "W12_palm_service_gap_post_0",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      20.0
+    ],
+    "volume_mm3": 1089.664781836173,
+    "solid_PLA_mass_g": 1.3511843294768546,
+    "centroid_local_mm": [
+      5.1062432504522803e-08,
+      -1.8160394077426645e-08,
+      33.500064849853516
+    ],
+    "nonmanifold_edges": 0,
+    "description": "20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits."
+  },
+  {
+    "id": "W11_palm_screw_spacer_0",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      4.0
+    ],
+    "volume_mm3": 117.52954474091514,
+    "solid_PLA_mass_g": 0.14573663547873478,
+    "centroid_local_mm": [
+      1.6704123595445708e-07,
+      5.905715738663275e-07,
+      51.50011444091797
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W12_palm_service_gap_post_1",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      20.0
+    ],
+    "volume_mm3": 1089.664781836173,
+    "solid_PLA_mass_g": 1.3511843294768546,
+    "centroid_local_mm": [
+      5.1062432504522803e-08,
+      -1.8160394077426645e-08,
+      33.500064849853516
+    ],
+    "nonmanifold_edges": 0,
+    "description": "20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits."
+  },
+  {
+    "id": "W11_palm_screw_spacer_1",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      4.0
+    ],
+    "volume_mm3": 117.52954474091514,
+    "solid_PLA_mass_g": 0.14573663547873478,
+    "centroid_local_mm": [
+      1.6704123595445708e-07,
+      5.905715738663275e-07,
+      51.50011444091797
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W12_palm_service_gap_post_2",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      20.0
+    ],
+    "volume_mm3": 1089.664781836173,
+    "solid_PLA_mass_g": 1.3511843294768546,
+    "centroid_local_mm": [
+      5.1062432504522803e-08,
+      -1.8160394077426645e-08,
+      33.500064849853516
+    ],
+    "nonmanifold_edges": 0,
+    "description": "20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits."
+  },
+  {
+    "id": "W11_palm_screw_spacer_2",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      4.0
+    ],
+    "volume_mm3": 117.52954474091514,
+    "solid_PLA_mass_g": 0.14573663547873478,
+    "centroid_local_mm": [
+      1.6704123595445708e-07,
+      5.905715738663275e-07,
+      51.50011444091797
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "W12_palm_service_gap_post_3",
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      20.0
+    ],
+    "volume_mm3": 1089.664781836173,
+    "solid_PLA_mass_g": 1.3511843294768546,
+    "centroid_local_mm": [
+      5.1062432504522803e-08,
+      -1.8160394077426645e-08,
+      33.500064849853516
+    ],
+    "nonmanifold_edges": 0,
+    "description": "20mm open axial gap between roll output flange and palm for rear connector cable bends. Four separateOD9posts preserve radial cable exits."
+  },
+  {
+    "id": "W11_palm_screw_spacer_3",
+    "dimensions_mm": [
+      7.0,
+      7.0,
+      4.0
+    ],
+    "volume_mm3": 117.52954474091514,
+    "solid_PLA_mass_g": 0.14573663547873478,
+    "centroid_local_mm": [
+      1.6704123595445708e-07,
+      5.905715738663275e-07,
+      51.50011444091797
+    ],
+    "nonmanifold_edges": 0,
+    "description": ""
+  },
+  {
+    "id": "F01_hole_and_nut_coupon",
+    "dimensions_mm": [
+      92.0,
+      46.0,
+      5.0
+    ],
+    "volume_mm3": 19371.535492692732,
+    "solid_PLA_mass_g": 24.02070401093899,
+    "centroid_local_mm": [
+      -0.4725201725959778,
+      0.1534256637096405,
+      2.4860916137695312
+    ],
+    "nonmanifold_edges": 0,
+    "description": "Print first. \u00d83.2/3.4/3.6; \u00d88.3/8.5/8.7; nut5.6/5.8/6.0AF. Not structural."
+  },
+  {
+    "id": "F02_AX_16PCD_horn_coupon",
+    "dimensions_mm": [
+      26.0,
+      26.0,
+      4.0
+    ],
+    "volume_mm3": 1854.2475582258799,
+    "solid_PLA_mass_g": 2.299266972200091,
+    "centroid_local_mm": [
+      -1.8732050932612765e-07,
+      4.6545846288381654e-08,
+      2.0
+    ],
+    "nonmanifold_edges": 0,
+    "description": "4 M2 clearances2.3 on16PCD. Verify against supplied horn using M2x6. Not structural."
+  },
+  {
+    "id": "F02_XM_16PCD_horn_coupon",
+    "dimensions_mm": [
+      26.0,
+      26.0,
+      4.5
+    ],
+    "volume_mm3": 2011.4563485008368,
+    "solid_PLA_mass_g": 2.4942058721410376,
+    "centroid_local_mm": [
+      2.498619267043978e-07,
+      3.1191254379336897e-07,
+      2.250001907348633
+    ],
+    "nonmanifold_edges": 0,
+    "description": "8 M2 clearances2.3 on16PCD. Verify against supplied horn using M2x6. Not structural."
+  }
+]

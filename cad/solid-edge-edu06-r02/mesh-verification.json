@@ -1,0 +1,1001 @@
+[
+  {
+    "name": "B01_open_base_box",
+    "triangles": 3014,
+    "bounds_mm": [
+      [
+        -110.0,
+        -90.0,
+        0.0
+      ],
+      [
+        110.0,
+        90.0,
+        92.0
+      ]
+    ],
+    "dimensions_mm": [
+      220.0,
+      180.0,
+      92.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 430133.39303175645,
+    "category": "prototype",
+    "volume_error_percent": 0.038328096331624886,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "B02b_removable_structural_lid",
+    "triangles": 2348,
+    "bounds_mm": [
+      [
+        -110.0,
+        -90.0,
+        0.0
+      ],
+      [
+        110.0,
+        90.0,
+        5.0
+      ]
+    ],
+    "dimensions_mm": [
+      220.0,
+      180.0,
+      5.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 178498.90691099863,
+    "category": "prototype",
+    "volume_error_percent": 0.012557453384772842,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "B03_yaw_bearing_cartridge",
+    "triangles": 2784,
+    "bounds_mm": [
+      [
+        -42.0,
+        -41.980079650878906,
+        0.0
+      ],
+      [
+        42.0,
+        41.980079650878906,
+        29.0
+      ]
+    ],
+    "dimensions_mm": [
+      84.0,
+      83.96015930175781,
+      29.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 70240.10929386746,
+    "category": "prototype",
+    "volume_error_percent": 0.0256878892586206,
+    "max_bound_error_mm": 0.01992034912109375,
+    "mesh_pass": true
+  },
+  {
+    "name": "B04_bearing_outer_race_cap",
+    "triangles": 1024,
+    "bounds_mm": [
+      [
+        -32.0,
+        -31.99501609802246,
+        0.0
+      ],
+      [
+        32.0,
+        31.99501609802246,
+        2.0
+      ]
+    ],
+    "dimensions_mm": [
+      64.0,
+      63.99003219604492,
+      2.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 4435.770129420021,
+    "category": "prototype",
+    "volume_error_percent": 0.03048152528742313,
+    "max_bound_error_mm": 0.0049839019775390625,
+    "mesh_pass": true
+  },
+  {
+    "name": "H01_61806_30x42x7",
+    "triangles": 536,
+    "bounds_mm": [
+      [
+        -21.0,
+        -21.0,
+        0.0
+      ],
+      [
+        21.0,
+        21.0,
+        7.0
+      ]
+    ],
+    "dimensions_mm": [
+      42.0,
+      42.0,
+      7.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 4746.420760100934,
+    "category": "hardware reference",
+    "volume_error_percent": 0.07720556031026002,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "B05_yaw_gear_60T",
+    "triangles": 5912,
+    "bounds_mm": [
+      [
+        -46.49969482421875,
+        -46.49969482421875,
+        0.0
+      ],
+      [
+        46.49969482421875,
+        46.49969482421875,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      92.9993896484375,
+      92.9993896484375,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 45104.94890117968,
+    "category": "prototype",
+    "volume_error_percent": 0.06180655994283275,
+    "max_bound_error_mm": 1.4225134137291207e-06,
+    "mesh_pass": true
+  },
+  {
+    "name": "B06_hollow_yaw_spindle",
+    "triangles": 2208,
+    "bounds_mm": [
+      [
+        -35.0,
+        -34.9950065612793,
+        0.0
+      ],
+      [
+        35.0,
+        34.9950065612793,
+        42.5
+      ]
+    ],
+    "dimensions_mm": [
+      70.0,
+      69.9900131225586,
+      42.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 41877.07224755356,
+    "category": "prototype",
+    "volume_error_percent": 0.03275042201394981,
+    "max_bound_error_mm": 0.004993438720703125,
+    "mesh_pass": true
+  },
+  {
+    "name": "H_AX_motor_case",
+    "triangles": 12,
+    "bounds_mm": [
+      [
+        -16.0,
+        -38.5,
+        -40.0
+      ],
+      [
+        16.0,
+        11.5,
+        -5.0
+      ]
+    ],
+    "dimensions_mm": [
+      32.0,
+      50.0,
+      35.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 55999.999999999985,
+    "category": "motor reference",
+    "volume_error_percent": 3.897834436169692e-14,
+    "max_bound_error_mm": 3.552713678800501e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "H_AX_motor_horn",
+    "triangles": 624,
+    "bounds_mm": [
+      [
+        -11.0,
+        -10.995169639587402,
+        -5.0
+      ],
+      [
+        11.0,
+        10.995169639587402,
+        0.0
+      ]
+    ],
+    "dimensions_mm": [
+      22.0,
+      21.990339279174805,
+      5.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 1737.8728330941992,
+    "category": "motor reference",
+    "volume_error_percent": 0.1025546358254601,
+    "max_bound_error_mm": 0.004830360412597656,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_AX_keyed_cradle",
+    "triangles": 1310,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        -40.0
+      ],
+      [
+        28.0,
+        24.0,
+        -1.0
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      73.0,
+      39.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 31463.957289991464,
+    "category": "prototype",
+    "volume_error_percent": 0.07506200703905126,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_AX_rear_cap",
+    "triangles": 420,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        0.0
+      ],
+      [
+        28.0,
+        24.0,
+        6.5
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      73.0,
+      6.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 23739.3218756409,
+    "category": "prototype",
+    "volume_error_percent": 0.01424484359135011,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_AX_output_flange",
+    "triangles": 1340,
+    "bounds_mm": [
+      [
+        -21.0,
+        -21.0,
+        0.0
+      ],
+      [
+        21.0,
+        21.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      42.0,
+      42.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5126.740099062305,
+    "category": "prototype",
+    "volume_error_percent": 0.0433628919271363,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "H_XM_motor_case",
+    "triangles": 12,
+    "bounds_mm": [
+      [
+        -14.25,
+        -35.25,
+        -36.20000076293945
+      ],
+      [
+        14.25,
+        11.25,
+        -2.200000047683716
+      ]
+    ],
+    "dimensions_mm": [
+      28.5,
+      46.5,
+      34.00000071525574
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 45058.500947892666,
+    "category": "motor reference",
+    "volume_error_percent": 2.103693328865984e-06,
+    "max_bound_error_mm": 7.629394502828291e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "H_XM_motor_horn",
+    "triangles": 1100,
+    "bounds_mm": [
+      [
+        -11.0,
+        -10.995169639587402,
+        -2.200000047683716
+      ],
+      [
+        11.0,
+        10.995169639587402,
+        0.0
+      ]
+    ],
+    "dimensions_mm": [
+      22.0,
+      21.990339279174805,
+      2.200000047683716
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 737.7231465105572,
+    "category": "motor reference",
+    "volume_error_percent": 0.010827847169060986,
+    "max_bound_error_mm": 0.004830360412597656,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_XM_keyed_cradle",
+    "triangles": 1274,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        -36.20000076293945
+      ],
+      [
+        28.0,
+        24.0,
+        1.7999999523162842
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      73.0,
+      38.00000071525574
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 30260.77151468202,
+    "category": "prototype",
+    "volume_error_percent": 0.07524087258010037,
+    "max_bound_error_mm": 7.629394502828291e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_XM_rear_cap",
+    "triangles": 420,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        0.0
+      ],
+      [
+        28.0,
+        24.0,
+        6.5
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      73.0,
+      6.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 23739.321875640893,
+    "category": "prototype",
+    "volume_error_percent": 0.014244843591334785,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "M_XM_output_flange",
+    "triangles": 1788,
+    "bounds_mm": [
+      [
+        -21.0,
+        -21.0,
+        0.0
+      ],
+      [
+        21.0,
+        21.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      42.0,
+      42.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5061.700953314909,
+    "category": "prototype",
+    "volume_error_percent": 0.015547935631915406,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "B07b_supported_yaw_pinion_20T",
+    "triangles": 2360,
+    "bounds_mm": [
+      [
+        -16.49936866760254,
+        -16.49936866760254,
+        0.0
+      ],
+      [
+        16.49936866760254,
+        16.49936866760254,
+        27.5
+      ]
+    ],
+    "dimensions_mm": [
+      32.99873733520508,
+      32.99873733520508,
+      27.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5801.265646260466,
+    "category": "prototype",
+    "volume_error_percent": 0.02636724146226183,
+    "max_bound_error_mm": 4.062499527890395e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "B11_pinion_bearing_hanger",
+    "triangles": 1046,
+    "bounds_mm": [
+      [
+        -21.0,
+        -21.0,
+        0.0
+      ],
+      [
+        21.0,
+        21.0,
+        17.0
+      ]
+    ],
+    "dimensions_mm": [
+      42.0,
+      42.0,
+      17.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 19084.636887937908,
+    "category": "prototype",
+    "volume_error_percent": 0.05234286125744682,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "B12_pinion_bearing_cap",
+    "triangles": 836,
+    "bounds_mm": [
+      [
+        -21.0,
+        -21.0,
+        0.0
+      ],
+      [
+        21.0,
+        21.0,
+        2.0
+      ]
+    ],
+    "dimensions_mm": [
+      42.0,
+      42.0,
+      2.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 2470.539644657021,
+    "category": "prototype",
+    "volume_error_percent": 0.061357118834038674,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "H02_608_8x22x7",
+    "triangles": 344,
+    "bounds_mm": [
+      [
+        -11.0,
+        -10.995169639587402,
+        0.0
+      ],
+      [
+        11.0,
+        10.995169639587402,
+        7.0
+      ]
+    ],
+    "dimensions_mm": [
+      22.0,
+      21.990339279174805,
+      7.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 2305.186733133741,
+    "category": "hardware reference",
+    "volume_error_percent": 0.16820045494073857,
+    "max_bound_error_mm": 0.004830360412597656,
+    "mesh_pass": true
+  },
+  {
+    "name": "B08_motor_floor_spacer",
+    "triangles": 224,
+    "bounds_mm": [
+      [
+        -4.300000190734863,
+        -4.295129776000977,
+        0.0
+      ],
+      [
+        4.300000190734863,
+        4.295129776000977,
+        5.5
+      ]
+    ],
+    "dimensions_mm": [
+      8.600000381469727,
+      8.590259552001953,
+      5.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 268.38084931069324,
+    "category": "prototype",
+    "volume_error_percent": 0.433242892778724,
+    "max_bound_error_mm": 0.00487022399902326,
+    "mesh_pass": true
+  },
+  {
+    "name": "B09b_U2D2_service_tray",
+    "triangles": 914,
+    "bounds_mm": [
+      [
+        -34.0,
+        -17.0,
+        0.0
+      ],
+      [
+        34.0,
+        17.0,
+        18.899999618530273
+      ]
+    ],
+    "dimensions_mm": [
+      68.0,
+      34.0,
+      18.899999618530273
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 8856.579359610812,
+    "category": "prototype",
+    "volume_error_percent": 0.030564009330980243,
+    "max_bound_error_mm": 3.8146972514141453e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "B10_U2D2_retaining_strap",
+    "triangles": 196,
+    "bounds_mm": [
+      [
+        -4.0,
+        -17.0,
+        0.0
+      ],
+      [
+        4.0,
+        17.0,
+        2.0
+      ]
+    ],
+    "dimensions_mm": [
+      8.0,
+      34.0,
+      2.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 508.2033707664005,
+    "category": "prototype",
+    "volume_error_percent": 0.10246190010750522,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "H_U2D2_48x18x14p9",
+    "triangles": 12,
+    "bounds_mm": [
+      [
+        -24.0,
+        -9.0,
+        0.0
+      ],
+      [
+        24.0,
+        9.0,
+        14.899999618530273
+      ]
+    ],
+    "dimensions_mm": [
+      48.0,
+      18.0,
+      14.899999618530273
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 12873.599670410156,
+    "category": "electronics reference",
+    "volume_error_percent": 2.5601995099567943e-06,
+    "max_bound_error_mm": 3.8146972691777137e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "A01_rotating_platform",
+    "triangles": 920,
+    "bounds_mm": [
+      [
+        -44.0,
+        -40.0,
+        0.0
+      ],
+      [
+        44.0,
+        40.0,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      88.0,
+      80.0,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 40997.64345079602,
+    "category": "prototype",
+    "volume_error_percent": 0.019817237527376717,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "A02_shoulder_pedestal",
+    "triangles": 592,
+    "bounds_mm": [
+      [
+        -28.0,
+        -63.0,
+        0.0
+      ],
+      [
+        28.0,
+        24.0,
+        30.0
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      87.0,
+      30.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 45226.00101826492,
+    "category": "prototype",
+    "volume_error_percent": 0.011430857867843399,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "A03_output_spacer_4",
+    "triangles": 208,
+    "bounds_mm": [
+      [
+        -3.299999952316284,
+        -3.2951602935791016,
+        0.0
+      ],
+      [
+        3.299999952316284,
+        3.2951602935791016,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      6.599999904632568,
+      6.590320587158203,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 100.0106113311737,
+    "category": "prototype",
+    "volume_error_percent": 0.5176052812586583,
+    "max_bound_error_mm": 0.00483970642089826,
+    "mesh_pass": true
+  },
+  {
+    "name": "A04b_upper_link_100",
+    "triangles": 1396,
+    "bounds_mm": [
+      [
+        -20.98064422607422,
+        -49.0,
+        8.0
+      ],
+      [
+        128.0,
+        24.0,
+        12.0
+      ]
+    ],
+    "dimensions_mm": [
+      148.98064422607422,
+      73.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 24808.06602724563,
+    "category": "prototype",
+    "volume_error_percent": 0.010282655477427804,
+    "max_bound_error_mm": 0.01935577392578125,
+    "mesh_pass": true
+  },
+  {
+    "name": "A05b_forearm_link_85",
+    "triangles": 1396,
+    "bounds_mm": [
+      [
+        -20.98064422607422,
+        -49.0,
+        8.0
+      ],
+      [
+        113.0,
+        24.0,
+        12.0
+      ]
+    ],
+    "dimensions_mm": [
+      133.98064422607422,
+      73.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 23368.06601960375,
+    "category": "prototype",
+    "volume_error_percent": 0.010916335474240974,
+    "max_bound_error_mm": 0.01935577392578125,
+    "mesh_pass": true
+  },
+  {
+    "name": "A06b_wrist_right_angle_bracket",
+    "triangles": 756,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        0.0
+      ],
+      [
+        40.0,
+        24.0,
+        62.0
+      ]
+    ],
+    "dimensions_mm": [
+      68.0,
+      73.0,
+      62.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 53882.46936992088,
+    "category": "prototype",
+    "volume_error_percent": 0.011639839165643892,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "A07b_wrist_rotor_platform",
+    "triangles": 1008,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        8.0
+      ],
+      [
+        40.0,
+        24.0,
+        68.0
+      ]
+    ],
+    "dimensions_mm": [
+      68.0,
+      73.0,
+      60.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 42220.38512417437,
+    "category": "prototype",
+    "volume_error_percent": 0.021583341181887986,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "A08_tool_mount",
+    "triangles": 1188,
+    "bounds_mm": [
+      [
+        -28.0,
+        -49.0,
+        8.0
+      ],
+      [
+        28.0,
+        24.0,
+        12.0
+      ]
+    ],
+    "dimensions_mm": [
+      56.0,
+      73.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 14259.94940935949,
+    "category": "prototype",
+    "volume_error_percent": 0.056422384641760824,
+    "max_bound_error_mm": 7.105427357601002e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "G01_fixed_gripper_guide_plate",
+    "triangles": 1156,
+    "bounds_mm": [
+      [
+        -53.0,
+        -49.0,
+        -1.0
+      ],
+      [
+        53.0,
+        32.0,
+        3.0
+      ]
+    ],
+    "dimensions_mm": [
+      106.0,
+      81.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 32191.258651274977,
+    "category": "prototype",
+    "volume_error_percent": 0.025391417993089926,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "G02_gripper_pinion_20T",
+    "triangles": 2208,
+    "bounds_mm": [
+      [
+        -16.49936866760254,
+        -16.49936866760254,
+        0.0
+      ],
+      [
+        16.49936866760254,
+        16.49936866760254,
+        9.5
+      ]
+    ],
+    "dimensions_mm": [
+      32.99873733520508,
+      32.99873733520508,
+      9.5
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5021.942876219708,
+    "category": "prototype",
+    "volume_error_percent": 0.06137816634241182,
+    "max_bound_error_mm": 4.062499527890395e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "G03_integral_rack_and_finger",
+    "triangles": 268,
+    "bounds_mm": [
+      [
+        -38.0,
+        -8.0,
+        0.0
+      ],
+      [
+        38.0,
+        1.5,
+        36.0
+      ]
+    ],
+    "dimensions_mm": [
+      76.0,
+      9.5,
+      36.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5767.142990882481,
+    "category": "prototype",
+    "volume_error_percent": 1.1171430794096516e-06,
+    "max_bound_error_mm": 4.440892098500626e-16,
+    "mesh_pass": true
+  },
+  {
+    "name": "G04_guide_cover",
+    "triangles": 352,
+    "bounds_mm": [
+      [
+        -53.0,
+        -49.0,
+        0.0
+      ],
+      [
+        53.0,
+        32.0,
+        3.0
+      ]
+    ],
+    "dimensions_mm": [
+      106.0,
+      81.0,
+      3.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 11611.369665290084,
+    "category": "prototype",
+    "volume_error_percent": 0.012019164325942118,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  }
+]

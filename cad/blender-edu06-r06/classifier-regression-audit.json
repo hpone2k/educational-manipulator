@@ -1,0 +1,90 @@
+[
+  {
+    "cube_rotation_rad": 0.0,
+    "cube_shift_mm": 10.0,
+    "expected_overlap_volume_mm3": 0.0,
+    "completed": true,
+    "intersection_volume_mm3": 0.0,
+    "output_triangle_count": 0,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": true,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "cube_rotation_rad": 0.0,
+    "cube_shift_mm": 9.8,
+    "expected_overlap_volume_mm3": 20.0,
+    "completed": true,
+    "intersection_volume_mm3": 19.999980926513672,
+    "output_triangle_count": 28,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": false,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "cube_rotation_rad": 0.0,
+    "cube_shift_mm": 10.2,
+    "expected_overlap_volume_mm3": 0.0,
+    "completed": true,
+    "intersection_volume_mm3": 0.0,
+    "output_triangle_count": 0,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": true,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "cube_rotation_rad": 0.6,
+    "cube_shift_mm": 10.0,
+    "expected_overlap_volume_mm3": 0.0,
+    "completed": true,
+    "intersection_volume_mm3": 0.0,
+    "output_triangle_count": 0,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": true,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "cube_rotation_rad": 0.6,
+    "cube_shift_mm": 9.8,
+    "expected_overlap_volume_mm3": 20.0,
+    "completed": true,
+    "intersection_volume_mm3": 19.999980926513732,
+    "output_triangle_count": 40,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": false,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "cube_rotation_rad": 0.6,
+    "cube_shift_mm": 10.2,
+    "expected_overlap_volume_mm3": 0.0,
+    "completed": true,
+    "intersection_volume_mm3": 0.0,
+    "output_triangle_count": 0,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": true,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "nested_sleeve_bore_radius_mm": 1.0,
+    "shaft_radius_mm": 0.8,
+    "expected_overlap_volume_mm3": 0.0,
+    "completed": true,
+    "intersection_volume_mm3": 0.0,
+    "output_triangle_count": 0,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": true,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  },
+  {
+    "nested_sleeve_bore_radius_mm": 1.0,
+    "shaft_radius_mm": 1.2,
+    "expected_overlap_volume_mm3": 2.060153800490314,
+    "completed": true,
+    "intersection_volume_mm3": 2.0601540501308717,
+    "output_triangle_count": 552,
+    "numerical_volume_tolerance_mm3": 0.01,
+    "zero_volume_within_numerical_tolerance": false,
+    "method": "Independent Blender EXACT INTERSECT of triangle meshes in the first solid local frame; signed tetrahedral enclosed volume. Temporary objects removed; source never saved. Numerical tolerance is not a print-fit allowance."
+  }
+]

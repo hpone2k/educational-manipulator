@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "tested_phases": 244,
+  "checks": [
+    {
+      "name": "J1",
+      "teeth": [
+        20,
+        60
+      ],
+      "module_mm": 1.5,
+      "pressure_angle_deg": 20.0,
+      "centre_distance_mm": 60.0,
+      "pitch_radii_mm": [
+        15.0,
+        45.0
+      ],
+      "base_radii_mm": [
+        14.095389311788626,
+        42.28616793536588
+      ],
+      "tip_radii_mm": [
+        16.5,
+        46.5
+      ],
+      "root_radii_mm": [
+        13.125,
+        43.125
+      ],
+      "radial_tip_root_clearance_mm": 0.375,
+      "total_tangential_backlash_mm": 0.2,
+      "tooth_thinning_per_gear_mm": 0.1,
+      "nominal_transverse_contact_ratio": 1.6707764325273948,
+      "pinion_phase_rad": 0.15707963267948966,
+      "wheel_phase_rad": 0.0,
+      "wheel_radians_per_pinion_radian": -0.3333333333333333,
+      "vertices": [
+        600,
+        1560
+      ],
+      "area_mm2": [
+        682.7987184539718,
+        6308.830145872311
+      ],
+      "tested_phases": 61,
+      "penetrating_phases": [],
+      "negative_control_overlap_detected": true
+    },
+    {
+      "name": "J2",
+      "teeth": [
+        20,
+        100
+      ],
+      "module_mm": 1.25,
+      "pressure_angle_deg": 20.0,
+      "centre_distance_mm": 75.0,
+      "pitch_radii_mm": [
+        12.5,
+        62.5
+      ],
+      "base_radii_mm": [
+        11.746157759823856,
+        58.730788799119274
+      ],
+      "tip_radii_mm": [
+        13.75,
+        63.75
+      ],
+      "root_radii_mm": [
+        10.9375,
+        60.9375
+      ],
+      "radial_tip_root_clearance_mm": 0.3125,
+      "total_tangential_backlash_mm": 0.2,
+      "tooth_thinning_per_gear_mm": 0.1,
+      "nominal_transverse_contact_ratio": 1.704674299516535,
+      "pinion_phase_rad": 0.15707963267948966,
+      "wheel_phase_rad": 0.0,
+      "wheel_radians_per_pinion_radian": -0.2,
+      "vertices": [
+        600,
+        2600
+      ],
+      "area_mm2": [
+        473.23985414134125,
+        12209.563312681406
+      ],
+      "tested_phases": 61,
+      "penetrating_phases": [],
+      "negative_control_overlap_detected": true
+    },
+    {
+      "name": "J3",
+      "teeth": [
+        20,
+        80
+      ],
+      "module_mm": 1.25,
+      "pressure_angle_deg": 20.0,
+      "centre_distance_mm": 62.5,
+      "pitch_radii_mm": [
+        12.5,
+        50.0
+      ],
+      "base_radii_mm": [
+        11.746157759823856,
+        46.98463103929542
+      ],
+      "tip_radii_mm": [
+        13.75,
+        51.25
+      ],
+      "root_radii_mm": [
+        10.9375,
+        48.4375
+      ],
+      "radial_tip_root_clearance_mm": 0.3125,
+      "total_tangential_backlash_mm": 0.2,
+      "tooth_thinning_per_gear_mm": 0.1,
+      "nominal_transverse_contact_ratio": 1.6912923264235955,
+      "pinion_phase_rad": 0.15707963267948966,
+      "wheel_phase_rad": 0.0,
+      "wheel_radians_per_pinion_radian": -0.25,
+      "vertices": [
+        600,
+        2080
+      ],
+      "area_mm2": [
+        473.23985414134125,
+        7803.116890755824
+      ],
+      "tested_phases": 61,
+      "penetrating_phases": [],
+      "negative_control_overlap_detected": true
+    },
+    {
+      "name": "J4",
+      "teeth": [
+        20,
+        60
+      ],
+      "module_mm": 1.5,
+      "pressure_angle_deg": 20.0,
+      "centre_distance_mm": 60.0,
+      "pitch_radii_mm": [
+        15.0,
+        45.0
+      ],
+      "base_radii_mm": [
+        14.095389311788626,
+        42.28616793536588
+      ],
+      "tip_radii_mm": [
+        16.5,
+        46.5
+      ],
+      "root_radii_mm": [
+        13.125,
+        43.125
+      ],
+      "radial_tip_root_clearance_mm": 0.375,
+      "total_tangential_backlash_mm": 0.2,
+      "tooth_thinning_per_gear_mm": 0.1,
+      "nominal_transverse_contact_ratio": 1.6707764325273948,
+      "pinion_phase_rad": 0.15707963267948966,
+      "wheel_phase_rad": 0.0,
+      "wheel_radians_per_pinion_radian": -0.3333333333333333,
+      "vertices": [
+        600,
+        1560
+      ],
+      "area_mm2": [
+        682.7987184539718,
+        6308.830145872311
+      ],
+      "tested_phases": 61,
+      "penetrating_phases": [],
+      "negative_control_overlap_detected": true
+    }
+  ]
+}

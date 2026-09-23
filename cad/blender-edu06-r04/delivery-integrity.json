@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "operation": "Documentation-only embedding and resave",
+  "audited_native_before_document_embedding": {
+    "sha256": "bb0875932d4362e2b3d7c7904ab63945e4b00e7ed3c527bfe75f61ad04978a50",
+    "bytes": 16248174,
+    "mtime": 1790148055.2681544
+  },
+  "delivered_native": {
+    "sha256": "82f1e977b25859ecb7b93e7ac2bbe69396e15f05cbf39aaf372d0249d706d469",
+    "bytes": 16285077,
+    "mtime": 1790148582.693132
+  },
+  "model_fingerprint_before": "64e03cb71028fecd9ce9181249820c2a69887230eeb9f19ee64a029a052be566",
+  "model_fingerprint_after": "64e03cb71028fecd9ce9181249820c2a69887230eeb9f19ee64a029a052be566",
+  "fingerprint_scope": "All mesh vertices/polygons, object parents/custom properties, driver expressions/targets, control limits, scene units and 31 evaluated full-scene transform snapshots",
+  "embedded_documents": [
+    "README.md",
+    "engineering-review.md",
+    "build_edu06.py",
+    "blender_lib.py",
+    "motor_models.py",
+    "wrist_module.py",
+    "gripper_module.py",
+    "gear_math.py",
+    "mesh_repair.py",
+    "gear-profile-audit.json",
+    "gripper-math-check.json",
+    "wrist-dimensions.json",
+    "motor-interface-schedule.json",
+    "hardware-bom.json",
+    "motor-references/README-official-cad.md"
+  ]
+}

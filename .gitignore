@@ -1,0 +1,48 @@
+node_modules/
+*.log
+
+# Local caches, credentials, and editor files
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Rebuildable tools, intermediate renders, and Blender backups
+converter-runtime/
+motion-preview-frames/
+*.blend[0-9]*
+BUILD_DEBUG.blend
+CHECK_ASSEMBLY.blend
+WRIST_DEBUG.blend
+W03_TEST.blend
+motor-import-test.blend
+xm-partition-test.blend
+*.working.json
+
+# CAD iteration scratch directories; final validation reports remain tracked.
+mesh-repair-verification/
+motor-test/
+gripper-test/
+preview-export/
+w03-test/
+sculpted-saddle-test/
+wrist-test/
+base-test/
+base-wire-test/
+export-test/
+fixed-jacket-test/
+presentation-tests/
+upper-link-wire-test/
+wiring-test/
+wrist-wire-test/
+
+# The R06 delivery includes these reproducible gripper-harness checks.
+cad/blender-edu06-r06/gripper-wire-test/*
+!cad/blender-edu06-r06/gripper-wire-test/test_h06.py
+!cad/blender-edu06-r06/gripper-wire-test/test_dense_bends.py
+!cad/blender-edu06-r06/gripper-wire-test/audit.json
+!cad/blender-edu06-r06/gripper-wire-test/operating-audit.json
+!cad/blender-edu06-r06/gripper-wire-test/dense-bend-audit.json

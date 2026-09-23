@@ -1,0 +1,14 @@
+Part,Quantity,X mm,Y mm,Z mm,Description,Status
+P01_base_plate,1,180.0,180.0,12.0,180 mm base plate with four anchor holes and cable bore,Prototype — motor fit and strength unverified
+P02_motor_housing,1,112.0,112.0,64.0,"Open cup, 8 mm floor and 8 mm walls; provisional motor mounting",Prototype — motor fit and strength unverified
+P03_rotating_deck,1,112.0,112.0,10.0,Yaw deck; coupling and bearing arrangement require hardware design,Prototype — motor fit and strength unverified
+P04_shoulder_bracket,2,50.0,64.0,26.0,Reversible shoulder bracket with integral mounting foot,Prototype — motor fit and strength unverified
+P05_upper_link_plate,2,226.0,46.0,7.0,180 mm pivot spacing; two side plates form one link,Prototype — motor fit and strength unverified
+P06_forearm_plate,2,188.0,38.0,7.0,150 mm pivot spacing; two side plates form one link,Prototype — motor fit and strength unverified
+P07_upper_spacer,2,16.0,16.0,46.0,Link cross spacer with through-bolt bore,Prototype — motor fit and strength unverified
+P08_forearm_spacer,2,16.0,16.0,30.0,Link cross spacer with through-bolt bore,Prototype — motor fit and strength unverified
+P09_wrist_side_plate,2,82.0,38.0,7.0,52 mm wrist bridge; print two,Prototype — motor fit and strength unverified
+P10_roll_carrier,1,42.0,56.0,26.0,Generic 22.4 mm bore; final bearing and motor mount unspecified,Prototype — motor fit and strength unverified
+P11_gripper_palm,1,76.0,28.0,12.0,Concept parallel-gripper palm; transmission and drive not yet designed,Prototype — motor fit and strength unverified
+P12_gripper_finger,2,48.0,14.0,16.0,Mirrored parallel finger; provisional rail and actuator interface,Prototype — motor fit and strength unverified
+P13_clearance_coupon,1,58.0,26.0,6.0,"Hole diameters left to right: 3.4, 4.4, 8.4, 6.6 mm",Prototype — motor fit and strength unverified

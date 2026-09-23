@@ -1,0 +1,829 @@
+{
+  "revision": "R06",
+  "topology": "Parallel half-duplex 3-pin TTL electrical bus with serial physical daisy-chain routing",
+  "controller": "U2D2 USB-to-TTL communication master; not a motor power supply",
+  "motor_order": [
+    "J1_BASE",
+    "S_XM",
+    "E_XM",
+    "J4_AX",
+    "J5_AX",
+    "GRIP"
+  ],
+  "pinout": {
+    "1": "GND",
+    "2": "VDD",
+    "3": "DATA"
+  },
+  "source_urls": {
+    "AX": "https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/#connector-information",
+    "XM": "https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/#connector-information",
+    "U2D2": "https://emanual.robotis.com/docs/en/parts/interface/u2d2/"
+  },
+  "harnesses": [
+    {
+      "id": "H00_U2D2_POWER",
+      "source_port": "U2D2 TTL 3-pin",
+      "destination_port": "POWER INJECTION / TTL IN",
+      "source_motor_id": "U2D2",
+      "destination_motor_id": "POWER_INJECTION",
+      "source_endpoint": "U2D2 TTL 3-pin / wire exit",
+      "destination_endpoint": "POWER INJECTION / TTL IN / wire exit",
+      "source_connector": "JST EHR-03",
+      "destination_connector": "JST EHR-03",
+      "adapter_required": false,
+      "curve": "H00_U2D2_POWER / route centre",
+      "wires": [
+        "H00_U2D2_POWER / GND",
+        "H00_U2D2_POWER / VDD",
+        "H00_U2D2_POWER / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "U2D2 TTL 3-pin / wire exit",
+        "U2D2 TTL 3-pin / straight",
+        "U2D2 TTL 3-pin / free bend",
+        "H00_U2D2_POWER / base routing guide 00",
+        "H00_U2D2_POWER / base routing guide 01",
+        "H00_U2D2_POWER / base routing guide 02",
+        "POWER INJECTION / TTL IN / free bend",
+        "POWER INJECTION / TTL IN / straight",
+        "POWER INJECTION / TTL IN / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H01_POWER_J1",
+      "source_port": "POWER INJECTION / TTL OUT",
+      "destination_port": "J1_BASE PORT A",
+      "source_motor_id": "POWER_INJECTION",
+      "destination_motor_id": "J1_BASE",
+      "source_endpoint": "POWER INJECTION / TTL OUT / wire exit",
+      "destination_endpoint": "J1_BASE PORT A / wire exit",
+      "source_connector": "JST EHR-03",
+      "destination_connector": "MOLEX 50-37-5033",
+      "adapter_required": true,
+      "curve": "H01_POWER_J1 / route centre",
+      "wires": [
+        "H01_POWER_J1 / GND",
+        "H01_POWER_J1 / VDD",
+        "H01_POWER_J1 / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "POWER INJECTION / TTL OUT / wire exit",
+        "POWER INJECTION / TTL OUT / straight",
+        "POWER INJECTION / TTL OUT / free bend",
+        "J1_BASE PORT A / horizontal base exit",
+        "J1_BASE PORT A / rear service guide",
+        "J1_BASE PORT A / straight strain relief",
+        "J1_BASE PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H02_J1_J2",
+      "source_port": "J1_BASE PORT B",
+      "destination_port": "S_XM PORT A",
+      "source_motor_id": "J1_BASE",
+      "destination_motor_id": "S_XM",
+      "source_endpoint": "J1_BASE PORT B / wire exit",
+      "destination_endpoint": "S_XM PORT A / wire exit",
+      "source_connector": "MOLEX 50-37-5033",
+      "destination_connector": "JST EHR-03",
+      "adapter_required": true,
+      "curve": "H02_J1_J2 / route centre",
+      "wires": [
+        "H02_J1_J2 / GND",
+        "H02_J1_J2 / VDD",
+        "H02_J1_J2 / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "J1_BASE PORT B / wire exit",
+        "J1_BASE PORT B / straight strain relief",
+        "J1_BASE PORT B / rear service guide",
+        "J1_BASE PORT B / horizontal base exit",
+        "H02_J1_J2 / base routing guide 00",
+        "H02_J1_J2 / base routing guide 01",
+        "H02_J1_J2 / base routing guide 02",
+        "H02_J1_J2 / base routing guide 03",
+        "H02_J1_J2 / base routing guide 04",
+        "H02_J1_J2 / base routing guide 05",
+        "H02_J1_J2 / base routing guide 06",
+        "H02_J1_J2 / base routing guide 07",
+        "H02_J1_J2 / base routing guide 08",
+        "H02_J1_J2 yaw / base routing guide 00",
+        "H02_J1_J2 yaw / base routing guide 01",
+        "H02_J1_J2 yaw / base routing guide 02",
+        "H02_J1_J2 yaw / base routing guide 03",
+        "H02_J1_J2 yaw / base routing guide 04",
+        "H02_J1_J2 yaw / base routing guide 05",
+        "H02_J1_J2 yaw / base routing guide 06",
+        "H02_J1_J2 yaw / base routing guide 07",
+        "H02_J1_J2 yaw / base routing guide 08",
+        "S_XM PORT A / broad side bend",
+        "S_XM PORT A / side rear service guide",
+        "S_XM PORT A / straight strain relief",
+        "S_XM PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H03_J2_J3",
+      "source_port": "S_XM PORT B",
+      "destination_port": "E_XM PORT A",
+      "source_motor_id": "S_XM",
+      "destination_motor_id": "E_XM",
+      "source_endpoint": "S_XM PORT B / wire exit",
+      "destination_endpoint": "E_XM PORT A / wire exit",
+      "source_connector": "JST EHR-03",
+      "destination_connector": "JST EHR-03",
+      "adapter_required": false,
+      "curve": "H03_J2_J3 / route centre",
+      "wires": [
+        "H03_J2_J3 / GND",
+        "H03_J2_J3 / VDD",
+        "H03_J2_J3 / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "S_XM PORT B / wire exit",
+        "S_XM PORT B / straight strain relief",
+        "S_XM PORT B / side rear service guide",
+        "S_XM PORT B / broad side bend",
+        "H03_J2_J3 / broad outer loop 1",
+        "H03_J2_J3 / broad outer loop 2",
+        "E_XM PORT A / broad side bend",
+        "E_XM PORT A / side rear service guide",
+        "E_XM PORT A / straight strain relief",
+        "E_XM PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H04_J3_J4",
+      "source_port": "E_XM PORT B",
+      "destination_port": "J4_AX PORT A",
+      "source_motor_id": "E_XM",
+      "destination_motor_id": "J4_AX",
+      "source_endpoint": "E_XM PORT B / wire exit",
+      "destination_endpoint": "J4_AX PORT A / wire exit",
+      "source_connector": "JST EHR-03",
+      "destination_connector": "MOLEX 50-37-5033",
+      "adapter_required": true,
+      "curve": "H04_J3_J4 / route centre",
+      "wires": [
+        "H04_J3_J4 / GND",
+        "H04_J3_J4 / VDD",
+        "H04_J3_J4 / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "E_XM PORT B / wire exit",
+        "E_XM PORT B / straight strain relief",
+        "E_XM PORT B / side rear service guide",
+        "E_XM PORT B / broad side bend",
+        "H04_J3_J4 outer forearm loop 1",
+        "H04_J3_J4 outer forearm loop 2",
+        "J4_AX PORT A / broad rear bend",
+        "J4_AX PORT A / rear service guide",
+        "J4_AX PORT A / straight strain relief",
+        "J4_AX PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.4,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H05_J4_J5",
+      "source_port": "J4_AX PORT B",
+      "destination_port": "J5_AX PORT A",
+      "source_motor_id": "J4_AX",
+      "destination_motor_id": "J5_AX",
+      "source_endpoint": "J4_AX PORT B / wire exit",
+      "destination_endpoint": "J5_AX PORT A / wire exit",
+      "source_connector": "MOLEX 50-37-5033",
+      "destination_connector": "MOLEX 50-37-5033",
+      "adapter_required": false,
+      "curve": "H05_J4_J5 / route centre",
+      "wires": [
+        "H05_J4_J5 / GND",
+        "H05_J4_J5 / VDD",
+        "H05_J4_J5 / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "J4_AX PORT B / wire exit",
+        "J4_AX PORT B / straight strain relief",
+        "J4_AX PORT B / rear service guide",
+        "J4_AX PORT B / broad rear bend",
+        "H05_J4_J5 service loop 1",
+        "H05_J4_J5 outer radius guide",
+        "H05_J4_J5 destination long tangent",
+        "H05_J4_J5 destination arc tangent",
+        "J5_AX PORT A / broad rear bend",
+        "J5_AX PORT A / rear service guide",
+        "J5_AX PORT A / straight strain relief",
+        "J5_AX PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        3.0,
+        3.0,
+        2.1,
+        1.8,
+        2.2,
+        2.5,
+        2.5,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    },
+    {
+      "id": "H06_J5_GRIP",
+      "source_port": "J5_AX PORT B",
+      "destination_port": "GRIP PORT A",
+      "source_motor_id": "J5_AX",
+      "destination_motor_id": "GRIP",
+      "source_endpoint": "J5_AX PORT B / wire exit",
+      "destination_endpoint": "GRIP PORT A / wire exit",
+      "source_connector": "MOLEX 50-37-5033",
+      "destination_connector": "MOLEX 50-37-5033",
+      "adapter_required": false,
+      "curve": "H06_J5_GRIP / route centre",
+      "wires": [
+        "H06_J5_GRIP / GND",
+        "H06_J5_GRIP / VDD",
+        "H06_J5_GRIP / DATA"
+      ],
+      "pinout": {
+        "1": "GND",
+        "2": "VDD",
+        "3": "DATA"
+      },
+      "wire_diameter_model_mm": 1.44,
+      "wire_gauge_reference": "ROBOTIS 21 AWG; insulation diameter is a provisional routing assumption",
+      "route_anchor_names": [
+        "J5_AX PORT B / wire exit",
+        "J5_AX PORT B / straight strain relief",
+        "J5_AX PORT B / rear service guide",
+        "J5_AX PORT B / broad rear bend",
+        "H06_J5_GRIP / rear exterior sweep",
+        "H06_J5_GRIP / lower exterior sweep",
+        "H06_J5_GRIP / roll exterior sweep",
+        "H06_J5_GRIP / rotating service sweep",
+        "H06_J5_GRIP / palm approach sweep",
+        "GRIP PORT A / broad rear bend",
+        "GRIP PORT A / rear service guide",
+        "GRIP PORT A / straight strain relief",
+        "GRIP PORT A / wire exit"
+      ],
+      "provisional_cut_length_mm": null,
+      "guide_bundle_pitch_mm": [
+        2.5,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        1.8,
+        2.4,
+        2.4,
+        2.4,
+        1.8,
+        1.8,
+        1.8,
+        2.5
+      ],
+      "conductor_frame_method": "Native forward/backward parallel transport using COPY_ROTATION and DAMPED_TRACK constraints; endpoint pin rows retained",
+      "status": "Kinematic routing reference; connector plug engagement and selected cable bend specification provisional"
+    }
+  ],
+  "connector_datums": [
+    {
+      "name": "J1_BASE PORT A",
+      "motor": "J1_BASE",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.949999809265137
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "J1_BASE PORT B",
+      "motor": "J1_BASE",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.050000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "S_XM PORT A",
+      "motor": "S_XM",
+      "local_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          -1.0,
+          -14.25
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          -4.371138828673793e-08,
+          -14.550000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          -4.371138828673793e-08,
+          -29.875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "Official XM side-cover opening at X+/-14.25, Y-14.55, Z-32.2..-27.55. Hidden socket contact depth and plug fit are provisional.",
+      "family": "JST EHR-03",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "S_XM PORT B",
+      "motor": "S_XM",
+      "local_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          14.25
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          -14.550000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          -29.875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "Official XM side-cover opening at X+/-14.25, Y-14.55, Z-32.2..-27.55. Hidden socket contact depth and plug fit are provisional.",
+      "family": "JST EHR-03",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "E_XM PORT A",
+      "motor": "E_XM",
+      "local_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          -1.0,
+          -14.25
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          -4.371138828673793e-08,
+          -14.550000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          -4.371138828673793e-08,
+          -29.875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "Official XM side-cover opening at X+/-14.25, Y-14.55, Z-32.2..-27.55. Hidden socket contact depth and plug fit are provisional.",
+      "family": "JST EHR-03",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "E_XM PORT B",
+      "motor": "E_XM",
+      "local_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          14.25
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          -14.550000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          -29.875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "Official XM side-cover opening at X+/-14.25, Y-14.55, Z-32.2..-27.55. Hidden socket contact depth and plug fit are provisional.",
+      "family": "JST EHR-03",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "J4_AX PORT A",
+      "motor": "J4_AX",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.949999809265137
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "J4_AX PORT B",
+      "motor": "J4_AX",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.050000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "J5_AX PORT A",
+      "motor": "J5_AX",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.949999809265137
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "J5_AX PORT B",
+      "motor": "J5_AX",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.050000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "GRIP PORT A",
+      "motor": "GRIP",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.949999809265137
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    },
+    {
+      "name": "GRIP PORT B",
+      "motor": "GRIP",
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.050000190734863
+        ],
+        [
+          0.0,
+          -1.0,
+          8.742277657347586e-08,
+          -15.170000076293945
+        ],
+        [
+          0.0,
+          -8.742277657347586e-08,
+          -1.0,
+          -33.70000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "AX separate official STEP header bounds; rear-facing mouth at Z-33.7. Plug envelope is provisional.",
+      "family": "MOLEX 50-37-5033",
+      "hidden_contact_depth_verified": false
+    }
+  ],
+  "electrical_design_notes": [
+    "All motors are parallel electrical loads/addressed peers; physical cable order is not series electrical power.",
+    "AX defaults Protocol1; XM defaults Protocol2. Use unique IDs and common baud; send model-specific packets sequentially.",
+    "U2D2 does not supply motor power. External regulated supply, protective fuse/current limit and shared GND are required.",
+    "12V sum of published stalls is10.6A. This is not a cable/connector continuous rating; a single21AWG trunk must not be assumed adequate.",
+    "Connector plug envelopes and hidden mating depths need physical measurement; side/rear exits follow official CAD.",
+    "Routing is kinematic and variable-length; provisional cable cut lengths come from sampled maximum route length plus slack, not a flex-life proof."
+  ]
+}

@@ -1,0 +1,238 @@
+[
+  {
+    "kind": "AX",
+    "runs": [
+      {
+        "seconds": 0.5315460999845527,
+        "body": {
+          "sha256": "0a8f42c000778951df51769ca7df8a32b2dbac765b10d48371f81a0d474f0cbe",
+          "vertices": 44615,
+          "faces": 89282,
+          "properties": {
+            "mass_g": 54.6,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 41431.17506202643
+        },
+        "horn": {
+          "sha256": "b941bd7195d23da283c955d08eb569e76c9a6134332182c1c162f890eac44fac",
+          "vertices": 9706,
+          "faces": 19428,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 1187.5058655808355
+        }
+      },
+      {
+        "seconds": 0.0004913000157102942,
+        "body": {
+          "sha256": "0a8f42c000778951df51769ca7df8a32b2dbac765b10d48371f81a0d474f0cbe",
+          "vertices": 44615,
+          "faces": 89282,
+          "properties": {
+            "mass_g": 54.6,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 41431.17506202643
+        },
+        "horn": {
+          "sha256": "b941bd7195d23da283c955d08eb569e76c9a6134332182c1c162f890eac44fac",
+          "vertices": 9706,
+          "faces": 19428,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 1187.5058655808355
+        }
+      },
+      {
+        "seconds": 0.0007079000351950526,
+        "body": {
+          "sha256": "0a8f42c000778951df51769ca7df8a32b2dbac765b10d48371f81a0d474f0cbe",
+          "vertices": 44615,
+          "faces": 89282,
+          "properties": {
+            "mass_g": 54.6,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 41431.17506202643
+        },
+        "horn": {
+          "sha256": "b941bd7195d23da283c955d08eb569e76c9a6134332182c1c162f890eac44fac",
+          "vertices": 9706,
+          "faces": 19428,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "AX-12A.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 1187.5058655808355
+        }
+      }
+    ],
+    "exact_equal": true,
+    "speedup": 1081.9175310142682
+  },
+  {
+    "kind": "XM",
+    "runs": [
+      {
+        "seconds": 0.4866127999848686,
+        "body": {
+          "sha256": "f664439d99bc759d415b2b76c7c4691bceb8d601117ebd80400295622e656736",
+          "vertices": 31410,
+          "faces": 62688,
+          "properties": {
+            "mass_g": 82.0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 44183.048595916895
+        },
+        "horn": {
+          "sha256": "ba552b33fc274e3d494aa0968bb56280c483285a7189de3b291671bfc56897b3",
+          "vertices": 3458,
+          "faces": 6944,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 711.0843939358209
+        }
+      },
+      {
+        "seconds": 0.0003294000052846968,
+        "body": {
+          "sha256": "f664439d99bc759d415b2b76c7c4691bceb8d601117ebd80400295622e656736",
+          "vertices": 31410,
+          "faces": 62688,
+          "properties": {
+            "mass_g": 82.0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 44183.048595916895
+        },
+        "horn": {
+          "sha256": "ba552b33fc274e3d494aa0968bb56280c483285a7189de3b291671bfc56897b3",
+          "vertices": 3458,
+          "faces": 6944,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 711.0843939358209
+        }
+      },
+      {
+        "seconds": 0.00038889999268576503,
+        "body": {
+          "sha256": "f664439d99bc759d415b2b76c7c4691bceb8d601117ebd80400295622e656736",
+          "vertices": 31410,
+          "faces": 62688,
+          "properties": {
+            "mass_g": 82.0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "case",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 44183.048595916895
+        },
+        "horn": {
+          "sha256": "ba552b33fc274e3d494aa0968bb56280c483285a7189de3b291671bfc56897b3",
+          "vertices": 3458,
+          "faces": 6944,
+          "properties": {
+            "mass_g": 0,
+            "reference_only": true,
+            "collision_check": true,
+            "interface_role": "horn",
+            "source_step": "XM_H-430_idler.stp",
+            "vendor_geometry": true,
+            "tessellation_chord_mm": 0.01
+          },
+          "bad_edges": 0,
+          "zero_area_faces": 0,
+          "volume_mm3": 711.0843939358209
+        }
+      }
+    ],
+    "exact_equal": true,
+    "speedup": 1477.2701644746317
+  }
+]

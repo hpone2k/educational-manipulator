@@ -1,0 +1,1082 @@
+[
+  {
+    "kind": "AX",
+    "name": "BHS_M2_6X8",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 68.69303333503511,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "BHS_M2_6X8",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 68.69303333503511,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "BHS_M2_6X8",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 68.69303333503511,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "BHS_M2_6X8",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 68.69303333503511,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_HORN2_DUMMY",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 1187.5058655808355,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_HORN2_DUMMY",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 1187.5058655808355,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_HORN2_DUMMY",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 1187.5058655808355,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_HORN2_DUMMY",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 1187.5058655808355,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_INSERT_M3",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 89.17893748573786,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_INSERT_M3",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 89.17893748573786,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_INSERT_M3",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 89.17893748573786,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DC04_B01_INSERT_M3",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 89.17893748573786,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0004",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121747646939,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0004",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121747646939,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0004",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121747646939,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0004",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121747646939,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "099990987____",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121848805848,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "099990987____",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121848805848,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "099990987____",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121848805848,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "099990987____",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 154.8121848805848,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003_1",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.5463278988509,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003_1",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.5463278988509,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003_1",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.5463278988509,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003_1",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.5463278988509,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632198039698,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632198039698,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632198039698,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "PRT0003",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632198039698,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DX124_SCREW-COVER___",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632203513464,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DX124_SCREW-COVER___",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632203513464,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DX124_SCREW-COVER___",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632203513464,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "DX124_SCREW-COVER___",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 72.54632203513464,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_GEAR-WHEEL___DUMMY",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 102.28168769750371,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_GEAR-WHEEL___DUMMY",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 102.28168769750371,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_GEAR-WHEEL___DUMMY",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 102.28168769750371,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_GEAR-WHEEL___DUMMY",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 102.28168769750371,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_DUMMY___",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 40742.18646508018,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_DUMMY___",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 40742.18646508018,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_DUMMY___",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 40742.18646508018,
+    "examples": []
+  },
+  {
+    "kind": "AX",
+    "name": "ASSY_DUMMY___",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 40742.18646508018,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_CVR_CABLE_5",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 486.2189128515161,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_CVR_CABLE_5",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 486.2189128515161,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_CVR_CABLE_5",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 486.2189128515161,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_CVR_CABLE_5",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 486.2189128515211,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_8",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965207121497,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_8",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965207121497,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_8",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965207121497,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_8",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965207121497,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_7",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652058974552,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_7",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652058974552,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_7",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652058974552,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_7",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652058974552,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_6",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652776797644,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_6",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652776797644,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_6",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652776797644,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_6",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349652776797644,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_5",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965276455668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_5",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965276455668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_5",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965276455668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_5",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34965276455668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_4",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349645077033383,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_4",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349645077033383,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_4",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349645077033383,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_2_4",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349645077033383,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_3",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34964506479278,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_3",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34964506479278,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_3",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34964506479278,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1_3",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.34964506479278,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349644359206906,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349644359206906,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349644359206906,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DC12_A01_SPACER_RING_1",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 28.349644359206906,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_14",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091433969668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_14",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091433969668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_14",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091433969668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_14",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091433969668,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_13",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091434080102,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_13",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091434080102,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_13",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091434080102,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_13",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87091434080102,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_12",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587806621,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_12",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587806621,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_12",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587806621,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_12",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587806621,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_11",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587917041,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_11",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587917041,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_11",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587917041,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_11",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090587917041,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_10",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975123031,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_10",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975123031,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_10",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975123031,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8_10",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975123031,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_9",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975233498,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_9",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975233498,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_9",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975233498,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_9",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87089975233498,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090821286111,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090821286111,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090821286111,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12_8",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.87090821286111,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.8709082139653,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.8709082139653,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.8709082139653,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "WBH_M2_5X12",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 93.8709082139653,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DUMMY_DC12",
+    "tol": 1e-07,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 43430.149632034954,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DUMMY_DC12",
+    "tol": 1e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 43430.149632034954,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DUMMY_DC12",
+    "tol": 5e-06,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 43430.149632034954,
+    "examples": []
+  },
+  {
+    "kind": "XM",
+    "name": "DUMMY_DC12",
+    "tol": 5e-05,
+    "bad": 0,
+    "boundary": 0,
+    "noncontiguous": 0,
+    "volume": 43430.149632034954,
+    "examples": []
+  }
+]

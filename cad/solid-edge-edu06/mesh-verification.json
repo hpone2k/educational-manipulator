@@ -1,0 +1,731 @@
+[
+  {
+    "name": "C01_clearance_and_M3_nut_coupon",
+    "triangles": 1660,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        82.0,
+        36.0,
+        4.199999809265137
+      ]
+    ],
+    "dimensions_mm": [
+      82.0,
+      36.0,
+      4.199999809265137
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 11834.748453173483,
+    "category": "fit coupon",
+    "volume_error_percent": 0.03633374338314005,
+    "max_bound_error_mm": 1.9073486345888568e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P01_AX_horn_adapter",
+    "triangles": 1380,
+    "bounds_mm": [
+      [
+        -17.0,
+        -16.995037078857422,
+        0.0
+      ],
+      [
+        17.0,
+        16.995037078857422,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      34.0,
+      33.990074157714844,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 3218.0951121207895,
+    "category": "fit coupon",
+    "volume_error_percent": 0.024254453661769728,
+    "max_bound_error_mm": 0.004962921142578125,
+    "mesh_pass": true
+  },
+  {
+    "name": "P02_XM_horn_adapter",
+    "triangles": 1828,
+    "bounds_mm": [
+      [
+        -17.0,
+        -16.995037078857422,
+        0.0
+      ],
+      [
+        17.0,
+        16.995037078857422,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      34.0,
+      33.990074157714844,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 3153.0559814439985,
+    "category": "fit coupon",
+    "volume_error_percent": 0.020817446440203502,
+    "max_bound_error_mm": 0.004962921142578125,
+    "mesh_pass": true
+  },
+  {
+    "name": "P03_XM_side_mount_coupon",
+    "triangles": 348,
+    "bounds_mm": [
+      [
+        -12.0,
+        -19.0,
+        0.0
+      ],
+      [
+        12.0,
+        19.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      24.0,
+      38.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 3551.1951377781797,
+    "category": "fit coupon",
+    "volume_error_percent": 0.04833056001988001,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P04_AX_body_mount_plate",
+    "triangles": 944,
+    "bounds_mm": [
+      [
+        -20.0,
+        -8.0,
+        0.0
+      ],
+      [
+        20.0,
+        39.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      40.0,
+      47.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 7318.328532153103,
+    "category": "development print",
+    "volume_error_percent": 0.05351563788200752,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P05_base_plate",
+    "triangles": 3256,
+    "bounds_mm": [
+      [
+        -100.0,
+        -90.0,
+        0.0
+      ],
+      [
+        100.0,
+        90.0,
+        5.0
+      ]
+    ],
+    "dimensions_mm": [
+      200.0,
+      180.0,
+      5.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 157277.40743458306,
+    "category": "development print",
+    "volume_error_percent": 0.02802087245008453,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P06_turntable_interface_ring_PROVISIONAL",
+    "triangles": 2540,
+    "bounds_mm": [
+      [
+        -80.0,
+        -79.99503326416016,
+        0.0
+      ],
+      [
+        80.0,
+        79.99503326416016,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      160.0,
+      159.9900665283203,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 102895.73500213507,
+    "category": "development print",
+    "volume_error_percent": 0.013768872691656213,
+    "max_bound_error_mm": 0.00496673583984375,
+    "mesh_pass": true
+  },
+  {
+    "name": "P07_base_gear_60T_M2",
+    "triangles": 6400,
+    "bounds_mm": [
+      [
+        -61.99955749511719,
+        -61.99955749511719,
+        0.0
+      ],
+      [
+        61.99955749511719,
+        61.99955749511719,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      123.99911499023438,
+      123.99911499023438,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 61224.53105215002,
+    "category": "development print",
+    "volume_error_percent": 0.07966131830718241,
+    "max_bound_error_mm": 3.2819558981600494e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P08_base_pinion_20T_M2",
+    "triangles": 1984,
+    "bounds_mm": [
+      [
+        -21.999069213867188,
+        -21.999069213867188,
+        0.0
+      ],
+      [
+        21.999069213867188,
+        21.999069213867188,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      43.998138427734375,
+      43.998138427734375,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 9137.752295233522,
+    "category": "development print",
+    "volume_error_percent": 0.061140587898661496,
+    "max_bound_error_mm": 7.338079335283965e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P09_shoulder_gear_80T_M1p5",
+    "triangles": 7784,
+    "bounds_mm": [
+      [
+        -61.499759674072266,
+        -61.499759674072266,
+        0.0
+      ],
+      [
+        61.499759674072266,
+        61.499759674072266,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      122.99951934814453,
+      122.99951934814453,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 65582.40449247655,
+    "category": "development print",
+    "volume_error_percent": 0.08588256227569921,
+    "max_bound_error_mm": 1.3209608624720204e-06,
+    "mesh_pass": true
+  },
+  {
+    "name": "P10_elbow_gear_40T_M1p5",
+    "triangles": 4416,
+    "bounds_mm": [
+      [
+        -31.499582290649414,
+        -31.499582290649414,
+        0.0
+      ],
+      [
+        31.499582290649414,
+        31.499582290649414,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      62.99916458129883,
+      62.99916458129883,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 20313.134608854336,
+    "category": "development print",
+    "volume_error_percent": 0.07811089362569262,
+    "max_bound_error_mm": 2.840725343844497e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P11_XM_pinion_20T_M1p5",
+    "triangles": 2556,
+    "bounds_mm": [
+      [
+        -16.49936866760254,
+        -16.49936866760254,
+        0.0
+      ],
+      [
+        16.49936866760254,
+        16.49936866760254,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      32.99873733520508,
+      32.99873733520508,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 4747.941619249143,
+    "category": "development print",
+    "volume_error_percent": 0.17844517964279577,
+    "max_bound_error_mm": 4.062499527890395e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P12_shoulder_bearing_cheek",
+    "triangles": 892,
+    "bounds_mm": [
+      [
+        -60.0,
+        -75.0,
+        0.0
+      ],
+      [
+        48.0,
+        30.0,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      108.0,
+      105.0,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 61593.29656918254,
+    "category": "development print",
+    "volume_error_percent": 0.017070120954405566,
+    "max_bound_error_mm": 3.552713678800501e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "P13_upper_link_cheek_120",
+    "triangles": 1180,
+    "bounds_mm": [
+      [
+        -19.0,
+        -19.0,
+        0.0
+      ],
+      [
+        139.0,
+        19.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      158.0,
+      38.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 15585.71349953903,
+    "category": "development print",
+    "volume_error_percent": 0.04498602142210955,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P14_forearm_cheek_100",
+    "triangles": 1040,
+    "bounds_mm": [
+      [
+        -19.0,
+        -19.0,
+        0.0
+      ],
+      [
+        119.0,
+        19.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      138.0,
+      38.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 15480.557393130752,
+    "category": "development print",
+    "volume_error_percent": 0.030953553904862534,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P15_cross_tie_50",
+    "triangles": 104,
+    "bounds_mm": [
+      [
+        -6.0,
+        -8.0,
+        0.0
+      ],
+      [
+        6.0,
+        8.0,
+        50.0
+      ]
+    ],
+    "dimensions_mm": [
+      12.0,
+      16.0,
+      50.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 9152.542165365494,
+    "category": "development print",
+    "volume_error_percent": 0.07109419932171772,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P16_upper_box_skin",
+    "triangles": 380,
+    "bounds_mm": [
+      [
+        16.0,
+        -25.0,
+        0.0
+      ],
+      [
+        104.0,
+        25.0,
+        2.4000000953674316
+      ]
+    ],
+    "dimensions_mm": [
+      88.0,
+      50.0,
+      2.4000000953674316
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 10474.088539650238,
+    "category": "development print",
+    "volume_error_percent": 0.011925000981232146,
+    "max_bound_error_mm": 9.536743172944284e-08,
+    "mesh_pass": true
+  },
+  {
+    "name": "P17_forearm_box_skin",
+    "triangles": 380,
+    "bounds_mm": [
+      [
+        16.0,
+        -25.0,
+        0.0
+      ],
+      [
+        84.0,
+        25.0,
+        2.4000000953674316
+      ]
+    ],
+    "dimensions_mm": [
+      68.0,
+      50.0,
+      2.4000000953674316
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 8074.088444282807,
+    "category": "development print",
+    "volume_error_percent": 0.015469040853220394,
+    "max_bound_error_mm": 9.536743172944284e-08,
+    "mesh_pass": true
+  },
+  {
+    "name": "R03_608_bearing_REFERENCE",
+    "triangles": 344,
+    "bounds_mm": [
+      [
+        -11.0,
+        -10.995169639587402,
+        0.0
+      ],
+      [
+        11.0,
+        10.995169639587402,
+        7.0
+      ]
+    ],
+    "dimensions_mm": [
+      22.0,
+      21.990339279174805,
+      7.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 2305.186733133741,
+    "category": "purchased reference; do not print",
+    "volume_error_percent": 0.16820045494073857,
+    "max_bound_error_mm": 0.004830360412597656,
+    "mesh_pass": true
+  },
+  {
+    "name": "R01_AX12A_body_REFERENCE",
+    "triangles": 12,
+    "bounds_mm": [
+      [
+        -16.0,
+        -38.5,
+        0.0
+      ],
+      [
+        16.0,
+        11.5,
+        40.0
+      ]
+    ],
+    "dimensions_mm": [
+      32.0,
+      50.0,
+      40.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 64000.0,
+    "category": "motor envelope; do not print",
+    "volume_error_percent": 0.0,
+    "max_bound_error_mm": 3.552713678800501e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "R02_XM430_body_REFERENCE",
+    "triangles": 12,
+    "bounds_mm": [
+      [
+        -14.25,
+        -35.25,
+        0.0
+      ],
+      [
+        14.25,
+        11.25,
+        34.0
+      ]
+    ],
+    "dimensions_mm": [
+      28.5,
+      46.5,
+      34.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 45058.5,
+    "category": "motor envelope; do not print",
+    "volume_error_percent": 1.6147802554864065e-14,
+    "max_bound_error_mm": 3.552713678800501e-15,
+    "mesh_pass": true
+  },
+  {
+    "name": "P18_AX_wrist_bridge",
+    "triangles": 420,
+    "bounds_mm": [
+      [
+        -25.0,
+        -25.0,
+        0.0
+      ],
+      [
+        25.0,
+        25.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      50.0,
+      50.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5396.013607306458,
+    "category": "development print",
+    "volume_error_percent": 0.038577633476256847,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P19_gripper_base_plate",
+    "triangles": 1080,
+    "bounds_mm": [
+      [
+        -46.0,
+        -28.0,
+        0.0
+      ],
+      [
+        46.0,
+        28.0,
+        4.0
+      ]
+    ],
+    "dimensions_mm": [
+      92.0,
+      56.0,
+      4.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 20146.75134145071,
+    "category": "development print",
+    "volume_error_percent": 0.024643747266285126,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P20_gripper_pinion_20T_M1p5",
+    "triangles": 1984,
+    "bounds_mm": [
+      [
+        -16.49936866760254,
+        -16.49936866760254,
+        0.0
+      ],
+      [
+        16.49936866760254,
+        16.49936866760254,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      32.99873733520508,
+      32.99873733520508,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 3658.514930495668,
+    "category": "development print",
+    "volume_error_percent": 0.11459293950712424,
+    "max_bound_error_mm": 4.062499527890395e-07,
+    "mesh_pass": true
+  },
+  {
+    "name": "P21_gripper_rack",
+    "triangles": 404,
+    "bounds_mm": [
+      [
+        -38.0,
+        -6.0,
+        0.0
+      ],
+      [
+        38.0,
+        1.5,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      76.0,
+      7.5,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 2536.361529784006,
+    "category": "development print",
+    "volume_error_percent": 0.04321795087568021,
+    "max_bound_error_mm": 4.440892098500626e-16,
+    "mesh_pass": true
+  },
+  {
+    "name": "P22_gripper_guide_rail",
+    "triangles": 196,
+    "bounds_mm": [
+      [
+        -45.0,
+        -4.0,
+        0.0
+      ],
+      [
+        45.0,
+        4.0,
+        8.0
+      ]
+    ],
+    "dimensions_mm": [
+      90.0,
+      8.0,
+      8.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 5616.813520116633,
+    "category": "development print",
+    "volume_error_percent": 0.037059010805342366,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  },
+  {
+    "name": "P23_gripper_finger",
+    "triangles": 172,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        25.0,
+        48.0,
+        6.0
+      ]
+    ],
+    "dimensions_mm": [
+      25.0,
+      48.0,
+      6.0
+    ],
+    "nonmanifold_edges": 0,
+    "signed_volume_mm3": 4026.80904200395,
+    "category": "development print",
+    "volume_error_percent": 0.027219103350260346,
+    "max_bound_error_mm": 0.0,
+    "mesh_pass": true
+  }
+]

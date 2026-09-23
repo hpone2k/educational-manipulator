@@ -1,0 +1,398 @@
+{
+  "status": "complete",
+  "frames": [
+    {
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-00.png",
+      "seconds": 1.73,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 1,
+      "timeline_frame": 17,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-01.png",
+      "seconds": 1.67,
+      "control_deg": {
+        "J1": 8,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 2,
+      "timeline_frame": 32,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-02.png",
+      "seconds": 1.71,
+      "control_deg": {
+        "J1": 15,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 3,
+      "timeline_frame": 48,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-03.png",
+      "seconds": 1.69,
+      "control_deg": {
+        "J1": 22,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 4,
+      "timeline_frame": 63,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-04.png",
+      "seconds": 1.69,
+      "control_deg": {
+        "J1": 25,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 5,
+      "timeline_frame": 79,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-05.png",
+      "seconds": 1.7,
+      "control_deg": {
+        "J1": 7,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 6,
+      "timeline_frame": 95,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-06.png",
+      "seconds": 1.69,
+      "control_deg": {
+        "J1": -11,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 7,
+      "timeline_frame": 110,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-07.png",
+      "seconds": 1.71,
+      "control_deg": {
+        "J1": -28,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 8,
+      "timeline_frame": 126,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-08.png",
+      "seconds": 1.73,
+      "control_deg": {
+        "J1": -18,
+        "J2": 69,
+        "J3": 59,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 9,
+      "timeline_frame": 141,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-09.png",
+      "seconds": 1.69,
+      "control_deg": {
+        "J1": -9,
+        "J2": 73,
+        "J3": 63,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 10,
+      "timeline_frame": 157,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-10.png",
+      "seconds": 1.76,
+      "control_deg": {
+        "J1": 0,
+        "J2": 76,
+        "J3": 66,
+        "J4": 1,
+        "J5": 1,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 11,
+      "timeline_frame": 173,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-11.png",
+      "seconds": 1.68,
+      "control_deg": {
+        "J1": 0,
+        "J2": 72,
+        "J3": 62,
+        "J4": 12,
+        "J5": 7,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 12,
+      "timeline_frame": 188,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-12.png",
+      "seconds": 1.72,
+      "control_deg": {
+        "J1": 0,
+        "J2": 68,
+        "J3": 58,
+        "J4": 22,
+        "J5": 13,
+        "J6": 0,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 13,
+      "timeline_frame": 204,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-13.png",
+      "seconds": 1.71,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": 27,
+        "J5": 16,
+        "J6": 3,
+        "GRIP": 15
+      }
+    },
+    {
+      "index": 14,
+      "timeline_frame": 220,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-14.png",
+      "seconds": 1.7,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": 17,
+        "J5": 10,
+        "J6": 16,
+        "GRIP": 10
+      }
+    },
+    {
+      "index": 15,
+      "timeline_frame": 235,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-15.png",
+      "seconds": 1.74,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": 7,
+        "J5": 4,
+        "J6": 27,
+        "GRIP": 6
+      }
+    },
+    {
+      "index": 16,
+      "timeline_frame": 251,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-16.png",
+      "seconds": 1.72,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -3,
+        "J5": -2,
+        "J6": 31,
+        "GRIP": 5
+      }
+    },
+    {
+      "index": 17,
+      "timeline_frame": 266,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-17.png",
+      "seconds": 1.75,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -10,
+        "J5": -7,
+        "J6": 22,
+        "GRIP": 10
+      }
+    },
+    {
+      "index": 18,
+      "timeline_frame": 282,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-18.png",
+      "seconds": 1.85,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -17,
+        "J5": -12,
+        "J6": 11,
+        "GRIP": 16
+      }
+    },
+    {
+      "index": 19,
+      "timeline_frame": 298,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-19.png",
+      "seconds": 2.24,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -24,
+        "J5": -17,
+        "J6": 1,
+        "GRIP": 21
+      }
+    },
+    {
+      "index": 20,
+      "timeline_frame": 313,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-20.png",
+      "seconds": 2.1,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -20,
+        "J5": -14,
+        "J6": 0,
+        "GRIP": 21
+      }
+    },
+    {
+      "index": 21,
+      "timeline_frame": 329,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-21.png",
+      "seconds": 1.99,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -13,
+        "J5": -9,
+        "J6": 0,
+        "GRIP": 19
+      }
+    },
+    {
+      "index": 22,
+      "timeline_frame": 344,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-22.png",
+      "seconds": 2.0,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": -7,
+        "J5": -5,
+        "J6": 0,
+        "GRIP": 18
+      }
+    },
+    {
+      "index": 23,
+      "timeline_frame": 360,
+      "path": "C:\\Users\\hpone\\OneDrive\\Documents\\ChatGPT\\Educational Manipulator\\cad\\blender-edu06-r03\\motion-preview-frames\\frame-23.png",
+      "seconds": 1.94,
+      "control_deg": {
+        "J1": 0,
+        "J2": 65,
+        "J3": 55,
+        "J4": 0,
+        "J5": 0,
+        "J6": 0,
+        "GRIP": 16
+      }
+    }
+  ],
+  "input_blend": "EDU06_R03.blend",
+  "input_modified": 1790143144.470036,
+  "resolution": [
+    720,
+    540
+  ],
+  "frame_indices": [
+    1,
+    17,
+    32,
+    48,
+    63,
+    79,
+    95,
+    110,
+    126,
+    141,
+    157,
+    173,
+    188,
+    204,
+    220,
+    235,
+    251,
+    266,
+    282,
+    298,
+    313,
+    329,
+    344,
+    360
+  ],
+  "saved_model_modified": false
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\test_w03.py", line 14, in <module>
+    L.ROOT=ROOT/'w03-test';L.ROOT.mkdir(exist_ok=True);L.export_parts()
+                                                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\blender_lib.py", line 171, in export_parts
+    bm=prepare_export_bmesh(o,list(o['print_rotation_deg']))
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\mesh_repair.py", line 95, in prepare_export_bmesh
+    raise ValueError(o.name+': both triangulators produced degenerate or nonmanifold STL triangles')
+ValueError: W03_moving_pitch_cradle: both triangulators produced degenerate or nonmanifold STL triangles

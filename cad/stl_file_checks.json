@@ -1,0 +1,106 @@
+[
+  {
+    "file": "P01_base_plate.stl",
+    "triangles": 2612,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 296902.17
+  },
+  {
+    "file": "P02_motor_housing.stl",
+    "triangles": 2852,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 220317.2
+  },
+  {
+    "file": "P03_rotating_deck.stl",
+    "triangles": 2602,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 96839.05
+  },
+  {
+    "file": "P04_shoulder_bracket.stl",
+    "triangles": 2214,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 33168.75
+  },
+  {
+    "file": "P05_upper_link_plate.stl",
+    "triangles": 3392,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 57693.87
+  },
+  {
+    "file": "P06_forearm_plate.stl",
+    "triangles": 3384,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 38473.87
+  },
+  {
+    "file": "P07_upper_spacer.stl",
+    "triangles": 512,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 8535.68
+  },
+  {
+    "file": "P08_forearm_spacer.stl",
+    "triangles": 512,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 5566.75
+  },
+  {
+    "file": "P09_wrist_side_plate.stl",
+    "triangles": 1488,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 20309.85
+  },
+  {
+    "file": "P10_roll_carrier.stl",
+    "triangles": 3072,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 48586.55
+  },
+  {
+    "file": "P11_gripper_palm.stl",
+    "triangles": 1492,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 21896.63
+  },
+  {
+    "file": "P12_gripper_finger.stl",
+    "triangles": 818,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 8064.27
+  },
+  {
+    "file": "P13_clearance_coupon.stl",
+    "triangles": 1240,
+    "closed": true,
+    "consistent_winding": true,
+    "grounded_z0": true,
+    "volume_mm3": 8277.31
+  }
+]

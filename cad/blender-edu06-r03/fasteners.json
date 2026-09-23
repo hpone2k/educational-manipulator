@@ -1,0 +1,121 @@
+[
+  {
+    "joint": "Base lid M3x12 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 5,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "Lower journal stand M3x55 ",
+    "size": "M3",
+    "length_mm": 55,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "Upper bushing M3 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "Yaw gear coupling M3 ",
+    "size": "M3",
+    "length_mm": 20,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "Deck flange M3x12 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "J1 horn M2x6 ",
+    "size": "M2",
+    "length_mm": 6,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "S XM horn M2x6 ",
+    "size": "M2",
+    "length_mm": 6,
+    "count": 8,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "A01 root M3x25 ",
+    "size": "M3",
+    "length_mm": 25,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "E XM horn M2x6 ",
+    "size": "M2",
+    "length_mm": 6,
+    "count": 8,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "A03 root M3x25 ",
+    "size": "M3",
+    "length_mm": 25,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W02 M2 horn ",
+    "size": "M2",
+    "length_mm": 10,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W02 carrier M3 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W04 M2 horn ",
+    "size": "M2",
+    "length_mm": 10,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W04 carrier M3 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W06 M2 horn ",
+    "size": "M2",
+    "length_mm": 10,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "W06 carrier M3 ",
+    "size": "M3",
+    "length_mm": 12,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  },
+  {
+    "joint": "Gripper AX horn M2 ",
+    "size": "M2",
+    "length_mm": 6,
+    "count": 4,
+    "note": "Length includes engagement; confirm actual nut/screw stock before printing."
+  }
+]

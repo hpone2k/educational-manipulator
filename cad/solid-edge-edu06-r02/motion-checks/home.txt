@@ -1,0 +1,143 @@
+﻿Report Name: C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\solid-edge-edu06-r02\motion-checks\home.txt
+Report Time: 9/23/2026 12:03:07 PM
+Report Options:
+    Part Names
+
+Select Set #1:
+    FIXED open electronics case
+    SERVICE removable lid
+    B03_yaw_bearing_cartridge_3
+    B04_bearing_outer_race_cap_4
+    B04_bearing_outer_race_cap_5
+    H01_61806_30x42x7_6
+    H01_61806_30x42x7_7
+    B05_yaw_gear_60T_8
+    B06_hollow_yaw_spindle_9
+    J1 base yaw motor body
+    J1 base yaw horn reference
+    J1 base yaw fixed cradle
+    J1 base yaw rear cap
+    B07b_supported_yaw_pinion_20T_14
+    B11_pinion_bearing_hanger_15
+    B12_pinion_bearing_cap_16
+    H02_608_8x22x7_17
+    B08_motor_floor_spacer_18
+    B08_motor_floor_spacer_19
+    B08_motor_floor_spacer_20
+    B08_motor_floor_spacer_21
+    B09b_U2D2_service_tray_22
+    H_U2D2_48x18x14p9_23
+    B10_U2D2_retaining_strap_24
+    A01_rotating_platform_25
+    A02_shoulder_pedestal_26
+    J2 shoulder motor body
+    J2 shoulder horn reference
+    J2 shoulder fixed cradle
+    J2 shoulder rear cap
+    J2 output flange
+    A03_output_spacer_4_32
+    A03_output_spacer_4_33
+    A03_output_spacer_4_34
+    A03_output_spacer_4_35
+    A04b_upper_link_100_36
+    J3 elbow motor body
+    J3 elbow horn reference
+    J3 elbow fixed cradle
+    J3 elbow rear cap
+    J3 output flange
+    A03_output_spacer_4_42
+    A03_output_spacer_4_43
+    A03_output_spacer_4_44
+    A03_output_spacer_4_45
+    A05b_forearm_link_85_46
+    A06b_wrist_right_angle_bracket_47
+    J4 forearm roll motor body
+    J4 forearm roll horn reference
+    J4 forearm roll fixed cradle
+    J4 forearm roll rear cap
+    J4 output flange
+    A03_output_spacer_4_53
+    A03_output_spacer_4_54
+    A03_output_spacer_4_55
+    A03_output_spacer_4_56
+    A07b_wrist_rotor_platform_57
+    J5 wrist pitch motor body
+    J5 wrist pitch horn reference
+    J5 wrist pitch fixed cradle
+    J5 wrist pitch rear cap
+    J5 output flange
+    A03_output_spacer_4_63
+    A03_output_spacer_4_64
+    A03_output_spacer_4_65
+    A03_output_spacer_4_66
+    A07b_wrist_rotor_platform_67
+    J6 tool roll motor body
+    J6 tool roll horn reference
+    J6 tool roll fixed cradle
+    J6 tool roll rear cap
+    J6 output flange
+    A03_output_spacer_4_73
+    A03_output_spacer_4_74
+    A03_output_spacer_4_75
+    A03_output_spacer_4_76
+    A08_tool_mount_77
+    G geared gripper motor body
+    G geared gripper horn reference
+    G geared gripper fixed cradle
+    G geared gripper rear cap
+    G01_fixed_gripper_guide_plate_82
+    G04_guide_cover_83
+    G02_gripper_pinion_20T_84
+    G03_integral_rack_and_finger_85
+    G03_integral_rack_and_finger_86
+
+Interferences:
+    1 of 12
+    B03_yaw_bearing_cartridge_3
+    H01_61806_30x42x7_7
+
+    2 of 12
+    B03_yaw_bearing_cartridge_3
+    B11_pinion_bearing_hanger_15
+
+    3 of 12
+    J1 base yaw fixed cradle
+    B10_U2D2_retaining_strap_24
+
+    4 of 12
+    J1 base yaw rear cap
+    B09b_U2D2_service_tray_22
+
+    5 of 12
+    B08_motor_floor_spacer_18
+    B09b_U2D2_service_tray_22
+
+    6 of 12
+    B08_motor_floor_spacer_19
+    B09b_U2D2_service_tray_22
+
+    7 of 12
+    A02_shoulder_pedestal_26
+    J2 shoulder fixed cradle
+
+    8 of 12
+    A02_shoulder_pedestal_26
+    J2 shoulder rear cap
+
+    9 of 12
+    J2 shoulder fixed cradle
+    J2 output flange
+
+    10 of 12
+    A04b_upper_link_100_36
+    G03_integral_rack_and_finger_86
+
+    11 of 12
+    J3 elbow fixed cradle
+    J3 output flange
+
+    12 of 12
+    J3 elbow rear cap
+    G03_integral_rack_and_finger_86
+
+    12 Interferences Detected

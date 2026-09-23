@@ -1,0 +1,24 @@
+{
+  "tested_gaps": 101,
+  "gap_range_mm": [
+    20.0,
+    70.0
+  ],
+  "tooth_polygon_penetrations": [],
+  "negative_control_overlap_detected": true,
+  "pinion_teeth": 20,
+  "module_mm": 1.5,
+  "pressure_angle_deg": 20,
+  "pitch_radius_mm": 15.0,
+  "total_mesh_backlash_mm": 0.2,
+  "pinion_radians": "(GRIP - 45) / 30",
+  "right_carriage_y_mm": "(GRIP - 45) / 2",
+  "left_carriage_y_mm": "-(GRIP - 45) / 2",
+  "ax_total_angle_range_deg": 95.49296585513721,
+  "nominal_commanded_end_stop_clearance_mm": 0.35,
+  "slide_vertical_clearance_each_face_mm": 0.35,
+  "rack_backbone_to_slide_upright_clearance_mm": 0.35,
+  "opposite_rack_to_crossbar_axial_gap_mm": 5,
+  "cradle_front_to_fixed_guide_back_clearance_mm": 2.35,
+  "scope": "Analytical polygon interference and nominal dimensions only; no printed friction, strength or motor-load validation."
+}

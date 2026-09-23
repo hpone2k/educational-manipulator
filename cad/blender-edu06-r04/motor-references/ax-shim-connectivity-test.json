@@ -1,0 +1,42 @@
+[
+  {
+    "name": "TEST_AX_C04_1_Axial_fit_shim_030",
+    "before": {
+      "components": 3,
+      "bad_edges": 0,
+      "volume_mm3": 69.30641673304791,
+      "zero_area_faces": 0
+    },
+    "after": {
+      "components": 1,
+      "bad_edges": 0,
+      "volume_mm3": 64.38010389249565,
+      "zero_area_faces": 0
+    },
+    "retained_vertices_exactly_unchanged": true,
+    "removed_volume_mm3": 4.9263128405522565,
+    "removed_solid_PLA_mass_g": 0.006108627922284798,
+    "remaining_solid_PLA_mass_g": 0.07983132882669461,
+    "maximum_sampled_motor_penetration_mm": 0.0
+  },
+  {
+    "name": "TEST_AX_FRONT_C04_1_Axial_fit_shim_030",
+    "before": {
+      "components": 3,
+      "bad_edges": 0,
+      "volume_mm3": 69.30641673304791,
+      "zero_area_faces": 0
+    },
+    "after": {
+      "components": 1,
+      "bad_edges": 0,
+      "volume_mm3": 64.38010389249565,
+      "zero_area_faces": 0
+    },
+    "retained_vertices_exactly_unchanged": true,
+    "removed_volume_mm3": 4.9263128405522565,
+    "removed_solid_PLA_mass_g": 0.006108627922284798,
+    "remaining_solid_PLA_mass_g": 0.07983132882669461,
+    "maximum_sampled_motor_penetration_mm": 0.0
+  }
+]

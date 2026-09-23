@@ -1,0 +1,658 @@
+"""Read-only independent Blender mass/kinematic/collision screening of EDU06 R03.
+
+Launch with Blender --background --python audit_assembly.py. Does not save the
+opened .blend and never edits the builder. Optional args after --: --blend PATH,
+--output PATH, --home-only (quick collision diagnostic, not full pose coverage).
+"""
+from __future__ import annotations
+
+import argparse
+from datetime import datetime, timezone
+import itertools
+import json
+import math
+from pathlib import Path
+import re
+import sys
+import time
+
+import bpy
+import numpy as np
+from mathutils import Vector
+from mathutils.bvhtree import BVHTree
+
+
+ROOT = Path(__file__).resolve().parent
+PLA_DENSITY_G_MM3 = 0.00124
+GRAVITY_M_S2 = 9.81
+ALLOWANCE = 1.10
+MOTOR_SCREEN = {
+    'J2': {'motor': 'XM430-W350-T', 'ratio': 4, 'efficiency': .65, 'comparison_nm': .82},
+    'J3': {'motor': 'XM430-W350-T', 'ratio': None, 'efficiency': .65, 'comparison_nm': .82},
+    'J4': {'motor': 'AX-12A', 'ratio': 1, 'efficiency': .85, 'comparison_nm': .30},
+    'J5': {'motor': 'AX-12A', 'ratio': 1, 'efficiency': .85, 'comparison_nm': .30},
+    'J6': {'motor': 'AX-12A', 'ratio': 1, 'efficiency': .85, 'comparison_nm': .30},
+}
+
+
+def say(message):
+    print(message, flush=True)
+
+
+def descendants_of(obj, ancestor):
+    current = obj
+    while current is not None:
+        if current == ancestor:
+            return True
+        current = current.parent
+    return False
+
+
+def geometry(obj, depsgraph):
+    evaluated = obj.evaluated_get(depsgraph)
+    mesh = evaluated.to_mesh()
+    try:
+        mesh.calc_loop_triangles()
+        vertices = np.array([v.co[:] for v in mesh.vertices], dtype=np.float64)
+        triangles = np.array([t.vertices[:] for t in mesh.loop_triangles], dtype=np.int32)
+    finally:
+        evaluated.to_mesh_clear()
+    if not len(vertices) or not len(triangles):
+        raise ValueError(f'{obj.name}: empty evaluated mesh')
+    if not np.isfinite(vertices).all():
+        raise ValueError(f'{obj.name}: nonfinite coordinates')
+    local_reference = (vertices.min(axis=0) + vertices.max(axis=0)) * .5
+    local = vertices[triangles] - local_reference
+    volumes = np.einsum('ij,ij->i', local[:, 0],
+                       np.cross(local[:, 1], local[:, 2])) / 6.0
+    volume = float(volumes.sum())
+    centroid = (np.einsum('i,ij->j', volumes, local.sum(axis=1)) / (4 * volume)
+                + local_reference) if abs(volume) > 1e-8 else vertices.mean(axis=0)
+    return {'vertices': vertices, 'triangles': triangles,
+            'signed_volume_local_mm3': volume, 'centroid_local': Vector(centroid)}
+
+
+def find_controls():
+    controllers = [obj for obj in bpy.data.objects if obj.name.startswith('CONTROL')
+                   and all(key in obj for key in ('J1', 'J2', 'J3', 'J4', 'J5', 'J6'))]
+    if len(controllers) != 1:
+        raise RuntimeError(f'Expected one CONTROL with J1-J6 properties, found {len(controllers)}')
+    joints = {}
+    for key in ('J1', 'J2', 'J3', 'J4', 'J5', 'J6'):
+        candidates = [obj for obj in bpy.data.objects if obj.name.startswith(key + ' ')
+                      and obj.get('axis') == 'LOCAL Z' and 'DATUM' not in obj.name]
+        if len(candidates) != 1:
+            raise RuntimeError(f'Cannot uniquely identify {key} actual output axis: {len(candidates)}')
+        joints[key] = candidates[0]
+    return controllers[0], joints
+
+
+def set_pose(controller, pose):
+    for key, value in pose.items():
+        controller[key] = float(value)
+    controller.update_tag(refresh={'OBJECT'})
+    bpy.context.view_layer.update()
+    bpy.context.evaluated_depsgraph_get().update()
+
+
+def world_matrix(obj):
+    return obj.evaluated_get(bpy.context.evaluated_depsgraph_get()).matrix_world.copy()
+
+
+def make_poses(controller, joints):
+    home = {key: float(joints[key].get('home_deg', controller[key])) for key in joints}
+    if 'GRIP' in controller:
+        home['GRIP'] = float(controller['GRIP'])
+    limits = {key: [float(x) for x in joints[key].get('limits_deg', [-180, 180])]
+              for key in joints}
+    if 'GRIP' in controller:
+        ui = controller.id_properties_ui('GRIP').as_dict()
+        limits['GRIP'] = [float(ui.get('min', 0)), float(ui.get('max', 24))]
+    horizontal = {**home, 'J1': 0., 'J2': 0., 'J3': 0., 'J4': 0., 'J5': 0., 'J6': 0.}
+    poses = [('home', home), ('horizontal_stress_case', horizontal)]
+    for key in limits:
+        for end, value in zip(('min', 'max'), limits[key]):
+            poses.append((key + '_' + end, {**home, key: value}))
+    for name, lo_hi in [('combined_low', 0), ('combined_high', 1)]:
+        poses.append((name, {**home, **{key: bounds[lo_hi] for key, bounds in limits.items()}}))
+    return poses, limits
+
+
+def outside_limits(pose, limits):
+    return {key: value for key, value in pose.items()
+            if key in limits and not (limits[key][0] - 1e-8 <= value <= limits[key][1] + 1e-8)}
+
+
+def fingertip_midpoint(cache):
+    tips = []
+    for prefix in ('G05_', 'G06_'):
+        candidates = [(obj, data) for obj, data in cache.items() if obj.name.startswith(prefix)]
+        if len(candidates) != 1:
+            raise RuntimeError(f'Cannot identify one gripper jaw with prefix {prefix}')
+        obj, data = candidates[0]
+        points = data['vertices']
+        # Jaw construction's longest local +X extent is the fingertip; using a
+        # small end strip avoids mistaking its circular gear rim for a contact.
+        end_strip = points[points[:, 0] >= points[:, 0].max() - 3.0]
+        tip = world_matrix(obj) @ Vector(end_strip.mean(axis=0))
+        tips.append({'object': obj.name, 'point_world_mm': list(tip)})
+    midpoint = sum((Vector(tip['point_world_mm']) for tip in tips), Vector()) / len(tips)
+    return midpoint, tips
+
+
+def read_gear_specs(blend_path):
+    path = blend_path.parent / 'gear-pairs.json'
+    specs = json.loads(path.read_text(encoding='utf-8'))
+    by_name = {item['name']: item for item in specs}
+    for key in ('J2', 'J3'):
+        teeth = by_name[key]['teeth']
+        if len(teeth) != 2 or not all(float(value) > 0 for value in teeth):
+            raise ValueError(f'{key}: invalid tooth counts in {path}')
+        MOTOR_SCREEN[key]['ratio'] = float(teeth[1]) / float(teeth[0])
+    return by_name, {
+        'path': str(path.resolve()),
+        'modified_utc': datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat(),
+        'specifications': specs,
+        'note': 'Mass torque reductions read from this sidecar; evaluated driver checks below verify its ratio against the opened blend.',
+    }
+
+
+def audit_controls(controller, joints, cache, home, limits, gear_specs):
+    """Sample three numerical values for each control, including actual output."""
+    palm_candidates = [obj for obj in bpy.data.objects if obj.name.startswith('GRIPPER fixed palm datum')]
+    if len(palm_candidates) != 1:
+        raise RuntimeError('Expected exactly one fixed gripper palm datum for tool-transform tests')
+    palm = palm_candidates[0]
+    rows = []
+    for key, bounds in limits.items():
+        samples = []
+        for value in (bounds[0], (bounds[0] + bounds[1]) * .5, bounds[1]):
+            set_pose(controller, {**home, key: value})
+            midpoint, tips = fingertip_midpoint(cache)
+            matrix = world_matrix(palm)
+            sample = {
+                'requested_degrees': value, 'fingertip_midpoint_world_mm': list(midpoint),
+                'fingertip_gap_mm': float((Vector(tips[0]['point_world_mm']) - Vector(tips[1]['point_world_mm'])).length),
+                'tool_origin_world_mm': list(matrix.translation),
+                'tool_orientation_quaternion': list(matrix.to_quaternion()),
+            }
+            if key in joints:
+                actual = math.degrees(joints[key].evaluated_get(bpy.context.evaluated_depsgraph_get()).rotation_euler.z)
+                sample['actual_output_degrees'] = actual
+                sample['output_angle_error_degrees'] = actual - value
+            if key in ('J1', 'J2', 'J3'):
+                spec = gear_specs[key]
+                motor_node = bpy.data.objects.get(spec['pinion'])
+                if motor_node is None:
+                    raise RuntimeError(f'{key}: pinion object from sidecar is missing')
+                ratio = float(spec['teeth'][1]) / float(spec['teeth'][0])
+                phase = math.degrees(float(spec['pinion_phase_rad']))
+                measured = math.degrees(motor_node.evaluated_get(bpy.context.evaluated_depsgraph_get()).rotation_euler.z)
+                expected = phase - ratio * value
+                sample.update({'gear_ratio_from_teeth': ratio, 'actual_pinion_degrees': measured,
+                               'expected_pinion_degrees': expected, 'pinion_angle_error_degrees': measured - expected})
+            if key == 'GRIP':
+                lower = bpy.data.objects.get('GRIP lower driven jaw')
+                upper = bpy.data.objects.get('GRIP upper idler jaw')
+                if lower is None or upper is None:
+                    raise RuntimeError('Missing named gripper-jaw driver empties')
+                graph = bpy.context.evaluated_depsgraph_get()
+                lower_deg = math.degrees(lower.evaluated_get(graph).rotation_euler.z)
+                upper_deg = math.degrees(upper.evaluated_get(graph).rotation_euler.z)
+                sample.update({'actual_lower_jaw_degrees': lower_deg, 'actual_upper_jaw_degrees': upper_deg,
+                               'jaw_error_degrees': max(abs(lower_deg + value), abs(upper_deg - value))})
+            samples.append(sample)
+        start, finish = samples[0], samples[-1]
+        positional_change = float((Vector(start['fingertip_midpoint_world_mm']) - Vector(finish['fingertip_midpoint_world_mm'])).length)
+        from mathutils import Quaternion
+        q_start = Quaternion(start['tool_orientation_quaternion'])
+        q_finish = Quaternion(finish['tool_orientation_quaternion'])
+        angular_change = math.degrees(q_start.rotation_difference(q_finish).angle)
+        gap_change = abs(start['fingertip_gap_mm'] - finish['fingertip_gap_mm'])
+        follows_requested_angles = all(abs(sample.get('output_angle_error_degrees', 0)) < .001 and
+                                      abs(sample.get('pinion_angle_error_degrees', 0)) < .001 and
+                                      abs(sample.get('jaw_error_degrees', 0)) < .001 for sample in samples)
+        affects_tool = gap_change > .01 if key == 'GRIP' else (positional_change > .01 or angular_change > .001)
+        rows.append({'control': key, 'samples': samples,
+                     'fingertip_midpoint_change_mm': positional_change,
+                     'tool_orientation_change_degrees': angular_change,
+                     'fingertip_gap_change_mm': gap_change,
+                     'evaluated_angles_follow_requested_control_and_gear_ratio': follows_requested_angles,
+                     'affects_end_effector_pose_or_grip': affects_tool,
+                     'pass': follows_requested_angles and affects_tool})
+    set_pose(controller, home)
+    return {'all_passed': all(row['pass'] for row in rows), 'control_count': len(rows),
+            'samples_per_control': 3, 'tests': rows,
+            'scope': 'Checks evaluated numerical motion and gear-driver ratios; does not establish contact mechanics, free movement or motor capability.'}
+
+
+def mass_inventory(cache, joints):
+    inventory = []
+    for obj, data in cache.items():
+        is_printed = bool(obj.get('part_id'))
+        if obj.name.startswith(('F0', 'B03_')):
+            continue
+        if not is_printed and float(obj.get('mass_g', 0)) <= 0:
+            continue
+        scale = abs(world_matrix(obj).to_3x3().determinant())
+        volume = data['signed_volume_local_mm3'] * scale
+        mass = abs(volume) * PLA_DENSITY_G_MM3 if is_printed else float(obj['mass_g'])
+        inventory.append({
+            'object': obj.name, 'obj': obj, 'mass_g': mass,
+            'source': 'solid_mesh_PLA_1.24g_per_cm3' if is_printed else 'motor_or_electronics_reference_mass',
+            'printed': is_printed, 'signed_solid_volume_mm3': volume if is_printed else None,
+            'positive_mesh_volume': volume > 0,
+            'centroid_local_mm': list(data['centroid_local']),
+            'descendant_of': [key for key, joint in joints.items() if descendants_of(obj, joint)],
+            'rigid_group': str(obj.get('rigid_group', 'UNSTAMPED')),
+        })
+    return inventory
+
+
+def load_case(inventory, joints, payload_g, payload_point):
+    rows = {}
+    for key, screening in MOTOR_SCREEN.items():
+        axis_matrix = world_matrix(joints[key])
+        origin = axis_matrix.translation
+        axis = (axis_matrix.to_3x3() @ Vector((0, 0, 1))).normalized()
+        torque_vector = Vector()
+        unallowed_torque_vector = Vector()
+        mass_g = 0.
+        for item in inventory:
+            if key not in item['descendant_of']:
+                continue
+            centre = world_matrix(item['obj']) @ Vector(item['centroid_local_mm'])
+            force = Vector((0, 0, -GRAVITY_M_S2 * item['mass_g'] / 1000.))
+            moment = ((centre - origin) / 1000.).cross(force)
+            unallowed_torque_vector += moment
+            torque_vector += moment * ALLOWANCE
+            mass_g += item['mass_g']
+        payload_moment = ((payload_point - origin) / 1000.).cross(
+            Vector((0, 0, -GRAVITY_M_S2 * payload_g / 1000.)))
+        torque_vector += payload_moment
+        actual_axis_torque = float(torque_vector.dot(axis))
+        gravity_motor = abs(actual_axis_torque) / (screening['ratio'] * screening['efficiency'])
+        dynamic_screen = gravity_motor * 1.5
+        rows[key] = {
+            **screening, 'axis_origin_world_mm': list(origin), 'axis_unit_world': list(axis),
+            'descendant_mass_g_before_allowance': mass_g,
+            'descendant_mass_g_with_10percent_allowance': mass_g * ALLOWANCE,
+            'gravity_axis_torque_without_allowance_or_payload_nm': float(unallowed_torque_vector.dot(axis)),
+            'payload_axis_torque_nm': float(payload_moment.dot(axis)),
+            'gravity_axis_torque_with_allowance_and_payload_nm': actual_axis_torque,
+            'total_gravity_bending_vector_nm': list(torque_vector),
+            'total_gravity_bending_vector_magnitude_nm': float(torque_vector.length),
+            'estimated_motor_gravity_torque_nm': gravity_motor,
+            'motor_gravity_to_comparison_ratio': gravity_motor / screening['comparison_nm'],
+            'gravity_exceeds_estimated_motor_comparison': gravity_motor > screening['comparison_nm'],
+            'motor_torque_with_arbitrary_1p5_allowance_nm': dynamic_screen,
+            'one_point_five_case_exceeds_comparison': dynamic_screen > screening['comparison_nm'],
+        }
+    return {'payload_g': payload_g, 'payload_point_world_mm': list(payload_point), 'joints': rows}
+
+
+def collision_objects(cache):
+    return [(obj, data) for obj, data in cache.items()
+            if not obj.name.startswith(('F0', 'B03_')) and
+            (bool(obj.get('part_id')) or bool(obj.get('collision_check', False)))]
+
+
+def static_stability(inventory, payload_point, payload_g=25.0):
+    total_mass = payload_g
+    moment = payload_point * payload_g
+    for item in inventory:
+        factor = ALLOWANCE if item['descendant_of'] else 1.0
+        mass = item['mass_g'] * factor
+        centre = world_matrix(item['obj']) @ Vector(item['centroid_local_mm'])
+        total_mass += mass
+        moment += centre * mass
+    centre = moment / total_mass
+    edge_margins = {'x_negative': float(centre.x + 108), 'x_positive': float(108 - centre.x),
+                    'y_negative': float(centre.y + 73), 'y_positive': float(73 - centre.y)}
+    margin = min(edge_margins.values())
+    return {
+        'payload_g': payload_g, 'total_modelled_mass_g': total_mass,
+        'combined_COM_world_mm': list(centre),
+        'support_polygon_foot_centres_world_xy_mm': [[-108,-73],[108,-73],[108,73],[-108,73]],
+        'signed_distances_to_support_edges_mm': edge_margins,
+        'minimum_signed_margin_mm': margin, 'static_projection_inside_support_polygon': margin >= 0,
+        'smallest_gravity_restoring_moment_about_support_edge_nm': total_mass / 1000 * GRAVITY_M_S2 * margin / 1000,
+        'bench_anchorage_assumed': False,
+        'note': 'Static level-table model only, using solid PLA mesh mass and moving 10% allowance. No acceleration, cable pull, friction/sliding, compliance or reduced-infill mass model. Removed front panel and all F0 fit coupons are excluded.',
+    }
+
+
+def canonical_rigid_group(obj):
+    """A fixed DATUM does not create a rigid body; nearest actuated parent does."""
+    current = obj
+    while current is not None:
+        animation = current.animation_data
+        if animation and any(curve.data_path == 'rotation_euler' for curve in animation.drivers):
+            return current.name
+        current = current.parent
+    return 'FIXED'
+
+
+def prepare_world_collision(obj, data):
+    matrix = np.array(world_matrix(obj), dtype=np.float64)
+    vertices = data['vertices'] @ matrix[:3, :3].T + matrix[:3, 3]
+    triangles = data['triangles']
+    tree = BVHTree.FromPolygons([tuple(v) for v in vertices], [tuple(t) for t in triangles],
+                               all_triangles=True, epsilon=0.0)
+    triangle_vertices = vertices[triangles]
+    normals = np.cross(triangle_vertices[:, 1] - triangle_vertices[:, 0],
+                       triangle_vertices[:, 2] - triangle_vertices[:, 0])
+    lengths = np.linalg.norm(normals, axis=1)
+    normals = normals / np.maximum(lengths[:, None], 1e-15)
+    return {'object': obj, 'vertices': vertices, 'triangles': triangles, 'normals': normals,
+            'tree': tree, 'lower': vertices.min(axis=0), 'upper': vertices.max(axis=0),
+            'group': canonical_rigid_group(obj)}
+
+
+RAY_DIRECTIONS = [Vector(value).normalized() for value in
+                  ((1., .37139067, .17320508), (-.219381, 1., .419771), (.349273, -.167281, 1.))]
+
+
+def is_inside(tree, point):
+    """Majority parity of three rays; 0.005 mm advances avoid float32 re-hits."""
+    votes = 0
+    any_limited = False
+    for direction in RAY_DIRECTIONS:
+        origin = Vector(point)
+        hits = 0
+        limited = True
+        for _ in range(160):
+            hit, normal, index, distance = tree.ray_cast(origin, direction)
+            if hit is None:
+                limited = False
+                votes += int(bool(hits % 2))
+                break
+            hits += 1
+            origin = hit + direction * .005
+        any_limited |= limited
+    return votes >= 2, any_limited
+
+
+def test_ray_parity():
+    vertices = [(0,0,0),(1,0,0),(1,1,0),(0,1,0),(0,0,1),(1,0,1),(1,1,1),(0,1,1)]
+    triangles = [(0,2,1),(0,3,2),(4,5,6),(4,6,7),(0,1,5),(0,5,4),
+                 (1,2,6),(1,6,5),(2,3,7),(2,7,6),(3,0,4),(3,4,7)]
+    tree = BVHTree.FromPolygons(vertices, triangles, all_triangles=True, epsilon=0.0)
+    for point in ((.5,.5,.5),(.1,.2,.3),(.95,.99,.01)):
+        assert is_inside(tree, point) == (True, False), ('cube inside', point)
+    for point in ((-1,.5,.5),(2,.5,.5),(.5,.5,2),(.5,.5,-2)):
+        assert is_inside(tree, point) == (False, False), ('cube outside', point)
+    # Closed annular prism: the central bore is empty despite lying inside AABB.
+    n = 40
+    verts = [(radius*math.cos(2*math.pi*i/n), radius*math.sin(2*math.pi*i/n), z)
+             for z in (0., 2.) for radius in (2., 1.) for i in range(n)]
+    quads = []
+    for i in range(n):
+        k = (i+1) % n
+        quads += [(i,k,2*n+k,2*n+i),(n+k,n+i,3*n+i,3*n+k),
+                  (i,n+i,n+k,k),(2*n+k,3*n+k,3*n+i,2*n+i)]
+    ring = BVHTree.FromPolygons(verts, quads, all_triangles=False, epsilon=0.0)
+    assert is_inside(ring, (0.,0.,1.)) == (False, False), 'ring bore must be empty'
+    assert is_inside(ring, (1.5,0.,1.)) == (True, False), 'ring wall must be solid'
+    from mathutils import Matrix
+    for degrees in (-85, -40, 40, 85):
+        transform = Matrix.Translation((120., -80., 310.)) @ Matrix.Rotation(math.radians(degrees),4,'Z') @ Matrix.Rotation(.632,4,'X')
+        moved = BVHTree.FromPolygons([transform @ Vector(vertex) for vertex in verts], quads,
+                                     all_triangles=False, epsilon=0.0)
+        for point, expected in (((0.,0.,1.), False), ((1.5,0.,1.), True), ((3.,0.,1.), False)):
+            assert is_inside(moved, transform @ Vector(point)) == (expected, False), ('rotated ring',degrees,point)
+    say('PASS: independent ray-parity cube, hollow-sleeve and translated/rotated-sleeve tests')
+
+
+def sampled_penetration(first, second, sample_limit=64):
+    vertices = first['vertices']
+    eligible = vertices[((vertices >= second['lower'] - .005) &
+                         (vertices <= second['upper'] + .005)).all(axis=1)]
+    if not len(eligible):
+        return {'maximum_sampled_depth_mm': 0., 'inside_samples': 0, 'samples_tested': 0,
+                'ray_iteration_limit_count': 0}
+    if len(eligible) > sample_limit:
+        eligible = eligible[np.linspace(0, len(eligible) - 1, sample_limit, dtype=int)]
+    deepest = 0.
+    deepest_sample = None
+    inside_count = 0
+    capped = 0
+    for coordinates in eligible:
+        point = Vector(coordinates)
+        nearest, normal, index, distance = second['tree'].find_nearest(point)
+        if nearest is None or distance <= .02:
+            continue
+        # Closed outward-oriented meshes must also agree with the nearest-face
+        # signed distance. This rejects parity accidents on exterior points.
+        if (point - nearest).dot(normal) >= -.01:
+            continue
+        inside, limited = is_inside(second['tree'], point)
+        capped += int(limited)
+        if inside:
+            inside_count += 1
+            if float(distance) > deepest:
+                deepest = float(distance)
+                deepest_sample = {
+                    'vertex_world_mm': list(point),
+                    'nearest_surface_world_mm': list(nearest),
+                    'nearest_normal_world': list(normal),
+                    'vertex_in_first_object_local_mm': list(world_matrix(first['object']).inverted() @ point),
+                    'vertex_in_second_object_local_mm': list(world_matrix(second['object']).inverted() @ point),
+                    'signed_nearest_normal_distance_mm': float((point-nearest).dot(normal)),
+                }
+    return {'maximum_sampled_depth_mm': deepest, 'inside_samples': inside_count,
+            'samples_tested': len(eligible), 'ray_iteration_limit_count': capped,
+            'deepest_sample': deepest_sample}
+
+
+def collision_screen(objects):
+    world = [prepare_world_collision(obj, data) for obj, data in objects]
+    events = []
+    broad_pairs = 0
+    ignored_same_group = 0
+    for first, second in itertools.combinations(world, 2):
+        if first['group'] == second['group']:
+            ignored_same_group += 1
+            continue
+        overlap = np.minimum(first['upper'], second['upper']) - np.maximum(first['lower'], second['lower'])
+        if (overlap < -.002).any():
+            continue
+        broad_pairs += 1
+        triangle_pairs = first['tree'].overlap(second['tree'])
+        # BVH intersections alone miss a completely enclosed solid. Interior
+        # probes are retained for all AABB candidates, including zero crossings.
+        first_inside = sampled_penetration(first, second)
+        second_inside = sampled_penetration(second, first)
+        depth = max(first_inside['maximum_sampled_depth_mm'], second_inside['maximum_sampled_depth_mm'])
+        if not triangle_pairs and depth <= .02:
+            continue
+        crossings = 0
+        for ia, ib in triangle_pairs[:256]:
+            cosine = abs(float(np.dot(first['normals'][ia], second['normals'][ib])))
+            crossings += int(cosine < .98)
+        if depth > .25:
+            category = 'gross_interpenetration_sampled'
+        elif depth > .02:
+            category = 'small_interpenetration_sampled'
+        elif crossings:
+            category = 'surface_crossing_requires_review'
+        else:
+            category = 'surface_contact_candidate'
+        names = [first['object'].name, second['object'].name]
+        same_motor_prefix = names[0].split(' | ')[0] == names[1].split(' | ')[0]
+        known_motor_interface = (same_motor_prefix and depth <= .02 and
+                                 any('dimensioned case' in name for name in names) and
+                                 any('installed stock horn' in name for name in names))
+        if known_motor_interface:
+            category = 'matching_motor_case_horn_interface_candidate'
+        events.append({
+            'objects': names,
+            'rigid_groups': [first['group'], second['group']], 'classification': category,
+            'known_interface_note': 'Matching purchased motor case and installed stock horn, zero sampled interior depth; retained for review' if known_motor_interface else None,
+            'triangle_intersection_pairs': len(triangle_pairs),
+            'nonparallel_pairs_in_first_256': crossings,
+            'aabb_overlap_extents_mm': overlap.tolist(), 'maximum_sampled_depth_mm': depth,
+            'first_vertices_in_second': first_inside, 'second_vertices_in_first': second_inside,
+        })
+    counts = {category: sum(e['classification'] == category for e in events) for category in (
+        'gross_interpenetration_sampled', 'small_interpenetration_sampled',
+        'surface_crossing_requires_review', 'surface_contact_candidate',
+        'matching_motor_case_horn_interface_candidate')}
+    return {'object_count': len(objects), 'aabb_candidate_pairs': broad_pairs,
+            'pairs_ignored_same_rigid_group': ignored_same_group, 'classification_counts': counts,
+            'events': events,
+            'clear_of_reported_crossings_or_penetrations': not any(
+                counts[key] for key in counts if key not in ('surface_contact_candidate', 'matching_motor_case_horn_interface_candidate'))}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--blend', type=Path, default=ROOT / 'EDU06_R03.blend')
+    parser.add_argument('--output', type=Path, default=ROOT / 'mass-load-audit.json')
+    parser.add_argument('--home-only', action='store_true')
+    parser.add_argument('--home-j3', type=float, default=None,
+                        help='Diagnostic home-pose override; recorded in report, never saved to blend')
+    parser.add_argument('--repair-control-drivers', action='store_true',
+                        help='Diagnostic in-memory repair of known old TRANSFORMS variable bug')
+    arguments = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
+    args = parser.parse_args(arguments)
+    if not args.blend.exists():
+        say(f'NOT READY: {args.blend} does not exist. No waiting or geometry claim made.')
+        return 2
+    start = time.monotonic()
+    test_ray_parity()
+    say(f'Opening independently for read-only audit: {args.blend}')
+    bpy.ops.wm.open_mainfile(filepath=str(args.blend))
+    assembly_scenes = [scene for scene in bpy.data.scenes if 'Engineering assembly' in scene.name]
+    if len(assembly_scenes) == 1:
+        bpy.context.window.scene = assembly_scenes[0]
+    controller, joints = find_controls()
+    gear_specs, gear_reference = read_gear_specs(args.blend)
+    poses, limits = make_poses(controller, joints)
+    diagnostic_changes = []
+    if args.home_j3 is not None:
+        original = poses[0][1]['J3']
+        for name, pose in poses:
+            if name != 'horizontal_stress_case' and name not in ('J3_min', 'J3_max', 'combined_low', 'combined_high'):
+                pose['J3'] = args.home_j3
+        diagnostic_changes.append({'change': 'home_J3_override', 'old': original, 'new': args.home_j3})
+    if args.repair_control_drivers:
+        for obj in bpy.data.objects:
+            animation = obj.animation_data
+            if not animation:
+                continue
+            for fcurve in animation.drivers:
+                for variable in fcurve.driver.variables:
+                    if variable.type == 'SINGLE_PROP':
+                        continue
+                    match = re.match(r'^(J[1-6]|GRIP)', obj.name)
+                    if not match:
+                        raise RuntimeError(f'Cannot infer diagnostic control driver property: {obj.name}')
+                    key = match.group(1)
+                    old_type = variable.type
+                    variable.type = 'SINGLE_PROP'
+                    variable.targets[0].id = controller
+                    variable.targets[0].data_path = '["' + key + '"]'
+                    diagnostic_changes.append({'change': 'driver_variable_type', 'object': obj.name,
+                                               'old': old_type, 'new': 'SINGLE_PROP', 'property': key})
+    # Clear animation only in this audit process so F-curves cannot overwrite
+    # requested numerical poses. The source .blend is never saved or modified.
+    controller.animation_data_clear()
+    set_pose(controller, poses[0][1])
+    depsgraph = bpy.context.evaluated_depsgraph_get()
+    selected = [obj for obj in bpy.context.scene.objects if obj.type == 'MESH' and
+                (obj.get('part_id') or obj.get('collision_check', False) or float(obj.get('mass_g', 0)) > 0)]
+    cache = {obj: geometry(obj, depsgraph) for obj in selected}
+    control_results = audit_controls(controller, joints, cache, poses[0][1], limits, gear_specs)
+    inventory = mass_inventory(cache, joints)
+    movable = [item for item in inventory if item['descendant_of']]
+    output = {
+        'audit': 'independent_Blender_world_mesh_mass_and_collision_screen_v1',
+        'created_utc': datetime.now(timezone.utc).isoformat(), 'blend': str(args.blend.resolve()),
+        'blend_file_bytes': args.blend.stat().st_size,
+        'blend_modified_utc': datetime.fromtimestamp(args.blend.stat().st_mtime, timezone.utc).isoformat(),
+        'units': {'mesh_length': 'mm', 'mass': 'g', 'gravity_m_s2': GRAVITY_M_S2, 'torque': 'Nm'},
+        'PLA_solid_density_g_cm3': 1.24, 'moving_wiring_fastener_multiplier': ALLOWANCE,
+        'joint_limits_deg': limits,
+        'diagnostic_in_memory_changes_not_saved': diagnostic_changes,
+        'gear_specification_reference': gear_reference,
+        'control_response_checks': control_results,
+        'collision_classifier_reference_checks': {
+            'passed': True,
+            'cases': 'Inside/outside cube, hollow sleeve bore/wall, and four translated/rotated sleeve orientations',
+            'method': 'Nearest outward-normal agreement plus majority odd/even parity of three rays; ray advances 0.005 mm',
+        },
+        'mass_summary': {
+            'total_printed_structural_solid_mass_g': sum(x['mass_g'] for x in inventory if x['printed']),
+            'total_assigned_purchased_reference_mass_g': sum(x['mass_g'] for x in inventory if not x['printed']),
+            'moving_mass_g_before_allowance': sum(x['mass_g'] for x in movable),
+            'moving_mass_g_with_10percent_allowance': sum(x['mass_g'] for x in movable) * ALLOWANCE,
+            'fixed_mass_g': sum(x['mass_g'] for x in inventory if not x['descendant_of']),
+            'printed_parts_with_nonpositive_signed_volume': [x['object'] for x in inventory if x['printed'] and not x['positive_mesh_volume']],
+        },
+        'mass_inventory': [{k: v for k, v in item.items() if k != 'obj'} for item in inventory],
+        'poses': [],
+        'limitations': [
+            'Printed mass is the complete solid mesh at PLA 1.24 g/cm3; slicer shells/infill and actual print weights can differ.',
+            'Motor mass is counted once from reference mass_g. Its COM is approximated by a uniform external case mesh, not measured internal mass distribution.',
+            'A 10% proportional allowance adds moving cable/fastener weight. This is a planning allowance, not measured hardware accounting.',
+            'Gravity uses world-axis dot cross(position difference, force). These calculations do not establish deformation, fatigue, thermal stability, friction or dynamic control.',
+            'Motor comparison values 0.82/0.30 Nm derive from 20% of stall. The stated efficiencies and 1.5 factor are assumptions, not guaranteed continuous ratings or measured dynamics.',
+            'Horizontal stress case may be outside declared joint limits or obstructed; it is explicitly marked and must not be interpreted as an attainable operating pose.',
+            'Collision tests include printable meshes and references explicitly marked collision_check. Screws, decorative hardware, cables, fit coupon and the removed service panel are excluded.',
+            'Collision rigid groups are canonicalized to the nearest ancestor with a rotation driver. Fixed DATUM transforms inherit their parent body. Pairs on the same moving body and all FIXED-to-FIXED pairs are ignored; self-assembly errors within those bodies are not checked.',
+            'BVH triangle intersections can include intended mating contacts and gear contacts. Classified contacts/crossings require engineering review; none are silently discarded.',
+            'Sampled vertex interior depths are lower-bound indicators, not exact maximum penetration. Up to 64 vertices per direction are sampled; no continuous collision guarantee is provided.',
+            'Interior samples require nearest-face normal agreement and three-direction majority ray parity. This relies on consistently outward-oriented closed meshes; invalid meshes require separate repair.',
+            'The source .blend is opened read-only in a separate process and never resaved by this audit.',
+        ],
+    }
+    collidables = collision_objects(cache)
+    selected_poses = poses[:2] if args.home_only else poses
+    for name, pose in selected_poses:
+        say(f'Audit pose: {name}')
+        set_pose(controller, pose)
+        midpoint, tips = fingertip_midpoint(cache)
+        record = {'name': name, 'angles_deg': pose, 'outside_declared_limits': outside_limits(pose, limits),
+                  'joint_origins_world_mm': {key: list(world_matrix(obj).translation) for key, obj in joints.items()},
+                  'gripper_fingertip_samples': tips,
+                  'static_stability_25g': static_stability(inventory, midpoint, 25.0),
+                  'load_cases': [load_case(inventory, joints, p, midpoint) for p in (0, 25, 50)]}
+        if args.home_only and name != 'home':
+            record['collision_screen'] = {'not_run': 'home-only diagnostic mode'}
+        else:
+            record['collision_screen'] = collision_screen(collidables)
+            say(f"  collision classifications: {record['collision_screen']['classification_counts']}")
+        output['poses'].append(record)
+        # Save incrementally so an interrupted audit retains completed results.
+        output['complete'] = False
+        args.output.write_text(json.dumps(output, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    evaluated_rows = [(pose, case, key, row) for pose in output['poses']
+                      for case in pose['load_cases'] for key, row in case['joints'].items()]
+    output['summary'] = {
+        'pose_count': len(output['poses']),
+        'full_declared_sampling_plan_completed': not args.home_only,
+        'load_cases_exceeding_gravity_motor_comparison': [
+            {'pose': p['name'], 'payload_g': c['payload_g'], 'joint': k,
+             'motor_torque_nm': r['estimated_motor_gravity_torque_nm'],
+             'comparison_nm': r['comparison_nm'], 'outside_declared_limits': bool(p['outside_declared_limits'])}
+            for p, c, k, r in evaluated_rows if r['gravity_exceeds_estimated_motor_comparison']],
+        'poses_with_sampled_gross_interpenetration': [p['name'] for p in output['poses'] if
+            p['collision_screen'].get('classification_counts', {}).get('gross_interpenetration_sampled', 0)],
+        'poses_requiring_collision_review': [p['name'] for p in output['poses'] if
+            not p['collision_screen'].get('clear_of_reported_crossings_or_penetrations', True)],
+        'elapsed_seconds': time.monotonic() - start,
+        'physical_function_validated': False,
+        'control_response_all_passed': control_results['all_passed'],
+        'poses_with_25g_COM_outside_support_polygon': [p['name'] for p in output['poses']
+            if not p['static_stability_25g']['static_projection_inside_support_polygon']],
+    }
+    output['complete'] = True
+    args.output.write_text(json.dumps(output, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    say(json.dumps(output['mass_summary'], indent=2))
+    say(f"Finished audit: {args.output}; {len(output['summary']['load_cases_exceeding_gravity_motor_comparison'])} load/joint cases exceed the planning motor comparison")
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\run_preview.py", line 4, in <module>
+    try:runpy.run_path(str(root/'rebuild_preview.py'),run_name='__main__')
+        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\hpone\OneDrive\Documents\ChatGPT\Educational Manipulator\cad\blender-edu06-r04\rebuild_preview.py", line 15, in <module>
+    B.scene=scene;B.M={k:bpy.data.materials[n] for k,n in matnames.items()}
+                         ~~~~~~~~~~~~~~~~~~^^^
+KeyError: 'bpy_prop_collection[key]: key "Studio green graphite" not found'

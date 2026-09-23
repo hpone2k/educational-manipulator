@@ -1,0 +1,24 @@
+{
+  "upper_arm_mm": 180,
+  "forearm_mm": 150,
+  "wrist_mm": 52,
+  "base_radius_mm": 90,
+  "housing_radius_mm": 56,
+  "pivot_bore_mm": 8.4,
+  "m3_clearance_mm": 3.4,
+  "m4_clearance_mm": 4.4,
+  "anchor_clearance_mm": 6.6,
+  "upper_plate_mm": 7,
+  "forearm_plate_mm": 7,
+  "upper_gap_mm": 46,
+  "forearm_gap_mm": 30,
+  "pose_degrees": [
+    18,
+    65,
+    -80,
+    -20,
+    15
+  ],
+  "gripper_opening_mm": 34,
+  "dimension_status": "PROVISIONAL \u2014 NOT MATCHED TO USER HARDWARE"
+}

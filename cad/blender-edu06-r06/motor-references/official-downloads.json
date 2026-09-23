@@ -1,0 +1,42 @@
+[
+  {
+    "file": "AX-12A.stp",
+    "official_page": "https://en.robotis.com/service/download.php?no=99",
+    "linked_url": "https://www.dropbox.com/s/lmbnpuj5ok2k84d/AX-12A.stp?dl=1",
+    "resolved_url": "https://uc91131929af6ca43d31cc7b3db3.dl.dropboxusercontent.com/cd/0/get/DIoGPZVcX2_j5eMsJHAUXi43iPmTbWb5Acnue_bS7Ef8F-_fc4M0jfZ9eHE1rmFQa44b-mRqKBKduIsbcywkZvP2NF2y8jBvjKkvEnyE0nnhxHcoieBk2rfQQILWFY4kQaMrnDyAEvcGlq4Weyb2rV6-/file?dl=1",
+    "content_type": "application/binary",
+    "bytes": 1952194,
+    "sha256": "0c76483f3955a6a79d4daf213083dc30f2834977b765529c4708dfc8c787a43c",
+    "magic": "b\"ISO-10303-21;\\r\\nHEADER;\\r\\nFILE_DESCRIPTION((''),'2;1');\\r\\nFILE_NAME('ASM0001_ASM','\""
+  },
+  {
+    "file": "XM_H-430_idler.stp",
+    "official_page": "https://en.robotis.com/service/download.php?no=158",
+    "linked_url": "https://www.dropbox.com/scl/fi/5h3gp05sd9kjgtma5nuw1/XM_H-430_idler.stp?rlkey=09db2f2uz3b9lkacbp31tsu6r&dl=1",
+    "resolved_url": "https://uc4461a0c0be27354215acf8a98a.dl.dropboxusercontent.com/cd/0/get/DIp5eD0LKIxF1R3K4-olQgqqGI_B7c3DWKy_gSKQ34R_32mc2Xhl_eBt01F01K8ejTcnQjeg58wNRslZoG7on7QWv75BFUn7cHVR8J4ndbsizDvTBx7GjH06J6Sq78-cmAmfhgssK01vcevxoYDgYPcL/file?dl=1",
+    "content_type": "application/binary",
+    "bytes": 698785,
+    "sha256": "7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22",
+    "magic": "b\"ISO-10303-21;\\r\\nHEADER;\\r\\nFILE_DESCRIPTION((''),'2;1');\\r\\nFILE_NAME('XM_H-430_IDLER\""
+  },
+  {
+    "file": "AX-12A.pdf",
+    "official_page": "https://en.robotis.com/service/download.php?no=98",
+    "linked_url": "https://www.dropbox.com/s/b38lpjunt1lu5dd/AX-12A.pdf?dl=1",
+    "resolved_url": "https://uca2f1876fe491a9d2db92ff7fb5.dl.dropboxusercontent.com/cd/0/get/DIokzWuTr0c0S48jF3QcQOkzzPVZauMAGBS08B1TYs9OEZuZBbL9MPjAisa4txjHfWRIJZBfBRChozQv9Xu50av6ciYU05cP0m3MMLg7JWTxx30_Y1yYbQkrCEscoatfSBPSpbc0xSbT_V7aPy-lzPyE/file?dl=1",
+    "content_type": "application/binary",
+    "bytes": 200359,
+    "sha256": "f706b6d4ac12cf4c5aee73a28675aeb32bfce440edf46a37966969158654b32c",
+    "magic": "b'%PDF-1.5\\r%\\xe2\\xe3\\xcf\\xd3\\r\\n28 0 obj\\r<</Linearized 1/L 200359/O 30/E 177215/N 1/T 200042/H ['"
+  },
+  {
+    "file": "XM_H-430_idler.pdf",
+    "official_page": "https://en.robotis.com/service/download.php?no=157",
+    "linked_url": "https://www.dropbox.com/s/ytwcjx54iti4j4b/XM%2CH-430_idler.pdf?dl=1",
+    "resolved_url": "https://uc0a71cc0fdc5b8c5387a641e483.dl.dropboxusercontent.com/cd/0/get/DIpoAN1jeLmKIpDOzX_AWc0PoDLlOH_zJqnwqbX06QX-jL2ygesZaFFICcvVPvJKp6aDN8W3HYQh9OJWmiD9lCVYOE7V5zG0vpGSes8Cq_k34CRqfNKHxnQfbtQdZkQ3b_I/file?dl=1",
+    "content_type": "application/binary",
+    "bytes": 237317,
+    "sha256": "dc51987999be9a3e7605b60b9fdc4d832d9dd905c1c5a4b9be7980e7f1da4e7e",
+    "magic": "b'%PDF-1.7\\r%\\xe2\\xe3\\xcf\\xd3\\r\\n30 0 obj\\r<</Linearized 1/L 237317/O 32/E 230483/N 1/T 237011/H ['"
+  }
+]

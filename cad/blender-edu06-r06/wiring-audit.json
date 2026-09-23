@@ -1,0 +1,923 @@
+{
+  "revision": "R06",
+  "frames": [
+    1,
+    13,
+    25,
+    37,
+    49,
+    61,
+    73,
+    85,
+    97,
+    109,
+    121,
+    133,
+    145,
+    157,
+    169,
+    180,
+    192,
+    204,
+    216,
+    228,
+    240,
+    252,
+    264,
+    276,
+    288,
+    300,
+    312,
+    324,
+    336,
+    348,
+    360
+  ],
+  "curves": {
+    "H00_U2D2_POWER / route centre": {
+      "harness": "H00_U2D2_POWER",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 15.4289076383436,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 1000000000.0,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 2.4326541709899905,
+      "minimum_strand_center_spacing_mm": 1.6618781089782715,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 11,
+        "xyz": [
+          -80.78594207763672,
+          75.5250244140625,
+          15.520711898803711
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 1,
+        "point": [
+          -76.96102905273438,
+          77.70458984375,
+          14.620561599731445
+        ],
+        "closest": [
+          -77.81233978271484,
+          78.68711853027344,
+          15.655816078186035
+        ],
+        "conductor_pair": [
+          "VDD",
+          "DATA"
+        ]
+      },
+      "length_min_mm": 164.542651260298,
+      "length_max_mm": 164.542651260298,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 210,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H00_U2D2_POWER / GND": {
+      "harness": "H00_U2D2_POWER",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 18.198422373003876,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 12,
+        "xyz": [
+          -81.44662475585938,
+          77.04597473144531,
+          16.411455154418945
+        ]
+      },
+      "length_min_mm": 167.3043016363392,
+      "length_max_mm": 167.3043016363392,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 210,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H00_U2D2_POWER / VDD": {
+      "harness": "H00_U2D2_POWER",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 15.4289076383436,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 11,
+        "xyz": [
+          -80.78594207763672,
+          75.5250244140625,
+          15.520711898803711
+        ]
+      },
+      "length_min_mm": 164.542651260298,
+      "length_max_mm": 164.542651260298,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 210,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H00_U2D2_POWER / DATA": {
+      "harness": "H00_U2D2_POWER",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 12.82433678543823,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 11,
+        "xyz": [
+          -79.4833984375,
+          74.79194641113281,
+          14.702356338500977
+        ]
+      },
+      "length_min_mm": 162.09672929638248,
+      "length_max_mm": 162.09672929638248,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 210,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H01_POWER_J1 / route centre": {
+      "harness": "H01_POWER_J1",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 13.195214617132535,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 1000000000.0,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 0.768753461730622,
+      "minimum_strand_center_spacing_mm": 1.6639389991760254,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 114,
+        "xyz": [
+          27.049999237060547,
+          -13.647271156311035,
+          17.517711639404297
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 1,
+        "point": [
+          25.8294677734375,
+          3.6106646060943604,
+          9.394452095031738
+        ],
+        "closest": [
+          27.049999237060547,
+          3.514528274536133,
+          8.267618179321289
+        ],
+        "conductor_pair": [
+          "GND",
+          "VDD"
+        ]
+      },
+      "length_min_mm": 104.45207425024383,
+      "length_max_mm": 104.45207425024383,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 140,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H01_POWER_J1 / GND": {
+      "harness": "H01_POWER_J1",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 12.854651684968923,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 114,
+        "xyz": [
+          25.014698028564453,
+          -13.452531814575195,
+          17.876272201538086
+        ]
+      },
+      "length_min_mm": 102.61908289695448,
+      "length_max_mm": 102.61908289695448,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 140,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H01_POWER_J1 / VDD": {
+      "harness": "H01_POWER_J1",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 13.195214617132535,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 114,
+        "xyz": [
+          27.049999237060547,
+          -13.647271156311035,
+          17.517711639404297
+        ]
+      },
+      "length_min_mm": 104.45207425024383,
+      "length_max_mm": 104.45207425024383,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 140,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H01_POWER_J1 / DATA": {
+      "harness": "H01_POWER_J1",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 13.615088939007263,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 113,
+        "xyz": [
+          29.02037239074707,
+          -13.339644432067871,
+          16.177776336669922
+        ]
+      },
+      "length_min_mm": 106.58623141452912,
+      "length_max_mm": 106.58623141452912,
+      "variation_mm": 0.0,
+      "provisional_cut_length_mm": 140,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H02_J1_J2 / route centre": {
+      "harness": "H02_J1_J2",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 13.142642456984175,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 2.8207894084394587,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 1.0779103406456625,
+      "minimum_strand_center_spacing_mm": 1.5168697834014893,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 1,
+        "xyz": [
+          37.04999923706055,
+          -13.625755310058594,
+          17.365232467651367
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 109,
+        "point": [
+          -31.159379959106445,
+          67.11490631103516,
+          15.99826431274414
+        ],
+        "closest": [
+          -32.480831146240234,
+          67.85966491699219,
+          16.0
+        ],
+        "conductor_pair": [
+          "GND",
+          "VDD"
+        ]
+      },
+      "length_min_mm": 698.7288827422886,
+      "length_max_mm": 698.7289197076743,
+      "variation_mm": 3.696538567510288e-05,
+      "provisional_cut_length_mm": 810,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H02_J1_J2 / GND": {
+      "harness": "H02_J1_J2",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 12.384856804473133,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 61,
+        "sample": 72,
+        "xyz": [
+          -24.318662643432617,
+          2.4326930046081543,
+          136.4573516845703
+        ]
+      },
+      "length_min_mm": 688.7024933153776,
+      "length_max_mm": 689.5990396230775,
+      "variation_mm": 0.8965463076998503,
+      "provisional_cut_length_mm": 800,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H02_J1_J2 / VDD": {
+      "harness": "H02_J1_J2",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 13.142642456976965,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 1,
+        "sample": 1,
+        "xyz": [
+          37.04999923706055,
+          -13.625755310058594,
+          17.365232467651367
+        ]
+      },
+      "length_min_mm": 698.7288779245583,
+      "length_max_mm": 698.7289213903758,
+      "variation_mm": 4.346581749814504e-05,
+      "provisional_cut_length_mm": 810,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H02_J1_J2 / DATA": {
+      "harness": "H02_J1_J2",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 13.17377649925489,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 109,
+        "sample": 1,
+        "xyz": [
+          39.21966552734375,
+          -13.629236221313477,
+          17.357563018798828
+        ]
+      },
+      "length_min_mm": 707.95482090884,
+      "length_max_mm": 708.8437657085566,
+      "variation_mm": 0.8889447997165689,
+      "provisional_cut_length_mm": 820,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H03_J2_J3 / route centre": {
+      "harness": "H03_J2_J3",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 19.7380083628137,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 28.096742908976577,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 4.587551798236283,
+      "minimum_strand_center_spacing_mm": 1.5736215114593506,
+      "minimum_bend_location": {
+        "frame": 73,
+        "sample": 5,
+        "xyz": [
+          -67.40848541259766,
+          -14.723699569702148,
+          174.3118896484375
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 157,
+        "point": [
+          -56.7550163269043,
+          27.94211196899414,
+          219.53292846679688
+        ],
+        "closest": [
+          -55.46274185180664,
+          28.69955825805664,
+          219.0506591796875
+        ],
+        "conductor_pair": [
+          "VDD",
+          "DATA"
+        ]
+      },
+      "length_min_mm": 350.8949747767878,
+      "length_max_mm": 354.0493136394974,
+      "variation_mm": 3.154338862709608,
+      "provisional_cut_length_mm": 420,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H03_J2_J3 / GND": {
+      "harness": "H03_J2_J3",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 20.33070413791541,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 86,
+        "xyz": [
+          -152.11911010742188,
+          -8.095887184143066,
+          329.8612060546875
+        ]
+      },
+      "length_min_mm": 357.4869193384023,
+      "length_max_mm": 360.5590119218702,
+      "variation_mm": 3.0720925834679065,
+      "provisional_cut_length_mm": 430,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H03_J2_J3 / VDD": {
+      "harness": "H03_J2_J3",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 19.7380083628137,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 73,
+        "sample": 5,
+        "xyz": [
+          -67.40848541259766,
+          -14.723699569702148,
+          174.3118896484375
+        ]
+      },
+      "length_min_mm": 350.8949804699821,
+      "length_max_mm": 354.04931461653257,
+      "variation_mm": 3.154334146550468,
+      "provisional_cut_length_mm": 420,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H03_J2_J3 / DATA": {
+      "harness": "H03_J2_J3",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 16.82320021137043,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 5,
+        "xyz": [
+          -70.83611297607422,
+          -1.5147945880889893,
+          176.0098114013672
+        ]
+      },
+      "length_min_mm": 344.3710895895472,
+      "length_max_mm": 347.6157136050498,
+      "variation_mm": 3.244624015502609,
+      "provisional_cut_length_mm": 410,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H04_J3_J4 / route centre": {
+      "harness": "H04_J3_J4",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 20.05506314781993,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 19.11673929106475,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 0.8921658035506423,
+      "minimum_strand_center_spacing_mm": 1.7181875705718994,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 98,
+        "xyz": [
+          65.27050018310547,
+          21.785640716552734,
+          363.5591735839844
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 157,
+        "point": [
+          -114.86479187011719,
+          -22.63465118408203,
+          406.97186279296875
+        ],
+        "closest": [
+          -116.15985107421875,
+          -22.42185401916504,
+          405.8629455566406
+        ],
+        "conductor_pair": [
+          "GND",
+          "VDD"
+        ]
+      },
+      "length_min_mm": 522.0795222294396,
+      "length_max_mm": 529.7938091247225,
+      "variation_mm": 7.714286895282953,
+      "provisional_cut_length_mm": 620,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H04_J3_J4 / GND": {
+      "harness": "H04_J3_J4",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 18.689993136538234,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 98,
+        "xyz": [
+          64.84090423583984,
+          21.061323165893555,
+          365.6688232421875
+        ]
+      },
+      "length_min_mm": 512.5044735953095,
+      "length_max_mm": 519.9870753644365,
+      "variation_mm": 7.482601769126973,
+      "provisional_cut_length_mm": 610,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H04_J3_J4 / VDD": {
+      "harness": "H04_J3_J4",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 20.05506314781993,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 98,
+        "xyz": [
+          65.27050018310547,
+          21.785640716552734,
+          363.5591735839844
+        ]
+      },
+      "length_min_mm": 522.079510980662,
+      "length_max_mm": 529.7938092418343,
+      "variation_mm": 7.714298261172303,
+      "provisional_cut_length_mm": 620,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H04_J3_J4 / DATA": {
+      "harness": "H04_J3_J4",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 21.457022940343936,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 157,
+        "sample": 98,
+        "xyz": [
+          65.7000961303711,
+          22.509958267211914,
+          361.4495544433594
+        ]
+      },
+      "length_min_mm": 531.6993676615481,
+      "length_max_mm": 539.6509131469567,
+      "variation_mm": 7.951545485408587,
+      "provisional_cut_length_mm": 630,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H05_J4_J5 / route centre": {
+      "harness": "H05_J4_J5",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 12.826945406480927,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 32.704568374950846,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 0.8224131397179208,
+      "minimum_strand_center_spacing_mm": 1.4812963008880615,
+      "minimum_bend_location": {
+        "frame": 180,
+        "sample": 3,
+        "xyz": [
+          94.24991607666016,
+          3.5171966552734375,
+          352.0306396484375
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 240,
+        "point": [
+          131.0180206298828,
+          59.76789855957031,
+          220.58425903320312
+        ],
+        "closest": [
+          130.2156219482422,
+          59.643062591552734,
+          219.3453826904297
+        ],
+        "conductor_pair": [
+          "VDD",
+          "DATA"
+        ]
+      },
+      "length_min_mm": 345.22018975462515,
+      "length_max_mm": 353.3809525790276,
+      "variation_mm": 8.160762824402468,
+      "provisional_cut_length_mm": 420,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H05_J4_J5 / GND": {
+      "harness": "H05_J4_J5",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 12.850770838018546,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 216,
+        "sample": 4,
+        "xyz": [
+          103.19003295898438,
+          5.080441474914551,
+          350.1792907714844
+        ]
+      },
+      "length_min_mm": 355.45447365782337,
+      "length_max_mm": 363.0666067644266,
+      "variation_mm": 7.61213310660321,
+      "provisional_cut_length_mm": 430,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H05_J4_J5 / VDD": {
+      "harness": "H05_J4_J5",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 12.826945406480927,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 180,
+        "sample": 3,
+        "xyz": [
+          94.24991607666016,
+          3.5171966552734375,
+          352.0306396484375
+        ]
+      },
+      "length_min_mm": 345.22018497596287,
+      "length_max_mm": 353.380950879491,
+      "variation_mm": 8.160765903528159,
+      "provisional_cut_length_mm": 420,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H05_J4_J5 / DATA": {
+      "harness": "H05_J4_J5",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 12.17600674359882,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 133,
+        "sample": 110,
+        "xyz": [
+          107.8816909790039,
+          -33.45509719848633,
+          283.8533935546875
+        ]
+      },
+      "length_min_mm": 335.06213656180927,
+      "length_max_mm": 343.77962836445874,
+      "variation_mm": 8.717491802649477,
+      "provisional_cut_length_mm": 410,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H06_J5_GRIP / route centre": {
+      "harness": "H06_J5_GRIP",
+      "conductor": "CENTRE",
+      "minimum_bend_radius_mm": 17.558151024786792,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": 1000000000.0,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": 0.8413003198183278,
+      "minimum_strand_center_spacing_mm": 1.698294758796692,
+      "minimum_bend_location": {
+        "frame": 204,
+        "sample": 1,
+        "xyz": [
+          131.01345825195312,
+          5.049992561340332,
+          281.9696960449219
+        ]
+      },
+      "minimum_strand_spacing_location": {
+        "frame": 324,
+        "point": [
+          46.85728073120117,
+          7.010283470153809,
+          252.08233642578125
+        ],
+        "closest": [
+          46.28284454345703,
+          5.413470268249512,
+          252.01588439941406
+        ],
+        "conductor_pair": [
+          "VDD",
+          "DATA"
+        ]
+      },
+      "length_min_mm": 460.62531989031663,
+      "length_max_mm": 505.3748758470838,
+      "variation_mm": 44.74955595676715,
+      "provisional_cut_length_mm": 590,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Enclosing evaluated three-conductor bundle"
+    },
+    "H06_J5_GRIP / GND": {
+      "harness": "H06_J5_GRIP",
+      "conductor": "GND",
+      "minimum_bend_radius_mm": 17.279921769054162,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 240,
+        "sample": 111,
+        "xyz": [
+          209.90524291992188,
+          3.423607349395752,
+          297.3182678222656
+        ]
+      },
+      "length_min_mm": 462.3256684628811,
+      "length_max_mm": 506.2346075337959,
+      "variation_mm": 43.90893907091481,
+      "provisional_cut_length_mm": 590,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H06_J5_GRIP / VDD": {
+      "harness": "H06_J5_GRIP",
+      "conductor": "VDD",
+      "minimum_bend_radius_mm": 17.558151024786792,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 204,
+        "sample": 1,
+        "xyz": [
+          131.01345825195312,
+          5.049992561340332,
+          281.9696960449219
+        ]
+      },
+      "length_min_mm": 460.62529838507186,
+      "length_max_mm": 505.3748590078381,
+      "variation_mm": 44.74956062276624,
+      "provisional_cut_length_mm": 590,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    },
+    "H06_J5_GRIP / DATA": {
+      "harness": "H06_J5_GRIP",
+      "conductor": "DATA",
+      "minimum_bend_radius_mm": 17.60549419701397,
+      "endpoint_max_error_mm": 0.0,
+      "gear_surface_clearance_mm": null,
+      "gear_intrusions": [],
+      "structural_contacts": [],
+      "minimum_structural_surface_clearance_mm": null,
+      "minimum_strand_center_spacing_mm": null,
+      "minimum_bend_location": {
+        "frame": 204,
+        "sample": 1,
+        "xyz": [
+          131.01287841796875,
+          7.389163970947266,
+          281.9674987792969
+        ]
+      },
+      "length_min_mm": 459.00932061343394,
+      "length_max_mm": 504.5968108321313,
+      "variation_mm": 45.58749021869738,
+      "provisional_cut_length_mm": 590,
+      "bend_radius_target_mm": 12.0,
+      "bend_target_met": true,
+      "structural_screen_method": "Included in its harness enclosing-bundle screen"
+    }
+  },
+  "connector_exclusion_scope": "Only the actual source/destination manufacturer case, within18mm of that case connector wire exit and in the outward half-space of that port mouth. No printed parts or other motor cases are excluded.",
+  "collision_bundle_radius": "At each sampled station: maximum actual evaluated conductor offset from centreline plus0.72mm insulation radius. Terminal pitch is2.5mm (3.22mm endpoint radius); intermediate pitch defaults to1.8mm with explicit per-guide overrides up to3.0mm. Exact pitches are recorded in wiring-connectivity.json.",
+  "endpoints_attached": true,
+  "gear_route_clear": true,
+  "structure_route_clear": true,
+  "all_bends_at_least_12mm": true,
+  "strands_separated": true,
+  "strand_spacing_scope": "Within each harness: minimum bidirectional sampled point-to-polyline distance at241 stations per conductor pair; insulation outside diameter1.44mm. Different harnesses and exhaustive continuous/self-contact cable dynamics are not covered by this metric.",
+  "screened_mesh_categories": "Printed parts and official motor case meshes. Interior classification requires evaluated local bounds and majority of three independent ray-parity directions. Standard fastener meshes are covered by the separate mechanical auditor, not this TTL bundle screen.",
+  "limitation": "Discrete kinematic route screen only; connector keying, plug fit, continuous swept collision, constant cable length, strain and flex life require physical checks."
+}

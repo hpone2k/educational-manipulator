@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "harnesses": 7,
+  "ttl_curves": 28,
+  "demo_frames": 31,
+  "operating_poses": 19,
+  "all_five_gates": {
+    "endpoints_attached": true,
+    "gear_route_clear": true,
+    "structure_route_clear": true,
+    "all_bends_at_least_12mm": true,
+    "strands_separated": true
+  },
+  "minimum_wire_bend_radius_mm": 12.17600674359882,
+  "minimum_strand_center_spacing_mm": 1.4812963008880615,
+  "minimum_structural_surface_gap_mm": 0.5959764791412798,
+  "maximum_endpoint_error_mm": 0.0,
+  "harness_summary": [
+    {
+      "id": "H00_U2D2_POWER",
+      "minimum_wire_bend_mm": 12.82433678543823,
+      "minimum_strand_center_spacing_mm": 1.6618781089782715,
+      "minimum_structure_gap_mm": 2.4326541709899905,
+      "centre_length_min_mm": 164.542651260298,
+      "centre_length_max_mm": 164.542651260298,
+      "provisional_conductor_cut_length_mm": 210
+    },
+    {
+      "id": "H01_POWER_J1",
+      "minimum_wire_bend_mm": 12.854651684968923,
+      "minimum_strand_center_spacing_mm": 1.6639389991760254,
+      "minimum_structure_gap_mm": 0.768753461730622,
+      "centre_length_min_mm": 104.45207425024383,
+      "centre_length_max_mm": 104.45207425024383,
+      "provisional_conductor_cut_length_mm": 140
+    },
+    {
+      "id": "H02_J1_J2",
+      "minimum_wire_bend_mm": 12.375150281237875,
+      "minimum_strand_center_spacing_mm": 1.5168697834014893,
+      "minimum_structure_gap_mm": 1.0778667807477111,
+      "centre_length_min_mm": 698.7288827422886,
+      "centre_length_max_mm": 698.7289197076743,
+      "provisional_conductor_cut_length_mm": 820
+    },
+    {
+      "id": "H03_J2_J3",
+      "minimum_wire_bend_mm": 15.769483289789413,
+      "minimum_strand_center_spacing_mm": 1.5210241079330444,
+      "minimum_structure_gap_mm": 4.587551798236283,
+      "centre_length_min_mm": 348.8802826546775,
+      "centre_length_max_mm": 359.99371670899035,
+      "provisional_conductor_cut_length_mm": 440
+    },
+    {
+      "id": "H04_J3_J4",
+      "minimum_wire_bend_mm": 17.35147020284214,
+      "minimum_strand_center_spacing_mm": 1.6967440843582153,
+      "minimum_structure_gap_mm": 0.8858817477875878,
+      "centre_length_min_mm": 503.58276924471363,
+      "centre_length_max_mm": 535.8022291031392,
+      "provisional_conductor_cut_length_mm": 640
+    },
+    {
+      "id": "H05_J4_J5",
+      "minimum_wire_bend_mm": 12.17600674359882,
+      "minimum_strand_center_spacing_mm": 1.4812963008880615,
+      "minimum_structure_gap_mm": 0.5959764791412798,
+      "centre_length_min_mm": 342.28463627921326,
+      "centre_length_max_mm": 353.7117293186521,
+      "provisional_conductor_cut_length_mm": 430
+    },
+    {
+      "id": "H06_J5_GRIP",
+      "minimum_wire_bend_mm": 12.49365149042123,
+      "minimum_strand_center_spacing_mm": 1.557797908782959,
+      "minimum_structure_gap_mm": 0.8413003198183278,
+      "centre_length_min_mm": 433.09281799691223,
+      "centre_length_max_mm": 555.5647728355749,
+      "provisional_conductor_cut_length_mm": 650
+    }
+  ],
+  "sum_provisional_harness_cut_lengths_mm": 3330
+}

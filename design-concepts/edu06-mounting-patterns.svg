@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710">
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0,0 L7,3.5 L0,7" fill="none" stroke="#9bd8bc"/></marker><style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e6eee8}.muted{fill:#a4bbad;font-size:15px}.small{font-size:14px;fill:#a4bbad}.dim{fill:none;stroke:#9bd8bc;stroke-width:1;marker-start:url(#a);marker-end:url(#a)}.line{stroke:#527563;stroke-width:1;fill:none}.axis{stroke:#527563;stroke-width:1;stroke-dasharray:5 5}.hole{fill:#11251c;stroke:#a5e3c3;stroke-width:2}.panel{fill:#192e23;stroke:#355443}</style></defs>
+<rect width="1200" height="710" fill="#102018"/>
+<text x="36" y="48" font-size="14" letter-spacing="3" fill="#9bd8bc">ORBIT / EDU-06 L01</text>
+<text x="36" y="90" font-size="32">Mounting interfaces &amp; printed nut pocket</text>
+<text x="36" y="119" class="muted">Selected nominal patterns from reference drawings. Not an assembly drawing or a fabrication release.</text>
+<rect x="28" y="150" width="368" height="450" rx="12" class="panel"/>
+<rect x="416" y="150" width="368" height="450" rx="12" class="panel"/>
+<rect x="804" y="150" width="368" height="450" rx="12" class="panel"/>
+<text x="50" y="187" font-size="20">AX-12A output horn</text><text x="50" y="211" class="small">Manufacturer pattern / front view</text>
+<circle cx="210" cy="310" r="66" fill="#264735" stroke="#aacbb7" stroke-width="2"/>
+<circle cx="210" cy="310" r="48" class="axis" fill="none"/><path d="M120 310H300 M210 220V400" class="axis"/>
+<circle cx="210" cy="310" r="12" fill="#17291e" stroke="#648974"/>
+<circle cx="258" cy="310" r="6" class="hole"/><circle cx="162" cy="310" r="6" class="hole"/><circle cx="210" cy="262" r="6" class="hole"/><circle cx="210" cy="358" r="6" class="hole"/>
+<path d="M162 363V412 M258 363V412" class="line"/><path d="M162 404H258" class="dim"/>
+<text x="210" y="432" text-anchor="middle" font-size="17">16 mm pitch circle</text>
+<text x="50" y="474" font-size="18">4 x M2 / 90° spacing</text>
+<text x="50" y="503" class="muted">Hole centres: (±8, 0), (0, ±8) mm</text>
+<text x="50" y="530" class="muted">Drawing thread depth: 4.0 mm</text>
+<text x="50" y="569" class="small">Depth is not the required screw length.</text>
+<text x="438" y="187" font-size="20">XM430 side mounting</text><text x="438" y="211" class="small">One selected side / local pattern datum</text>
+<rect x="536" y="223" width="128" height="184" rx="9" fill="#264735" stroke="#aacbb7" stroke-width="2"/>
+<path d="M516 310H683 M600 223V419" class="axis"/>
+<circle cx="564" cy="238" r="7.5" class="hole"/><circle cx="636" cy="238" r="7.5" class="hole"/><circle cx="564" cy="382" r="7.5" class="hole"/><circle cx="636" cy="382" r="7.5" class="hole"/>
+<path d="M564 393V440 M636 393V440 M647 238H711 M647 382H711" class="line"/><path d="M564 430H636 M700 238V382" class="dim"/>
+<text x="600" y="454" text-anchor="middle" font-size="17">12 mm</text><text x="713" y="316" font-size="17">24 mm</text>
+<text x="438" y="487" font-size="18">4 x M2.5 / max. depth 3.0 mm</text>
+<text x="438" y="515" class="muted">Hole centres: (±6, ±12) mm</text>
+<text x="438" y="546" class="small">Pattern centre is NOT the output axis.</text>
+<text x="438" y="571" class="small">Outline is schematic; locate on source CAD.</text>
+<text x="826" y="187" font-size="20">Printed M3 nut boss</text><text x="826" y="211" class="small">Proposed PLA fit trial / top view</text>
+<circle cx="988" cy="310" r="66" fill="#518b69" stroke="#b9e5c9" stroke-width="2"/>
+<polygon points="1028.18,310 1008.09,344.8 967.91,344.8 947.82,310 967.91,275.2 1008.09,275.2" fill="#233d2c" stroke="#c3e2c9" stroke-width="2"/>
+<circle cx="988" cy="310" r="20.4" fill="#11251c" stroke="#c3e2c9"/>
+<path d="M1040 275.2H1090 M1040 344.8H1090" class="line"/><path d="M1080 275.2V344.8" class="dim"/>
+<text x="1090" y="306" font-size="16">5.8</text><text x="1090" y="326" class="small">AF</text>
+<path d="M922 383V416 M1054 383V416" class="line"/><path d="M922 406H1054" class="dim"/>
+<text x="988" y="432" text-anchor="middle" font-size="17">11 mm boss diameter</text>
+<text x="826" y="474" font-size="18">Ø3.4 clearance / pocket 2.7 deep</text>
+<text x="826" y="503" class="muted">Metal nut: 5.5 AF x 2.4 mm</text>
+<text x="826" y="530" class="muted">Add ribs + root fillets to the boss.</text>
+<text x="826" y="569" class="small">Fit coupon required before choosing offsets.</text>
+<text x="36" y="637" font-size="17">Motor hole centres stay fixed. Tune printed clearance separately.</text>
+<text x="36" y="667" class="small">Check horn revision, screw projection, washer/spacer stack and nut access before printing motor brackets.</text>
+<text x="36" y="692" font-size="12" fill="#819e8b">Sources: ROBOTIS AX-12A dimension drawing; ROBOTIS XM series datasheet. M3 boss is a proposed design value.</text>
+</svg>
